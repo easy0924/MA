@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  12 MAY 2014 02:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  10 JUN 2014 19:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -99,12 +99,7 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count87
 \c@table=\count88
 \bibindent=\dimen102
-) (/usr/share/texmf-dist/tex/generic/german/ngerman.sty v2.5e 1998-07-08
-Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
-\grmnU@D=\dimen103
-ngerman -- \language number for naustrian undefined, default 31 used.
-)
-(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 (/usr/share/texmf-dist/tex/latex/base/t1enc.def
@@ -159,15 +154,15 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
 ))
-\Gin@req@height=\dimen104
-\Gin@req@width=\dimen105
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
 )
 (/usr/share/texmf-dist/tex/latex/vmargin/vmargin.sty
 Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 
 Package: vmargin 2004/07/15 V2.5 set document margins (VK)
-\PaperWidth=\dimen106
-\PaperHeight=\dimen107
+\PaperWidth=\dimen105
+\PaperHeight=\dimen106
 )
 
 Class scrbook Warning: Usage of package `fancyhdr' together
@@ -192,9 +187,9 @@ Class scrbook Warning: Usage of package `fancyhdr' together
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip57
 \subfigcapskip=\skip58
-\subfigcaptopadj=\dimen108
+\subfigcaptopadj=\dimen107
 \subfigbottomskip=\skip59
-\subfigcapmargin=\dimen109
+\subfigcapmargin=\dimen108
 \subfiglabelskip=\skip60
 \c@subfigure=\count90
 \c@lofdepth=\count91
@@ -221,25 +216,25 @@ Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
 \TP@textbox=\box27
 \TP@holdbox=\box28
-\TPHorizModule=\dimen110
-\TPVertModule=\dimen111
-\TP@margin=\dimen112
-\TP@absmargin=\dimen113
+\TPHorizModule=\dimen109
+\TPVertModule=\dimen110
+\TP@margin=\dimen111
+\TP@absmargin=\dimen112
 
 Grid set 16 x 16 = 37.38425pt x 52.86877pt
-\TPboxrulesize=\dimen114
-\TP@ox=\dimen115
-\TP@oy=\dimen116
+\TPboxrulesize=\dimen113
+\TP@ox=\dimen114
+\TP@oy=\dimen115
 \TP@tbargs=\toks17
-\TP@prevdepth=\dimen117
+\TP@prevdepth=\dimen116
 TextBlockOrigin set to 0pt x 0pt
 ) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks18
-\pgfutil@tempdima=\dimen118
-\pgfutil@tempdimb=\dimen119
+\pgfutil@tempdima=\dimen117
+\pgfutil@tempdimb=\dimen118
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -262,14 +257,14 @@ Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks21
 ))
-\pgf@x=\dimen120
-\pgf@y=\dimen121
-\pgf@xa=\dimen122
-\pgf@ya=\dimen123
-\pgf@xb=\dimen124
-\pgf@yb=\dimen125
-\pgf@xc=\dimen126
-\pgf@yc=\dimen127
+\pgf@x=\dimen119
+\pgf@y=\dimen120
+\pgf@xa=\dimen121
+\pgf@ya=\dimen122
+\pgf@xb=\dimen123
+\pgf@yb=\dimen124
+\pgf@xc=\dimen125
+\pgf@yc=\dimen126
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count94
@@ -323,7 +318,7 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen128
+\pgfmath@dimen=\dimen127
 \pgfmath@count=\count100
 \pgfmath@box=\box30
 \pgfmath@toks=\toks25
@@ -344,29 +339,29 @@ x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
 \c@pgfmathroundto@lastzeros=\count101
 )) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen129
-\pgf@picmaxx=\dimen130
-\pgf@picminy=\dimen131
-\pgf@picmaxy=\dimen132
-\pgf@pathminx=\dimen133
-\pgf@pathmaxx=\dimen134
-\pgf@pathminy=\dimen135
-\pgf@pathmaxy=\dimen136
-\pgf@xx=\dimen137
-\pgf@xy=\dimen138
-\pgf@yx=\dimen139
-\pgf@yy=\dimen140
-\pgf@zx=\dimen141
-\pgf@zy=\dimen142
+\pgf@picminx=\dimen128
+\pgf@picmaxx=\dimen129
+\pgf@picminy=\dimen130
+\pgf@picmaxy=\dimen131
+\pgf@pathminx=\dimen132
+\pgf@pathmaxx=\dimen133
+\pgf@pathminy=\dimen134
+\pgf@pathmaxy=\dimen135
+\pgf@xx=\dimen136
+\pgf@xy=\dimen137
+\pgf@yx=\dimen138
+\pgf@yy=\dimen139
+\pgf@zx=\dimen140
+\pgf@zy=\dimen141
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen143
-\pgf@path@lasty=\dimen144
+\pgf@path@lastx=\dimen142
+\pgf@path@lasty=\dimen143
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
-\pgf@shorten@end@additional=\dimen145
-\pgf@shorten@start@additional=\dimen146
+\pgf@shorten@end@additional=\dimen144
+\pgf@shorten@start@additional=\dimen145
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
@@ -377,14 +372,14 @@ File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
-\pgflinewidth=\dimen147
+\pgflinewidth=\dimen146
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
 ex
 File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
-\pgf@pt@x=\dimen148
-\pgf@pt@y=\dimen149
-\pgf@pt@temp=\dimen150
+\pgf@pt@x=\dimen147
+\pgf@pt@y=\dimen148
+\pgf@pt@temp=\dimen149
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
@@ -396,11 +391,11 @@ x
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
-\pgfarrowsep=\dimen151
+\pgfarrowsep=\dimen150
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen152
+\pgf@max=\dimen151
 \pgf@sys@shading@range@num=\count103
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
@@ -427,8 +422,8 @@ File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 )
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen153
-\pgf@nodesepend=\dimen154
+\pgf@nodesepstart=\dimen152
+\pgf@nodesepend=\dimen153
 )
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
@@ -442,8 +437,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen155
-\pgffor@skip=\dimen156
+\pgffor@iter=\dimen154
+\pgffor@skip=\dimen155
 \pgffor@stack=\toks28
 \pgffor@toks=\toks29
 ))
@@ -454,14 +449,14 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 x
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \pgf@plot@mark@count=\count104
-\pgfplotmarksize=\dimen157
+\pgfplotmarksize=\dimen156
 )
-\tikz@lastx=\dimen158
-\tikz@lasty=\dimen159
-\tikz@lastxsaved=\dimen160
-\tikz@lastysaved=\dimen161
-\tikzleveldistance=\dimen162
-\tikzsiblingdistance=\dimen163
+\tikz@lastx=\dimen157
+\tikz@lasty=\dimen158
+\tikz@lastxsaved=\dimen159
+\tikz@lastysaved=\dimen160
+\tikzleveldistance=\dimen161
+\tikzsiblingdistance=\dimen162
 \tikz@figbox=\box36
 \tikz@figbox@bg=\box37
 \tikz@tempbox=\box38
@@ -490,10 +485,17 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count113
-\U@D=\dimen164
-))
+\U@D=\dimen163
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
 (/usr/share/texmf-dist/tex/generic/babel-german/ngermanb.ldf
 Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
+\l@naustrian = a dialect from \language\l@ngerman 
+\l@nswissgerman = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 88.
 ))
 (/usr/share/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
@@ -579,7 +581,7 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen165
+\@linkdim=\dimen164
 \Hy@linkcounter=\count120
 \Hy@pagecounter=\count121
 
@@ -609,10 +611,10 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count123
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen166
+\XeTeXLinkMargin=\dimen165
 \Fld@menulength=\count124
-\Field@Width=\dimen167
-\Fld@charsize=\dimen168
+\Field@Width=\dimen166
+\Fld@charsize=\dimen167
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -651,11 +653,7 @@ Package: babelbib 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 ) (./thesis.aux
 (./titlepage.aux) (./declaration.aux)
 No file abstract.aux.
-(./introduction.aux) (./content.aux
-
-LaTeX Warning: Label `ch:Content1' multiply defined.
-
-) (./evaluation.aux) (./conclusion.aux))
+(./introduction.aux) (./content.aux) (./evaluation.aux) (./conclusion.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
@@ -676,13 +674,13 @@ LaTeX Font Info:    ... okay on input line 100.
 (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count131
-\scratchdimen=\dimen169
+\scratchdimen=\dimen168
 \scratchbox=\box43
 \nofMPsegments=\count132
 \nofMParguments=\count133
 \everyMPshowfont=\toks33
 \MPscratchCnt=\count134
-\MPscratchDim=\dimen170
+\MPscratchDim=\dimen169
 \MPnumerator=\count135
 \makeMPintoPDFobject=\count136
 \everyMPtoPDFconversion=\toks34
@@ -725,15 +723,9 @@ babelbib: Set bibliography fall-back language to ngerman
 File: english.bdf 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 
 babelbib extension \btxifchangecaseon added to \extrasenglish
-babelbib extension \btxifchangecaseon added to \extrasUSenglish
-) (/usr/share/texmf-dist/tex/latex/babelbib/french.bdf
-File: french.bdf 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
-
-babelbib extension \btxifchangecaseoff added to \extrasfrench
 ) (/usr/share/texmf-dist/tex/latex/babelbib/german.bdf
 File: german.bdf 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 
-babelbib extension \btxifchangecaseoff added to \extrasnaustrian
 babelbib extension \btxifchangecaseoff added to \extrasngerman
 )
 babelbib: Load BibTeX extensions \bibsngerman for ngerman
@@ -741,7 +733,7 @@ babelbib: Set language for keywords in the bibliography fixed to ngerman
 babelbib: Set language for keywords in the bibliography fixed to ngerman
 \openout2 = `titlepage.aux'.
 
-(./titlepage.tex <logos/KITLogo_RGB.pdf, id=71, 196.46399pt x 90.77916pt>
+(./titlepage.tex <logos/KITLogo_RGB.pdf, id=59, 196.46399pt x 90.77916pt>
 File: logos/KITLogo_RGB.pdf Graphic file (type pdf)
 
 <use logos/KITLogo_RGB.pdf>
@@ -775,26 +767,26 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 
 ]) [3] [4
 
+
+
+
 ] (./thesis.toc
-LaTeX Font Info:    Try loading font information for T1+aess on input line 1.
+LaTeX Font Info:    Try loading font information for T1+aess on input line 3.
 
 (/usr/share/texmf-dist/tex/latex/ae/t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
+(Font)              <10.95> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
+(Font)              <6> on input line 5.
 )
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [5
-
-
-] [6
+ [5] [6
 
 
 
@@ -837,79 +829,71 @@ LaTeX Warning: Citation `becker2008a' on page 1 undefined on input line 9.
 
 ]
 Chapter 2.
-[3] [4
+) [3]
+\openout2 = `evaluation.aux'.
+
+ (./evaluation.tex [4
+
+
 
 
 ]
 Chapter 3.
 ) [5]
-\openout2 = `evaluation.aux'.
+\openout2 = `conclusion.aux'.
 
- (./evaluation.tex [6
+ (./conclusion.tex [6
 
 
 
 
 ]
 Chapter 4.
-) [7]
-\openout2 = `conclusion.aux'.
-
- (./conclusion.tex [8
-
-
-
-
-]
-Chapter 5.
-) [9] [10
+) [7] [8
 
 
 
 ]
 No file thesis.bbl.
-(./appendix.tex) [11
+(./appendix.tex) [9
 
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
  (./thesis.aux (./titlepage.aux) (./declaration.aux)
+No file abstract.aux.
 (./introduction.aux) (./content.aux) (./evaluation.aux) (./conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1566770BE76692223077B945DA25412E;870.
+(rerunfilecheck)             Checksum: F23AA6D5C3ED6D6478B72A3BB2BB00A9;696.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 18382 strings out of 493308
- 336508 string characters out of 6143617
- 452494 words of memory out of 5000000
- 21387 multiletter control sequences out of 15000+600000
- 46806 words of font info for 69 fonts, out of 8000000 for 9000
+ 18298 strings out of 493308
+ 335510 string characters out of 6143617
+ 447604 words of memory out of 5000000
+ 21317 multiletter control sequences out of 15000+600000
+ 44573 words of font info for 66 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 71i,11n,62p,475b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,11n,62p,475b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texm
-f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/u
-rw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (17 pages, 91804 bytes).
+cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></
+usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist
+/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on thesis.pdf (15 pages, 83071 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 177 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 

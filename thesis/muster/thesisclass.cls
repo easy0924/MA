@@ -13,7 +13,7 @@
 \ProvidesClass{thesisclass}
 \LoadClass[a4paper,11pt,titlepage]{scrbook}	% Class based on scrbook
 
-\RequirePackage{ngerman}										% New german orthography
+%\RequirePackage{ngerman}										% New german orthography
 
 
 
