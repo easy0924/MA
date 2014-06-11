@@ -13,7 +13,7 @@
 \ProvidesClass{thesisclass}
 \LoadClass[a4paper,11pt,titlepage]{scrbook}	% Class based on scrbook
 
-%\RequirePackage{ngerman}										% New german orthography
+\RequirePackage{ngerman}										% New german orthography
 
 
 
@@ -75,6 +75,11 @@
 \newcommand{\blankpage}{
  \clearpage{\pagestyle{empty}\cleardoublepage}
 }
+
+\newenvironment{abstract}%
+{\cleardoublepage\null \vfill\begin{center}%
+\bfseries \abstractname \end{center}}%
+{\vfill\null}
 %% --- End of New Commands ---
 
 
