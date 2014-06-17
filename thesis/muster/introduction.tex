@@ -15,12 +15,12 @@ Word reordering is a general issue when we want to translate text from one langu
 
 \begin{figure}[H]
 \centering
-\begin{tabular}{ll}
-
-English & The black cat climbed to the tree top. \\
-Japanese & The black cat the tree top to climbed. \\
-Spanish & The cat black climbed to the top tree. \\
-
+\begin{tabular}{| r l |}
+\hline 
+English & The black cat climbed to the tree top. \Hstrut \Tstrut \\
+\Hstrut Japanese & The black cat the tree top to climbed. \\
+Spanish & The cat black climbed to the top tree. \Bstrut \\
+\hline
 \end{tabular}
 \caption{Word orders of three different languages}
 \end{figure}
@@ -30,7 +30,9 @@ Since different word orders are a common issue among languages, we propose sever
 %% ===========================
 \section{Objective and Contribution}
 \label{ch:Introduction:sec:ObjectiveAndContribution}
-The ground of this thesis are three papers about data driven, rule based pre-reordering: \cite{short}, \cite{long}, \cite{tree}.
+%% ===========================
+
+The ground of this thesis are three papers about data driven, rule based pre-reordering: \cite{short}, \cite{long} and \cite{tree}. In this thesis, we tried to 
 
 asset is data driven
 
@@ -38,14 +40,20 @@ original (mltilayer)
 
 try to extend to other language
 
-hiarchical
+hiarchical \cite{hier}
 
 conclusion goal is
-
-
-%% ===========================
 
 %% ===========================
 \section{Structure}
 \label{ch:Introduction:sec:Structure}
 %% ===========================
+
+In this chapter we mainly describe the background and objective of this thesis, including the related research in the next section of this chapter. In the chapter $2$ we shows the fundamental knowledge, which is related and relevant to our research. In chapter $3$ we introduce our reordering methods in detail. The experiment setup and results are present in chapter $4$, together with the evaluation of the methods we use. In the last chapter we conclude this work with an overall discussion of our methods. We also point out some possible directions for future research.
+
+%% ===========================
+\section{Related Work}
+\label{ch:Introduction:sec:RelatedWork}
+%% ===========================
+
+todo

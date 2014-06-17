@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+\newlength{\myx}
+\setlength{\myx}{1cm}
+\newlength{\myy}
+\setlength{\myy}{1cm}
+
+\tikzset{
+  nod_s/.style = {align=center, inner sep=3pt, text centered,
+    font=\sffamily, circle, draw=black, thick}
+}
+\node [nod_s] {};
+\node [nod_s] at (1cm,2\myx) {};
+\node [nod_s] at (-1,2) {};
+
+\end{tikzpicture}

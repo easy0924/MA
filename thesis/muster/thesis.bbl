@@ -22,6 +22,10 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem[Chi07]{hier}
+D.~Chiang, ``Hierarchical phrase-based translation,'' \emph{computational
+  linguistics}, vol.~33, no.~2, pp. 201--228, 2007.
+
 \bibitem[HWNW]{tree}
 T.~Herrmann, J.~Weiner, J.~Niehues, and A.~Waibel, ``Analyzing the potential of
   source sentence reordering in statistical machine translation.''
