@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  16 JUN 2014 22:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  22 JUN 2014 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -649,6 +649,73 @@ Package: babelbib 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 \chapparlen=\skip67
 \chapno=\box42
 )
+(/usr/share/texmf-dist/tex/latex/spreadtab/spreadtab.sty
+Package: spreadtab 2012/05/13 v0.4b Spreadsheet features for table environments
+
+
+(/usr/share/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/share/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count131
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count132
+\FP@xia=\count133
+\FP@xib=\count134
+\FP@xfa=\count135
+\FP@xfb=\count136
+\FP@rega=\count137
+\FP@regb=\count138
+\FP@regs=\count139
+\FP@times=\count140
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count141
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write4
+\integerpart=\count142
+\decimalpart=\count143
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\ST@count=\count144
+\ST@colcount=\count145
+\ST@colcount@i=\count146
+\ST@rowcount=\count147
+\ST@rowcount@i=\count148
+\ST@intpart=\count149
+)
 (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks33
@@ -661,47 +728,78 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip70
 \dth@everypar=\toks38
 )
+(/usr/share/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen169
+\lightrulewidth=\dimen170
+\cmidrulewidth=\dimen171
+\belowrulesep=\dimen172
+\belowbottomsep=\dimen173
+\aboverulesep=\dimen174
+\abovetopsep=\dimen175
+\cmidrulesep=\dimen176
+\cmidrulekern=\dimen177
+\defaultaddspace=\dimen178
+\@cmidla=\count150
+\@cmidlb=\count151
+\@aboverulesep=\dimen179
+\@belowrulesep=\dimen180
+\@thisruleclass=\count152
+\@lastruleclass=\count153
+\@thisrulewidth=\dimen181
+)
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 arrows.code.tex
 File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
-\arrowsize=\dimen169
+\arrowsize=\dimen182
 ))
-\c@example=\count131
-
-(./thesis.aux (./titlepage.aux) (./abstract.aux) (./declaration.aux)
-(./introduction.aux) (./content.aux) (./evaluation.aux) (./conclusion.aux))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+trees.code.tex
+File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.0 (rcs-revision 1.2)
+)
+\c@example=\count154
+ (./thesis.aux (./titlepage.aux) (./abstract.aux)
+(./declaration.aux) (./introduction.aux) (./content.aux) (./evaluation.aux)
+(./conclusion.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-
-(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+ (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count132
-\scratchdimen=\dimen170
+\scratchcounter=\count155
+\scratchdimen=\dimen183
 \scratchbox=\box43
-\nofMPsegments=\count133
-\nofMParguments=\count134
+\nofMPsegments=\count156
+\nofMParguments=\count157
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count135
-\MPscratchDim=\dimen171
-\MPnumerator=\count136
-\makeMPintoPDFobject=\count137
+\MPscratchCnt=\count158
+\MPscratchDim=\dimen184
+\MPnumerator=\count159
+\makeMPintoPDFobject=\count160
 \everyMPtoPDFconversion=\toks40
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -719,7 +817,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring OFF on input line 114.
+Package hyperref Info: Link coloring OFF on input line 120.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -727,14 +825,14 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count138
+\c@section@level=\count161
 )
-LaTeX Info: Redefining \ref on input line 114.
-LaTeX Info: Redefining \pageref on input line 114.
-LaTeX Info: Redefining \nameref on input line 114.
+LaTeX Info: Redefining \ref on input line 120.
+LaTeX Info: Redefining \pageref on input line 120.
+LaTeX Info: Redefining \nameref on input line 120.
  (./thesis.out) (./thesis.out)
-\@outlinefile=\write4
-\openout4 = `thesis.out'.
+\@outlinefile=\write5
+\openout5 = `thesis.out'.
 
 
 babelbib: Set bibliography fall-back language to ngerman
@@ -758,7 +856,7 @@ babelbib: Set language for keywords in the bibliography fixed to ngerman
 babelbib: Set language for keywords in the bibliography fixed to ngerman
 \openout2 = `titlepage.aux'.
 
-(./titlepage.tex <logos/KITLogo_RGB.pdf, id=106, 196.46399pt x 90.77916pt>
+(./titlepage.tex <logos/KITLogo_RGB.pdf, id=138, 196.46399pt x 90.77916pt>
 File: logos/KITLogo_RGB.pdf Graphic file (type pdf)
 
 <use logos/KITLogo_RGB.pdf>
@@ -812,8 +910,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
 )
-\tf@toc=\write5
-\openout5 = `thesis.toc'.
+\tf@toc=\write6
+\openout6 = `thesis.toc'.
 
  [5
 
@@ -854,40 +952,114 @@ Class scrbook Warning: \float@addtolists detected!
 
  (./content.tex
 Chapter 2.
-(./ParseTree.tikz) (./Lattices.tikz
+(./ParseTree.tikz) [3
+
+
+
+
+] [4] (./Lattices.tikz
 \myx=\skip71
 \myy=\skip72
-) [3
+) [5] [6
 
 
-
-
-] [4]
-Chapter 3.
-) [5
 
 
 ]
+Chapter 3.
+) [7]
 \openout2 = `evaluation.aux'.
 
- (./evaluation.tex [6
+ (./evaluation.tex [8
 
 
 
 
 ]
 Chapter 4.
-) [7]
+New spreadtab: \begin{tabular}{|l|r|r|}
+* reading tab: ok
+* computing formulas:
+     cell B2
+     cell B3
+     cell C3
+     cell B4
+     cell C4
+     cell B5
+     cell C5
+     cell B6
+     cell C6
+     cell B7
+     cell C7
+* building tab: ok
+End of spreadtab: \end{tabular}
+
+New spreadtab: \begin{tabular}{|l|r|r|}
+* reading tab: ok
+* computing formulas:
+     cell B2
+     cell B3
+     cell C3
+     cell B4
+     cell C4
+     cell B5
+     cell C5
+     cell B6
+     cell C6
+     cell B7
+     cell C7
+* building tab: ok
+End of spreadtab: \end{tabular}
+
+New spreadtab: \begin{tabular}{|l|r|r|}
+* reading tab: ok
+* computing formulas:
+     cell B2
+     cell B3
+     cell C3
+     cell B4
+     cell C4
+     cell B5
+     cell C5
+     cell B6
+     cell C6
+     cell B7
+     cell C7
+* building tab: ok
+End of spreadtab: \end{tabular}
+
+
+Underfull \vbox (badness 1577) has occurred while \output is active []
+
+ [9]
+New spreadtab: \begin{tabular}{|l|r|r|}
+* reading tab: ok
+* computing formulas:
+     cell B2
+     cell B3
+     cell C3
+     cell B4
+     cell C4
+     cell B5
+     cell C5
+     cell B6
+     cell C6
+     cell B7
+     cell C7
+* building tab: ok
+End of spreadtab: \end{tabular}
+
+) [10]
 \openout2 = `conclusion.aux'.
 
- (./conclusion.tex [8
-
-
-
-
-]
+ (./conclusion.tex
 Chapter 5.
-) [9] [10
+) [11
+
+
+
+
+] [12
 
 
 
@@ -896,47 +1068,69 @@ ame{section.5.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.16 \section{First Appendix Section}
-                                     ) [11
+                                     ) [13
 
 
-] [12
+] [14
 
 
-] (./thesis.bbl) [13
+] (./thesis.lot)
+\tf@lot=\write7
+\openout7 = `thesis.lot'.
+
+ [15
+
+
+] [16
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
+(./thesis.lof)
+\tf@lof=\write8
+\openout8 = `thesis.lof'.
 
-(./thesis.aux (./titlepage.aux) (./abstract.aux) (./declaration.aux)
-(./introduction.aux) (./content.aux) (./evaluation.aux) (./conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
+ [17
+
+
+] [18
+
+
+] (./thesis.bbl) [19
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
+ (./thesis.aux (./titlepage.aux)
+(./abstract.aux) (./declaration.aux) (./introduction.aux) (./content.aux)
+(./evaluation.aux) (./conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B37595B8A6A67FBFAE43C65BBA5B0601;1513.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
+(rerunfilecheck)             Checksum: 476382153C4D0045007F02E4085E9D5F;2067.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
  ) 
 Here is how much of TeX's memory you used:
- 19216 strings out of 493308
- 356704 string characters out of 6143617
- 478138 words of memory out of 5000000
- 22176 multiletter control sequences out of 15000+600000
- 48896 words of font info for 71 fonts, out of 8000000 for 9000
+ 21237 strings out of 493308
+ 384081 string characters out of 6143617
+ 567525 words of memory out of 5000000
+ 24110 multiletter control sequences out of 15000+600000
+ 51049 words of font info for 74 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  71i,20n,90p,900b,2098s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/urw/helve
-tic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (19 pages, 133892 bytes).
+cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><
+/usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on thesis.pdf (25 pages, 166601 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
- 55 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 375 PDF objects out of 1000 (max. 8388607)
+ 333 compressed objects within 4 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 282 words of extra memory for PDF output out of 10000 (max. 10000000)
 

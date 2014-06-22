@@ -1,15 +1,14 @@
-\begin{tikzpicture}[-,>=stealth',level/.style={
+\begin{tikzpicture}[
+-,>=stealth',
+level/.style={sibling distance = 2cm, level distance = 1.8cm},
 %level 1/.style={sibling distance=8cm},
 %level 2/.style={sibling distance=4cm}, 
 %level 3/.style={sibling distance=4cm}, 
-sibling distance = 2cm,
-level distance = 1.5cm}] 
-\tikzset{
-  treenode/.style = {align=center, inner sep=0pt, text centered,
-    font=\sffamily},
-  arn_n/.style = {treenode, rectangle, rounded corners, draw=black, thick, fill=blue!20, minimum width=4em, minimum height = 2em},
-  arn_x/.style = {arn_n, fill=red!20, minimum height=3em}
-}
+treenode/.style = {align=center, inner sep=0pt, text centered, font=\sffamily},
+arn_n/.style = {treenode, rectangle, rounded corners, draw=black, thick, fill=blue!20, minimum width=4em, minimum height = 2em},
+arn_x/.style = {arn_n, fill=red!20, minimum height=3em},
+edge from parent fork down
+]
 \node [arn_n] {ROOT}
 child{ node [arn_n] {S}
 child[sibling distance = 6cm]{ node [arn_n] {NP}

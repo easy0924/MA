@@ -1,15 +1,137 @@
-\begin{tikzpicture}
-\newlength{\myx}
-\setlength{\myx}{1cm}
-\newlength{\myy}
-\setlength{\myy}{1cm}
+\begin{tikzpicture}[
+nod_s/.style = {align=center, inner sep=2pt, text centered, font=\sffamily, circle, draw},
+nod_m/.style = {nod_s, thick},
+edge_ls/.style = {},
+edge_lm/.style = {edge_ls, thick},
+edge_ts/.style = {font=\tiny},
+edge_tm/.style = {edge_ts},
+]
 
-\tikzset{
-  nod_s/.style = {align=center, inner sep=3pt, text centered,
-    font=\sffamily, circle, draw=black, thick}
-}
-\node [nod_s] {};
-\node [nod_s] at (1cm,2\myx) {};
-\node [nod_s] at (-1,2) {};
+\newlength{\myx}
+\setlength{\myx}{1.3cm}
+\newlength{\myy}
+\setlength{\myy}{1.2cm}
+
+\node(0) [nod_m] at (0\myx,0\myy) {};
+\node(1) [nod_m] at (1\myx,0\myy) {};
+\node(2) [nod_s] at (1\myx,1\myy) {};
+\node(3) [nod_m] at (2\myx,0\myy) {};
+\node(4) [nod_s] at (2\myx,1\myy) {};
+\node(5) [nod_m] at (3\myx,0\myy) {};
+\node(6) [nod_m] at (4\myx,0\myy) {};
+\node(7) [nod_m] at (5\myx,0\myy) {};
+\node(8) [nod_s] at (5\myx,1\myy) {};
+\node(9) [nod_m] at (6\myx,0\myy) {};
+\node(10) [nod_m] at (7\myx,0\myy) {};
+\node(11) [nod_s] at (7\myx,1\myy) {};
+\node(12) [nod_m] at (8\myx,0\myy) {};
+\node(13) [nod_m] at (9\myx,0\myy) {};
+\node(14) [nod_s] at (9\myx,5\myy) {};
+\node(15) [nod_s] at (9\myx,6\myy) {};
+\node(16) [nod_s] at (9\myx,7\myy) {};
+\node(17) [nod_m] at (10\myx,0\myy) {};
+\node(18) [nod_s] at (10\myx,5\myy) {};
+\node(19) [nod_s] at (10\myx,6\myy) {};
+\node(20) [nod_s] at (10\myx,7\myy) {};
+\node(21) [nod_m] at (11\myx,0\myy) {};
+\node(22) [nod_s] at (11\myx,1\myy) {};
+\node(23) [nod_s] at (11\myx,4\myy) {};
+\node(24) [nod_s] at (11\myx,5\myy) {};
+\node(25) [nod_s] at (11\myx,6\myy) {};
+\node(26) [nod_s] at (11\myx,7\myy) {};
+\node(27) [nod_m] at (12\myx,0\myy) {};
+\node(28) [nod_s] at (12\myx,4\myy) {};
+\node(29) [nod_s] at (12\myx,5\myy) {};
+\node(30) [nod_s] at (12\myx,6\myy) {};
+\node(31) [nod_s] at (12\myx,7\myy) {};
+\node(32) [nod_m] at (13\myx,0\myy) {};
+\node(33) [nod_s] at (13\myx,3\myy) {};
+\node(34) [nod_s] at (13\myx,4\myy) {};
+\node(35) [nod_s] at (13\myx,5\myy) {};
+\node(36) [nod_s] at (13\myx,6\myy) {};
+\node(37) [nod_s] at (13\myx,7\myy) {};
+\node(38) [nod_m] at (14\myx,0\myy) {};
+\node(39) [nod_s] at (14\myx,2\myy) {};
+\node(40) [nod_s] at (14\myx,3\myy) {};
+\node(41) [nod_s] at (14\myx,4\myy) {};
+\node(42) [nod_s] at (14\myx,5\myy) {};
+\node(43) [nod_s] at (14\myx,6\myy) {};
+\node(44) [nod_s] at (14\myx,7\myy) {};
+\node(45) [nod_m] at (15\myx,0\myy) {};
+\node(46) [nod_s] at (15\myx,1\myy) {};
+\node(47) [nod_s] at (15\myx,2\myy) {};
+\node(48) [nod_s] at (15\myx,3\myy) {};
+\node(49) [nod_s] at (15\myx,4\myy) {};
+\node(50) [nod_s] at (15\myx,5\myy) {};
+\node(51) [nod_s] at (15\myx,6\myy) {};
+\node(52) [nod_s] at (15\myx,7\myy) {};
+\node(53) [nod_m] at (16\myx,0\myy) {};
+\node(54) [nod_m] at (17\myx,0\myy) {};
+
+\draw[->,edge_lm] (0) to node [midway, sloped, below, edge_tm] {satisfying} node [midway, sloped, above, edge_tm] {0.8688} (1);
+\draw[->,edge_ls] (0) to [bend left] node [midway, sloped, above, edge_ts] {personal} node [midway, sloped, below, edge_ts] {0.1312} (2);
+\draw[->,edge_lm] (1) to node [midway, sloped, below, edge_tm] {personal} (3);
+\draw[->,edge_ls] (2) to node [midway, sloped, above, edge_ts] {interests} (4);
+\draw[->,edge_lm] (3) to node [midway, sloped, below, edge_tm] {interests} (5);
+\draw[->,edge_ls] (4) to [bend left] node [midway, sloped, above, edge_ts] {satisfying} (5);
+\draw[->,edge_lm] (5) to node [midway, sloped, below, edge_tm] {and} (6);
+\draw[->,edge_lm] (6) to node [midway, sloped, below, edge_tm] {expanding} node [midway, sloped, above, edge_tm] {0.8688} (7);
+\draw[->,edge_ls] (6) to [bend left] node [midway, sloped, above, edge_ts] {knowledge} node [midway, sloped, below, edge_ts] {0.1312} (8);
+\draw[->,edge_lm] (7) to node [midway, sloped, below, edge_tm] {knowledge} (9);
+\draw[->,edge_ls] (8) to [bend left] node [midway, sloped, above, edge_ts] {expanding} (9);
+\draw[->,edge_lm] (9) to node [midway, sloped, below, edge_tm] {are} node [midway, sloped, above, edge_tm] {0.3049} (10);
+\draw[->,edge_ls] (9) to [bend left] node [midway, sloped, above, edge_ts] {also} node [midway, sloped, below, edge_ts] {0.6951} (11);
+\draw[->,edge_lm] (10) to node [midway, sloped, below, edge_tm] {also} (12);
+\draw[->,edge_ls] (11) to [bend left] node [midway, sloped, above, near start, edge_ts] {are} (12);
+\draw[->,edge_lm] (12) to node [midway, sloped, below, edge_tm] {major} node [midway, sloped, above, edge_tm] {0.4046} (13);
+\draw[->,edge_ls] (12) to [bend left] node [midway, sloped, above, very near end, edge_ts] {why} node [midway, sloped, below, very near end, edge_ts] {0.3406} (14);
+\draw[->,edge_ls] (12) to [bend left] node [midway, sloped, above, very near end, edge_ts] {work} node [midway, sloped, below, very near end, edge_ts] {0.1226} (15);
+\draw[->,edge_ls] (12) to [bend left] node [midway, sloped, above, very near end, edge_ts] {work} node [midway, sloped, below, very near end, edge_ts] {0.1321} (16);
+\draw[->,edge_lm] (13) to node [midway, sloped, below, edge_tm] {reasons} (17);
+\draw[->,edge_ls] (14) to node [midway, sloped, above, edge_ts] {hourly} (18);
+\draw[->,edge_ls] (15) to node [midway, sloped, above, edge_ts] {appeals} (19);
+\draw[->,edge_ls] (16) to node [midway, sloped, above, edge_ts] {appeals} (20);
+\draw[->,edge_lm] (17) to node [midway, sloped, below, edge_tm] {why} node [midway, sloped, above, edge_tm] {0.3641} (21);
+\draw[->,edge_ls] (17) to [bend left] node [midway, sloped, above, edge_ts] {hourly} node [midway, sloped, below, edge_ts] {0.1813} (22);
+\draw[->,edge_ls] (17) to [bend left] node [midway, sloped, above,  edge_ts] {work} node [midway, sloped, below, edge_ts] {0.4545} (23);
+\draw[->,edge_ls] (18) to node [midway, sloped, above, edge_ts] {work} (24);
+\draw[->,edge_ls] (19) to node [midway, sloped, above, edge_ts] {to} (25);
+\draw[->,edge_ls] (20) to node [midway, sloped, above, edge_ts] {to} (26);
+\draw[->,edge_lm] (21) to node [midway, sloped, below, edge_tm] {hourly} (27);
+\draw[->,edge_ls] (22) to [bend left] node [midway, sloped, above, edge_ts] {why} (27);
+\draw[->,edge_ls] (23) to node [midway, sloped, above, edge_ts] {appeals} (28);
+\draw[->,edge_ls] (24) to node [midway, sloped, above, edge_ts] {appeals} (29);
+\draw[->,edge_ls] (25) to node [midway, sloped, above, edge_ts] {people} (30);
+\draw[->,edge_ls] (26) to node [midway, sloped, above, edge_ts] {people} (31);
+\draw[->,edge_lm] (27) to node [midway, sloped, below, edge_tm] {work} node [midway, sloped, above, edge_tm] {0.5677} (32);
+\draw[->,edge_ls] (27) to [bend left] node [midway, sloped, above, edge_ts] {to} node [midway, sloped, below, edge_ts] {0.4323} (33);
+\draw[->,edge_ls] (28) to node [midway, sloped, above, edge_ts] {to} (34);
+\draw[->,edge_ls] (29) to node [midway, sloped, above, edge_ts] {to} (35);
+\draw[->,edge_ls] (30) to node [midway, sloped, above, edge_ts] {major} (36);
+\draw[->,edge_ls] (31) to node [midway, sloped, above, edge_ts] {why} (37);
+\draw[->,edge_lm] (32) to node [midway, sloped, below, edge_tm] {appeals} node [midway, sloped, above, edge_tm] {0.8004} (38);
+\draw[->,edge_ls] (32) to [bend left] node [midway, sloped, above, edge_ts] {to} node [midway, sloped, below, edge_ts] {0.1996} (39);
+\draw[->,edge_ls] (33) to node [midway, sloped, above, edge_ts] {people} (40);
+\draw[->,edge_ls] (34) to node [midway, sloped, above, edge_ts] {people} (41);
+\draw[->,edge_ls] (35) to node [midway, sloped, above, edge_ts] {people} (42);
+\draw[->,edge_ls] (36) to node [midway, sloped, above, edge_ts] {reasons} (43);
+\draw[->,edge_ls] (37) to node [midway, sloped, above, edge_ts] {hourly} (44);
+\draw[->,edge_lm] (38) to node [midway, sloped, below, edge_tm] {to} node [midway, sloped, above, edge_tm] {0.8966} (45);
+\draw[->,edge_ls] (38) to [bend left] node [midway, sloped, above, edge_ts] {people} node [midway, sloped, below, edge_ts] {0.1034} (46);
+\draw[->,edge_ls] (39) to node [midway, sloped, above, edge_ts] {people} (47);
+\draw[->,edge_ls] (40) to node [midway, sloped, above, edge_ts] {work} (48);
+\draw[->,edge_ls] (41) to node [midway, sloped, above, edge_ts] {why} (49);
+\draw[->,edge_ls] (42) to node [midway, sloped, above, edge_ts] {major} (50);
+\draw[->,edge_ls] (43) to node [midway, sloped, above, edge_ts] {why} (51);
+\draw[->,edge_ls] (44) to node [midway, sloped, above, edge_ts] {major} (52);
+\draw[->,edge_lm] (45) to node [midway, sloped, below, edge_tm] {people} (53);
+\draw[->,edge_ls] (46) to [bend left] node [midway, sloped, above,  near start, edge_ts] {to} (53);
+\draw[->,edge_ls] (47) to [bend left] node [midway, sloped, above, very near start, edge_ts] {appeals} (53);
+\draw[->,edge_ls] (48) to [bend left] node [midway, sloped, above, very near start, edge_ts] {appeals} (53);
+\draw[->,edge_ls] (49) to [bend left] node [midway, sloped, above, very near start, edge_ts] {hourly} (53);
+\draw[->,edge_ls] (50) to [bend left] node [midway, sloped, above, very near start, edge_ts] {reasons} (53);
+\draw[->,edge_ls] (51) to [bend left] node [midway, sloped, above, very near start, edge_ts] {hourly} (53);
+\draw[->,edge_ls] (52) to [bend left] node [midway, sloped, above, very near start, edge_ts] {reasons} (53);
+\draw[->,edge_lm] (53) to node [midway, sloped, below, edge_tm] {\vphantom{people}.} (54);
 
 \end{tikzpicture}

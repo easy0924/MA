@@ -13,7 +13,7 @@
 
 Word reordering is a general issue when we want to translate text from one language to the other. Different languages normally have different word reordering and the difference could be huge, when two languages are isolated from each other. Depend on the language itself, the word reordering could have very distinguish features. For example, 45\% of the languages in the world has a subject-object-verb(SOV) order. Unlike in English, verbs are put after object in these languages. Japanese is a popular language among them. Instead of saying ``The black cat climbed to the tree top.'', people would say ``The black cat the tree top to climbed.'' in Japanese. Another example is Spanish, in which people often put the adjective after the modified nouns. An example from the paper \cite{google} shows how people would order the words differently:
 
-\begin{figure}[H]
+\begin{table}[H]
 \centering
 \begin{tabular}{| r l |}
 \hline 
@@ -23,7 +23,7 @@ Spanish & The cat black climbed to the top tree. \Bstrut \\
 \hline
 \end{tabular}
 \caption{Word orders of three different languages}
-\end{figure}
+\end{table}
 
 Since different word orders are a common issue among languages, we propose several pre-reordering methods and evaluate them in this thesis. Before translation, the words in source language are rearranged into a similar word order as the target language's through these methods. With the appropriate word order, better translation quality will be achieved.
 

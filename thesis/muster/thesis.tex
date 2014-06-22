@@ -81,9 +81,15 @@
 %% |    Additional Functions   |
 %% -----------------------------
 % new defined functions
+%\usepackage{array}
+\usepackage{spreadtab}
 \usepackage{amsthm}
+\usepackage{pdflscape}
+\usepackage{booktabs}
+%\usepackage{numprint}
 \usepackage{tikz}
 \usetikzlibrary{arrows}
+\usetikzlibrary{trees}
 \theoremstyle{definition}
 \newtheorem{example}{Example}
 
@@ -153,6 +159,13 @@ appendix
 
 \input{appendix}
 
+\cleardoublepage
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
 
 %% --------------------
 %% |   Bibliography   |
@@ -167,6 +180,8 @@ appendix
 												  
 % Use IEEEtran for numeric references
 %\bibliographystyle{IEEEtranSA})
+
+
 
 \bibliography{thesis}
 
