@@ -25,8 +25,8 @@
 \bibitem[BOB10]{metrics}
 \BIBentryALTinterwordspacing
 A.~Birch, M.~Osborne, and P.~Blunsom, ``Metrics for mt evaluation: Evaluating
-  reordering,'' \emph{Machine Translation}, vol.~24, no.~1, pp. 15--26, Mar.
-  2010. [Online]. Available: \url{http://dx.doi.org/10.1007/s10590-009-9066-5}
+  reordering,'' \emph{Machine Translation}, vol.~24, no.~1, Mar. 2010.
+  [Online]. Available: \url{http://dx.doi.org/10.1007/s10590-009-9066-5}
 \BIBentrySTDinterwordspacing
 
 \bibitem[Chi07]{hier}

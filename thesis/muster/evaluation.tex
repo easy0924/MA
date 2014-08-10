@@ -16,7 +16,7 @@ Both sections are composed of three parts: experimental setup, result and evalua
 
 \subsection{Experimental Setup}
 We performed experiments with or without different reordering methods covering the English to Chines translation direction. The reordering methods included the reordering with short rules, long rules, tree rules and our MLT rules. The system was trained on news text from the LDC corpus and subtitles from TED talks. The development data and test data were both news text from the LDC corpus. The system was a phrase based SMT system, which used a 6-gram language model with Knersey-Ney smoothing. Besides the pre-reordering, no lexical reordering or other reordering method was used. The text was translated through a monotone decoder. The Chinese text were first segmented into words before use.
-The reordering rules were extracted based on the alignment, POS tags and syntactic trees from the training data. One reference of the test data was used for evaluating the BLEU score. Table $4.1$ shows the data size in detail.
+The reordering rules were extracted based on the alignment, POS tags and syntactic trees from the training data. One reference of the test data was used for evaluating the BLEU score. Table $4.1$ shows the size of data used in the system. %? case-sensitive?
 
 \begin{table}[H]
 \centering
@@ -28,7 +28,7 @@ The reordering rules were extracted based on the alignment, POS tags and syntact
 
 \begin{tabular}{|ll|r|r|r|r|r|}
 \hline
-\multicolumn{2}{|l|}{\multirow{2}{*}{Data Set}} & \multirow{2}{*}{Sentence Count} & \multicolumn{2}{|c|}{Word Count} & \multicolumn{2}{|c|}{Size (Byte)}\\ \cline{4-7}
+\multicolumn{2}{|l|}{\multirow{2}{*}{Data Set}} & \multirow{2}{*}{Sentence Count} & \multicolumn{2}{c|}{Word Count} & \multicolumn{2}{c|}{Size (Byte)}\\ \cline{4-7}
 & & & English & Chinese & English & Chinese \\
 \hline
 \multirow{2}{*}{Training Data} & \multicolumn{1}{|l|}{LDC} & 303K & 10.96M & 8.56M & 60.88M & 47.27M \\ \cline{2-7}
@@ -41,7 +41,7 @@ The reordering rules were extracted based on the alignment, POS tags and syntact
 \caption{BLEU score overview of English to Chinese systems}
 \end{table}
 
-\subsection{Result}
+\subsection{Results}
 
 \begin{table}[H]
 \centering
@@ -62,29 +62,55 @@ The reordering rules were extracted based on the alignment, POS tags and syntact
 \caption{BLEU score overview of English to Chinese systems}
 \end{table}
 
-Table $4.2$ shows the BLEU scores for configurations with different reordering methods. The table consist of $2$ sections. the first row of the top section shows results of the baseline, which involves no reordering. In the following rows of the top section, different types of reordering rules are combined gradually, each type per row, and the improvements are showed. For example, the row with ``+MLT Rules'' presents the configuration with all the rule types including MLT rules and all the other rules in the rows above. All the improvements are calculated comparing to the baseline in percentage. Each row with a certain reordering type presents all the different variations of the type and the best score under these configurations are shown. For example, long rules also presents the left rules and right rules type. In the lower section of the table, rules types are not combined and the effect of each rule type is shown. %Besides, the lower section also shows the total number of rules that are extracted and applied for each rule type. (Problem: many variations :(  )
+Table $4.2$ shows the BLEU scores for configurations with different reordering methods. The table consist of $2$ sections. the first row of the top section shows results of the baseline, which involves no reordering. In the following rows of the top section, different types of reordering rules are combined gradually, each type per row, and the improvements are showed. For example, the row with ``+MLT Rules'' presents the configuration with all the rule types including MLT rules and all the other rules in the rows above. All the improvements are calculated comparing to the baseline in percentage. Each row with a certain reordering type presents all the different variations of the type and the best score under these configurations are shown. For example, long rules also presents the left rules and right rules type. In the lower section of the table, rules types are not combined and the effect of each rule type is shown. %? Besides, the lower section also shows the total number of rules that are extracted and applied for each rule type. (Problem: many variations :(  )
+
 \subsection{Evaluation}
 
+The results shows increasing scores when we used reordering methods from short rules, long rules, tree rule to MLT rules. And better BLEU scores were achieved when we combined the different reordering rules. The MLT rules improved the BLEU score, not only when we used it alone, but also when we added to the other existing reordering rules. But taking a close look at the gap between BLEU score of oracle reordering and the best BLEU score we've achieved, we can also tell, there's still much potential for improvement.
+
+We also found improvement in the translated text by analyzing it manually. Some examples are listed in table $4.3$.
+
+
+
+\begin{table}[H]
+
+\centering
+\begin{tabular}{|l|m{0.7\textwidth}|} \hline
+Source & Hu Jintao also extended deep condolences on the death of the Chinese victims and expressed sincere sympathy to the bereaved families.
+\\ \hline
+No MLT & \cntext{胡锦涛 还 表示 深切 哀悼 的 受害者 家属 的 死亡 , 向 迂难者 家属 表示 诚挚 的 慰问 。} \\ \hline
+MLT & \cntext{胡锦涛 还 对 中国 迂难者 表示 哀悼 , 向 迂难者 家属 表示 诚挚 的 慰问 。} \\ \hline \hline
+
+%Source & The plaintiffs' attorney pointed out that this ruling ``violates the historical record'', and demanded that the Japanese government and Nippon Yakin pay compensations and offer apologies to resolve the issue . \\ \hline
+%No MLT & \cntext{这 个 原告 的 律师 指出 , 这 种 `` 违背 了 历史 记录 '' , 要求 日本 政府 , 正 yakin 支付 补偿 , 道歉 来 解决 问题 。} \\ \hline
+%MLT & \cntext{原告 的 律师 指出 , 这 一 判决 `` 违背 了 历史 纪录 '' , 要求 日本 政府 , 正 yakin 支付 补偿 , 道歉 来 解决 问题 。} \\ \hline \hline
+
+%Source & Satisfying personal interests and expanding knowledge are also major reasons why hourly work appeals to people.\\ \hline
+%No MLT & \cntext{令 人 满意 的 切身 利益 和 扩大 知识 也 是 为什么 学生 工作 吸引 人 的 主要 原因 。} \\ \hline
+%MLT & \cntext{满足 个人 利益 和 扩大 知识 也 是 为什么 学生 工作 吸引 人 的 主要 原因 。} \\ \hline \hline
+
+Source & The Dalai Lama will go to visit Washington this month.\\ \hline
+No MLT & \cntext{达赖 喇嘛 将 访问 华盛顿 的 这 一 个 月 。} \\ \hline
+MLT & \cntext{达赖 喇嘛 将 本 月 访问 华盛顿 。} \\ \hline
+
+\end{tabular}
+\caption{Examples of improvements in translated text}
+\end{table}
+
+Each section of table $4.3$ shows translation of a sentence in its source language and target language. The translation in the row with ``No MLT'' comes from the configuration without using MLT reordering, and the translation in the row with ``MLT'' comes from the configuration with using MLT reordering. From the examples, we can see that the MLT reordering improved the sentence structure significantly. In the last example, the part of the sentence ``visit Washington this month'' was parsed as the structur ``(visit (Washington) ((this) (month)))'' in the syntactic tree, but the correct Chinese translation has word order corresponds to ``this month visit Washington''. This reordering inserts the word ``visit'' between the words ``this month'' and ``Washington'', which are on a lower level of the syntactic tree. This behavior could not be done by the tree-rule-based reordering, which only change order of constituents on the same tree level.
+
+From this experiments we can draw the conclusion that our reordering method indeed improves the English-to-Chinese translation quality obviously, no matter when we apply it alone or when we combine it with other reordering methods mentioned in this paper. And we could further justify our claim that the MLT reordering method changes the word order more significantly to improve the translation quality.
+
 %% ===============================
-\section{Experiement Setup}
-\label{ch:Evaluation:sec:ExperimentSetup}
-%% ===============================
-
-\dots
-Criterien
-\cite{metrics}
-
-
-
-%% ===============================
-\section{English to Chinese Systems}
+\section{Chinese to English Systems}
 \label{ch:Evaluation:sec:zhen2}
 %% ===============================
 
 
 \subsection{Experimental Setup}
 
-\subsection{Result}
+The experiments for Chinese-to-English systems had a similar setup as described in the last section. The parallel data used in the English-to-Chinese system were also used in this experiment by changing the role of the source language and target language. We only used the LDC data set for training in this system, and the TED data were not used. And the test data had three English references for evaluating the results instead of one as in the previous system.
+\subsection{Results}
 
 \begin{table}[H]
 \centering
@@ -100,7 +126,7 @@ Criterien
 \hline
 @Long Rules   & 22.10 & :={b4 * 100 /b2 - 100} \% \\ \hline
 @Tree Rules   & 23.35 & :={b5 * 100 /b2 - 100} \% \\ \hline
-@MLT Rules    & 24.14 & :={b6 * 100 /b2 - 100} \% \\ \hline
+@MLT Rules    & 23.96 & :={b6 * 100 /b2 - 100} \% \\ \hline
 \end{spreadtab}
 \caption{BLEU score overview of Chinese to English systems}
 \end{table}

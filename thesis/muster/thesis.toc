@@ -9,9 +9,10 @@
 \contentsline {section}{\numberline {2.3}Word Alignment}{4}{section.2.3}
 \contentsline {section}{\numberline {2.4}Part-of-Speech Tag}{5}{section.2.4}
 \contentsline {section}{\numberline {2.5}Syntactic Tree}{5}{section.2.5}
-\contentsline {section}{\numberline {2.6}Reordering Rule Types}{5}{section.2.6}
-\contentsline {section}{\numberline {2.7}Lattices}{5}{section.2.7}
-\contentsline {section}{\numberline {2.8}BLEU Score}{8}{section.2.8}
+\contentsline {section}{\numberline {2.6}Reordering Rule Types}{6}{section.2.6}
+\contentsline {section}{\numberline {2.7}Oracle Reordering}{6}{section.2.7}
+\contentsline {section}{\numberline {2.8}Lattices}{6}{section.2.8}
+\contentsline {section}{\numberline {2.9}BLEU Score}{8}{section.2.9}
 \contentsline {chapter}{\numberline {3}Reordering Approach}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Reordering Problem in Chinese-English Translation}{9}{section.3.1}
 \contentsline {section}{\numberline {3.2}Motivation of our Pre-reordering system}{9}{section.3.2}
@@ -19,14 +20,13 @@
 \contentsline {chapter}{\numberline {4}Evaluation}{11}{chapter.4}
 \contentsline {section}{\numberline {4.1}English to Chinese Systems}{11}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Experimental Setup}{11}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Result}{12}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}Results}{12}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Evaluation}{12}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Experiement Setup}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}English to Chinese Systems}{12}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Experimental Setup}{12}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Result}{12}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Evaluation}{13}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Conclusion}{13}{section.4.4}
+\contentsline {section}{\numberline {4.2}Chinese to English Systems}{13}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Experimental Setup}{13}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Results}{13}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Evaluation}{13}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Conclusion}{13}{section.4.3}
 \contentsline {chapter}{\numberline {5}Conclusion}{15}{chapter.5}
 \contentsline {section}{\numberline {5.1}Discussion}{15}{section.5.1}
 \contentsline {section}{\numberline {5.2}Conclusion}{15}{section.5.2}
