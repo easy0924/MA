@@ -1,0 +1,19 @@
+\begin{tikzpicture}[
+node/.style = {align=center, inner sep=0pt, font=\sffamily, rectangle, draw=white, fill=white, outer sep=0, text height=5ex},
+]
+
+\node(A) [node] {The \\ DT};
+\node(B) [node, right=1ex of A] {domestic \\ JJ};
+\node(C) [node, right=1ex of B] {consumption \\ NN};
+\node(D) [node, right=1ex of C] {market \\ NN};
+\node(E) [node, right=1ex of D] {for \\ IN};
+\node(F) [node, right=1ex of E] {animal \\ NN};
+\node(G) [node, right=1ex of F] {products \\ NNS};
+\node(H) [node, right=1ex of G] {is \\ VBZ};
+\node(I) [node, right=1ex of H] {very \\ RB};
+\node(J) [node, right=1ex of I] {great \\ JJ};
+\node(K) [node, right=1ex of J] {. \\ SENT};
+
+
+
+\end{tikzpicture}

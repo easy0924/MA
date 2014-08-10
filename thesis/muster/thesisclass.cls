@@ -22,7 +22,7 @@
 %% -------------------------------
 
 \usepackage[T1]{fontenc}
-\usepackage[latin1]{inputenc} % Input in ISO 8859-1 (Latin1)
+\usepackage[latin1,utf8x]{inputenc} % Input in ISO 8859-1 (Latin1)
 
 \usepackage{ae}               % Almost european, virtual T1-Font
 \usepackage[pdftex]{graphicx}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  3 AUG 2014 23:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  10 AUG 2014 18:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -118,7 +118,21 @@ Package: inputenc 2008/03/30 v1.1d Input encoding file
 
 (/usr/share/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
+)
+(/usr/share/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
+(/usr/share/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(/usr/share/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count89
+\uc@combtoks=\toks17
+\uc@combtoksb=\toks18
+\uc@temptokena=\toks19
+)
 (/usr/share/texmf-dist/tex/latex/ae/ae.sty
 Package: ae 2001/02/12 1.3 Almost European Computer Modern
 
@@ -157,7 +171,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count89
+\Gread@gobject=\count90
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
@@ -196,10 +210,10 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigbottomskip=\skip59
 \subfigcapmargin=\dimen109
 \subfiglabelskip=\skip60
-\c@subfigure=\count90
-\c@lofdepth=\count91
-\c@subtable=\count92
-\c@lotdepth=\count93
+\c@subfigure=\count91
+\c@lofdepth=\count92
+\c@subtable=\count93
+\c@lotdepth=\count94
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -230,14 +244,14 @@ Grid set 16 x 16 = 37.38425pt x 52.86877pt
 \TPboxrulesize=\dimen114
 \TP@ox=\dimen115
 \TP@oy=\dimen116
-\TP@tbargs=\toks17
+\TP@tbargs=\toks20
 \TP@prevdepth=\dimen117
 TextBlockOrigin set to 0pt x 0pt
 ) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks18
+\pgfutil@everybye=\toks21
 \pgfutil@tempdima=\dimen118
 \pgfutil@tempdimb=\dimen119
 
@@ -256,11 +270,11 @@ Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
 Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks19
-\pgfkeys@temptoks=\toks20
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks21
+\pgfkeys@tmptoks=\toks24
 ))
 \pgf@x=\dimen120
 \pgf@y=\dimen121
@@ -272,13 +286,13 @@ Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 \pgf@yc=\dimen127
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count94
-\c@pgf@countb=\count95
-\c@pgf@countc=\count96
-\c@pgf@countd=\count97
-\t@pgf@toka=\toks22
-\t@pgf@tokb=\toks23
-\t@pgf@tokc=\toks24
+\c@pgf@counta=\count95
+\c@pgf@countb=\count96
+\c@pgf@countc=\count97
+\c@pgf@countd=\count98
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -293,8 +307,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count98
-\pgfsyssoftpath@bigbuffer@items=\count99
+\pgfsyssoftpath@smallbuffer@items=\count99
+\pgfsyssoftpath@bigbuffer@items=\count100
 )
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -324,11 +338,11 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen128
-\pgfmath@count=\count100
+\pgfmath@count=\count101
 \pgfmath@box=\box30
-\pgfmath@toks=\toks25
-\pgfmath@stack@operand=\toks26
-\pgfmath@stack@operation=\toks27
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
 )
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
@@ -341,7 +355,7 @@ x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
 .code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count101
+\c@pgfmathroundto@lastzeros=\count102
 )) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen129
@@ -373,7 +387,7 @@ File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box31
 \pgf@hbox=\box32
 \pgf@layerbox@main=\box33
-\pgf@picture@serial@count=\count102
+\pgf@picture@serial@count=\count103
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
@@ -401,7 +415,7 @@ File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen152
-\pgf@sys@shading@range@num=\count103
+\pgf@sys@shading@range@num=\count104
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -444,8 +458,8 @@ Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen155
 \pgffor@skip=\dimen156
-\pgffor@stack=\toks28
-\pgffor@toks=\toks29
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
@@ -453,7 +467,7 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
 x
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count104
+\pgf@plot@mark@count=\count105
 \pgfplotmarksize=\dimen157
 )
 \tikz@lastx=\dimen158
@@ -466,17 +480,17 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \tikz@figbox@bg=\box37
 \tikz@tempbox=\box38
 \tikz@tempbox@bg=\box39
-\tikztreelevel=\count105
-\tikznumberofchildren=\count106
-\tikznumberofcurrentchild=\count107
-\tikz@fig@count=\count108
+\tikztreelevel=\count106
+\tikznumberofchildren=\count107
+\tikznumberofcurrentchild=\count108
+\tikz@fig@count=\count109
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count109
-\pgfmatrixcurrentcolumn=\count110
-\pgf@matrix@numberofcolumns=\count111
+\pgfmatrixcurrentrow=\count110
+\pgfmatrixcurrentcolumn=\count111
+\pgf@matrix@numberofcolumns=\count112
 )
-\tikz@expandcount=\count112
+\tikz@expandcount=\count113
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
@@ -489,7 +503,7 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2013/12/03 3.9h Babel common definitions
-\babel@savecnt=\count113
+\babel@savecnt=\count114
 \U@D=\dimen164
 ))
 (/usr/share/texmf-dist/tex/generic/babel-german/ngermanb.ldf
@@ -501,24 +515,24 @@ nment
 
 (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count114
-\float@exts=\toks30
+\c@float@type=\count115
+\float@exts=\toks33
 \float@box=\box40
-\@float@everytoks=\toks31
+\@float@everytoks=\toks34
 \@floatcapt=\box41
 )
 (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks32
-\c@algorithm=\count115
+\@float@every@algorithm=\toks35
+\c@algorithm=\count116
 )
 (/usr/share/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count116
-\c@ALC@line=\count117
-\c@ALC@rem=\count118
-\c@ALC@depth=\count119
+\c@ALC@unique=\count117
+\c@ALC@line=\count118
+\c@ALC@rem=\count119
+\c@ALC@depth=\count120
 \ALC@tlm=\skip63
 \algorithmicindent=\skip64
 )
@@ -580,13 +594,13 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen165
-\Hy@linkcounter=\count120
-\Hy@pagecounter=\count121
+\Hy@linkcounter=\count121
+\Hy@pagecounter=\count122
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count122
+\Hy@SavedSpaceFactor=\count123
 
 (/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -607,10 +621,10 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count123
+\c@Hy@tempcnt=\count124
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen166
-\Fld@menulength=\count124
+\Fld@menulength=\count125
 \Field@Width=\dimen167
 \Fld@charsize=\dimen168
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -622,17 +636,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count125
-\c@Item=\count126
-\c@Hfootnote=\count127
+\Hy@abspage=\count126
+\c@Item=\count127
+\c@Hfootnote=\count128
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count128
-\c@bookmark@seq@number=\count129
+\Fld@listcount=\count129
+\c@bookmark@seq@number=\count130
 
 (/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -643,7 +657,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (/usr/share/texmf-dist/tex/latex/babelbib/babelbib.sty
 Package: babelbib 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
-\c@btxromaniannumeral=\count130
+\c@btxromaniannumeral=\count131
 )
 \chapnolen=\skip66
 \chapparlen=\skip67
@@ -659,19 +673,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count131
+\actioncount=\count132
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count132
-\FP@xia=\count133
-\FP@xib=\count134
-\FP@xfa=\count135
-\FP@xfb=\count136
-\FP@rega=\count137
-\FP@regb=\count138
-\FP@regs=\count139
-\FP@times=\count140
+\FP@xs=\count133
+\FP@xia=\count134
+\FP@xib=\count135
+\FP@xfa=\count136
+\FP@xfb=\count137
+\FP@rega=\count138
+\FP@regb=\count139
+\FP@regs=\count140
+\FP@times=\count141
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -690,7 +704,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count141
+\FPseed=\count142
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -704,29 +718,29 @@ Package: fp-eval 1995/04/03
 (/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write4
-\integerpart=\count142
-\decimalpart=\count143
+\integerpart=\count143
+\decimalpart=\count144
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\ST@count=\count144
-\ST@colcount=\count145
-\ST@colcount@i=\count146
-\ST@rowcount=\count147
-\ST@rowcount@i=\count148
-\ST@intpart=\count149
+\ST@count=\count145
+\ST@colcount=\count146
+\ST@colcount@i=\count147
+\ST@rowcount=\count148
+\ST@rowcount@i=\count149
+\ST@intpart=\count150
 )
 (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks33
-\thm@bodyfont=\toks34
-\thm@headfont=\toks35
-\thm@notefont=\toks36
-\thm@headpunct=\toks37
+\thm@style=\toks36
+\thm@bodyfont=\toks37
+\thm@headfont=\toks38
+\thm@notefont=\toks39
+\thm@headpunct=\toks40
 \thm@preskip=\skip68
 \thm@postskip=\skip69
 \thm@headsep=\skip70
-\dth@everypar=\toks38
+\dth@everypar=\toks41
 )
 (/usr/share/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
@@ -748,13 +762,16 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen176
 \cmidrulekern=\dimen177
 \defaultaddspace=\dimen178
-\@cmidla=\count150
-\@cmidlb=\count151
+\@cmidla=\count151
+\@cmidlb=\count152
 \@aboverulesep=\dimen179
 \@belowrulesep=\dimen180
-\@thisruleclass=\count152
-\@lastruleclass=\count153
+\@thisruleclass=\count153
+\@lastruleclass=\count154
 \@thisrulewidth=\dimen181
+)
+(/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen182
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 arrows.code.tex
@@ -762,45 +779,128 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
-\arrowsize=\dimen182
+\arrowsize=\dimen183
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 trees.code.tex
 File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.0 (rcs-revision 1.2)
 )
-\c@example=\count154
- (./thesis.aux (./titlepage.aux) (./abstract.aux)
-(./declaration.aux) (./introduction.aux) (./content.aux) (./evaluation.aux)
-(./conclusion.aux))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+positioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
+) (/usr/share/texmf-dist/tex/latex/cjk/texinput/CJK.sty
+Package: CJK 2012/05/07 4.8.3
+
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
+Package: MULEenc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/CJK.enc
+File: CJK.enc 2012/05/07 4.8.3
+)
+LaTeX Info: Redefining \selectfont on input line 755.
+\CJK@indent=\box43
+)
+\c@example=\count155
+ (./thesis.aux
+(./titlepage.aux) (./abstract.aux) (./declaration.aux) (./introduction.aux)
+(./content.aux) (./evaluation.aux) (./conclusion.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
- (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+
+(/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count155
-\scratchdimen=\dimen183
-\scratchbox=\box43
-\nofMPsegments=\count156
-\nofMParguments=\count157
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count158
-\MPscratchDim=\dimen184
-\MPnumerator=\count159
-\makeMPintoPDFobject=\count160
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count156
+\scratchdimen=\dimen184
+\scratchbox=\box44
+\nofMPsegments=\count157
+\nofMParguments=\count158
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count159
+\MPscratchDim=\dimen185
+\MPnumerator=\count160
+\makeMPintoPDFobject=\count161
+\everyMPtoPDFconversion=\toks43
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -816,8 +916,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring OFF on input line 120.
+\AtBeginShipoutBox=\box45
+Package hyperref Info: Link coloring OFF on input line 130.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -825,11 +925,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count161
+\c@section@level=\count162
 )
-LaTeX Info: Redefining \ref on input line 120.
-LaTeX Info: Redefining \pageref on input line 120.
-LaTeX Info: Redefining \nameref on input line 120.
+LaTeX Info: Redefining \ref on input line 130.
+LaTeX Info: Redefining \pageref on input line 130.
+LaTeX Info: Redefining \nameref on input line 130.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -856,7 +956,7 @@ babelbib: Set language for keywords in the bibliography fixed to ngerman
 babelbib: Set language for keywords in the bibliography fixed to ngerman
 \openout2 = `titlepage.aux'.
 
-(./titlepage.tex <logos/KITLogo_RGB.pdf, id=138, 196.46399pt x 90.77916pt>
+(./titlepage.tex <logos/KITLogo_RGB.pdf, id=164, 196.46399pt x 90.77916pt>
 File: logos/KITLogo_RGB.pdf Graphic file (type pdf)
 
 <use logos/KITLogo_RGB.pdf>
@@ -906,7 +1006,7 @@ ted-to.pdf logos/signature.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<logos/signature-eps-converted-to.pdf, id=158, 1155.31625pt x 474.77374pt>
+<logos/signature-eps-converted-to.pdf, id=184, 1155.31625pt x 474.77374pt>
 File: logos/signature-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logos/signature-eps-converted-to.pdf>
@@ -927,20 +1027,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-)
+ [5
+
+
+
+])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
 
-[5
-
-
-
-] [6
-
-
-
-]
+[6]
 \openout2 = `introduction.aux'.
 
  (./introduction.tex
@@ -966,30 +1062,91 @@ Class scrbook Warning: \float@addtolists detected!
 
 
 
+
+
+
 ]) [2]
 \openout2 = `content.aux'.
 
  (./content.tex
 Chapter 2.
-(./ParseTree.tikz) [3
+(./smt.tikz
+\mylen=\skip71
+) [3
 
 
 
 
-] [4] (./Lattices.tikz
-\myx=\skip71
-\myy=\skip72
-) [5] [6
+] (./prereordering.tikz) (./alignment.tikz
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+File: UTF8.bdg 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+LaTeX Font Info:    Try loading font information for C70+gbsn on input line 11.
 
 
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fd
+File: c70gbsn.fd 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fdx
+File: c70gbsn.fdx 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)) (./tags.tikz)
+[4] (./ParseTree.tikz) [5] [6] (./Lattices.tikz
+\myx=\skip72
+\myy=\skip73
+) [7] [8
 
 
 ]
 Chapter 3.
-) [7]
+) [9
+
+
+]
 \openout2 = `evaluation.aux'.
 
- (./evaluation.tex [8
+ (./evaluation.tex [10
 
 
 
@@ -1010,10 +1167,16 @@ New spreadtab: \begin{tabular}{|l|r|r|}
      cell C6
      cell B7
      cell C7
+     cell B8
+     cell C8
+     cell B9
+     cell C9
+     cell B10
+     cell C10
 * building tab: ok
 End of spreadtab: \end{tabular}
 
-New spreadtab: \begin{tabular}{|l|r|r|}
+[11] New spreadtab: \begin{tabular}{|l|r|r|}
 * reading tab: ok
 * computing formulas:
      cell B2
@@ -1027,58 +1190,26 @@ New spreadtab: \begin{tabular}{|l|r|r|}
      cell C6
      cell B7
      cell C7
+     cell B8
+     cell C8
+     cell B9
+     cell C9
+     cell B10
+     cell C10
 * building tab: ok
 End of spreadtab: \end{tabular}
 
-New spreadtab: \begin{tabular}{|l|r|r|}
-* reading tab: ok
-* computing formulas:
-     cell B2
-     cell B3
-     cell C3
-     cell B4
-     cell C4
-     cell B5
-     cell C5
-     cell B6
-     cell C6
-     cell B7
-     cell C7
-* building tab: ok
-End of spreadtab: \end{tabular}
-
-
-Underfull \vbox (badness 1577) has occurred while \output is active []
-
- [9]
-New spreadtab: \begin{tabular}{|l|r|r|}
-* reading tab: ok
-* computing formulas:
-     cell B2
-     cell B3
-     cell C3
-     cell B4
-     cell C4
-     cell B5
-     cell C5
-     cell B6
-     cell C6
-     cell B7
-     cell C7
-* building tab: ok
-End of spreadtab: \end{tabular}
-
-) [10]
+) [12] [13]
 \openout2 = `conclusion.aux'.
 
- (./conclusion.tex
+ (./conclusion.tex [14
+
+
+
+
+]
 Chapter 5.
-) [11
-
-
-
-
-] [12
+) [15] [16
 
 
 
@@ -1086,70 +1217,83 @@ Chapter 5.
 ame{section.5.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16 \section{First Appendix Section}
-                                     ) [13
+l.18 \section{Score list of systems}
+                                    pdfTeX warning (ext4): destination with the
+ same identifier (name{section.5.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.34 ...on{Documentation of Pre-Reordering System}
+                                                  ) [17
 
 
-] [14
+] [18
 
 
 ] (./thesis.lot)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
- [15
+
+[19
 
 
-] [16
+] [20
 
 
-]
-(./thesis.lof)
+] (./thesis.lof)
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
- [17
+ [21
 
 
-] [18
+] [22
 
 
-] (./thesis.bbl) [19
+] (./thesis.bbl) [23
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
- (./thesis.aux (./titlepage.aux)
-(./abstract.aux) (./declaration.aux) (./introduction.aux) (./content.aux)
-(./evaluation.aux) (./conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
+ (./thesis.aux
+(./titlepage.aux) (./abstract.aux) (./declaration.aux) (./introduction.aux)
+(./content.aux) (./evaluation.aux) (./conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 476382153C4D0045007F02E4085E9D5F;2067.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
+(rerunfilecheck)             Checksum: BC87C1946EB4104806B6C815A86BA8F7;2580.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
  ) 
 Here is how much of TeX's memory you used:
- 21243 strings out of 493308
- 384261 string characters out of 6143617
- 567583 words of memory out of 5000000
- 24114 multiletter control sequences out of 15000+600000
- 51049 words of font info for 74 fonts, out of 8000000 for 9000
+ 22885 strings out of 493308
+ 406919 string characters out of 6143617
+ 600000 words of memory out of 5000000
+ 25641 multiletter control sequences out of 15000+600000
+ 61194 words of font info for 95 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 71i,20n,90p,900b,2098s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,20n,90p,1113b,2983s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><
-/usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (25 pages, 188017 bytes).
+cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
+re/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu30.pfb></usr/share/texmf-dist/fonts
+/type1/arphic/gbsnu/gbsnu4e.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu
+/gbsnu52.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5f.pfb></usr/
+share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu62.pfb></usr/share/texmf-dist/fo
+nts/type1/arphic/gbsnu/gbsnu66.pfb></usr/share/texmf-dist/fonts/type1/arphic/gb
+snu/gbsnu72.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></u
+sr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/
+fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on thesis.pdf (29 pages, 240021 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 335 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 500000)
- 287 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 486 PDF objects out of 1000 (max. 8388607)
+ 427 compressed objects within 5 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 343 words of extra memory for PDF output out of 10000 (max. 10000000)
 

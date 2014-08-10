@@ -1,0 +1,15 @@
+    \documentclass[12pt,a4paper]{article}  
+    
+    \usepackage[encapsulated]{CJK}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+% use one of bsmi(trad Chinese), gbsn(simp Chinese), min(Japanese), mj(Korean); see:
+% /usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/*.fd
+\newcommand{\cntext}[1]{\begin{CJK}{UTF8}{gbsn}#1\end{CJK}}
+
+    \begin{document}  
+   
+   \cntext{我的中文寫得很好。}
+   
+   
+    \end{document}  

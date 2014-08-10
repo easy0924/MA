@@ -1,0 +1,60 @@
+\setlength{\mylen}{1cm}
+
+\begin{tikzpicture}[
+->,>=stealth', grow=right, level 1/.style={sibling distance=1.3\mylen}, level distance=4\mylen,
+node/.style = {align=center, inner sep=0pt, text centered, font=\sffamily, rectangle, rounded corners, draw=black, thick, fill=blue!20, text width=5em, minimum height = 2em, inner sep=5},
+nodeimp/.style = {node, fill=red!20}
+]
+
+
+\node(A) [node, text width=8em] at (0, 0) {Source Sentences};
+%\node(B) [node, below=\mylen of A] {Reordering};
+\node(B) [draw=black, thick, circle, below=\mylen of A] {};
+\node(C) [node, text width=8em, below=2\mylen of B] {Decoder (Global Search)};
+
+\draw[-, line width=10pt, white] (C.south west) to (C.south east);
+%\node(XX) [below=0.1\mylen of C] {};
+%\node(X) [node, draw=white, rounded corners=0, fill=white, maximum height = 0.1em] at (C.south) {};
+
+\node(E) [nodeimp, right=1.4\mylen of B] {Reordering Rules};
+\node(EE) [draw=black, thick, circle, right=1.6\mylen of E] {};
+
+\node(F) [nodeimp, above right=0.3*\mylen and 2.85\mylen of E] {Word Alignment};
+\node(G) [nodeimp, right=2.85\mylen of E] {POS Tags};
+\node(H) [nodeimp, below right=0.3*\mylen and 2.85\mylen of E] {Syntactic Tree};
+
+\node(I) [node, right=\mylen of G] {Training Data};
+
+
+\draw[->, thick] (A) to (B);
+\draw[white] (C) to node[black, midway, sloped, above] {Lattices} (B);
+\draw[->, thick] (B) to (C);
+\draw[->, thick] (E) to node[midway, above] {Apply} (B);
+\draw[->, thick] (EE) to node[midway, above] {Extract} (E);
+
+\node(Saa) [right=0.5\mylen of EE] {};
+\node(Sbb) [left=0.5\mylen of I] {};
+
+\coordinate(Sa) at (Saa.base);
+\coordinate(Sb) at (Sbb.base);
+
+\draw[->, thick] (Sa) to (EE);
+\draw[-, thick] (I) to (Sb);
+
+\draw[-, thick] (F.west) -| (Sa);
+\draw[-, thick] (G.west) -| (Sa);
+\draw[-, thick] (H.west) -| (Sa);
+
+\draw[->, thick] (Sb) |- (F.east);
+\draw[->, thick] (Sb) |- (G.east);
+\draw[->, thick] (Sb) |- (H.east);
+
+%\node(2) [below=1cm of A, node, minimum height = 10 em] at (0\myxa,3\myya) {Decoder};
+%\node(3) [node] at (0\myxa,2\myya) {Target Sentences};
+
+
+%\node(1) [nodeimp] at (3\myxa,4\myya) {Reordering Rules};
+
+%\draw[->] (0) to node [midway, sloped, below] {} node [midway, sloped, above] {} (1);
+
+\end{tikzpicture}

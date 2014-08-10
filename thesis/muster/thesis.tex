@@ -82,14 +82,24 @@
 %% -----------------------------
 % new defined functions
 %\usepackage{array}
+
 \usepackage{spreadtab}
 \usepackage{amsthm}
 \usepackage{pdflscape}
 \usepackage{booktabs}
+\usepackage{multirow}
 %\usepackage{numprint}
 \usepackage{tikz}
 \usetikzlibrary{arrows}
 \usetikzlibrary{trees}
+\usetikzlibrary{positioning}
+
+\usepackage[encapsulated]{CJK}
+\usepackage{ucs}
+% use one of bsmi(trad Chinese), gbsn(simp Chinese), min(Japanese), mj(Korean); see:
+% /usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/*.fd
+\newcommand{\cntext}[1]{\begin{CJK}{UTF8}{gbsn}#1\end{CJK}}
+
 \theoremstyle{definition}
 \newtheorem{example}{Example}
 
