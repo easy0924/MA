@@ -15,31 +15,167 @@
 
 
 
-\section{Score list of systems}
-		\label{Anhang-Implementierung}
-		
-\setcounter{figure}{0}
-		
-\begin{figure} [ht]
-  \centering
-   ein Bild
-  \caption{A figure}
-  \label{fig:BPMNBeispiela}
-\end{figure}
-
-
-\dots
+%\section{Score list of systems}
+%		\label{Anhang-Implementierung}
+%		
+%\setcounter{figure}{0}
+%		
+%\begin{figure} [ht]
+%  \centering
+%   ein Bild
+%  \caption{A figure}
+%  \label{fig:BPMNBeispiela}
+%\end{figure}
+%
+%
+%\dots
 
 
 \section{Documentation of Pre-Reordering System}
 		\label{Documentation}
 
-1. Integration of the pre-reordering system	
-		
-In this section, we explain the details of our pre-reordering system and how to integrate it into the SMT system of our faculty at KIT.
+Here we explain the details of our pre-reordering system and how to integrate it into the SMT system of our faculty at KIT, as well as other issues.
 
+\subsection{System Integration}
+
+The source code \verb|Configuration.py| and \verb|ReorderingRules.py| of the SMT system are modified. The both modified versions are located at:\\
+\verb|/home/gwu/src/trunk/systemBuilder/src/Configuration.py|\\
+\verb|/home/gwu/src/trunk/systemBuilder/src/Components/ReorderingRules.py|
+
+In the file \verb|Configuration.py|, the condition statements at line $628$ and $634$ are modified.
+
+In the file \verb|ReorderingRules.py|, code at multiple locations are modified, which enable us to integrate the MLT reordering into the system.
+
+Other source code of the SMT system is untouched.
+
+In order to use the system, both \verb|Configuration.py| or \verb|ReorderingRules.py| files in one's system should be changed or replaced accordingly.
+
+\subsection{Reordering Source Code}
+
+Two lines in the \verb|ReorderingRules.py| file are the entry points of the reordering algorithm, the two lines start separately with:\\
+\verb|command = "/home/gwu/src/MLTRules.mode/extract " + ...|\\
+\verb|command = "/home/gwu/src/MLTRules.mode/apply " + ...|
+
+The last part of the lines are left out due to their length. The two lines point to the source code for extract and apply the MLT reordering rules, which together with other related source code is located at:\\
+\verb|/home/gwu/src/MLTRules.mode/|
+
+Move the whole source code directory to other locations with changing the corresponding paths in \verb|ReorderingRules.py| is possible.
+
+There is an \verb|makefile| in the directory, which is used for compiling the source code.
+
+\paragraph{Extract and Apply Command}
+
+The executable file \verb|extract| has the following usage format:\\ \verb|extract <Alignment> <SourceText> <SourceTrees> <Mode> <minOcc>|
+
+The parameter \verb|<Alignment>| means the path of alignment file of the parallel data used for training the rules. The word indexes in the alignment file should start with $1$. The parameter \verb|<SourceText>| is the path of source text, \verb|<SourceTrees>| is the parse tree file and \verb|<minOCC>| is the minimum occurrences that a rule should have, in order to be extracted. Rules that occur rarely are ignored. The parameter \verb|Mode| is an integer between $0$ and $3$, which indicate four rule variations.
+
+When mode is $0$, the rule includes with POS tags of the internal nodes. In the other modes, the POS tags of internal nodes are ignored. In mode $2$, the hierarchies of the syntactic trees are compressed, so the rules contains less parenthesis. Parenthesis are removed, when a node is a single child of its parent or when the removal doesn't affect the word grouping. Furthermore, all the parenthesis are removed in mode $3$. 
+\begin{figure}[H]
+\centering
+\input{exampletree.tikz}\linebreak \linebreak
+\begin{tabular}{l}
+\verb|Mode 0: VP ( VB ) ( NP ( NN ) ) ( NP ( DT ) ( NN ) ) ---- ...|\\
+\verb|Mode 1: ( VB ) ( ( NN ) ) ( ( DT ) ( NN ) ) ---- ...|\\
+\verb|Mode 2: VB NN ( DT NN ) ---- ...|\\
+\verb|Mode 3: VB NN DT NN ---- ...|
+\end{tabular}
+\caption{Illustration of different MLT rule variations}
+\end{figure}
+Figure A$.1$ shows how the rules are presented in different modes.
+
+The standard output of the program will list all the extracted rules including the reordering, probability and occurrences. For example,
+$$\verb|VB NN ( DT NN ) ---- 2 3 0 1 ---- 0.5 ---- 5 / 10|$$
+means the sequence \verb|VB NN (DT NN )| will be reordered as \verb|DT NN VB NN| with a probability $0.5$, because on $5$ out of all the sequence's $10$ occurrences in the training data, it has been ordered in this manner.
+
+The executable file \verb|apply| has the following usage format:\\
+\verb|apply <RuleFile> <TargetText> <TargetTag> <TargetTrees> <TargetDir> <Mode>|\\
+\verb|[<LatticesDir>]|
+
+The parameter \verb|<RuleFile>| is the path of the rules file created by the the \verb|extract| commnad. The parameter \verb|<TargetText>| is the path of text to be reordered and translated, with one sentence per line. \verb|<TargetTag>| and \verb|<TargetTree>| are separately the POS tags and syntactic trees of the text. \verb|<TargetDir>| is the directory, where the resulted lattices should be put. \verb|<Mode>| is the same parameter as described in the \verb|extract| command, it should be consistent with mode used for extracting the rules. The last parameter \verb|<Lattices Dir>| is optional, it's intended to enable the rule combination. If this parameter is given, the program will apply the rules on top of the existing lattices under the specified directory \verb|<LatticeDir>|. The existing lattices should be also extracted for the same target text.
+
+The output of of the command are the lattice files saved under \verb|TargetDir|, one file per sentence. Each lattice file saves the specific information of nodes and edges of a lattice graph presenting a reordered sentence. The whole directory can be used as input for the decoder.
+
+The reordering system uses \verb|<mode>| $1$ and \verb|<minOcc>| $5$ as default.
+
+\subsection{Configuration File}
+
+Two locations of the description file of the SMT system needs to be changed to use the reordering method. Here we show how to write the description with examples.
+
+\paragraph{Reordering Rule Section}
+Following code should be added to this section.
+
+\begin{Verbatim}[frame=single]
+<reorderingrules>
+    <name> MLTRules.mode </name>
+    <input>
+        <alignment> gizaprepronc </alignment>
+        <tags> SourceTreeTaggerenprepronc </tags>
+        <tree> parseTreeenprepronc </tree>
+    </input>
+    <input>
+        <alignment> gizapreproepps </alignment>
+        <tags> SourceTreeTaggerenpreproepps </tags>
+        <tree> parseTreeenpreproepps </tree>
+    </input>
+    <layers> 0,1,2,3 </layers>
+    <thres> 5 </thres>
+    <feature> pos </feature>
+    <type> MLTRules </type>
+    <maxMem> 30000 </maxMem>
+</reorderingrules>
+\end{Verbatim}
+Content inside the \verb|input| tag has the same format as in the tree rule reordering. The content in \verb|alignment|, \verb|tags| and \verb|tree| tag should be changed accordingly. The \verb|layers| tag indicates a list modes that you want to use. The \verb|thres| tag indicates the threshold for extracting rules, which corresponds the \verb|<minOCC>| parameter in the \verb|extract| command. The \verb|type| tag is used to distinguish this reordering from other reordering methods, the content of which should be set as \verb|MLTRules|.
+
+\paragraph{Configuration Section}
+The following examples are configurations that can be added to the description file.
+\begin{Verbatim}[frame=single]
+<configuration>
+    <name> MLTRules.mode.1.pos.5 </name>
+    <configuration> Baseline </configuration>
+    <latticecreator> MLTRules.mode </latticecreator>
+    <rules> 1.pos.5 </rules>
+</configuration>
+\end{Verbatim}
+
+\begin{Verbatim}[frame=single]
+<configuration>
+    <name> MLTRules.mode.1.pos.5.pyLong </name>
+    <configuration> Baseline </configuration>
+    <latticecreator> MLTRules.mode </latticecreator>
+    <rules> 1.pos.5.pyLong </rules>
+</configuration>
+\end{Verbatim}
+The \verb|latticecreator| should be the same as the \verb|name| field in the reordering rule. 
+
+The content inside \verb|rules| tag should have a format of $$\verb|mode.pos.threshold|$$ or $$\verb|mode.pos.threshold.lattice_directory|$$ The threshold should be consistent as the one in the reordering rule section. The mode should be also included in the mode list in the reordering rule section. And the \verb|pos| is simply the string ``pos''.
+
+The part \verb|lattice_directory| is optional. When it's given, the lattices will be build on existing lattices, otherwise the lattices are built directly on the text. It should be the same as the \verb|rules| field in the configuration with tree rules. 
+
+The name of the tree rule configuration is supposed to be \verb|TreeRules|. Otherwise, \verb|TreeRules| in the directory path in line $401-410$ of \verb|ReorderingRules.py| should be changed to the correct name.
+
+A complete example can be found under:\\
+\verb|/project/mt_rocks/user/gwu/EN/ZH/ende/description.xml|
+
+\subsection{Other Scripts}
+
+Here are some other scripts that I wrote throughout the time that I spent on this thesis. These scripts could be very helpful.
+
+\verb|/home/gwu/ma/scripts/results.py|\\
+\verb|Usage: results.py <SystemPath> <Option>|
+
+This script is used to show the general outcome of all configurations. The parameter \verb|<SystemPath>| should be the path of the system root direcotry. \verb|<Option>| could be different srings.
+
+If the \verb|<Option>| is the string ``test'', the test scores of all the configurations will be listed, with one record per line. If the \verb|<Option>| is the string ``dev'', the dev scores of the last training cycle will be listed for all configurations. In a similar manner, best dev scores under all training cycles will be listed with the string ``devmax''. And with ``optimize'' and ``translate'', one can easily view if the optimization or translation are finished.
+
+\verb|/home/gwu/ma/scripts/tree/getTreeInfo.py|\\
+\verb|Usage: getTreeInfo.py <Treefile>|
+
+This script shows information of the depth and branch factor of syntactic trees specified by the parameter \verb|<Treefile>|. 
+
+
+
+This script is used
 
 	
-2. other script
-
+\subsection{Summery}
 

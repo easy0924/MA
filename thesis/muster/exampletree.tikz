@@ -1,0 +1,21 @@
+\begin{tikzpicture}[
+-,>=stealth',
+%level/.style={sibling distance = 4cm, level distance = 1.8cm},
+level 1/.style={sibling distance=3.2cm},
+level 2/.style={sibling distance=2cm}, 
+%level 3/.style={sibling distance=4cm}, 
+treenode/.style = {align=center, inner sep=5pt, text centered, font=\sffamily},
+arn_n/.style = {treenode, rectangle, rounded corners, draw=black, thick, fill=blue!20, minimum width=4em, minimum height = 2em},
+arn_x/.style = {arn_n, fill=red!20, minimum height=3em},
+edge from parent fork down
+]
+
+\node [arn_n] {VP}
+child{ node [arn_x] {VB\\ visit}}
+child{ node [arn_n] {NP}
+child{ node [arn_x] {NN\\ washington}}}
+child{ node [arn_n] {NP}
+child{ node [arn_x] {DT\\ this}}
+child{ node [arn_x] {NN\\ month}}};
+
+\end{tikzpicture}

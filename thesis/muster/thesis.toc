@@ -25,15 +25,23 @@
 \contentsline {section}{\numberline {4.2}Chinese to English Systems}{13}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Experimental Setup}{13}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Results}{13}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Evaluation}{13}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Conclusion}{13}{section.4.3}
+\contentsline {subsection}{\numberline {4.2.3}Evaluation}{14}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Conclusion}{14}{section.4.3}
 \contentsline {chapter}{\numberline {5}Conclusion}{15}{chapter.5}
 \contentsline {section}{\numberline {5.1}Discussion}{15}{section.5.1}
 \contentsline {section}{\numberline {5.2}Conclusion}{15}{section.5.2}
 \contentsline {section}{\numberline {5.3}Outlook}{15}{section.5.3}
 \contentsline {chapter}{\nonumberline Appendix}{17}{chapter*.2}
-\contentsline {section}{\numberline {A}Score list of systems}{17}{section.5.1}
-\contentsline {section}{\numberline {B}Documentation of Pre-Reordering System}{17}{section.5.2}
-\contentsline {chapter}{List of Tables}{19}{section.5.2}
-\contentsline {chapter}{List of Figures}{21}{chapter*.3}
-\contentsline {chapter}{Bibliography}{23}{section*.5}
+\contentsline {section}{\numberline {A}Documentation of Pre-Reordering System}{17}{section.5.1}
+\contentsline {subsection}{\numberline {A.1}System Integration}{17}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {A.2}Reordering Source Code}{17}{subsection.5.1.2}
+\contentsline {paragraph}{\nonumberline Extract and Apply Command}{17}{section*.3}
+\contentsline {subsection}{\numberline {A.3}Configuration File}{19}{subsection.5.1.3}
+\contentsline {paragraph}{\nonumberline Reordering Rule Section}{19}{section*.4}
+\contentsline {paragraph}{\nonumberline Configuration Section}{19}{section*.5}
+\contentsline {subsection}{\numberline {A.4}Other Scripts}{20}{subsection.5.1.4}
+\contentsline {paragraph}{\nonumberline \relax \unhbox \voidb@x \hbox {}\bgroup \catcode `\ \active \let \GenericInfo { }{LaTeX Info: Active EOL character found while output routine is active \MessageBreak This may be a bug in a package file you are using\par } \par \def \GenericInfo { }{LaTeX Info: Active EOL character found while output routine is active \MessageBreak This may be a bug in a package file you are using\par } {\global \let \egroup \GenericError { }{LaTeX Error: \relax \unhbox \voidb@x \hbox {}\bgroup \catcode `\ \active \let \GenericInfo { }{LaTeX Info: Active EOL character found while output routine is active \MessageBreak This may be a bug in a package file you are using\par } \par \def \GenericInfo { }{LaTeX Info: Active EOL character found while output routine is active \MessageBreak This may be a bug in a package file you are using\par } {\global \let \egroup \GenericError { }{LaTeX Error: \verb ended by end of line}{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing <return> to proceed.\MessageBreak If that doesn't work, type X <return> to quit.}}\let \do \catcode `\do \ \do \let \reserved@e \relax \let \reserved@f \relax \let \reserved@d = *\def \par }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing <return> to proceed.\MessageBreak If that doesn't work, type X <return> to quit.}}\let \do \catcode `\do \ \do \\\do \{\do \}\do \$\do \&\do \#\do \^\do \_\do \%\do \~\do \"12\relax \normalfont \ttfamily \hyphenchar \font \m@ne \let \do \catcode `\do \`\do \do \mskip \medmuskip \do \tmspace +\thinmuskip {.1667em}\do \'\do \discretionary {-}{}{}\active \begingroup \lccode `\~`\do \`\do \do \mskip \medmuskip \do \tmspace +\thinmuskip {.1667em}\do \'\do \discretionary {-}{}{}\relax \lowercase {\endgroup \def ~{\unhbox \voidb@x \kern \z@ \char `\do \`\do \do \mskip \medmuskip \do \tmspace +\thinmuskip {.1667em}\do \'\do \discretionary {-}{}{}}}\let \do \catcode `\do \`\do \do \mskip \medmuskip \do \tmspace +\thinmuskip {.1667em}\do \'\do \discretionary {-}{}{}\active \begingroup \lccode `\~`\do \`\do \do \mskip \medmuskip \do \tmspace +\thinmuskip {.1667em}\do \'\do \discretionary {-}{}{}\relax \lowercase {\endgroup \def ~{\unhbox \voidb@x \kern \z@ \char `\do \`\do \do \mskip \medmuskip \do \tmspace +\thinmuskip {.1667em}\do \'\do \discretionary {-}{}{}}}\let \reserved@d = *\def \par }{20}{section*.6}
+\contentsline {subsection}{\numberline {A.5}Summery}{20}{subsection.5.1.5}
+\contentsline {chapter}{List of Tables}{21}{subsection.5.1.5}
+\contentsline {chapter}{List of Figures}{23}{chapter*.7}
+\contentsline {chapter}{Bibliography}{25}{section*.9}
