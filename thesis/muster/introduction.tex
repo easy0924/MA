@@ -11,7 +11,7 @@
 \label{ch:Introduction:sec:Motivation}
 %% ===========================
 
-Word reordering is a general issue when we want to translate text from one language to the other. Different languages normally have different word reordering and the difference could be huge, when two languages are isolated from each other. Depend on the language itself, the word reordering could have very distinguish features. For example, 45\% of the languages in the world has a subject-object-verb(SOV) order. Unlike in English, verbs are put after object in these languages. Japanese is a popular language among them. Instead of saying ``The black cat climbed to the tree top.'', people would say ``The black cat the tree top to climbed.'' in Japanese. Another example is Spanish, in which people often put the adjective after the modified nouns. An example from the paper \cite{google} shows how people would order the words differently:
+Word reordering is a general issue when we want to translate text from one language to the other. Different languages normally have different word orders and the difference could be tremendous, when two languages are isolated from each other. Depend on the languages, different word orders could have very distinguish features. For example, 45\% of the languages in the world has a subject-object-verb (SOV) order. Unlike in English, verbs are put after object in these languages. Japanese is a popular language among them. Instead of saying ``The black cat climbed to the tree top.'', people would say ``The black cat the tree top to climbed.'' in Japanese. Another example is Spanish, in which people often put the adjective after the modified nouns. An example from the paper \cite{google} shows how people would order the words differently:
 
 \begin{table}[H]
 \centering
@@ -25,31 +25,34 @@ Spanish & The cat black climbed to the top tree. \Bstrut \\
 \caption{Word orders of three different languages}
 \end{table}
 
-Since different word orders are a common issue among languages, we propose several pre-reordering methods and evaluate them in this thesis. Before translation, the words in source language are rearranged into a similar word order as the target language's through these methods. With the appropriate word order, better translation quality will be achieved.
+Among all the languages, Chinese is one language that is very different from English, because of their separate origins and development. Both languages have a SOV order, but they also have a lot of differences in word order. Especially sometimes a sentence translated in both languages could have totally different syntactic structures. The differences could involves long-distance or unstructured position changes.
 
-%% ===========================
-\section{Objective and Contribution}
-\label{ch:Introduction:sec:ObjectiveAndContribution}
-%% ===========================
+Most state-of-the-art phrase-based SMT systems use language model, phrase table or decoder to adjust the word order. Or an additional reordering model is used in the log-linear model for word reordering. However, these methods may have some disadvantages, such as some don't handle long-distance reordering, some don't handle unstructured reordering and some are rather time consuming.
 
-The ground of this thesis are three papers about data driven, rule based pre-reordering: \cite{short}, \cite{long} and \cite{tree}. In this thesis, we tried to 
+Encouraged by the results from the paper \cite{short}, \cite{long} and \cite{tree}, we further propose a new data driven, rule based pre-reordering method, which uses rules based on syntactic tree. The method is called Multi-Layer-Tree (MLT) reordering, which orders the constituents on multiple layers of the syntactic tree all together. This pre-reordering method rearrange the words in source language into a similar order as they are supposed to appear in the target language before translation. with the appropriate word order, better translation quality can be achieved.
 
-asset is data driven
+In addition, we combine this new reordering method with other existing rule based reordering methods and evaluate the results on translation between English and Chinese. %? , as well as other language pair.
 
-original (mltilayer)
+% and evaluate them in this thesis. Before translation, the words in source language are rearranged into a similar word order as the target language's word order through this method. With the appropriate word order, better translation quality will be achieved.
 
-try to extend to other language
+%%% ===========================
+%\section{Objective and Contribution}
+%\label{ch:Introduction:sec:ObjectiveAndContribution}
+%%% ===========================
+%
+%The ground of this thesis are three papers about data driven, rule based pre-reordering: \cite{short}, \cite{long} and \cite{tree}. In this thesis, we tried to 
+%
+%asset is data driven
+%
+%original (mltilayer)
+%
+%try to extend to other language
+%
+%hiarchical \cite{hier}
+%
+%conclusion goal is
 
-hiarchical \cite{hier}
 
-conclusion goal is
-
-%% ===========================
-\section{Structure}
-\label{ch:Introduction:sec:Structure}
-%% ===========================
-
-In this chapter we mainly describe the background and objective of this thesis, including the related research in the next section of this chapter. In the chapter $2$ we shows the fundamental knowledge, which is related and relevant to our research. In chapter $3$ we introduce our reordering methods in detail. The experiment setup and results are present in chapter $4$, together with the evaluation of the methods we use. In the last chapter we conclude this work with an overall discussion of our methods. We also point out some possible directions for future research.
 
 %% ===========================
 \section{Related Work}
@@ -59,3 +62,10 @@ In this chapter we mainly describe the background and objective of this thesis, 
 todo
 
 special problem of chinese: segmentation
+
+%% ===========================
+\section{Structure}
+\label{ch:Introduction:sec:Structure}
+%% ===========================
+
+In this chapter we mainly describe the background and objective of this thesis, including the related research in the next section of this chapter. In the chapter $2$ we shows the fundamental knowledge, which is related and relevant to our research. In chapter $3$ we introduce our reordering methods in detail. The experiment setup and results are present in chapter $4$, together with the evaluation of the methods we use. In the last chapter we conclude this work with an overall discussion of our methods. We also point out some possible directions for future research.

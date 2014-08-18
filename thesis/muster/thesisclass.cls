@@ -38,6 +38,25 @@
 % see http://www.ctan.org/tex-archive/macros/latex/contrib/algorithm2e/algorithm2e.pdf
 % for more sophisticated algorithm listings
 
+% new defined functions
+\usepackage{array}
+\usepackage{spreadtab}
+\usepackage{amsthm}
+\usepackage{pdflscape}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{fancyvrb}
+\usepackage{amsmath}
+%\usepackage{numprint}
+\usepackage{tikz}
+\usepackage{verbatimbox}
+\usetikzlibrary{arrows}
+\usetikzlibrary{trees}
+\usetikzlibrary{positioning}
+\usepackage[encapsulated]{CJK}
+\usepackage{ucs}
+
 \usepackage[raiselinks=true,
 						bookmarks=true,
 						bookmarksopenlevel=1,
@@ -226,6 +245,8 @@
    \setcounter{section}{0}% 
    \setcounter{subsection}{0}% 
    \setcounter{figure}{0}%
+   \renewcommand{\theHchapter}{\Alph{chapter}}
+   \renewcommand{\thechapter}{\Alph{chapter}}
    \renewcommand\thesection{\Alph{section}}% 
    \renewcommand\thefigure{\Alph{section}.\arabic{figure}} 
    \renewcommand\thetable{\Alph{section}.\arabic{table}}}
