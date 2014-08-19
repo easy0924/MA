@@ -100,6 +100,11 @@ TODO
 \label{ch:Foundations:sec:types}
 %% ===========================
 
+\subsection{Short Rules}
+\subsection{Long Rules}
+\subsection{Tree Rules}
+\label{treerules}
+
 %% ===========================
 \section{Oracle Reordering}
 \label{ch:Foundations:sec:oracle}
@@ -129,22 +134,64 @@ probability of reordering.
 BLEU is the de facto standard in machine translation\cite{metrics}. We use BLEU score to evaluate the SMT system throughout this paper.
 
 
+\section{Conclusion}
+
 %% ===========================
 \chapter{Reordering Approach}
 \label{ch:ReorderingApproach}
 %% ===========================
 
 %% ===========================
-\section{Reordering Problem in Chinese-English Translation}
+\section{Reordering Problem in Chinese Translation}
 \label{ch:ReorderingApproach:sec:Problem}
 %% ===========================
 
+English and Chinese belong to different language groups. As Chinese belong to the Sino-Tibet language group, while English belong to the Indo-Germanic language group. And they have also developed separately for a long time. Because of their different origins and development, they've becoming two very different languages.
+
+Unlike the most languages in the Indo-Germanic language group, which are more close to English than Chinese, Chinese has some properties those languages don't have, such as Characters as fundamental element instead of letters, the tones, no word separation, the usage of measure words,much more simple inflections and conjugations, which raises further problem for machine translation.
+
+Even the word order between English and Chinese is more distinct. For one, the words in Chinese have generally different origins as those in English, which leads to different vocabulary and sometimes it's very hard to found corresponding words in the other language. For example, Chinese has a lot of different prepositions and adverbs, which have very distinct usage as those in English. Also the continuous writing of Chinese without space makes this problem more severe, since word boundaries are not always so clear in Chinese. Text needs to be segmented before translation, and a word segmentation program decide how to separate the words and the result is not always ideal.
+
+For the other, 
+
+And sometimes, a long English sentence with clauses is more suitable to be translated into two of more Chinese sentences. Through analyzing the data we have, we've found several major word order differences between English and Chinese, which leads to low translation quality and should be changed. 
+
+%? examples of different kinds for word order differences
+\textbf{Position of adverbs and adverbial clauses} v
 %% ===========================
-\section{Motivation of our Pre-reordering system}
+\section{Motivation of the SMT Reordering Algorithm}
 \label{ch:ReorderingApproach:sec:Motivation}
 %% ===========================
 
+
+%? long distance position change, unstructural position change.
+
+
+efficient than hier
+
+use tree and alignment only
+
 %% ===========================
-\section{The reordering algorithm}
+\section{The SMT Reordering Algorithm}
 \label{ch:ReorderingApproach:sec:Algorithm}
 %% ===========================
+
+%? Our method
+
+The algorithm solely uses information of the syntactic tree and alignment of the source side. In the first part of this section, we first explain what are reordering rules from multiple layers of the syntactic tree. Afterwards we'll explain how to extract and apply the rules systematically.
+
+\subsection{Reordering Rules from Multiple Layers}
+
+Inspired the method of tree rules based of reordering and hierarchical SMT model, we created this reordering method. In this method we use information from the syntactic tree and further explore its syntactic structure. 
+
+
+
+\subsection{Rule Extraction}
+
+
+
+\subsection{Rule Application}
+
+\section{Conclusion}
+
+advantages

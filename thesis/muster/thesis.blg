@@ -8,60 +8,46 @@ A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: content.aux
 A level-1 auxiliary file: evaluation.aux
 A level-1 auxiliary file: conclusion.aux
-The style file: IEEEtranSA.bst
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
+The style file: apalike.bst
 Database file #1: thesis.bib
--- IEEEtranSA.bst version 1.13 (2008/09/30) by Michael Shell.
--- http://www.michaelshell.org/tex/ieeetran/bibtex/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-** Sorting Alpha version - not for normal IEEE work.
-Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=8) to 20 items from 10.
-
-Done.
-You've used 6 entries,
-            5047 wiz_defined-function locations,
-            1010 strings with 9404 characters,
-and the built_in function-call counts, 4415 in all, are:
-= -- 418
-> -- 137
-< -- 14
-+ -- 56
-- -- 41
-* -- 235
-:= -- 696
-add.period$ -- 12
-call.type$ -- 6
-change.case$ -- 38
-chr.to.int$ -- 30
-cite$ -- 6
-duplicate$ -- 278
-empty$ -- 313
-format.name$ -- 53
-if$ -- 929
+You've used 8 entries,
+            1935 wiz_defined-function locations,
+            524 strings with 5121 characters,
+and the built_in function-call counts, 3346 in all, are:
+= -- 336
+> -- 132
+< -- 8
++ -- 48
+- -- 44
+* -- 256
+:= -- 562
+add.period$ -- 24
+call.type$ -- 8
+change.case$ -- 62
+chr.to.int$ -- 8
+cite$ -- 8
+duplicate$ -- 144
+empty$ -- 234
+format.name$ -- 58
+if$ -- 679
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 51
-newline$ -- 44
-num.names$ -- 18
-pop$ -- 161
+missing$ -- 6
+newline$ -- 41
+num.names$ -- 24
+pop$ -- 65
 preamble$ -- 1
-purify$ -- 44
-quote$ -- 2
-skip$ -- 306
+purify$ -- 62
+quote$ -- 0
+skip$ -- 111
 stack$ -- 0
-substring$ -- 105
-swap$ -- 165
-text.length$ -- 6
-text.prefix$ -- 1
-top$ -- 6
-type$ -- 126
+substring$ -- 213
+swap$ -- 31
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 48
 warning$ -- 0
-while$ -- 21
-width$ -- 10
-write$ -- 85
+while$ -- 27
+width$ -- 0
+write$ -- 102

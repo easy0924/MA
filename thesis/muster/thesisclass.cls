@@ -44,6 +44,7 @@
 \usepackage{amsthm}
 \usepackage{pdflscape}
 \usepackage{booktabs}
+\usepackage{framed}
 \usepackage{multirow}
 \usepackage{listings}
 \usepackage{fancyvrb}
@@ -54,6 +55,7 @@
 \usetikzlibrary{arrows}
 \usetikzlibrary{trees}
 \usetikzlibrary{positioning}
+\usepackage[authoryear]{natbib}
 \usepackage[encapsulated]{CJK}
 \usepackage{ucs}
 

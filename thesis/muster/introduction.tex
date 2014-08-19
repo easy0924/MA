@@ -13,17 +13,28 @@
 
 Word reordering is a general issue when we want to translate text from one language to the other. Different languages normally have different word orders and the difference could be tremendous, when two languages are isolated from each other. Depend on the languages, different word orders could have very distinguish features. For example, 45\% of the languages in the world has a subject-object-verb (SOV) order. Unlike in English, verbs are put after object in these languages. Japanese is a popular language among them. Instead of saying ``The black cat climbed to the tree top.'', people would say ``The black cat the tree top to climbed.'' in Japanese. Another example is Spanish, in which people often put the adjective after the modified nouns. An example from the paper \cite{google} shows how people would order the words differently:
 
-\begin{table}[H]
-\centering
-\begin{tabular}{| r l |}
-\hline 
-English & The black cat climbed to the tree top. \Hstrut \Tstrut \\
-\Hstrut Japanese & The black cat the tree top to climbed. \\
-Spanish & The cat black climbed to the top tree. \Bstrut \\
-\hline
+%\begin{table}[H]
+%\centering
+%\begin{tabular}{| r l |}
+%\hline 
+%English & The black cat climbed to the tree top. \Hstrut \Tstrut \\
+%\Hstrut Japanese & The black cat the tree top to climbed. \\
+%Spanish & The cat black climbed to the top tree. \Bstrut \\
+%\hline
+%\end{tabular}
+%\caption{Word orders of three different languages}
+%\end{table}
+
+\begin{center}
+\fbox{
+\setlength{\fboxsep}{1.8ex}
+\begin{tabular}{ r l }
+English & The black cat climbed to the tree top. \\
+Japanese & The black cat the tree top to climbed. \\
+Spanish & The cat black climbed to the top tree. \\
 \end{tabular}
-\caption{Word orders of three different languages}
-\end{table}
+}
+\end{center}
 
 Among all the languages, Chinese is one language that is very different from English, because of their separate origins and development. Both languages have a SOV order, but they also have a lot of differences in word order. Especially sometimes a sentence translated in both languages could have totally different syntactic structures. The differences could involves long-distance or unstructured position changes.
 
@@ -35,31 +46,48 @@ In addition, we combine this new reordering method with other existing rule base
 
 % and evaluate them in this thesis. Before translation, the words in source language are rearranged into a similar word order as the target language's word order through this method. With the appropriate word order, better translation quality will be achieved.
 
-%%% ===========================
-%\section{Objective and Contribution}
-%\label{ch:Introduction:sec:ObjectiveAndContribution}
-%%% ===========================
-%
-%The ground of this thesis are three papers about data driven, rule based pre-reordering: \cite{short}, \cite{long} and \cite{tree}. In this thesis, we tried to 
-%
-%asset is data driven
-%
-%original (mltilayer)
-%
-%try to extend to other language
-%
-%hiarchical \cite{hier}
-%
+%% ===========================
+\section{Objective and Contribution}
+\label{ch:Introduction:sec:ObjectiveAndContribution}
+%% ===========================
+
+So the objective of this work can be defined as follows:
+
+\begin{center}
+\fbox{
+\setlength{\fboxsep}{1.8ex}
+\parbox[c]{0.8\textwidth}{
+We establish a new data driven rule based pre-reordering method for translation between English and Chinese. The method reorders the source text of a SMT system before translation by using the information from alignment, POS tags and syntactic tree of the training data. Also we evaluate this method by checking the resulted translation quality and by comparing it with other existing rule based pre-reordering method.
+}}
+\end{center}
+
+The ground of this thesis are three papers about rule based pre-reordering: \cite{short}, \cite{long} and \cite{tree}. While their reordering methods are primarily designed and optimized for German or other languages with similar characteristics to German, they are not necessarily suitable for Chinese translation, which belongs to a totally different language branch and has some distinguishable features. Or at least, there may be still space for improvement on translating for Chinese.
+
+In this context, we further explore the possibilities for a more suitable reordering method for Chinese, and we propose the MLT reordering method, which extracts the rules by detecting position change of constituents on multiple layers of the syntactic trees' subtrees from parallel training data. And guided by the rules, we can reorder the new text by examining subtrees of the same structure.
+
+We will also evaluate our reordering method and compare it with these existing methods. Through the evaluation and comparison, we'll see the improvement on translation between English and Chinese. 
+%?as well as other language pair
+
+%Our method is primarily based on the syntactic trees. We 
+
+%The evaluation is based on the BLUE score of the translation. %?In addition, we'll also manually analyze some translation examples to show how our method is suitable for word reordering related to syntactic structure change, when it's used for translation between English and Chinese.
+
 %conclusion goal is
-
-
 
 %% ===========================
 \section{Related Work}
 \label{ch:Introduction:sec:RelatedWork}
 %% ===========================
 
-todo
+Word reordering is an important problem for statistical machine translation, which has long been addressed.
+
+In a phrase-based SMT system, there are several possibilities to reorder the words. The words can be reorder during the decoding phase by setting a window, which allows the decoder to choose the next word for translation. Reordering could also be influenced by the language model, because the language model give probability of how a certain word is likely to follow. Different language model may give different probability, which further influences the decision made by log-linear model. Other ways to change the word orders is including use distance based reordering models or lexicalized reordering models (\cite{tillmann2004, koehn2005}). The lexicalized reordering model reorders the phrases by using information of how the neighboring phrases change orientations.
+
+It's worth mentioning the hierarchical phrase-based translation model (\cite{hier}) is especially suitable for Chinese, and provide very good results. It extracts hierarchical rules by using information of the syntactic structure. Phrases from different hierarchies, or so-called phrases of phrases, are reordered during the decoding. But the drawback of this model is also apparent, it could be time consuming due to the amount of calculation during decoding.
+
+
+ 
+
 
 special problem of chinese: segmentation
 
@@ -68,4 +96,4 @@ special problem of chinese: segmentation
 \label{ch:Introduction:sec:Structure}
 %% ===========================
 
-In this chapter we mainly describe the background and objective of this thesis, including the related research in the next section of this chapter. In the chapter $2$ we shows the fundamental knowledge, which is related and relevant to our research. In chapter $3$ we introduce our reordering methods in detail. The experiment setup and results are present in chapter $4$, together with the evaluation of the methods we use. In the last chapter we conclude this work with an overall discussion of our methods. We also point out some possible directions for future research.
+In this chapter we mainly describe the background and objective of this thesis, including the related research. In chapter $2$ we explain some fundamental concept and knowledge, which is relevant for understanding this thesis. In chapter $3$ we introduce our reordering methods in detail, including the problem of translating between English and Chinese and the initiation of our reordering method. The results and evaluation of our method are present in chapter $4$. In the last chapter we conclude this work with an overall discussion of our methods. We also point out some possible directions for future research in this chapter.

@@ -85,9 +85,9 @@ MLT & \cntext{胡锦涛 还 对 中国 迂难者 表示 哀悼 , 向 迂难者 �
 %No MLT & \cntext{这 个 原告 的 律师 指出 , 这 种 `` 违背 了 历史 记录 '' , 要求 日本 政府 , 正 yakin 支付 补偿 , 道歉 来 解决 问题 。} \\ \hline
 %MLT & \cntext{原告 的 律师 指出 , 这 一 判决 `` 违背 了 历史 纪录 '' , 要求 日本 政府 , 正 yakin 支付 补偿 , 道歉 来 解决 问题 。} \\ \hline \hline
 
-%Source & Satisfying personal interests and expanding knowledge are also major reasons why hourly work appeals to people.\\ \hline
-%No MLT & \cntext{令 人 满意 的 切身 利益 和 扩大 知识 也 是 为什么 学生 工作 吸引 人 的 主要 原因 。} \\ \hline
-%MLT & \cntext{满足 个人 利益 和 扩大 知识 也 是 为什么 学生 工作 吸引 人 的 主要 原因 。} \\ \hline \hline
+Source & Satisfying personal interests and expanding knowledge are also major reasons why hourly work appeals to people.\\ \hline
+No MLT & \cntext{满足 个人 利益 和 扩大 知识 也 是 主要 原因 小时 工作 吸引 人 。} \\ \hline
+MLT & \cntext{满足 个人 利益 和 扩大 知识 也 是 为什么 学生 工作 吸引 人 的 主要 原因 。} \\ \hline \hline
 
 Source & The Dalai Lama will go to visit Washington this month.\\ \hline
 No MLT & \cntext{达赖 喇嘛 将 访问 华盛顿 的 这 一 个 月 。} \\ \hline
@@ -97,7 +97,7 @@ MLT & \cntext{达赖 喇嘛 将 本 月 访问 华盛顿 。} \\ \hline
 \end{tabular}
 \caption{Examples of improvements in translated text}
 \end{table}
-
+%? change the example, it's wrong
 Each section of table $4.3$ shows translation of a sentence in its source language and target language. The translation in the row with ``No MLT'' comes from the configuration without using MLT reordering, and the translation in the row with ``MLT'' comes from the configuration with using MLT reordering. From the examples, we can see that the MLT reordering improved the sentence structure significantly. In the last example, the part of the sentence ``visit Washington this month'' was parsed as the structur ``(visit (Washington) ((this) (month)))'' in the syntactic tree, but the correct Chinese translation has word order corresponds to ``this month visit Washington''. This reordering inserts the word ``visit'' between the words ``this month'' and ``Washington'', which are on a lower level of the syntactic tree. This behavior could not be done by the tree-rule-based reordering, which only changes order of constituents on the same tree level.
 
 %picture?

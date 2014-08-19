@@ -147,7 +147,14 @@ The following examples are configurations that can be added to the description f
 \end{Verbatim}
 The \verb|latticecreator| should be the same as the \verb|name| field in the reordering rule. 
 
-The content inside \verb|rules| tag should have a format of $$\verb|mode.pos.threshold|$$ or $$\verb|mode.pos.threshold.lattice_directory|$$ 
+The content inside \verb|rules| tag should have one of the following form:
+\begin{itemize}
+  \setlength{\itemsep}{0cm}%
+  \setlength{\parskip}{0cm}%
+  \item \verb|mode.pos.threshold| 
+  \item \verb|mode.pos.threshold.lattice_directory|
+\end{itemize}
+
 The \verb|threshold| should be consistent as the one in the reordering rule section. The \verb|mode| should be also included in the mode list in the reordering rule section. And the \verb|pos| is simply the string ``pos''.
 
 The part \verb|lattice_directory| is optional. When it's given, the lattices will be build on existing lattices, otherwise the lattices are built directly on the text. It should be the same as the \verb|rules| field in the configuration with tree rules. 
@@ -168,7 +175,19 @@ Here are some other scripts that I wrote throughout the time that I spent on thi
 
 This script is used to show the general outcome of all configurations. The parameter \verb|<SystemPath>| should be the path of the system root direcotry. \verb|<Option>| could be different strings.
 
-If the \verb|<Option>| is the string ``test'', the test scores of all the configurations will be listed, with one record per line. If the \verb|<Option>| is the string ``dev'', the dev scores of the last training cycle will be listed for all configurations. In a similar manner, best dev scores under all training cycles will be listed with the string ``devmax''. If ``optimize'' or ``translate'' is given, the program shows if the optimization or translation is finished by checking if the related log file is complete.
+The parameter \verb|<Option>| should be one of the following strings:
+\begin{itemize}
+  \setlength{\itemsep}{0cm}%
+  \setlength{\parskip}{0cm}%
+  \item \verb|test|: program lists the test scores of all configurations.
+  \item \verb|dev|: program lists the dev scores of the last training cycle.
+  \item \verb|devmax|: program lists the maximal dev scores among all training cycles.
+  \item \verb|translate|: program checks if the translations of all configurations are finished.
+  \item \verb|optimize|: program checks if the optimizations of all configurations are finished.
+  \item \verb|error|: program shows all the error and warning messages.
+\end{itemize}
+%
+%If the \verb|<Option>| is the string ``test'', the test scores of all the configurations will be listed, with one record per line. If the \verb|<Option>| is the string ``dev'', the dev scores of the last training cycle will be listed for all configurations. In a similar manner, best dev scores under all training cycles will be listed with the string ``devmax''. If ``optimize'' or ``translate'' is given, the program shows if the optimization or translation is finished by checking if the related log file is complete. If ``error'' is given, the program shows all the errors and warnings by retrieving the log files under \verb|temp| directory of the system.
 
 \verb|/home/gwu/ma/scripts/tree/getTreeInfo.py|\\
 \verb|Usage: getTreeInfo.py <TreeFile>|
