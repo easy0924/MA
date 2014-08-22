@@ -1,0 +1,32 @@
+\begin{tikzpicture}[
+-,>=stealth',
+level/.style={sibling distance = 1.8cm, level distance = 1.8cm},
+%level 1/.style={sibling distance=8cm},
+%level 2/.style={sibling distance=4cm}, 
+%level 3/.style={sibling distance=4cm}, 
+treenode/.style = {align=center, minimum width=3.8em, minimum height = 2em, inner sep=0pt, text centered, font=\sffamily},
+arn_n/.style = {treenode, rectangle, rounded corners, draw=black, thick, fill=blue!20},
+arn_x/.style = {arn_n, fill=red!20},
+edge from parent fork down
+]
+\node (A) [arn_n] {NP}
+child{ node [arn_x] {ADJP}}
+child{ node [arn_x] {JJ}}
+child{ node (X) [arn_x] {NN}};
+
+
+
+\node (B) [arn_n, right = 5.4cm of A] {NP}
+child{ node (Y) [arn_x] {JJ}}
+child{ node [arn_x] {NN}}
+child{ node [arn_x] {ADJP}};
+
+\node (XX) [below right=0.2cm and 2cm of A] {};
+\node (YY) [below left= 0.2cm and 2cm of B] {};
+
+
+%\draw[-,double distance=2pt] (XX) to (YY);
+%\draw[open triangle 60, thick] (XX) to (YY);
+\draw[draw=none] (XX) to node[draw, thick, midway, single arrow] {\Hstrut\Hstrut\Hstrut} (YY);
+\end{tikzpicture}
+

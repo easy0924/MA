@@ -1,28 +1,69 @@
 \begin{tikzpicture}[
 node/.style = {align=center, inner sep=0pt, font=\sffamily, rectangle, draw=white, fill=white, outer sep=0, minimum height=8ex},
 ]
+\node(A1) [node] at (0, 4) {$1$ \\ There};
+\node(A2) [node, right=1em of A1] {$2$ \\ are};
+\node(A3) [node, right=1em of A2] {$3$ \\ four};
+\node(A4) [node, right=1em of A3] {$4$ \\ months};
+\node(A5) [node, right=1em of A4] {$5$ \\ left};
+\node(A6) [node, right=1em of A5] {$6$ \\ of};
+\node(A7) [node, right=1em of A6] {$7$ \\ Clinton};
+\node(A8) [node, right=1em of A7] {$8$ \\ 's};
+\node(A9) [node, right=1em of A8] {$9$ \\ presidency};
+\node(A10) [node, right=1em of A9] {$10$ \\ .};
 
-\node(A1) [node] at (0, 2.2) {$1$ \\ I};
-\node(A2) [node, right=1em of A1] {$2$ \\ am};
-\node(A3) [node, right=1em of A2] {$3$ \\ a};
-\node(A4) [node, right=1em of A3] {$4$ \\ filmmaker};
-\node(A5) [node, right=1em of A4] {$5$ \\ .};
+\node(B1) [node] at (0, 0) {\cntext{克林顿} \\ $1$};
+\node(B2) [node, right=1.53em of B1] {\cntext{的\vphantom{我}} \\ $2$};
+\node(B3) [node, right=1.53em of B2] {\cntext{总统\vphantom{我}} \\ $3$};
+\node(B4) [node, right=1.53em of B3] {\cntext{任期\vphantom{我}} \\ $4$};
+\node(B5) [node, right=1.53em of B4] {\cntext{还\vphantom{我}} \\ $5$};
+\node(B6) [node, right=1.53em of B5] {\cntext{剩下\vphantom{我}} \\ $6$};
+\node(B7) [node, right=1.53em of B6] {\cntext{四\vphantom{我}} \\ $7$};
+\node(B8) [node, right=1.53em of B7] {\cntext{个\vphantom{我}} \\ $8$};
+\node(B9) [node, right=1.53em of B8] {\cntext{月\vphantom{我}} \\ $9$};
+\node(B10) [node, right=1.53em of B9] {\cntext{。\vphantom{我}} \\ $10$};
 
-\node(B1) [node] at (0, 0) {\cntext{我} \\ $1$};
-\node(B2) [node, right=1em of B1] {\cntext{是\vphantom{我}} \\ $2$};
-\node(B3) [node, right=1em of B2] {\cntext{一\vphantom{我}} \\ $3$};
-\node(B4) [node, right=1em of B3] {\cntext{个\vphantom{我}} \\ $4$};
-\node(B5) [node, right=1em of B4] {\cntext{电影\vphantom{我}} \\ $5$};
-\node(B6) [node, right=1em of B5] {\cntext{制片人\vphantom{我}} \\ $6$};
-\node(B7) [node, right=1em of B6] {\cntext{。\vphantom{我}} \\ $7$};
-
-\draw[-, thick] (A1.south) -- (B1.north);
-\draw[-, thick] (A2.south) -- (B1.north);
-\draw[-, thick] (A2.south) -- (B2.north);
-\draw[-, thick] (A3.south) -- (B3.north);
-\draw[-, thick] (A3.south) -- (B4.north);
-\draw[-, thick] (A4.south) -- (B5.north);
-\draw[-, thick] (A4.south) -- (B6.north);
-\draw[-, thick] (A5.south) -- (B7.north);
+\draw[-, thick] (A7.south) -- (B1.north);
+\draw[-, thick] (A8.south) -- (B1.north);
+\draw[-, thick] (A8.south) -- (B2.north);
+\draw[-, thick] (A9.south) -- (B3.north);
+\draw[-, thick] (A9.south) -- (B4.north);
+\draw[-, thick] (A1.south) -- (B5.north);
+\draw[-, thick] (A1.south) -- (B6.north);
+\draw[-, thick] (A2.south) -- (B6.north);
+\draw[-, thick] (A5.south) -- (B6.north);
+\draw[-, thick] (A3.south) -- (B7.north);
+\draw[-, thick] (A4.south) -- (B8.north);
+\draw[-, thick] (A4.south) -- (B9.north);
+\draw[-, thick] (A10.south) -- (B10.north);
 
 \end{tikzpicture}
+
+%\begin{tikzpicture}[
+%node/.style = {align=center, inner sep=0pt, font=\sffamily, rectangle, draw=white, fill=white, outer sep=0, minimum height=8ex},
+%]
+%
+%\node(A1) [node] at (0, 2.2) {$1$ \\ I};
+%\node(A2) [node, right=1em of A1] {$2$ \\ am};
+%\node(A3) [node, right=1em of A2] {$3$ \\ a};
+%\node(A4) [node, right=1em of A3] {$4$ \\ filmmaker};
+%\node(A5) [node, right=1em of A4] {$5$ \\ .};
+%
+%\node(B1) [node] at (0, 0) {\cntext{我} \\ $1$};
+%\node(B2) [node, right=1em of B1] {\cntext{是\vphantom{我}} \\ $2$};
+%\node(B3) [node, right=1em of B2] {\cntext{一\vphantom{我}} \\ $3$};
+%\node(B4) [node, right=1em of B3] {\cntext{个\vphantom{我}} \\ $4$};
+%\node(B5) [node, right=1em of B4] {\cntext{电影\vphantom{我}} \\ $5$};
+%\node(B6) [node, right=1em of B5] {\cntext{制片人\vphantom{我}} \\ $6$};
+%\node(B7) [node, right=1em of B6] {\cntext{。\vphantom{我}} \\ $7$};
+%
+%\draw[-, thick] (A1.south) -- (B1.north);
+%\draw[-, thick] (A2.south) -- (B1.north);
+%\draw[-, thick] (A2.south) -- (B2.north);
+%\draw[-, thick] (A3.south) -- (B3.north);
+%\draw[-, thick] (A3.south) -- (B4.north);
+%\draw[-, thick] (A4.south) -- (B5.north);
+%\draw[-, thick] (A4.south) -- (B6.north);
+%\draw[-, thick] (A5.south) -- (B7.north);
+%
+%\end{tikzpicture}

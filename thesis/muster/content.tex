@@ -6,7 +6,7 @@
 \label{ch:Foundations}
 %% ===========================
 
-
+This chapter provides an introduction to fundamental knowledge that are relevant to this work. We start with the whole SMT system and pre-reordering system first, then followed by the information we used to create the reordering rules including alignment, POS tag, syntactic tree. At the end we shows the different rule types, the oracle reordering and how to build lattices for translation. \cite{book} also provide a good introduction to statistical machine translation, including different kinds of theories and methods that are relevant to this work.
 
 %% ===========================
 \section{SMT System}
@@ -55,8 +55,15 @@ Word alignment indicate the possible alignment between words in the source sente
 \caption{Example of word alignment}
 \end{figure}
 %? better example with crossing alignment?
-Or it may be simply presented as index pair in the file system.
-$$1-1\quad 2-1\quad 2-2\quad 3-3\quad 3-4\quad 4-5\quad 4-6\quad 5-7$$
+Or it may be simply presented as index pairs.
+\begin{center}
+\verb|7-1 8-1 8-2 9-3 9-4 1-5 1-6 2-6 5-6 3-7 4-8 4-9 10-10|
+\end{center}
+
+In the figure, the words that are aligned through lines in two languages have related meaning. We can see how the words are reordered from the figure. For exmaple, the noun clause ``Clinton's presidency'' is completely moved forward to the front of the sentence.
+
+\phantomsection\label{alignedrange}
+It is noteworthy that the alignment is not always a one-to-one match. In the example, the word ``of'' is not aligned at all and the word ``months'' is aligned to two word ``\cntext{个}'' and ``\cntext{月}'' in Chinese. We can define the aligned range as the range from the first word a certain word is aligned to to the last word it is aligned to. For example, the aligned range of word ``there'' is $[5,6]$. The aligned range can be coincided, such as the $6$th word ``\cntext{剩下}'' in Chinese is also aligned to ``are'' and ``left'' at the same time besides ``there''. The coincidence sometimes makes the detection of rules more difficult, because the word order is not clear any more.
 
 The word alignment could be trained with the GIZA++ tool by using Expectation Maximization (EM) algorithm. From the word alignment of training data we can see the patterns how the words are reordered before and after translation. Therefore, we could extract these reordering rules and apply them on the text, which is to be translated.
 
@@ -82,7 +89,7 @@ Tagset? English \& Chinese how to tag?
 \label{ch:Foundations:sec:SyntacticTree}
 %% ===========================
 
-TODO
+The syntactic tree shows the syntactic structure of a sentence and can be very useful for word reordering. A syntactic tree contains two kinds of nodes: the leaves and the internal nodes. Each leaf presents a word in the sentence, and is annotated with the POS tag. And each internal node presents a constituents, which is also annotated to indicate its category or syntactic role. In the Penn treebank \citep{penn}, for example, the annotation ``NP'' means noun phrase and the annotation ``S'' means simple declarative clause. Figure $2.5$ is an example of a syntactic tree.
 
 \begin{figure}[H]
 \centering
@@ -90,20 +97,76 @@ TODO
 \caption{Example of a parse tree}
 \end{figure}
 
+We can see the syntactic structure of the sentence from the syntactic tree very clear. In this example, The words ``math and biology exams'' make up a noun clause, which plays the roll of subject. The predicate has a nested structure of verb clause, because it's compound with the modal verb ``will'' and the word ``be''. And ``on the 27th'' is a preposition clause in the verb clause, which is again composed of a preposition ``in'' and a noun clause ``the 27th''.
+
 %%% ===========================
 %\section{Dependency Tree}
 %\label{ch:Foundations:sec:DependencyTree}
 %%% ===========================
 
 %% ===========================
-\section{Reordering Rule Types}
+\section{Reordering Rules}
 \label{ch:Foundations:sec:types}
 %% ===========================
+%Short rules was introduced by \cite{short}.
+%\subsection{Short Rules}
+%\subsection{Long Rules}
+%\subsection{Tree Rules}
+
+Based on \cite{short}, \cite{long}, \cite{tree} and \cite{combine}, we introduce the different rule types, rule combination, how to decide if rules can be extracted as well as how to calculate the probability to apply the rules.
 
 \subsection{Short Rules}
+
+Short rules are extracted based on the sequences of adjacent words or their POS tags in the sentence to translate. Sequences of adjacent words or tags are observed, rules are then extracted if the same reordering patterns appear frequently. Following are some examples:
+$$\verb|after the accident -> the accident after (0.5)|$$
+$$\verb|WRB MD DT -> DT WRB DT (0.3)|$$
+The first rule in this example shows, if a the word sequence ``after the accident'' ever appears in the text, it should be reordered to ``the accident after'' with a probability $0.5$, so will the word order be more consistent with the translation. The second rule shows, if the word sequence of a wh-adverb (when, where, why, etc.), a modal verb (MD) and a determiner (DT) appears, the determiner should be moved before the wh-adverb with a probablity of $0.3$.
+
+In addition, Short rules also have some different varieties \citep{short}:
+\begin{itemize}
+\setlength{\itemsep}{0cm}%
+\setlength{\parskip}{0cm}%
+\item \textbf{Tag sequence:} rules are extracted based on adjacent tag sequence
+\item \textbf{Word sequence:} rules are extracted based on adjacent word sequence
+\item \textbf{Context of one or two tags before and/or after the tag sequence}
+\item \textbf{Context of one or two words before and/or after the tag sequence}
+\end{itemize}
+
 \subsection{Long Rules}
+
+Long rules are specially designed to help the long distance word reordering for translation between English and German. The rules are based on POS tags of the text, and an example is as following:
+$$\verb|NN X MD VHP -> X MD NN VHP (0.14)|$$
+The ``X'' in the example is an placeholder, which can replace one or more words. ``VHP'' is the right context, which is sometimes helpful to define the reordering boundary. ``NN'' means noun, ``MD'' means modal verb and ``VHP'' is the word ``have''. In this example, the tag sequence ``NN X MD VHP'' will be reordered as ``X MD NN VHP'' with a likelihood of $0.1429$.
+
+Rules are extracted by first finding the location of the reordering rule and then putting the placeholder. Depends on the location, where the placeholder is put, and how much the placeholder replace,  the long rules also have some varieties:
+\begin{itemize}
+\setlength{\itemsep}{0cm}%
+\setlength{\parskip}{0cm}%
+\item \textbf{Left/right rules:} depends on if the placeholder is put on the left part or right part
+\item \textbf{All/part replacement:} depends on if all the words in a part is replaced by the placeholder
+\end{itemize}
+
 \subsection{Tree Rules}
 \label{treerules}
+
+While short rules and long rules are based on the flat structure of the sentence, tree rules reorders the sentence by using information from the sentence's syntactic structure. The syntactic tree and alignment of the training corpus are used to train the rules. The tree rules reorder the words both on the word level and on the constituent level. Following is an example:
+$$\verb|NP ( ADJP JJ NN ) -> NP ( JJ NN ADJP ) (0.06)|$$
+The parenthesis in the example represents the hierarchies in the syntactic tree. The left side of the rule corresponds a tree with root labeled with ``NP'' and three children, each labeled with ``JJ'', ``NN'' and ``ADJP''. When this structure appears as a subtree in the syntactic tree of the sentence to translate, the order of its subtrees should be changed. The change is illustrated in figure $f$.
+
+\begin{figure}[H]
+\centering
+\input{swap.tikz}
+\caption{Change subtree order based on tree rules}
+\end{figure}
+
+
+\subsection{Rule extraction}
+
+\subsection{Rule Combination}
+
+In order to further explore the probability of improvement, we combine different rules for reordering in our experiment. This is done by training the different types of rules separately and applying them on the monotone path of the sentence independently. They result different paths in the lattice.
+
+
 
 %% ===========================
 \section{Oracle Reordering}
@@ -116,10 +179,19 @@ TODO
 \section{Lattices}
 \label{ch:Foundations:sec:Lattices}
 %% ===========================
-A word lattice could be presented with a directed acyclic graph. The graph contains nodes and transitions, with each transition labeled with a word. One example is showed in the next page. The word lattice in the example groups different word reorderings of the same English sentence together, with each reordering corresponding a path from the beginning node to the end node. The word lattice provides different p 
-pass to decoder,
-probability on transitions,
-probability of reordering.
+A word lattice could be presented with a directed acyclic graph. The graph contains nodes and transitions, with each transition labeled with a word and a probability. The outgoing transitions from a node indicate different options, which words could come after this point. The annotation on the transition indicate the word that could come, together with the probability of this option. The word lattice groups different word reorderings of the same English sentence together, with each reordering corresponding a path from the beginning node to the end node. 
+
+An example of a word lattice is showed in figure $2.6$. If the probability of a transition is $1$, it's left out in the example to keep the graph clear.
+
+\paragraph{Building of Lattices Presenting Different Reorderings}
+
+The lattice begins with a monotone path presenting the sentence to translated. Every time when a rule is applied and part of the sentence is reordered. We add a parallel path to the corresponding part of the initial monotone path. The parallel path is labeled with reordered words on its transitions. The probability of this new reordering is subtracted from the first transition after the splitting point on monotone path, and assigned to the first transition of the new path. All the other transitions on the new path that follow have a probability of $1$.
+
+%? graph for building?
+
+Paths with very low probability are removed, in order to save space for storing the lattice and reduce decoding time later, without compromising to much translation quality. In our system, we remove all the paths that have a probability lower than $0.1$.
+
+
 
 \begin{landscape}
 \begin{figure}
@@ -157,7 +229,10 @@ For the other,
 And sometimes, a long English sentence with clauses is more suitable to be translated into two of more Chinese sentences. Through analyzing the data we have, we've found several major word order differences between English and Chinese, which leads to low translation quality and should be changed. 
 
 %? examples of different kinds for word order differences
-\textbf{Position of adverbs and adverbial clauses} v
+
+\cite{syntactic} also systematic analyzing about Chinese syntactic reordering. Through our analyzing / research, exmaples below, worth noticing / improving
+
+\textbf{Position of adverbs and adverbial clauses}
 %% ===========================
 \section{Motivation of the SMT Reordering Algorithm}
 \label{ch:ReorderingApproach:sec:Motivation}
@@ -187,6 +262,14 @@ Inspired the method of tree rules based of reordering and hierarchical SMT model
 
 
 \subsection{Rule Extraction}
+
+\begin{figure}[H]
+\centering
+\input{extract.tikz}
+\caption{Illustration of rule extraction}
+\end{figure}
+
+
 
 
 

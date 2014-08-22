@@ -5,50 +5,52 @@
 \contentsline {section}{\numberline {1.4}Structure}{3}{section.1.4}
 \contentsline {chapter}{\numberline {2}Foundations}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}SMT System}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Rules Based Pre-Reodering}{5}{section.2.2}
-\contentsline {section}{\numberline {2.3}Word Alignment}{6}{section.2.3}
+\contentsline {section}{\numberline {2.2}Rules Based Pre-Reodering}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Word Alignment}{7}{section.2.3}
 \contentsline {section}{\numberline {2.4}Part-of-Speech Tag}{7}{section.2.4}
-\contentsline {section}{\numberline {2.5}Syntactic Tree}{7}{section.2.5}
-\contentsline {section}{\numberline {2.6}Reordering Rule Types}{8}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Short Rules}{8}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Long Rules}{8}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Tree Rules}{8}{subsection.2.6.3}
-\contentsline {section}{\numberline {2.7}Oracle Reordering}{8}{section.2.7}
-\contentsline {section}{\numberline {2.8}Lattices}{8}{section.2.8}
-\contentsline {section}{\numberline {2.9}BLEU Score}{10}{section.2.9}
-\contentsline {section}{\numberline {2.10}Conclusion}{10}{section.2.10}
-\contentsline {chapter}{\numberline {3}Reordering Approach}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Reordering Problem in Chinese Translation}{11}{section.3.1}
-\contentsline {section}{\numberline {3.2}Motivation of the SMT Reordering Algorithm}{11}{section.3.2}
-\contentsline {section}{\numberline {3.3}The SMT Reordering Algorithm}{12}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Reordering Rules from Multiple Layers}{12}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Rule Extraction}{12}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Rule Application}{12}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Conclusion}{12}{section.3.4}
-\contentsline {chapter}{\numberline {4}Evaluation}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}English to Chinese Systems}{13}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Experimental Setup}{13}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Results}{14}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Evaluation}{14}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Chinese to English Systems}{15}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Experimental Setup}{15}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Results}{16}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Evaluation}{16}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Conclusion}{16}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclusion}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}Discussion}{17}{section.5.1}
-\contentsline {section}{\numberline {5.2}Conclusion}{17}{section.5.2}
-\contentsline {section}{\numberline {5.3}Outlook}{17}{section.5.3}
-\contentsline {chapter}{\nonumberline Appendix}{19}{chapter*.2}
-\contentsline {section}{\numberline {A}Documentation of Pre-Reordering System}{19}{section.E.1}
-\contentsline {subsection}{\numberline {A.1}System Integration}{19}{subsection.E.1.1}
-\contentsline {subsection}{\numberline {A.2}Reordering Source Code}{19}{subsection.E.1.2}
-\contentsline {paragraph}{\nonumberline Extract and Apply Command}{19}{section*.3}
-\contentsline {subsection}{\numberline {A.3}Configuration File}{21}{subsection.E.1.3}
-\contentsline {paragraph}{\nonumberline Reordering Rule Section}{21}{section*.4}
-\contentsline {paragraph}{\nonumberline Configuration Section}{21}{section*.5}
-\contentsline {subsection}{\numberline {A.4}Other Scripts}{22}{subsection.E.1.4}
-\contentsline {subsection}{\numberline {A.5}Summary}{23}{subsection.E.1.5}
-\contentsline {chapter}{List of Tables}{25}{Item.5}
-\contentsline {chapter}{List of Figures}{27}{chapter*.7}
-\contentsline {chapter}{Bibliography}{29}{section*.9}
+\contentsline {section}{\numberline {2.5}Syntactic Tree}{8}{section.2.5}
+\contentsline {section}{\numberline {2.6}Reordering Rules}{8}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Short Rules}{9}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Long Rules}{9}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Tree Rules}{9}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}Rule Combination}{10}{subsection.2.6.4}
+\contentsline {section}{\numberline {2.7}Oracle Reordering}{10}{section.2.7}
+\contentsline {section}{\numberline {2.8}Lattices}{10}{section.2.8}
+\contentsline {paragraph}{\nonumberline Building of Lattices Presenting Different Reorderings}{10}{section*.3}
+\contentsline {section}{\numberline {2.9}BLEU Score}{12}{section.2.9}
+\contentsline {section}{\numberline {2.10}Conclusion}{12}{section.2.10}
+\contentsline {chapter}{\numberline {3}Reordering Approach}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Reordering Problem in Chinese Translation}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Motivation of the SMT Reordering Algorithm}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}The SMT Reordering Algorithm}{14}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Reordering Rules from Multiple Layers}{14}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Rule Extraction}{14}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Rule Application}{14}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Conclusion}{14}{section.3.4}
+\contentsline {chapter}{\numberline {4}Evaluation}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}English to Chinese Systems}{15}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Experimental Setup}{15}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Results}{16}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Evaluation}{16}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Chinese to English Systems}{17}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Experimental Setup}{17}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Results}{18}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Evaluation}{18}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Conclusion}{18}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusion}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Discussion}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}Conclusion}{19}{section.5.2}
+\contentsline {section}{\numberline {5.3}Outlook}{19}{section.5.3}
+\contentsline {chapter}{\nonumberline Appendix}{21}{chapter*.4}
+\contentsline {section}{\numberline {A}Documentation of Pre-Reordering System}{21}{section.E.1}
+\contentsline {subsection}{\numberline {A.1}System Integration}{21}{subsection.E.1.1}
+\contentsline {subsection}{\numberline {A.2}Reordering Source Code}{21}{subsection.E.1.2}
+\contentsline {paragraph}{\nonumberline Extract and Apply Command}{21}{section*.5}
+\contentsline {subsection}{\numberline {A.3}Configuration File}{23}{subsection.E.1.3}
+\contentsline {paragraph}{\nonumberline Reordering Rule Section}{23}{section*.6}
+\contentsline {paragraph}{\nonumberline Configuration Section}{23}{section*.7}
+\contentsline {subsection}{\numberline {A.4}Other Scripts}{24}{subsection.E.1.4}
+\contentsline {subsection}{\numberline {A.5}Summary}{25}{subsection.E.1.5}
+\contentsline {chapter}{List of Tables}{27}{Item.5}
+\contentsline {chapter}{List of Figures}{29}{chapter*.9}
+\contentsline {chapter}{Bibliography}{31}{section*.11}

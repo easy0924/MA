@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  20 AUG 2014 01:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  22 AUG 2014 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -812,6 +812,76 @@ trees.code.tex
 File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.0 (rcs-revision 1.2)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geomet
+ric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.c
+ode.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.0 (rcs-revision 1.5)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbol
+s.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.0 (rcs-revision 1.6)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows
+.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.callouts.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callou
+ts.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multip
+art.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.0 (rcs-revision 1.2)
+\pgfnodepartlowerbox=\box49
+\pgfnodeparttwobox=\box50
+\pgfnodepartthreebox=\box51
+\pgfnodepartfourbox=\box52
+\pgfnodeparttwentybox=\box53
+\pgfnodepartnineteenbox=\box54
+\pgfnodeparteighteenbox=\box55
+\pgfnodepartseventeenbox=\box56
+\pgfnodepartsixteenbox=\box57
+\pgfnodepartfifteenbox=\box58
+\pgfnodepartfourteenbox=\box59
+\pgfnodepartthirteenbox=\box60
+\pgfnodeparttwelvebox=\box61
+\pgfnodepartelevenbox=\box62
+\pgfnodeparttenbox=\box63
+\pgfnodepartninebox=\box64
+\pgfnodeparteightbox=\box65
+\pgfnodepartsevenbox=\box66
+\pgfnodepartsixbox=\box67
+\pgfnodepartfivebox=\box68
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 positioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
 ) (/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
@@ -831,7 +901,7 @@ Package: MULEenc 2012/05/07 4.8.3
 File: CJK.enc 2012/05/07 4.8.3
 )
 LaTeX Info: Redefining \selectfont on input line 755.
-\CJK@indent=\box49
+\CJK@indent=\box69
 )
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -954,7 +1024,7 @@ Package: babelbib 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 )
 \chapnolen=\skip79
 \chapparlen=\skip80
-\chapno=\box50
+\chapno=\box70
 )
 \c@example=\count188
  (./thesis.aux
@@ -1048,7 +1118,7 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count189
 \scratchdimen=\dimen206
-\scratchbox=\box51
+\scratchbox=\box71
 \nofMPsegments=\count190
 \nofMParguments=\count191
 \everyMPshowfont=\toks51
@@ -1073,7 +1143,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count195
-\AtBeginShipoutBox=\box52
+\AtBeginShipoutBox=\box72
 Package hyperref Info: Link coloring OFF on input line 120.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1113,7 +1183,7 @@ babelbib: Set language for keywords in the bibliography fixed to ngerman
 babelbib: Set language for keywords in the bibliography fixed to ngerman
 \openout2 = `titlepage.aux'.
 
-(./titlepage.tex <logos/KITLogo_RGB.pdf, id=216, 196.46399pt x 90.77916pt>
+(./titlepage.tex <logos/KITLogo_RGB.pdf, id=220, 196.46399pt x 90.77916pt>
 File: logos/KITLogo_RGB.pdf Graphic file (type pdf)
 
 <use logos/KITLogo_RGB.pdf>
@@ -1159,7 +1229,7 @@ ted-to.pdf logos/signature.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<logos/signature-eps-converted-to.pdf, id=236, 1155.31625pt x 474.77374pt>
+<logos/signature-eps-converted-to.pdf, id=240, 1155.31625pt x 474.77374pt>
 File: logos/signature-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logos/signature-eps-converted-to.pdf>
@@ -1173,10 +1243,7 @@ e 9.
 LaTeX Font Info:    Try loading font information for T1+aess on input line 1.
  (/usr/share/texmf-dist/tex/latex/ae/t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
-)
-Underfull \vbox (badness 1147) has occurred while \output is active []
-
- [5
+) [5
 
 
 
@@ -1214,7 +1281,7 @@ Class scrbook Warning: \float@addtolists detected!
 
 
 
-]) [2] [3]
+] [2]) [3]
 \openout2 = `content.aux'.
 
  (./content.tex [4
@@ -1226,7 +1293,11 @@ Class scrbook Warning: \float@addtolists detected!
 Chapter 2.
 (./smt.tikz
 \mylen=\skip81
-) [5] (./prereordering.tikz) (./alignment.tikz
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+(./prereordering.tikz) [6] (./alignment.tikz
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 File: UTF8.bdg 2012/05/07 4.8.3
 )
@@ -1236,7 +1307,7 @@ File: UTF8.enc 2012/05/07 4.8.3
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-LaTeX Font Info:    Try loading font information for C70+gbsn on input line 11.
+LaTeX Font Info:    Try loading font information for C70+gbsn on input line 15.
 
 
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fd
@@ -1280,23 +1351,69 @@ File: UTF8.enc 2012/05/07 4.8.3
 )
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
-)) (./tags.tikz)
-[6] (./ParseTree.tikz)
-Underfull \vbox (badness 2617) has occurred while \output is active []
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+))
+LaTeX Font Info:    Try loading font information for T1+aett on input line 60.
 
- [7]
-[8] (./Lattices.tikz
+(/usr/share/texmf-dist/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+) (./tags.tikz)
+[7] (./ParseTree.tikz) [8]
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 129.
+
+ (/usr/share/texmf-dist/tex/latex/ae/omsaer.fd
+File: omsaer.fd 1999/12/27
+)
+LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
+
+(./swap.tikz) [9] [10] (./Lattices.tikz
 \myx=\skip82
 \myy=\skip83
-) [9] [10
+) [11] [12
 
 
 ]
 Chapter 3.
-[11
+[13
 
 
-]) [12]
+] (./extract.tikz)) [14]
 \openout2 = `evaluation.aux'.
 
  (./evaluation.tex
@@ -1324,7 +1441,7 @@ New spreadtab: \begin{tabular}{|l|r|r|}
 * building tab: ok
 End of spreadtab: \end{tabular}
 
-[13
+[15
 
 
 
@@ -1367,10 +1484,7 @@ File: UTF8.chr 2012/05/07 4.8.3
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
-Underfull \vbox (badness 2671) has occurred while \output is active []
-
- [15]
+ [16]
 New spreadtab: \begin{tabular}{|l|r|r|}
 * reading tab: ok
 * computing formulas:
@@ -1394,54 +1508,34 @@ New spreadtab: \begin{tabular}{|l|r|r|}
 * building tab: ok
 End of spreadtab: \end{tabular}
 
-) [16]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17])
+[18]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 Chapter 5.
-) [17
+) [19
 
 
 
 
-] [18
+] [20
 
 
 
-] (./appendix.tex
-LaTeX Font Info:    Try loading font information for T1+aett on input line 41.
- (/usr/share/texmf-dist/tex/latex/ae/t1aett.fd
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)
-[19
+] (./appendix.tex [21
 
 
-] (./exampletree.tikz) [20] [21]
-LaTeX Font Info:    Try loading font information for OMS+aer on input line 154.
-
-
-(/usr/share/texmf-dist/tex/latex/ae/omsaer.fd
-File: omsaer.fd 1999/12/27
-)
-LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 154.
- [22]) [23] [24
+] (./exampletree.tikz) [22] [23] [24]) [25]
+[26
 
 
 ] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
-
-
-[25
-
-
-] [26
-
-
-] (./thesis.lof)
-\tf@lof=\write9
-\openout9 = `thesis.lof'.
 
  [27
 
@@ -1449,27 +1543,41 @@ LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10.95> not available
 ] [28
 
 
-] (./thesis.bbl) [29
+] (./thesis.lof)
+\tf@lof=\write9
+\openout9 = `thesis.lof'.
+
+ [29
+
+
+] [30
+
+
+] (./thesis.bbl) [31
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
- (./thesis.aux
-(./titlepage.aux) (./abstract.aux) (./declaration.aux) (./introduction.aux)
-(./content.aux) (./evaluation.aux) (./conclusion.aux))
+
+(./thesis.aux (./titlepage.aux) (./abstract.aux) (./declaration.aux)
+(./introduction.aux) (./content.aux) (./evaluation.aux) (./conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 26543E58CD4F2111C81CC6DBFF2F3700;3456.
+(rerunfilecheck)             Checksum: 6D8F0FA11516BB91D9D2E21B81A8C231;3528.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
  ) 
 Here is how much of TeX's memory you used:
- 26117 strings out of 493308
- 452873 string characters out of 6143617
- 651570 words of memory out of 5000000
- 28715 multiletter control sequences out of 15000+600000
- 71055 words of font info for 131 fonts, out of 8000000 for 9000
+ 28190 strings out of 493308
+ 511626 string characters out of 6143617
+ 737328 words of memory out of 5000000
+ 30706 multiletter control sequences out of 15000+600000
+ 71297 words of font info for 132 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  71i,20n,90p,1115b,2997s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
@@ -1484,38 +1592,39 @@ ts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
 re/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/
 fonts/type1/arphic/gbsnu/gbsnu30.pfb></usr/share/texmf-dist/fonts/type1/arphic/
 gbsnu/gbsnu4e.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4f.pfb><
-/usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu52.pfb></usr/share/texmf-di
-st/fonts/type1/arphic/gbsnu/gbsnu53.pfb></usr/share/texmf-dist/fonts/type1/arph
-ic/gbsnu/gbsnu54.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu55.pf
-b></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu56.pfb></usr/share/texmf
--dist/fonts/type1/arphic/gbsnu/gbsnu59.pfb></usr/share/texmf-dist/fonts/type1/a
-rphic/gbsnu/gbsnu5b.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5c
-.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5d.pfb></usr/share/te
-xmf-dist/fonts/type1/arphic/gbsnu/gbsnu5f.pfb></usr/share/texmf-dist/fonts/type
-1/arphic/gbsnu/gbsnu60.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsn
-u61.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu62.pfb></usr/share
-/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu63.pfb></usr/share/texmf-dist/fonts/t
-ype1/arphic/gbsnu/gbsnu65.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/g
-bsnu66.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/sh
-are/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6b.pfb></usr/share/texmf-dist/font
-s/type1/arphic/gbsnu/gbsnu6d.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsn
-u/gbsnu6e.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu72.pfb></usr
+/usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu51.pfb></usr/share/texmf-di
+st/fonts/type1/arphic/gbsnu/gbsnu52.pfb></usr/share/texmf-dist/fonts/type1/arph
+ic/gbsnu/gbsnu53.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu54.pf
+b></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu55.pfb></usr/share/texmf
+-dist/fonts/type1/arphic/gbsnu/gbsnu56.pfb></usr/share/texmf-dist/fonts/type1/a
+rphic/gbsnu/gbsnu59.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b
+.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5c.pfb></usr/share/te
+xmf-dist/fonts/type1/arphic/gbsnu/gbsnu5d.pfb></usr/share/texmf-dist/fonts/type
+1/arphic/gbsnu/gbsnu5f.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsn
+u60.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu61.pfb></usr/share
+/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu62.pfb></usr/share/texmf-dist/fonts/t
+ype1/arphic/gbsnu/gbsnu63.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/g
+bsnu65.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu66.pfb></usr/sh
+are/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/share/texmf-dist/font
+s/type1/arphic/gbsnu/gbsnu6b.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsn
+u/gbsnu6d.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6e.pfb></usr
 /share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/share/texmf-dist/f
 onts/type1/arphic/gbsnu/gbsnu76.pfb></usr/share/texmf-dist/fonts/type1/arphic/g
 bsnu/gbsnu77.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu79.pfb></
-usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu80.pfb></usr/share/texmf-dis
-t/fonts/type1/arphic/gbsnu/gbsnu88.pfb></usr/share/texmf-dist/fonts/type1/arphi
-c/gbsnu/gbsnu89.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8b.pfb
-></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8d.pfb></usr/share/texmf-
-dist/fonts/type1/arphic/gbsnu/gbsnu8f.pfb></usr/share/texmf-dist/fonts/type1/ar
-phic/gbsnu/gbsnu95.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu96.
-pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu98.pfb></usr/share/tex
-mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/
-urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (35 pages, 389012 bytes).
+usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7e.pfb></usr/share/texmf-dis
+t/fonts/type1/arphic/gbsnu/gbsnu80.pfb></usr/share/texmf-dist/fonts/type1/arphi
+c/gbsnu/gbsnu88.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu89.pfb
+></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8b.pfb></usr/share/texmf-
+dist/fonts/type1/arphic/gbsnu/gbsnu8d.pfb></usr/share/texmf-dist/fonts/type1/ar
+phic/gbsnu/gbsnu8f.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu95.
+pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/share/tex
+mf-dist/fonts/type1/arphic/gbsnu/gbsnu98.pfb></usr/share/texmf-dist/fonts/type1
+/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
+.pfb>
+Output written on thesis.pdf (37 pages, 410675 bytes).
 PDF statistics:
- 732 PDF objects out of 1000 (max. 8388607)
- 635 compressed objects within 7 object streams
- 119 named destinations out of 1000 (max. 500000)
- 439 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 782 PDF objects out of 1000 (max. 8388607)
+ 682 compressed objects within 7 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 447 words of extra memory for PDF output out of 10000 (max. 10000000)
 

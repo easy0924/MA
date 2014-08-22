@@ -10,10 +10,23 @@ Chiang, D. (2007).
 \newblock Hierarchical phrase-based translation.
 \newblock {\em computational linguistics}, 33(2):201--228.
 
-\bibitem[Herrmann et~al., 2013]{tree}
-Herrmann, T., Weiner, J., Niehues, J., and Waibel, A. (2013).
+\bibitem[Herrmann et~al., 2013a]{combine}
+Herrmann, T., Niehues, J., and Waibel, A. (2013a).
+\newblock Combining word reordering methods on different linguistic abstraction
+  levels for statistical machine translation.
+\newblock In {\em Proceedings of the Seventh Workshop on Syntax, Semantics and
+  Structure in Statistical Translation}, pages 39--47, Atlanta, Georgia.
+  Association for Computational Linguistics.
+
+\bibitem[Herrmann et~al., 2013b]{tree}
+Herrmann, T., Weiner, J., Niehues, J., and Waibel, A. (2013b).
 \newblock Analyzing the potential of source sentence reordering in statistical
   machine translation.
+
+\bibitem[Koehn, 2010]{book}
+Koehn, P. (2010).
+\newblock {\em Statistical Machine Translation}.
+\newblock Cambridge University Press, New York, NY, USA, 1st edition.
 
 \bibitem[Koehn et~al., 2005]{koehn2005}
 Koehn, P., Axelrod, A., Birch, A., Callison-Burch, C., Osborne, M., Talbot, D.,
@@ -27,6 +40,11 @@ Lerner, U. and Petrov, S. (2013).
 \newblock Source-side classifier preordering for machine translation.
 \newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
   Natural Language Processing (EMNLP '13)}.
+
+\bibitem[Marcus et~al., 1993]{penn}
+Marcus, M.~P., Marcinkiewicz, M.~A., and Santorini, B. (1993).
+\newblock Building a large annotated corpus of english: The penn treebank.
+\newblock {\em Computational linguistics}, 19(2):313--330.
 
 \bibitem[Niehues and Kolss, 2009]{long}
 Niehues, J. and Kolss, M. (2009).
@@ -45,5 +63,10 @@ Tillmann, C. (2004).
 \newblock A unigram orientation model for statistical machine translation.
 \newblock In {\em Proceedings of HLT-NAACL 2004: Short Papers}, pages 101--104.
   Association for Computational Linguistics.
+
+\bibitem[Wang et~al., 2007]{syntactic}
+Wang, C., Collins, M., and Koehn, P. (2007).
+\newblock Chinese syntactic reordering for statistical machine translation.
+\newblock In {\em EMNLP-CoNLL}, pages 737--745. Citeseer.
 
 \end{thebibliography}

@@ -10,43 +10,44 @@
 \BOOKMARK [1][-]{section.2.3}{2.3 Word Alignment}{chapter.2}% 10
 \BOOKMARK [1][-]{section.2.4}{2.4 Part-of-Speech Tag}{chapter.2}% 11
 \BOOKMARK [1][-]{section.2.5}{2.5 Syntactic Tree}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.6}{2.6 Reordering Rule Types}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.6}{2.6 Reordering Rules}{chapter.2}% 13
 \BOOKMARK [2][-]{subsection.2.6.1}{2.6.1 Short Rules}{section.2.6}% 14
 \BOOKMARK [2][-]{subsection.2.6.2}{2.6.2 Long Rules}{section.2.6}% 15
 \BOOKMARK [2][-]{subsection.2.6.3}{2.6.3 Tree Rules}{section.2.6}% 16
-\BOOKMARK [1][-]{section.2.7}{2.7 Oracle Reordering}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.8}{2.8 Lattices}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.9}{2.9 BLEU Score}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.10}{2.10 Conclusion}{chapter.2}% 20
-\BOOKMARK [0][]{chapter.3}{3 Reordering Approach}{}% 21
-\BOOKMARK [1][-]{section.3.1}{3.1 Reordering Problem in Chinese Translation}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.2}{3.2 Motivation of the SMT Reordering Algorithm}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.3}{3.3 The SMT Reordering Algorithm}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Reordering Rules from Multiple Layers}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Rule Extraction}{section.3.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Rule Application}{section.3.3}% 27
-\BOOKMARK [1][-]{section.3.4}{3.4 Conclusion}{chapter.3}% 28
-\BOOKMARK [0][]{chapter.4}{4 Evaluation}{}% 29
-\BOOKMARK [1][-]{section.4.1}{4.1 English to Chinese Systems}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Experimental Setup}{section.4.1}% 31
-\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Results}{section.4.1}% 32
-\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 Evaluation}{section.4.1}% 33
-\BOOKMARK [1][-]{section.4.2}{4.2 Chinese to English Systems}{chapter.4}% 34
-\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Experimental Setup}{section.4.2}% 35
-\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Results}{section.4.2}% 36
-\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Evaluation}{section.4.2}% 37
-\BOOKMARK [1][-]{section.4.3}{4.3 Conclusion}{chapter.4}% 38
-\BOOKMARK [0][]{chapter.5}{5 Conclusion}{}% 39
-\BOOKMARK [1][-]{section.5.1}{5.1 Discussion}{chapter.5}% 40
-\BOOKMARK [1][-]{section.5.2}{5.2 Conclusion}{chapter.5}% 41
-\BOOKMARK [1][-]{section.5.3}{5.3 Outlook}{chapter.5}% 42
-\BOOKMARK [0][]{chapter*.2}{Appendix}{}% 43
-\BOOKMARK [1][-]{section.E.1}{A Documentation of Pre-Reordering System}{chapter*.2}% 44
-\BOOKMARK [2][-]{subsection.E.1.1}{A.1 System Integration}{section.E.1}% 45
-\BOOKMARK [2][-]{subsection.E.1.2}{A.2 Reordering Source Code}{section.E.1}% 46
-\BOOKMARK [2][-]{subsection.E.1.3}{A.3 Configuration File}{section.E.1}% 47
-\BOOKMARK [2][-]{subsection.E.1.4}{A.4 Other Scripts}{section.E.1}% 48
-\BOOKMARK [2][-]{subsection.E.1.5}{A.5 Summary}{section.E.1}% 49
-\BOOKMARK [0][]{Item.5}{List of Tables}{}% 50
-\BOOKMARK [0][]{chapter*.7}{List of Figures}{}% 51
-\BOOKMARK [0][]{section*.9}{Bibliography}{}% 52
+\BOOKMARK [2][-]{subsection.2.6.4}{2.6.4 Rule Combination}{section.2.6}% 17
+\BOOKMARK [1][-]{section.2.7}{2.7 Oracle Reordering}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.8}{2.8 Lattices}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.9}{2.9 BLEU Score}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.10}{2.10 Conclusion}{chapter.2}% 21
+\BOOKMARK [0][]{chapter.3}{3 Reordering Approach}{}% 22
+\BOOKMARK [1][-]{section.3.1}{3.1 Reordering Problem in Chinese Translation}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.2}{3.2 Motivation of the SMT Reordering Algorithm}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.3}{3.3 The SMT Reordering Algorithm}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Reordering Rules from Multiple Layers}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Rule Extraction}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Rule Application}{section.3.3}% 28
+\BOOKMARK [1][-]{section.3.4}{3.4 Conclusion}{chapter.3}% 29
+\BOOKMARK [0][]{chapter.4}{4 Evaluation}{}% 30
+\BOOKMARK [1][-]{section.4.1}{4.1 English to Chinese Systems}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Experimental Setup}{section.4.1}% 32
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Results}{section.4.1}% 33
+\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 Evaluation}{section.4.1}% 34
+\BOOKMARK [1][-]{section.4.2}{4.2 Chinese to English Systems}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Experimental Setup}{section.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Results}{section.4.2}% 37
+\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Evaluation}{section.4.2}% 38
+\BOOKMARK [1][-]{section.4.3}{4.3 Conclusion}{chapter.4}% 39
+\BOOKMARK [0][]{chapter.5}{5 Conclusion}{}% 40
+\BOOKMARK [1][-]{section.5.1}{5.1 Discussion}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.2}{5.2 Conclusion}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.3}{5.3 Outlook}{chapter.5}% 43
+\BOOKMARK [0][]{chapter*.4}{Appendix}{}% 44
+\BOOKMARK [1][-]{section.E.1}{A Documentation of Pre-Reordering System}{chapter*.4}% 45
+\BOOKMARK [2][-]{subsection.E.1.1}{A.1 System Integration}{section.E.1}% 46
+\BOOKMARK [2][-]{subsection.E.1.2}{A.2 Reordering Source Code}{section.E.1}% 47
+\BOOKMARK [2][-]{subsection.E.1.3}{A.3 Configuration File}{section.E.1}% 48
+\BOOKMARK [2][-]{subsection.E.1.4}{A.4 Other Scripts}{section.E.1}% 49
+\BOOKMARK [2][-]{subsection.E.1.5}{A.5 Summary}{section.E.1}% 50
+\BOOKMARK [0][]{Item.5}{List of Tables}{}% 51
+\BOOKMARK [0][]{chapter*.9}{List of Figures}{}% 52
+\BOOKMARK [0][]{section*.11}{Bibliography}{}% 53

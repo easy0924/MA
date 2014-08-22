@@ -1,0 +1,23 @@
+\begin{tikzpicture}[
+-,>=stealth',
+level/.style={sibling distance = 3cm, level distance = 1.8cm},
+level 1/.style={sibling distance=6cm},
+%level 2/.style={sibling distance=4cm}, 
+%level 3/.style={sibling distance=4cm}, 
+treenode/.style = {align=center, inner sep=0.5em, text centered, font=\sffamily},
+arn_n/.style = {treenode, rectangle, rounded corners, draw=black, thick, fill=blue!20, minimum width=4em, minimum height = 2em},
+arn_x/.style = {arn_n, fill=red!20, minimum height=3em},
+edge from parent fork down
+]
+
+\node [arn_n] {NP}
+child{ node [arn_n] {NP}
+child{ node [arn_x] {DT\\ the}}
+child{ node [arn_x] {NN\\ importance}}}
+child{ node [arn_n] {PP}
+child{ node [arn_x] {IN\\ of}}
+child{ node [arn_n] {NP}
+child{ node [arn_x] {NN\\ reform}}}};
+
+\end{tikzpicture}
+

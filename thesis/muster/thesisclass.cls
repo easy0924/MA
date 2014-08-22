@@ -54,6 +54,7 @@
 \usepackage{verbatimbox}
 \usetikzlibrary{arrows}
 \usetikzlibrary{trees}
+\usetikzlibrary{shapes}
 \usetikzlibrary{positioning}
 \usepackage[authoryear]{natbib}
 \usepackage[encapsulated]{CJK}
