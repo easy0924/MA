@@ -16,7 +16,7 @@ Both sections are composed of three parts: experimental setup, result and evalua
 
 \subsection{Experimental Setup}
 We performed experiments with or without different reordering methods covering the English to Chines translation direction. The reordering methods included the reordering with short rules, long rules, tree rules and our MLT rules. The system was trained on news text from the LDC corpus and subtitles from TED talks. The development data and test data were both news text from the LDC corpus. The system was a phrase-based SMT system, which used a 6-gram language model with Knersey-Ney smoothing. Besides the pre-reordering, no lexical reordering or other reordering method was used. The text was translated through a monotone decoder. The Chinese text were first segmented into words before use.
-The reordering rules were extracted based on the alignment, POS tags and syntactic trees from the training data. One reference of the test data was used for evaluating the BLEU score. Table $4.1$ shows the size of data used in the system. %? case-sensitive?
+The reordering rules were extracted based on the alignment, POS tags and syntax trees from the training data. One reference of the test data was used for evaluating the BLEU score. Table $4.1$ shows the size of data used in the system. %? case-sensitive?
 
 \begin{table}[H]
 \centering
@@ -96,7 +96,7 @@ MLT & \cntext{达赖 喇嘛 将 本 月 访问 华盛顿 。} \\ \hline
 \caption{Examples of improvements in translated text}
 \end{table}
 %? change the example, it's wrong
-%Each section of table $4.3$ shows translation of a sentence in its source language and target language. The translation in the row with ``No MLT'' comes from the configuration without using MLT reordering, and the translation in the row with ``MLT'' comes from the configuration with using MLT reordering. From the examples, we can see that the MLT reordering improved the sentence structure significantly. In the last example, the part of the sentence ``visit Washington this month'' was parsed as the structur ``(visit (Washington) ((this) (month)))'' in the syntactic tree, but the correct Chinese translation has word order corresponds to ``this month visit Washington''. This reordering inserts the word ``visit'' between the words ``this month'' and ``Washington'', which are on a lower level of the syntactic tree. This behavior could not be done by the tree-rule-based reordering, which only changes order of constituents on the same tree level.
+%Each section of table $4.3$ shows translation of a sentence in its source language and target language. The translation in the row with ``No MLT'' comes from the configuration without using MLT reordering, and the translation in the row with ``MLT'' comes from the configuration with using MLT reordering. From the examples, we can see that the MLT reordering improved the sentence structure significantly. In the last example, the part of the sentence ``visit Washington this month'' was parsed as the structur ``(visit (Washington) ((this) (month)))'' in the syntax tree, but the correct Chinese translation has word order corresponds to ``this month visit Washington''. This reordering inserts the word ``visit'' between the words ``this month'' and ``Washington'', which are on a lower level of the syntax tree. This behavior could not be done by the tree-rule-based reordering, which only changes order of constituents on the same tree level.
 %
 %%picture?
 
@@ -230,9 +230,9 @@ From this experiments we can draw the conclusion that our reordering method also
 %\label{ch:Evaluation:sec:Evaluation}
 %%% ===============================
 
-\section{Conclusion}
+\section{Summary}
 \label{ch:Evaluation:sec:Conclusion}
 
 In this chapter, we've presented and evaluated the results of the English-to-Chinese and Chinese-to-English SMT system. In both system, our MLT reordering method shows obvious improvement on the translation quality. The MLT reordering helped to further improve the BLEU score by $3.57\%$, when it was combined with other reordering methods for translating from English to Chinese. And the improvement on the other translating direction was $1.37\%$.
 
-Through analyzing the syntactic structure of the sentences closely, we've also found that the MLT reordering method improved the translation by changing the order of words, not only on the same syntactic tree level but also between different levels, which could not be easily achieved by other reordering methods we've introduced so far. So it further justifies our claim, that our MLT reordering method changes the word order more significantly to improve the translation between Chinese and English.
+Through analyzing the syntactic structure of the sentences closely, we've also found that the MLT reordering method improved the translation by changing the order of words, not only on the same syntax tree level but also between different levels, which could not be easily achieved by other reordering methods we've introduced so far. So it further justifies our claim, that our MLT reordering method changes the word order more significantly to improve the translation between Chinese and English.

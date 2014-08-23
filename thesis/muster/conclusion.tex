@@ -25,6 +25,17 @@ And taking a close look at the BLEU score generated with oracle reordering, we c
 \label{ch:Conclusion:sec:Outlook}
 %% ===============================
 
+One direction is to design better method for word reordering. Design other reordering rule types which suit translation between English and Chinese better may be possible. Or it's also possible to have reordering methods other than rule-based, such as training classificator for reordering under different circumstances \citep{google}.
+
+The other direction is to design good reordering method use less information such as syntax tree. Syntactic parser may not be available for some unpopular languages, due to lack of research and training data.
+
+Besides, vector representation is currently also a popular topic for various tasks \citep{oxford, Mikolov}. One possible way is to use the vector representation as the feature instead of the POS tags, but details also need to be discussed, in order to make this approach perform well in practice. First, the vectors are continue values rather than discrete values as POS tags, so some metric may need to be defined in order to extract reordering rules from similar patterns. The detection of similar patterns may also be time-consuming or even impossible, if the metric is complicated or not suitable for grouping similar pattern. Second if syntax tree is used for reordering, consideration may need to be taken for what is good vector representation of internal nodes or constituents as well as how to calculate it. If syntax tree is not used, information of syntactic structure may not be fully utilized, long distance reordering or syntactic structure change may not be detected. One not-so-good approach is probably to use the dependency tree \citep{depend}, because each internal node is labeled with the head word of its subtree, which can be used for the vector representation. 
+
+If a algorithm gets too complicated, it's also questionable if it will perform well in practice, since it may not be intuitive and will pose a problem for implementation sometimes. So another way to make use of vector representation for word reordering is probably design some algorithms which can utilize the vector representation more directly.
+
+
+
+
 better algorithm for reordering between chinese english
 
 distributive representation

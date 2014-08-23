@@ -40,7 +40,7 @@ Among all the languages, Chinese is one language that is very different from Eng
 
 Most state-of-the-art phrase-based SMT systems use language model, phrase table or decoder to adjust the word order. Or an additional reordering model is used in the log-linear model for word reordering. However, these methods may have some disadvantages, such as some don't handle long-distance reordering, some don't handle unstructured reordering and some are rather time consuming.
 
-Encouraged by the results from the paper \cite{short}, \cite{long} and \cite{tree}, we further propose a new data driven, rule based pre-reordering method, which uses rules based on syntactic tree. The method is called Multi-Layer-Tree (MLT) reordering, which orders the constituents on multiple layers of the syntactic tree all together. This pre-reordering method rearrange the words in source language into a similar order as they are supposed to appear in the target language before translation. with the appropriate word order, better translation quality can be achieved.
+Encouraged by the results from the paper \cite{short}, \cite{long} and \cite{tree}, we further propose a new data driven, rule based pre-reordering method, which uses rules based on syntax tree. The method is called Multi-Layer-Tree (MLT) reordering, which orders the constituents on multiple layers of the syntax tree all together. This pre-reordering method rearrange the words in source language into a similar order as they are supposed to appear in the target language before translation. with the appropriate word order, better translation quality can be achieved.
 
 In addition, we combine this new reordering method with other existing rule based reordering methods and evaluate the results on translation between English and Chinese. %? , as well as other language pair.
 
@@ -57,18 +57,18 @@ So the objective of this work can be defined as follows:
 \fbox{
 \setlength{\fboxsep}{1.8ex}
 \parbox[c]{0.8\textwidth}{
-We establish a new data driven rule based pre-reordering method for translation between English and Chinese. The method reorders the source text of a SMT system before translation by using the information from alignment, POS tags and syntactic tree of the training data. Also we evaluate this method by checking the resulted translation quality and by comparing it with other existing rule based pre-reordering method.
+We establish a new data driven rule based pre-reordering method for translation between English and Chinese. The method reorders the source text of a SMT system before translation by using the information from alignment, POS tags and syntax tree of the training data. Also we evaluate this method by checking the resulted translation quality and by comparing it with other existing rule based pre-reordering method.
 }}
 \end{center}
 
 The ground of this thesis are three papers about rule based pre-reordering: \cite{short, long} and \cite{tree}. While their reordering methods are primarily designed and optimized for German or other languages with similar characteristics to German, they are not necessarily suitable for Chinese translation, which belongs to a totally different language branch and has some distinguishable features. Or at least, there may be still space for improvement on translating for Chinese.
 
-In this context, we further explore the possibilities for a more suitable reordering method for Chinese, and we propose the MLT reordering method, which extracts the rules by detecting position change of constituents on multiple layers of the syntactic trees' subtrees from parallel training data. And guided by the rules, we can reorder the new text by examining subtrees of the same structure.
+In this context, we further explore the possibilities for a more suitable reordering method for Chinese, and we propose the MLT reordering method, which extracts the rules by detecting position change of constituents on multiple layers of the syntax trees' subtrees from parallel training data. And guided by the rules, we can reorder the new text by examining subtrees of the same structure.
 
 We will also evaluate our reordering method and compare it with these existing methods. Through the evaluation and comparison, we'll see the improvement on translation between English and Chinese. 
 %?as well as other language pair
 
-%Our method is primarily based on the syntactic trees. We 
+%Our method is primarily based on the syntax trees. We 
 
 %The evaluation is based on the BLUE score of the translation. %?In addition, we'll also manually analyze some translation examples to show how our method is suitable for word reordering related to syntactic structure change, when it's used for translation between English and Chinese.
 

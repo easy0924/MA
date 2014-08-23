@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  22 AUG 2014 18:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  23 AUG 2014 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1183,7 +1183,7 @@ babelbib: Set language for keywords in the bibliography fixed to ngerman
 babelbib: Set language for keywords in the bibliography fixed to ngerman
 \openout2 = `titlepage.aux'.
 
-(./titlepage.tex <logos/KITLogo_RGB.pdf, id=220, 196.46399pt x 90.77916pt>
+(./titlepage.tex <logos/KITLogo_RGB.pdf, id=224, 196.46399pt x 90.77916pt>
 File: logos/KITLogo_RGB.pdf Graphic file (type pdf)
 
 <use logos/KITLogo_RGB.pdf>
@@ -1229,7 +1229,7 @@ ted-to.pdf logos/signature.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<logos/signature-eps-converted-to.pdf, id=240, 1155.31625pt x 474.77374pt>
+<logos/signature-eps-converted-to.pdf, id=244, 1155.31625pt x 474.77374pt>
 File: logos/signature-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logos/signature-eps-converted-to.pdf>
@@ -1402,21 +1402,118 @@ File: omsaer.fd 1999/12/27
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
 
-(./swap.tikz) [9] [10] (./Lattices.tikz
+[9] (./swap.tikz) [10] [11] (./Lattices.tikz
 \myx=\skip82
 \myy=\skip83
-) [11] [12
+) [12] [13
+
+
+] [14
 
 
 ]
 Chapter 3.
-[13
-
-
-] (./extract.tikz)) [14]
+[15] (./unstructured.tikz
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+))
+(./unstructured2.tikz
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)) (./extract.tikz)
+[16]) [17]
 \openout2 = `evaluation.aux'.
 
- (./evaluation.tex
+ (./evaluation.tex [18
+
+
+
+
+]
 Chapter 4.
 New spreadtab: \begin{tabular}{|l|r|r|}
 * reading tab: ok
@@ -1441,12 +1538,7 @@ New spreadtab: \begin{tabular}{|l|r|r|}
 * building tab: ok
 End of spreadtab: \end{tabular}
 
-[15
-
-
-
-
-] (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+[19] (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
@@ -1484,7 +1576,7 @@ File: UTF8.chr 2012/05/07 4.8.3
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
+ [20]
 New spreadtab: \begin{tabular}{|l|r|r|}
 * reading tab: ok
 * computing formulas:
@@ -1511,75 +1603,80 @@ End of spreadtab: \end{tabular}
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17])
-[18]
+ [21])
+[22]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 Chapter 5.
-) [19
+[23
 
 
 
 
-] [20
+]) [24] (./appendix.tex [25
 
 
 
-] (./appendix.tex [21
 
 
-] (./exampletree.tikz) [22] [23] [24]) [25]
-[26
+] (./exampletree.tikz) [26] [27] [28]) [29]
+[30
 
 
 ] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [27
+ [31
 
 
-] [28
+] [32
 
 
 ] (./thesis.lof)
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
- [29
+ [33
 
 
-] [30
+] [34
 
 
-] (./thesis.bbl) [31
+] (./thesis.bbl [35
 
 
-]
+])
+[36]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
-
-(./thesis.aux (./titlepage.aux) (./abstract.aux) (./declaration.aux)
+ (./thesis.aux (./titlepage.aux) (./abstract.aux) (./declaration.aux)
 (./introduction.aux) (./content.aux) (./evaluation.aux) (./conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6D8F0FA11516BB91D9D2E21B81A8C231;3528.
 
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 159397DC3919A572688C20EE8A6D42FB;3612
+(rerunfilecheck)             After:  75A95B2A5B276947F93DBDD2415AB287;3627.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
  ) 
 Here is how much of TeX's memory you used:
- 28190 strings out of 493308
- 511626 string characters out of 6143617
- 737328 words of memory out of 5000000
- 30706 multiletter control sequences out of 15000+600000
- 71297 words of font info for 132 fonts, out of 8000000 for 9000
+ 28408 strings out of 493308
+ 517908 string characters out of 6143617
+ 737393 words of memory out of 5000000
+ 30842 multiletter control sequences out of 15000+600000
+ 72169 words of font info for 135 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 71i,20n,90p,1115b,2997s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,20n,90p,1235b,2997s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
@@ -1597,34 +1694,36 @@ st/fonts/type1/arphic/gbsnu/gbsnu52.pfb></usr/share/texmf-dist/fonts/type1/arph
 ic/gbsnu/gbsnu53.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu54.pf
 b></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu55.pfb></usr/share/texmf
 -dist/fonts/type1/arphic/gbsnu/gbsnu56.pfb></usr/share/texmf-dist/fonts/type1/a
-rphic/gbsnu/gbsnu59.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b
-.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5c.pfb></usr/share/te
-xmf-dist/fonts/type1/arphic/gbsnu/gbsnu5d.pfb></usr/share/texmf-dist/fonts/type
-1/arphic/gbsnu/gbsnu5f.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsn
-u60.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu61.pfb></usr/share
-/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu62.pfb></usr/share/texmf-dist/fonts/t
-ype1/arphic/gbsnu/gbsnu63.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/g
-bsnu65.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu66.pfb></usr/sh
-are/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/share/texmf-dist/font
-s/type1/arphic/gbsnu/gbsnu6b.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsn
-u/gbsnu6d.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6e.pfb></usr
-/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/share/texmf-dist/f
-onts/type1/arphic/gbsnu/gbsnu76.pfb></usr/share/texmf-dist/fonts/type1/arphic/g
-bsnu/gbsnu77.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu79.pfb></
-usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7e.pfb></usr/share/texmf-dis
-t/fonts/type1/arphic/gbsnu/gbsnu80.pfb></usr/share/texmf-dist/fonts/type1/arphi
-c/gbsnu/gbsnu88.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu89.pfb
-></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8b.pfb></usr/share/texmf-
-dist/fonts/type1/arphic/gbsnu/gbsnu8d.pfb></usr/share/texmf-dist/fonts/type1/ar
-phic/gbsnu/gbsnu8f.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu95.
-pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/share/tex
-mf-dist/fonts/type1/arphic/gbsnu/gbsnu98.pfb></usr/share/texmf-dist/fonts/type1
-/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
-.pfb>
-Output written on thesis.pdf (37 pages, 410675 bytes).
+rphic/gbsnu/gbsnu59.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5a
+.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></usr/share/te
+xmf-dist/fonts/type1/arphic/gbsnu/gbsnu5c.pfb></usr/share/texmf-dist/fonts/type
+1/arphic/gbsnu/gbsnu5d.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsn
+u5e.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5f.pfb></usr/share
+/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu60.pfb></usr/share/texmf-dist/fonts/t
+ype1/arphic/gbsnu/gbsnu61.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/g
+bsnu62.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu63.pfb></usr/sh
+are/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu65.pfb></usr/share/texmf-dist/font
+s/type1/arphic/gbsnu/gbsnu66.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsn
+u/gbsnu67.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6b.pfb></usr
+/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6c.pfb></usr/share/texmf-dist/f
+onts/type1/arphic/gbsnu/gbsnu6d.pfb></usr/share/texmf-dist/fonts/type1/arphic/g
+bsnu/gbsnu6e.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></
+usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu76.pfb></usr/share/texmf-dis
+t/fonts/type1/arphic/gbsnu/gbsnu77.pfb></usr/share/texmf-dist/fonts/type1/arphi
+c/gbsnu/gbsnu79.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7e.pfb
+></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu80.pfb></usr/share/texmf-
+dist/fonts/type1/arphic/gbsnu/gbsnu88.pfb></usr/share/texmf-dist/fonts/type1/ar
+phic/gbsnu/gbsnu89.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8b.
+pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8d.pfb></usr/share/tex
+mf-dist/fonts/type1/arphic/gbsnu/gbsnu8f.pfb></usr/share/texmf-dist/fonts/type1
+/arphic/gbsnu/gbsnu95.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu
+96.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu98.pfb></usr/share/
+texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvr8a.pfb>
+Output written on thesis.pdf (42 pages, 439976 bytes).
 PDF statistics:
- 782 PDF objects out of 1000 (max. 8388607)
- 682 compressed objects within 7 object streams
- 130 named destinations out of 1000 (max. 500000)
- 447 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 842 PDF objects out of 1000 (max. 8388607)
+ 733 compressed objects within 8 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 455 words of extra memory for PDF output out of 10000 (max. 10000000)
 

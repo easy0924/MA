@@ -10,44 +10,44 @@ A level-1 auxiliary file: evaluation.aux
 A level-1 auxiliary file: conclusion.aux
 The style file: apalike.bst
 Database file #1: thesis.bib
-You've used 12 entries,
+You've used 15 entries,
             1935 wiz_defined-function locations,
-            548 strings with 5827 characters,
-and the built_in function-call counts, 5142 in all, are:
-= -- 523
-> -- 193
-< -- 11
-+ -- 69
-- -- 64
-* -- 396
-:= -- 853
-add.period$ -- 38
-call.type$ -- 12
-change.case$ -- 92
-chr.to.int$ -- 11
-cite$ -- 12
-duplicate$ -- 224
-empty$ -- 368
-format.name$ -- 82
-if$ -- 1055
+            565 strings with 6405 characters,
+and the built_in function-call counts, 6505 in all, are:
+= -- 654
+> -- 262
+< -- 13
++ -- 95
+- -- 88
+* -- 504
+:= -- 1084
+add.period$ -- 48
+call.type$ -- 15
+change.case$ -- 117
+chr.to.int$ -- 14
+cite$ -- 15
+duplicate$ -- 282
+empty$ -- 459
+format.name$ -- 109
+if$ -- 1330
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 11
-newline$ -- 61
-num.names$ -- 36
-pop$ -- 98
+missing$ -- 14
+newline$ -- 76
+num.names$ -- 45
+pop$ -- 130
 preamble$ -- 1
-purify$ -- 92
+purify$ -- 117
 quote$ -- 0
-skip$ -- 169
+skip$ -- 211
 stack$ -- 0
-substring$ -- 342
-swap$ -- 51
-text.length$ -- 5
+substring$ -- 412
+swap$ -- 64
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 70
+type$ -- 88
 warning$ -- 0
-while$ -- 43
+while$ -- 52
 width$ -- 0
-write$ -- 158
+write$ -- 197

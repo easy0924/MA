@@ -5,10 +5,22 @@ Birch, A., Osborne, M., and Blunsom, P. (2010).
 \newblock Metrics for mt evaluation: Evaluating reordering.
 \newblock {\em Machine Translation}, 24(1).
 
+\bibitem[Blunsom et~al., 2014]{oxford}
+Blunsom, P., Grefenstette, E., Kalchbrenner, N., et~al. (2014).
+\newblock A convolutional neural network for modelling sentences.
+\newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
+  Computational Linguistics}. Proceedings of the 52nd Annual Meeting of the
+  Association for Computational Linguistics.
+
 \bibitem[Chiang, 2007]{hier}
 Chiang, D. (2007).
 \newblock Hierarchical phrase-based translation.
 \newblock {\em computational linguistics}, 33(2):201--228.
+
+\bibitem[De~Marneffe et~al., 2006]{depend}
+De~Marneffe, M.-C., MacCartney, B., Manning, C.~D., et~al. (2006).
+\newblock Generating typed dependency parses from phrase structure parses.
+\newblock In {\em Proceedings of LREC}, volume~6, pages 449--454.
 
 \bibitem[Herrmann et~al., 2013a]{combine}
 Herrmann, T., Niehues, J., and Waibel, A. (2013a).
@@ -45,6 +57,11 @@ Lerner, U. and Petrov, S. (2013).
 Marcus, M.~P., Marcinkiewicz, M.~A., and Santorini, B. (1993).
 \newblock Building a large annotated corpus of english: The penn treebank.
 \newblock {\em Computational linguistics}, 19(2):313--330.
+
+\bibitem[Mikolov et~al., 2013]{Mikolov}
+Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013).
+\newblock Efficient estimation of word representations in vector space.
+\newblock {\em arXiv preprint arXiv:1301.3781}.
 
 \bibitem[Niehues and Kolss, 2009]{long}
 Niehues, J. and Kolss, M. (2009).

@@ -69,7 +69,7 @@ The executable file \verb|extract| has the following usage format:\\ \verb|extra
 
 The parameter \verb|<Alignment>| should be the path of alignment file of the parallel data, which are used for training the rules. The word indexes in the alignment file should start with $1$. The parameter \verb|<SourceText>| is the path of source text, \verb|<SourceTrees>| is the parse tree file and \verb|<minOCC>| is the minimum occurrences that a rule should have, in order to be extracted. Rules that don't occur so often are ignored. The parameter \verb|<Mode>| is an integer between $0$ and $3$, which indicates four rule variations.
 
-When mode is $0$, the rule includes with POS tags of the internal nodes. In the other modes, the POS tags of internal nodes are ignored. In mode $2$, the hierarchies of the syntactic trees are compressed, so the rules contains less parenthesis. Parenthesis are removed, when a node is a single child of its parent or when the removal doesn't affect the word grouping. Furthermore, all the parenthesis are completely removed in mode $3$. 
+When mode is $0$, the rule includes with POS tags of the internal nodes. In the other modes, the POS tags of internal nodes are ignored. In mode $2$, the hierarchies of the syntax trees are compressed, so the rules contains less parenthesis. Parenthesis are removed, when a node is a single child of its parent or when the removal doesn't affect the word grouping. Furthermore, all the parenthesis are completely removed in mode $3$. 
 \begin{figure}[H]
 \centering
 \input{exampletree.tikz}\linebreak \linebreak
@@ -91,7 +91,7 @@ The executable file \verb|apply| has the following usage format:\\
 \verb|apply <RuleFile> <TargetText> <TargetTag> <TargetTrees> <TargetDir> <Mode>|\\
 \verb|[<LatticesDir>]|
 
-The parameter \verb|<RuleFile>| is the path of the rules file created by the the \verb|extract| commnad. The parameter \verb|<TargetText>| is the path of text to be reordered and translated, with one sentence per line. \verb|<TargetTag>| and \verb|<TargetTree>| are separately the POS tags and syntactic trees of the text. \verb|<TargetDir>| is the directory, where the resulted lattices should be put. \verb|<Mode>| is the same parameter as described in the \verb|extract| command, it should be consistent with mode used for extracting the rules. The last parameter \verb|<LatticesDir>| is optional, it's intended to enable the rule combination. If this parameter is given, the program will apply the rules on top of the existing lattices under the specified directory \verb|<LatticeDir>|. The existing lattices should be also extracted for the same target text.
+The parameter \verb|<RuleFile>| is the path of the rules file created by the the \verb|extract| commnad. The parameter \verb|<TargetText>| is the path of text to be reordered and translated, with one sentence per line. \verb|<TargetTag>| and \verb|<TargetTree>| are separately the POS tags and syntax trees of the text. \verb|<TargetDir>| is the directory, where the resulted lattices should be put. \verb|<Mode>| is the same parameter as described in the \verb|extract| command, it should be consistent with mode used for extracting the rules. The last parameter \verb|<LatticesDir>| is optional, it's intended to enable the rule combination. If this parameter is given, the program will apply the rules on top of the existing lattices under the specified directory \verb|<LatticeDir>|. The existing lattices should be also extracted for the same target text.
 
 The output of of the command are the lattice files saved under \verb|TargetDir|, one file per sentence. Each lattice file saves the specific information of nodes and edges of a lattice graph presenting a reordered sentence. The whole directory can be used as input for the decoder.
 
@@ -192,12 +192,12 @@ The parameter \verb|<Option>| should be one of the following strings:
 \verb|/home/gwu/ma/scripts/tree/getTreeInfo.py|\\
 \verb|Usage: getTreeInfo.py <TreeFile>|
 
-This script shows information of the depth and branch factor of syntactic trees in a tree file specified by the parameter \verb|<TreeFile>|. 
+This script shows information of the depth and branch factor of syntax trees in a tree file specified by the parameter \verb|<TreeFile>|. 
 
 \verb|/home/gwu/ma/scripts/generator/gentree| \\
 \verb|Usage: gentree|
 
-This program is used to get the tikz code for drawing a syntactic tree. Executing this program will lead one into a command line mode. After the syntactic tree is given, the program outputs the tikz code for the tree. Following example shows how a tree could be present with this code:\\
+This program is used to get the tikz code for drawing a syntax tree. Executing this program will lead one into a command line mode. After the syntax tree is given, the program outputs the tikz code for the tree. Following example shows how a tree could be present with this code:\\
 \verb|/home/gwu/ma/scripts/generator/example_tree.tex|
 
 The configurations of the tree may be altered according to demand, including the distance between levels, distance between children, how the nodes and edges look, etc.
