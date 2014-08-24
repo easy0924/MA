@@ -10,14 +10,14 @@ arn_x/.style = {arn_n, fill=blue!20, minimum height=3em},
 edge from parent fork down
 ]
 \node [arn_n, fill=red!20] {NP}
-child[sibling distance = 7.5cm] { node(A) [arn_x, fill=red!50] {CD\\ ten}}
+child[sibling distance = 7.5cm] { node(A) [arn_x, fill=red!40] {CD\\ ten}}
 child{ node [arn_n, fill=red!20] {NP}
 child{ node [arn_n, fill=red!20] {NP}
-child{ node(B) [arn_x, fill=red!50] {JJ\\ big}}
-child{ node(C) [arn_x, fill=red!50] {NNS\\ advantages}}}
+child{ node(B) [arn_x, fill=red!40] {JJ\\ big}}
+child{ node(C) [arn_x, fill=red!40] {NNS\\ advantages}}}
 child{ node [arn_n, fill=red!20] {PP}
-child{ node(D) [arn_x, fill=red!50] {IN\\ of}}
-child{ node(E) [arn_n, fill=red!50] {NP}
+child{ node(D) [arn_x, fill=red!40] {IN\\ of}}
+child{ node(E) [arn_n, fill=red!40] {NP}
 child{ node [arn_x](F) {JJ\\ peaceful}}
 child{ node [arn_x](G) {NN\\ reunification}}}}};
 
@@ -33,6 +33,7 @@ child{ node [arn_x](G) {NN\\ reunification}}}}};
 \draw[dashed] (A) -- (N) -- (K.north);
 \draw[dashed] (B) -- (B|-N) -- (L.north);
 \draw[dashed] (C) -- (C|-N) -- (M.north);
+\draw[dashed] (D) -- (D|-N) -- (J.north);
 \draw[dashed] (F) -- (F|-N) -- (H.north);
 \draw[dashed] (G) -- (G|-N) -- (I.north);
 

@@ -169,6 +169,7 @@ Tree rules also have some different varieties:
 
 
 \subsection{Rule Extraction and Application}
+\label{general}
 
 Rules are extracted by scanning all the training data and detecting the word order change. A valid word order change that can count for reordering rule needs to fulfill the two criteria in general:
 \begin{itemize}
@@ -205,7 +206,7 @@ A word lattice could be presented with a directed acyclic graph. The graph conta
 
 An example of a word lattice is showed in figure $2.6$. If the probability of a transition is $1$, it's left out in the example to keep the graph clear.
 
-\paragraph{Building of Lattices Presenting Different Reorderings}
+\subsection{Building of Lattices Presenting Different Reorderings}
 
 The lattice begins with a monotone path presenting the sentence to translated. Every time when a rule is applied and part of the sentence is reordered. We add a parallel path to the corresponding part of the initial monotone path. The parallel path is labeled with reordered words on its transitions. The probability of this new reordering is subtracted from the first transition after the splitting point on monotone path, and assigned to the first transition of the new path. All the other transitions on the new path that follow have a probability of $1$.
 
@@ -256,19 +257,20 @@ And sometimes, a long English sentence with clauses is more suitable to be trans
 
 \textbf{Position of adverbs and adverbial clauses}
 %% ===========================
-\section{Motivation of the Reordering on Multiple Syntactic Levels}
+\section{Motivation of Reordering on Multiple Syntactic Levels}
 \label{ch:ReorderingApproach:sec:Motivation}
 %% ===========================
 
 
 %? long distance position change, unstructural position change.
 
+\subsection{Long Distance Word Reordering}
 
 efficient than hier
 
 use tree and alignment only
 
-\paragraph{Unstructured Word Reordering}
+\subsection{Unstructured Word Reordering}
 
 Because English and Chinese have different word orders and there're also some special cases of sentence patterns, the word reordering can be complicated and unsystematically. Sometimes it involves word position changes on multiple syntactic levels. We can see this problem from the examples in figure $3.1$. In the figure, the syntactic structure and alignment of the parallel text are presented in a intuitive way.
 
@@ -280,11 +282,16 @@ Because English and Chinese have different word orders and there're also some sp
 \subfigure {
 \input{unstructured2.tikz}
 }
-\caption{Illustration of rule extraction}
+\caption{Examples of reordering on multiple syntactic levels}
 \end{figure}
 
+From the examples we can also clearly see how to reordering on multiple syntactic levels works. From the root of the syntax tree on the left, if we inspect 3 syntactic levels downwards, we can find the following pattern of word position change, comparing the parallel Chinese text:
+$$\texttt{NP ( {\color{red}CD} NP ( NP ( {\color{red}JJ NNS} ) PP ( {\color{red}IN NP} ) ) ) -> NP IN CD JJ NNS}$$
+As we can see, we can't get this pattern if we only observing subtrees on the same level of syntax tree. The node labeled with ``CD ten'' is inserted into the subtree of its sibling labeled with ``NP'', between its sibling's two children. This position change can not simply be done by swapping children of the same node.
 
-$$\verb|NP ( CD NP ( NP ( JJ NNS ) PP ( IN NP ) ) ) -> |$$
+We can also observe the same phenomenon from the second example. If we inspect two levels downwards from the root node, we can find the following pattern:
+$$\texttt{S ( NP ( {\color{red}NP PP} ) VP ( {\color{red}VBP ADVP}) {\color{red}.} ) -> ADVP NP PP VBP .}$$
+In this example, the adverbial phrase ``annually'' is moved forward to the front of the sentence, leaving the subtree ``NP ( NP PP )'', which is on a higher level, between it and its sibling.
 
 So as a whole, there are several reasons why we need word reordering on multiple syntactic levels. First, the syntactic parser may make mistakes. As we found in the training corpus, it's not rare that sentences are misparsed, either the words are not correctly tagged, or the syntactic structure is wrong. Second, the syntax tree of the English sentence may not be suitable for translation into Chinese. In these case, MLT reordering could be used as a remedy for incorrect parsing patterns in the syntax tree. Besides due to the very different word orders between English and Chinese, simply reordering the words by change nodes on the same syntax tree level may not do the job, and MLT reordering will be useful in this case.
 
@@ -293,13 +300,15 @@ So as a whole, there are several reasons why we need word reordering on multiple
 \label{ch:ReorderingApproach:sec:Algorithm}
 %% ===========================
 
-%? Our method
+Inspired the method of tree rules based of reordering and hierarchical SMT model, we created this reordering algorithm. The algorithm solely uses information of the syntax tree and alignment of the source side. It further explores the syntactic structure of text to be translated, and detecting reordering patterns based on multiple hierarchies of the syntax tree.
 
-The algorithm solely uses information of the syntax tree and alignment of the source side. In the first part of this section, we first explain what are reordering rules from multiple layers of the syntax tree. Afterwards we'll explain how to extract and apply the rules systematically.
+As we've ready seen how the basic idea of finding reordering patterns on multiple syntactic levels generally works in the last section. We'll systematically explain the rule extraction and application in all details in this chapter.
 
-\subsection{Reordering Rules from Multiple Layers}
+\subsection{Rule Extraction}
 
-Inspired the method of tree rules based of reordering and hierarchical SMT model, we created this reordering method. In this method we use information from the syntax tree and further explore its syntactic structure. 
+In order to find as much as information for reordering as possible. The algorithm of rule extraction detects the reordering pattern from all nodes in the syntax tree, goes downwards for any number of hierarchies, until it reaches the last leave in the subtrees.
+
+As describe in \hyperref[general]{section $2.6.4$}, a valid patterns for reordering should both be involved with actual reordered words and have clearly distinguished new order from the target side, i.e. no coincidence of aligned range on the target side.
 
 \begin{figure}[H]
 \centering
@@ -307,13 +316,20 @@ Inspired the method of tree rules based of reordering and hierarchical SMT model
 \caption{Illustration of rule extraction}
 \end{figure}
 
+Figure $3.2$ shows a phrase to be translated together with is syntax tree and alignment to its parallel text in Chinese. The nodes are labels with numbers. In this example, we can find the following reordering patterns:
 
+From node $1$:\\
+\texttt{NP ( {\color{red}NP PP} ) -> PP NP} \hfill [1 level]\\
+\texttt{NP ( NP ( {\color{red}JJ NNS} ) PP ( {\color{red}IN NP} ) ) -> NP IN JJ NNS} \hfill $*$[2 levels]\\
+\texttt{NP ( NP ( {\color{red}JJ NNS} ) PP ( {\color{red}IN} NP ( {\color{red}JJ NNS} ) ) ) -> JJ NNS IN JJ NNS} \hfill [3 levels]
 
+From node $3$:\\
+\texttt{PP ( {\color{red}IN NP} ) -> NP IN} \hfill [1 level]\\
+\texttt{PP ( {\color{red}IN} NP ( {\color{red}JJ NNS} ) ) -> JJ NNS IN} \hfill $*$[2 levels]
 
-\subsection{Rule Extraction}
+It's noteworthy that our method can detect more reordering patterns than the tree rule based method. For example, the patterns marked with $*$ above can not be extracted with the tree rules based method directly.
 
-
-
+The probability of the reordering patterns can be calculated as described in \hyperref[general]{section $2.6.4$}. There are the left side and the right side of the reordering patterns, which mean what sequence
 
 \subsection{Rule Application}
 

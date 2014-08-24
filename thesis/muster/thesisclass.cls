@@ -39,6 +39,8 @@
 % for more sophisticated algorithm listings
 
 % new defined functions
+%\usepackage[scaled=1.04]{couriers}
+
 \usepackage{array}
 \usepackage{spreadtab}
 \usepackage{amsthm}

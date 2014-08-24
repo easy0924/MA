@@ -1,8 +1,8 @@
 \begin{tikzpicture}[
 -,>=stealth',
 level/.style={sibling distance = 3cm, level distance = 1.8cm},
-level 1/.style={sibling distance=6cm},
-%level 2/.style={sibling distance=4cm}, 
+level 1/.style={sibling distance=7cm},
+level 2/.style={sibling distance=3cm}, 
 %level 3/.style={sibling distance=4cm}, 
 treenode/.style = {align=center, inner sep=0.5em, text centered, font=\sffamily},
 arn_n/.style = {treenode, rectangle, rounded corners, draw=black, thick, fill=blue!20, minimum width=4em, minimum height = 2em},
@@ -10,14 +10,39 @@ arn_x/.style = {arn_n, fill=red!20, minimum height=3em},
 edge from parent fork down
 ]
 
-\node [arn_n] {NP}
-child{ node [arn_n] {NP}
-child{ node [arn_x] {DT\\ the}}
-child{ node [arn_x] {NN\\ importance}}}
-child{ node [arn_n] {PP}
-child{ node [arn_x] {IN\\ of}}
-child{ node [arn_n] {NP}
-child{ node [arn_x] {NN\\ reform}}}};
+\node [arn_n,label=below right:1] {NP}
+child{ node [arn_n,label=below right:2] {NP}
+child{ node [arn_x,label=below right:4](A) {JJ\\ physiological}}
+child{ node [arn_x,label=below right:5](B) {NNS\\ effects}}}
+child{ node [arn_n,label=below right:3] {PP}
+child[sibling distance=6cm]{ node [arn_x,label=below right:6](C) {IN\\ of}}
+child{ node [arn_n,label=below right:7] {NP}
+child{ node [arn_x,label=below right:8](D) {JJ\\ environmental}}
+child{ node [arn_x,label=below right:9](X) {NNS\\ hormones}}}};
+
+
+%\node [arn_n, label=below right:1] {NP}
+%child{ node [arn_n, label=below right:2] {NP}
+%child{ node [arn_x,label=below left:4](A) {DT\\ the}}
+%child{ node [arn_x,label=below left:5](B) {NN\\ importance}}}
+%child{ node [arn_n, label=below right:3] {PP}
+%child{ node [arn_x,label=below right:6](C) {IN\\ of}}
+%child{ node [arn_n,label=below right:7] {NP}
+%child{ node [arn_x,label=below right:8](D) {NN\\ reform}}}};
+
+\node[below=4.5cm of A](E) {\cntext{环境}};
+\node[right=1.8cm of E](F) {\cntext{荷尔蒙}};
+\node[right=1.8cm of F](G) {\cntext{的}};
+\node[right=1.8cm of G](H) {\cntext{生理}};
+\node[right=1.8cm of H](I) {\cntext{效应}};
+
+\node[below=2cm of A](J) {};
+
+\draw[dashed] (A)--(J)--(H.north);
+\draw[dashed] (B)--(B|-J)--(I.north);
+\draw[dashed] (C)--(C|-J)--(G.north);
+\draw[dashed] (D)--(D|-J)--(E.north);
+\draw[dashed] (X)--(X|-J)--(F.north);
 
 \end{tikzpicture}
 
