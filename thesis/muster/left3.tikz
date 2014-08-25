@@ -1,0 +1,31 @@
+\begin{tikzpicture}[scale=0.5,
+-,>=stealth',
+level/.style={sibling distance = 2cm, level distance = 1.8cm},
+level 1/.style={sibling distance=4cm},
+level 2/.style={sibling distance=2cm}, 
+level 3/.style={sibling distance=4cm}, 
+treenode/.style = {scale=0.5, align=center, inner sep=0.5em, text centered, font=\sffamily},
+arn_n/.style = {treenode, rectangle, rounded corners=0.75mm, draw=black, thick, fill=blue!20, minimum width=4em, minimum height = 2em},
+arn_x/.style = {arn_n, fill=blue!20, minimum height=3em},
+edge from parent fork down
+]
+
+\node [arn_n] {S}
+child{ node [arn_n] {NP}
+child{ node [arn_x] {NN\\ world}}
+child{ node [arn_x] {NN\\ bank}}}
+child{ node [arn_n] {VP}
+child{ node [arn_x] {VBZ\\ plans}}
+child{ node [arn_n,fill=red!20] {NP}
+child{ node [arn_n,fill=red!20] {NP}
+child{ node [arn_x,fill=red!40] {NN\\ debt}}
+child{ node [arn_x,fill=red!40] {NN\\ relief}}}
+child{ node [arn_n,fill=red!20] {PP}
+child{ node [arn_x,fill=red!40] {IN\\ for}}
+child{ node [arn_n,fill=red!40] {NP}
+child{ node [arn_x] {JJS\\ poorest}}
+child{ node [arn_x] {NNS\\ countries}}}}}};
+
+
+\end{tikzpicture}
+

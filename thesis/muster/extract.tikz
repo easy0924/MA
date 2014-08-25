@@ -6,7 +6,7 @@ level 2/.style={sibling distance=3cm},
 %level 3/.style={sibling distance=4cm}, 
 treenode/.style = {align=center, inner sep=0.5em, text centered, font=\sffamily},
 arn_n/.style = {treenode, rectangle, rounded corners, draw=black, thick, fill=blue!20, minimum width=4em, minimum height = 2em},
-arn_x/.style = {arn_n, fill=red!20, minimum height=3em},
+arn_x/.style = {arn_n, fill=blue!20, minimum height=3em},
 edge from parent fork down
 ]
 

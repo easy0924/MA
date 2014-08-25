@@ -136,6 +136,7 @@ In addition, Short rules also have some different varieties \citep{short}:
 
 Long rules are specially designed to help the long distance word reordering for translation between English and German. The rules are based on POS tags of the text, and an example is as following:
 $$\verb|NN X MD VHP -> X MD NN VHP (0.14)|$$
+
 The ``X'' in the example is an placeholder, which can replace one or more words. ``VHP'' is the right context, which is sometimes helpful to define the reordering boundary. ``NN'' means noun, ``MD'' means modal verb and ``VHP'' is the word ``have''. In this example, the tag sequence ``NN X MD VHP'' will be reordered as ``X MD NN VHP'' with a likelihood of $0.1429$.
 
 Rules are extracted by first finding the location of the reordering rule and then putting the placeholder. Depends on the location, where the placeholder is put, and how much the placeholder replace,  the long rules also have some varieties:
@@ -201,19 +202,17 @@ In order to further explore the probability of improvement, we combine different
 %% ===========================
 \section{Word Lattice}
 \label{ch:Foundations:sec:Lattices}
+\label{latticecreation}
 %% ===========================
 A word lattice could be presented with a directed acyclic graph. The graph contains nodes and transitions, with each transition labeled with a word and a probability. The outgoing transitions from a node indicate different options, which words could come after this point. The annotation on the transition indicate the word that could come, together with the probability of this option. The word lattice groups different word reorderings of the same English sentence together, with each reordering corresponding a path from the beginning node to the end node. 
 
-An example of a word lattice is showed in figure $2.6$. If the probability of a transition is $1$, it's left out in the example to keep the graph clear.
-
-\subsection{Building of Lattices Presenting Different Reorderings}
-
-The lattice begins with a monotone path presenting the sentence to translated. Every time when a rule is applied and part of the sentence is reordered. We add a parallel path to the corresponding part of the initial monotone path. The parallel path is labeled with reordered words on its transitions. The probability of this new reordering is subtracted from the first transition after the splitting point on monotone path, and assigned to the first transition of the new path. All the other transitions on the new path that follow have a probability of $1$.
+Word lattice for reordered word sequences is build gradually while applying the reordering rules on the sentence. It starts with a monotone path presenting the sentence to translated. Every time when a rule is applied and part of the sentence is reordered. We add a parallel path to the corresponding part of the initial monotone path. The parallel path is labeled with reordered words on its transitions. The probability of this new reordering is subtracted from the first transition after the splitting point on monotone path, and assigned to the first transition of the new path. All the other transitions on the new path that follow have a probability of $1$.
 
 %? graph for building?
 
-Paths with very low probability are removed, in order to save space for storing the lattice and reduce decoding time later, without compromising to much translation quality. In our system, we remove all the paths that have a probability lower than $0.1$.
+Paths with very low probability are removed, in order to save space for storing the lattice and reduce decoding time later, without compromising to much translation quality. %?In our system, we remove all the paths that have a probability lower than $0.1$.
 
+An example of a word lattice is showed in figure $2.6$. If the probability of a transition is $1$, it's left out in the example to keep the graph clear.
 
 
 \begin{landscape}
@@ -255,7 +254,30 @@ And sometimes, a long English sentence with clauses is more suitable to be trans
 
 \cite{syntactic} also systematic analyzing about Chinese syntactic reordering. Through our analyzing / research, examples below, worth noticing / improving
 
-\textbf{Position of adverbs and adverbial clauses}
+``Quote'':
+
+
+Mandarin Chinese sentence structure is quite different than English or other European languages. Since the word order doesn't match, sentences which are translated word-for-word to Mandarin will be difficult to understand. You must learn to think in Mandarin Chinese when speaking the language. 
+
+There're plenty of literatures discussing the sentence strucutes of chinese cite.. please.
+
+\paragraph{Preposition phrases}
+
+\paragraph{relation clauses}
+
+\paragraph{Adverbials}
+An adverbial can be an adverb, an adverbial phrase or an adverbial clause that modifies the verb or the whole sentence. The position of adverbials is a complicated topic. In general, the location of adverbials in a sentence are very flexible. They can be located in different position of a sentence both in English and Chinese, such as beginning, middle or end of a sentence, before or after the verb. The location varies and it often depends on the situation. When comparing English and Chinese word order, the location of adverbials in one language doesn't automatically implies the same location in the other. Typical examples are adverbials of time, location and frequency. It's often put after the verb in English, but before the verb in Chinese. 
+\begin{figure}[H]
+\centering
+%\input{adverbial.tikz}
+\caption{Position change of an adverbial of time}
+\end{figure}
+
+
+\paragraph{questions}
+
+\paragraph{There be ...}
+%?correct compound subjects: or & there be...
 %% ===========================
 \section{Motivation of Reordering on Multiple Syntactic Levels}
 \label{ch:ReorderingApproach:sec:Motivation}
@@ -286,11 +308,11 @@ Because English and Chinese have different word orders and there're also some sp
 \end{figure}
 
 From the examples we can also clearly see how to reordering on multiple syntactic levels works. From the root of the syntax tree on the left, if we inspect 3 syntactic levels downwards, we can find the following pattern of word position change, comparing the parallel Chinese text:
-$$\texttt{NP ( {\color{red}CD} NP ( NP ( {\color{red}JJ NNS} ) PP ( {\color{red}IN NP} ) ) ) -> NP IN CD JJ NNS}$$
+$$\texttt{NP ( {\color{blue}CD} NP ( NP ( {\color{blue}JJ NNS} ) PP ( {\color{blue}IN NP} ) ) ) -> NP IN CD JJ NNS}$$
 As we can see, we can't get this pattern if we only observing subtrees on the same level of syntax tree. The node labeled with ``CD ten'' is inserted into the subtree of its sibling labeled with ``NP'', between its sibling's two children. This position change can not simply be done by swapping children of the same node.
 
 We can also observe the same phenomenon from the second example. If we inspect two levels downwards from the root node, we can find the following pattern:
-$$\texttt{S ( NP ( {\color{red}NP PP} ) VP ( {\color{red}VBP ADVP}) {\color{red}.} ) -> ADVP NP PP VBP .}$$
+$$\texttt{S ( NP ( {\color{blue}NP PP} ) VP ( {\color{blue}VBP ADVP}) {\color{blue}.} ) -> ADVP NP PP VBP .}$$
 In this example, the adverbial phrase ``annually'' is moved forward to the front of the sentence, leaving the subtree ``NP ( NP PP )'', which is on a higher level, between it and its sibling.
 
 So as a whole, there are several reasons why we need word reordering on multiple syntactic levels. First, the syntactic parser may make mistakes. As we found in the training corpus, it's not rare that sentences are misparsed, either the words are not correctly tagged, or the syntactic structure is wrong. Second, the syntax tree of the English sentence may not be suitable for translation into Chinese. In these case, MLT reordering could be used as a remedy for incorrect parsing patterns in the syntax tree. Besides due to the very different word orders between English and Chinese, simply reordering the words by change nodes on the same syntax tree level may not do the job, and MLT reordering will be useful in this case.
@@ -306,9 +328,11 @@ As we've ready seen how the basic idea of finding reordering patterns on multipl
 
 \subsection{Rule Extraction}
 
-In order to find as much as information for reordering as possible. The algorithm of rule extraction detects the reordering pattern from all nodes in the syntax tree, goes downwards for any number of hierarchies, until it reaches the last leave in the subtrees.
+In order to find as much as information for reordering as possible. The algorithm of rule extraction detects the reordering pattern from all nodes in the syntax tree, goes downwards for any number of hierarchies, until it reaches the last hierarchy in the subtrees.
 
-As describe in \hyperref[general]{section $2.6.4$}, a valid patterns for reordering should both be involved with actual reordered words and have clearly distinguished new order from the target side, i.e. no coincidence of aligned range on the target side.
+In the implementation, the program conducts a depth-first search (DFS) to traverse every node in the syntax tree. Every time when a node is reached, the program conducts another iterative deepening depth-first search (IDDFS) in its subtree with depth-limit from $1$ to the subtree's depth. And the program detects if there're any patterns of word position changes at the same time, by using the alignment for comparison.
+
+The detected word position changes are checked for their validity for reordering rules. As describe in \hyperref[general]{section $2.6.4$}, a valid patterns for reordering should both be involved with actual reordered words and have clearly distinguished new order from the target side, i.e. no coincidence of aligned range on the target side.
 
 \begin{figure}[H]
 \centering
@@ -319,19 +343,80 @@ As describe in \hyperref[general]{section $2.6.4$}, a valid patterns for reorder
 Figure $3.2$ shows a phrase to be translated together with is syntax tree and alignment to its parallel text in Chinese. The nodes are labels with numbers. In this example, we can find the following reordering patterns:
 
 From node $1$:\\
-\texttt{NP ( {\color{red}NP PP} ) -> PP NP} \hfill [1 level]\\
-\texttt{NP ( NP ( {\color{red}JJ NNS} ) PP ( {\color{red}IN NP} ) ) -> NP IN JJ NNS} \hfill $*$[2 levels]\\
-\texttt{NP ( NP ( {\color{red}JJ NNS} ) PP ( {\color{red}IN} NP ( {\color{red}JJ NNS} ) ) ) -> JJ NNS IN JJ NNS} \hfill [3 levels]
+\texttt{NP ( {\color{blue}NP PP} ) -> PP NP} \hfill [1 level]\\
+\texttt{NP ( NP ( {\color{blue}JJ NNS} ) PP ( {\color{blue}IN NP} ) ) -> NP IN JJ NNS} \hfill $*$[2 levels]\\
+\texttt{NP ( NP ( {\color{blue}JJ NNS} ) PP ( {\color{blue}IN} NP ( {\color{blue}JJ NNS} ) ) ) -> JJ NNS IN JJ NNS} \hfill [3 levels]
 
 From node $3$:\\
-\texttt{PP ( {\color{red}IN NP} ) -> NP IN} \hfill [1 level]\\
-\texttt{PP ( {\color{red}IN} NP ( {\color{red}JJ NNS} ) ) -> JJ NNS IN} \hfill $*$[2 levels]
+\texttt{PP ( {\color{blue}IN NP} ) -> NP IN} \hfill [1 level]\\
+\texttt{PP ( {\color{blue}IN} NP ( {\color{blue}JJ NNS} ) ) -> JJ NNS IN} \hfill $*$[2 levels]
 
 It's noteworthy that our method can detect more reordering patterns than the tree rule based method. For example, the patterns marked with $*$ above can not be extracted with the tree rules based method directly.
 
-The probability of the reordering patterns can be calculated as described in \hyperref[general]{section $2.6.4$}. There are the left side and the right side of the reordering patterns, which mean what sequence
+The probability of the reordering patterns can be calculated as described in \hyperref[general]{section $2.6.4$}. There are the left part and the right part of the reordering patterns separated by the arrow. The left part indicates the sequence that should be reordered and the right part indicates how the new order should be like. The probability of the pattern is calculated by how often the left part is reordered into the right part among all its appearance in the training corpus. In addition, reordering patterns that appear less than a threshold are ignored to be used as reordering rule, in order to prevent too concrete rules without generalization capability and overfitting.
 
 \subsection{Rule Application}
+
+The syntax tree is traverse by DFS as the same in rule extraction. But from the root of each subtree, it's scanned with depth limit from its maximal levels, i.e. its depth, to $1$. If it turns out, any rule can be applied for a subtree at some level, a new path for this reordering will be added to the word lattice for decoding, as introduced in \hyperref[latticecreation]{section $2.8.1$}. As long as rules can be applied on a subtree for a certain depth, the rules are applied and the search for rule application on this subtree stops, and the search on the next subtree continues. 
+
+The reason for this is to prevent duplicate reorderings due to application of rules, which has overlapped effect with each other. These rules are normally patterns that are generated on the same tree, but with different number of levels, which has different generalization effect on the same range of words in the text. For exmaple, the following patterns can be detected from the syntax tree in figure $3.2$ in last section:
+\begin{center}
+\begin{tabular}{l}
+\texttt{PP ( {\color{blue}IN NP} ) -> NP IN}\\
+\texttt{PP ( {\color{blue}IN} NP ( {\color{blue}JJ NNS} ) ) -> JJ NNS IN}
+\end{tabular}
+\end{center}
+Both patterns are detected from the same node, but the second pattern is detected by retrieving the nodes one level deeper and it's more concrete. So the first pattern can be seen as a generalization of the second pattern. Whenever a rule of the second pattern can be applied, a rule of the first pattern can be applied too. Because subtrees are checked from the highest number of levels by rule application, the more concrete rule is applied first. Because the more concrete rule fits the detected pattern better and contains more details of reordering, so it may be more suitable for rule application. In this example, the second rule is applied rather than the first rule.
+
+To illustrate how the rule application work in a more intuitive way, we present an example. Assume we have several reordering rules and a pre-processed sentence for reordering as follows:
+\begin{center}
+\begin{tabular}{l}
+Rules:\\
+\text{[1]} \texttt{VP ( {\color{blue}VBZ} NP ( {\color{blue}NP PP} ) ) -> PP VBZ NP (0.18)}\\
+\text{[2]} \texttt{NP ( NP ( {\color{blue}NN-1 NN-2} ) PP ( {\color{blue}IN NP} ) ) -> NP IN NN-1 NN-2 (0.17)}\\
+\\
+Sentence:\\
+\texttt{world bank plans debt relief for poorest countries}
+\end{tabular}
+\end{center}
+
+The syntax tree and monotone path as initial word lattice looks as follows:
+\begin{figure}[H]
+\centering
+\subfigure{
+\input{left1.tikz}
+}
+\subfigure{
+\input{right1.tikz}
+}
+\caption{Illustration of rule application (1)}
+\end{figure}
+
+By using DFS to traverse the syntax tree, the program first finds out the pattern started from node ``VP'' with $2$ levels corresponds the left part of the first rule listed above. This indicates the rule is applicable at this position. According to the reordering rule, the order of the three constituents labeled with ``VBZ'', ``NP'' and ``PP'' should be changed to ``PP VBZ NP'' with probability $0.18$. Thus the words are reordered into ``for poorest countries plans debt relief'', and the new path with this probability is added to the word lattice.
+
+\begin{figure}[H]
+\centering
+\subfigure{
+\input{left2.tikz}
+}
+\subfigure{
+\input{right2.tikz}
+}
+\caption{Illustration of rule application (2)}
+\end{figure}
+
+As the program keeps going, it turns out the second rule is applicable at another node labeled with ``NP'' with $2$ levels. Again the rule is applied with probability $0.17$ and the new path is added. It should be noted that there're numbers added to the two ``NN'' tags in the rule, in order to distinguish them for the reordering. The program uses index for the internal presentation of words, which doesn't cause any confusion.
+
+\begin{figure}[H]
+\centering
+\subfigure{
+\input{left3.tikz}
+}
+\subfigure{
+\input{right3.tikz}
+}
+\caption{Illustration of rule application (3)}
+\end{figure}
 
 \section{Summary}
 

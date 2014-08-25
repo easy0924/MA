@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  24 AUG 2014 00:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  25 AUG 2014 18:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1183,7 +1183,7 @@ babelbib: Set language for keywords in the bibliography fixed to ngerman
 babelbib: Set language for keywords in the bibliography fixed to ngerman
 \openout2 = `titlepage.aux'.
 
-(./titlepage.tex <logos/KITLogo_RGB.pdf, id=232, 196.46399pt x 90.77916pt>
+(./titlepage.tex <logos/KITLogo_RGB.pdf, id=228, 196.46399pt x 90.77916pt>
 File: logos/KITLogo_RGB.pdf Graphic file (type pdf)
 
 <use logos/KITLogo_RGB.pdf>
@@ -1229,7 +1229,7 @@ ted-to.pdf logos/signature.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<logos/signature-eps-converted-to.pdf, id=252, 1155.31625pt x 474.77374pt>
+<logos/signature-eps-converted-to.pdf, id=248, 1155.31625pt x 474.77374pt>
 File: logos/signature-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logos/signature-eps-converted-to.pdf>
@@ -1534,11 +1534,14 @@ File: UTF8.enc 2012/05/07 4.8.3
 )
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
-)) [17]) [18]
+)) [17] [18]
+(./left1.tikz) (./right1.tikz
+Missing character: There is no ; in font nullfont!
+) [19] (./left2.tikz) (./right2.tikz)
+(./left3.tikz) (./right3.tikz)) [20]
 \openout2 = `evaluation.aux'.
 
-
-(./evaluation.tex
+ (./evaluation.tex
 Chapter 4.
 New spreadtab: \begin{tabular}{|l|r|r|}
 * reading tab: ok
@@ -1563,7 +1566,7 @@ New spreadtab: \begin{tabular}{|l|r|r|}
 * building tab: ok
 End of spreadtab: \end{tabular}
 
-[19
+[21
 
 
 
@@ -1606,7 +1609,7 @@ File: UTF8.chr 2012/05/07 4.8.3
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+ [22]
 New spreadtab: \begin{tabular}{|l|r|r|}
 * reading tab: ok
 * computing formulas:
@@ -1633,40 +1636,30 @@ End of spreadtab: \end{tabular}
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21])
-[22]
+ [23])
+[24]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 Chapter 5.
-[23
+[25
 
 
 
 
-]) [24] (./appendix.tex [25
+]) [26] (./appendix.tex [27
 
 
 
 
 
-] (./exampletree.tikz) [26] [27] [28]) [29]
-[30
+] (./exampletree.tikz) [28] [29] [30]) [31]
+[32
 
 
 ] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
-
- [31
-
-
-] [32
-
-
-] (./thesis.lof)
-\tf@lof=\write9
-\openout9 = `thesis.lof'.
 
  [33
 
@@ -1674,11 +1667,21 @@ Chapter 5.
 ] [34
 
 
-] (./thesis.bbl [35
+] (./thesis.lof)
+\tf@lof=\write9
+\openout9 = `thesis.lof'.
+
+ [35
+
+
+] [36
+
+
+] (./thesis.bbl [37
 
 
 ])
-[36]
+[38]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
  (./thesis.aux (./titlepage.aux) (./abstract.aux) (./declaration.aux)
@@ -1686,17 +1689,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 69FF183854D2932C786A9C55666C6845;3815.
+(rerunfilecheck)             Checksum: 789127E5E3161C472D0E2DB3D5839B25;3703.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
  ) 
 Here is how much of TeX's memory you used:
- 28433 strings out of 493308
- 518996 string characters out of 6143617
- 737647 words of memory out of 5000000
- 30840 multiletter control sequences out of 15000+600000
+ 28763 strings out of 493308
+ 526281 string characters out of 6143617
+ 754822 words of memory out of 5000000
+ 31136 multiletter control sequences out of 15000+600000
  75754 words of font info for 143 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 71i,20n,90p,1235b,2997s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,21n,92p,1235b,2997s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
@@ -1744,10 +1747,10 @@ snu95.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/sha
 re/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu98.pfb></usr/share/texmf-dist/fonts
 /type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/
 uhvr8a.pfb>
-Output written on thesis.pdf (42 pages, 458451 bytes).
+Output written on thesis.pdf (44 pages, 477122 bytes).
 PDF statistics:
- 872 PDF objects out of 1000 (max. 8388607)
- 758 compressed objects within 8 object streams
- 143 named destinations out of 1000 (max. 500000)
- 471 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 900 PDF objects out of 1000 (max. 8388607)
+ 784 compressed objects within 8 object streams
+ 159 named destinations out of 1000 (max. 500000)
+ 463 words of extra memory for PDF output out of 10000 (max. 10000000)
 

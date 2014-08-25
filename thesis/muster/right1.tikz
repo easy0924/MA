@@ -1,0 +1,35 @@
+\begin{tikzpicture}[scale=0.65,
+nod_s/.style = {scale=0.65, align=center, inner sep=2pt, text centered, circle, draw},
+nod_m/.style = {nod_s, thick},
+edge_ls/.style = {scale=0.5},
+edge_lm/.style = {edge_ls, thick},
+edge_ts/.style = {scale=0.5},
+edge_tm/.style = {edge_ts},
+]
+
+%\newlength{\myx}
+%\newlength{\myy}
+
+\setlength{\myx}{1.3cm}
+\setlength{\myy}{1.2cm}
+
+\node(0) [nod_m] at (0\myx,0\myy) {};
+\node(1) [nod_m] at (1\myx,0\myy) {};
+\node(3) [nod_m] at (2\myx,0\myy) {};
+\node(4) [nod_m] at (3\myx,0\myy) {};
+\node(7) [nod_m] at (4\myx,0\myy) {};
+\node(14) [nod_m] at (5\myx,0\myy) {};
+\node(20) [nod_m] at (6\myx,0\myy) {};;
+\node(27) [nod_m] at (7\myx,0\myy) {};
+\node(35) [nod_m] at (8\myx,0\myy) {};
+
+\draw[->,edge_lm] (0) to node [midway, sloped, below, edge_tm] {world\vphantom{pt}} node [midway, sloped, above, edge_tm] {1} (1);
+\draw[->,edge_lm] (1) to node [midway, sloped, below, edge_tm] {bank\vphantom{pt}} node [midway, sloped, above, edge_tm] {1} (3);
+\draw[->,edge_lm] (3) to node [midway, sloped, below, edge_tm] {plans\vphantom{pt}} node [midway, sloped, above, edge_tm] {1} (4);
+\draw[->,edge_lm] (4) to node [midway, sloped, below, edge_tm] {debt\vphantom{pt}} node [midway, sloped, above, edge_tm] {1} (7);
+\draw[->,edge_lm] (7) to node [midway, sloped, below, edge_tm] {relief\vphantom{pt}} node [midway, sloped, above, edge_tm] {1} (14);
+\draw[->,edge_lm] (14) to node [midway, sloped, below, edge_tm] {for\vphantom{pt}} node [midway, sloped, above, edge_tm] {1} (20);
+\draw[->,edge_lm] (20) to node [midway, sloped, below, edge_tm] {poorest\vphantom{pt}} node [midway, sloped, above, edge_tm] {1} (27);
+\draw[->,edge_lm] (27) to node [midway, sloped, below, edge_tm] {countries\vphantom{pt}} node [midway, sloped, above, edge_tm] {1} (35);
+
+\end{tikzpicture}
