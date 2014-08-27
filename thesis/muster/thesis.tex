@@ -84,6 +84,7 @@
 % use one of bsmi(trad Chinese), gbsn(simp Chinese), min(Japanese), mj(Korean); see:
 % /usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/*.fd
 \newcommand{\cntext}[1]{\begin{CJK}{UTF8}{gbsn}#1\end{CJK}}
+\newcommand{\cntextem}[1]{\begin{CJK}{UTF8}{gkai}#1\end{CJK}}
 
 \theoremstyle{definition}
 \newtheorem{example}{Example}
@@ -175,7 +176,7 @@ appendix
 \addcontentsline{toc}{chapter}{\bibname}
 
 \iflanguage{english}
-{\bibliographystyle{apalike}}	% english style
+{\bibliographystyle{plainnat}}	% english style
 {\bibliographystyle{apalike}}	% german style
 												  
 % Use IEEEtran for numeric references

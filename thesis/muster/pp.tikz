@@ -1,0 +1,57 @@
+\begin{tikzpicture}[
+node/.style = {
+text centered, 
+text height=1.5ex,
+text depth=.25ex,
+inner sep=2pt, font=\sffamily, rectangle, draw=none, fill=none, outer sep=0,
+minimum height=4ex
+},
+node2/.style = {
+text height=4.25ex, text depth=.25ex, draw=black, inner sep=0, outer sep=0, rounded corners
+},
+]
+%this repetition of perception is sometimes called palinopsia .
+\node(A1) [node] at (0, 2.5) {This};
+\node(A2) [node, right=1em of A1] {rerepetition};
+\node(Ax) [node2, right=1em of A2] {
+\tikz\node(A3) [node] {of};
+\tikz\node(A4) [node, right=1em of A3] {perception};
+};
+\node(A5) [node, right=1em of Ax] {is};
+\node(A6) [node, right=1em of A5] {sometimes};
+\node(A7) [node, right=1em of A6] {called};
+\node(A8) [node, right=1em of A7] {palinopsia};
+\node(A9) [node, right=1em of A8] {.};
+
+%这 种 感知 的 重复 有时 会 被 称作 视像 保留
+
+\node(B1) [node] at (0, 0) {\cntext{这}};
+\node(B2) [node, right=1.15em of B1] {\cntext{种}};
+\node(Bx) [node2, right=1.15em of B2] {
+\tikz\node(B3) [node] {\cntext{感知}};
+\tikz\node(B4) [node, right=1.15em of B3] {\cntext{的}};
+};
+\node(B5) [node, right=1.15em of Bx] {\cntext{重复}};
+\node(B6) [node, right=1.15em of B5] {\cntext{有时}};
+\node(B7) [node, right=1.15em of B6] {\cntext{会}};
+\node(B8) [node, right=1.15em of B7] {\cntext{被}};
+\node(B9) [node, right=1.15em of B8] {\cntext{称作}};
+\node(B10) [node, right=1.15em of B9] {\cntext{视像}};
+\node(B11) [node, right=1.15em of B10] {\cntext{保留}};
+\node(B12) [node, right=1.15em of B11] {\cntext{。}};
+
+
+%1-1 3-2 4-3 3-4 2-5 6-6 8-7 8-8 7-9 8-9 8-10 8-11 9-11
+\draw[dashed] (A1.south) -- (B1.north);
+\draw[dashed] (A1.south) -- (B2.north);
+\draw[dashed] (Ax.south) -- (Bx.north);
+\draw[dashed] (A2.south) -- (B5.north);
+\draw[dashed] (A6.south) -- (B6.north);
+\draw[dashed] (A5.south) -- (B7.north);
+\draw[dashed] (A5.south) -- (B8.north);
+\draw[dashed] (A7.south) -- (B9.north);
+\draw[dashed] (A8.south) -- (B10.north);
+\draw[dashed] (A8.south) -- (B11.north);
+\draw[dashed] (A9.south) -- (A9|-B12.north);
+\end{tikzpicture}
+

@@ -1,0 +1,43 @@
+\begin{tikzpicture}[
+node/.style = {
+text centered, 
+text height=1.5ex,
+text depth=.25ex,
+inner sep=2pt, font=\sffamily, rectangle, draw=none, fill=none, outer sep=0,
+minimum height=4ex
+},
+node2/.style = {
+text height=4.25ex, text depth=.25ex, draw=black, inner sep=0, outer sep=0, rounded corners
+},
+]
+
+\node(A1) [node] at (0, 2.5) {How};
+\node(A2) [node, right=1em of A1] {will};
+\node(A3) [node, right=1em of A2] {you};
+\node(A4) [node, right=1em of A3] {cook};
+\node(A5) [node, right=1em of A4] {your};
+\node(A6) [node, right=1em of A5] {chicken};
+\node(A7) [node, right=1em of A6] {now};
+\node(A8) [node, right=1em of A7] {?};
+
+\node(B1) [node] at (0, 0) {\cntext{现在}};
+\node(B2) [node, right=1.47em of B1] {\cntext{你}};
+\node(B3) [node, right=1.47em of B2] {\cntext{会}};
+\node(B4) [node, right=1.47em of B3] {\cntext{怎么}};
+\node(B5) [node, right=1.47em of B4] {\cntext{做}};
+\node(B6) [node, right=1.47em of B5] {\cntext{鸡肉}};
+\node(B7) [node, right=1.47em of B6] {\cntext{呢}};
+\node(B8) [node, right=1.47em of B7] {\cntext{?}};
+
+
+%7-1 3-2 2-3 1-4 4-5 6-6 8-7 8-8\
+\draw[dashed] (A7.south) -- (B1.north);
+\draw[dashed] (A3.south) -- (B2.north);
+\draw[dashed] (A2.south) -- (B3.north);
+\draw[dashed] (A1.south) -- (B4.north);
+\draw[dashed] (A4.south) -- (B5.north);
+\draw[dashed] (A6.south) -- (B6.north);
+\draw[dashed] (A8.south) -- (B7.north);
+\draw[dashed] (A8.south) -- (A8|-B8.north);
+
+\end{tikzpicture}

@@ -5,7 +5,7 @@
 %% Adapted by: Timo Rohrberg, 2009
 %% timo.rohrberg@student.kit.edu
 %%
-%% Additions by: Thorsten Haberecht, IPD - Chair Prof. BÃ¶hm, 2010
+%% Additions by: Thorsten Haberecht, IPD - Chair Prof. Böhm, 2010
 %% thorsten.haberecht@kit.edu
 
 
@@ -57,14 +57,9 @@
 \usetikzlibrary{arrows}
 \usetikzlibrary{trees}
 \usetikzlibrary{shapes}
-\usetikzlibrary{chains}
-\usetikzlibrary{calc}
 \usetikzlibrary{positioning}
 \usepackage[authoryear]{natbib}
 \usepackage[encapsulated]{CJK}
-\usepackage[normalem]{ulem}
-\usepackage{soul}
-
 \usepackage{ucs}
 
 \usepackage[raiselinks=true,
@@ -106,7 +101,7 @@
 }
 
 \newenvironment{abstract}%
-{\cleardoublepage\null \vspace{6.8cm}\begin{center}%
+{\cleardoublepage\null \vfill\begin{center}%
 \bfseries \abstractname \end{center}}%
 {\vfill\null}
 %% --- End of New Commands ---

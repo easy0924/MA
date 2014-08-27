@@ -12,7 +12,7 @@ node/.style = {align=center, inner sep=0pt, font=\sffamily, rectangle, draw=whit
 \node(H) [node, right=1ex of G] {is \\ VBZ};
 \node(I) [node, right=1ex of H] {very \\ RB};
 \node(J) [node, right=1ex of I] {great \\ JJ};
-\node(K) [node, right=1ex of J] {. \\ SENT};
+\node(K) [node, right=1ex of J] {. \\ .};
 
 
 

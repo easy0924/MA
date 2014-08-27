@@ -1,0 +1,41 @@
+\begin{tikzpicture}[
+node/.style = {
+text centered, 
+text height=1.5ex,
+text depth=.25ex,
+inner sep=2pt, font=\sffamily, rectangle, draw=none, fill=none, outer sep=0,
+minimum height=4ex
+},
+node2/.style = {
+text height=4.25ex, text depth=.25ex, draw=black, inner sep=0, outer sep=0, rounded corners
+},
+]
+
+\node(A1) [node] at (0, 2.5) {There};
+\node(A2) [node, right=1em of A1] {are};
+\node(A3) [node, right=1em of A2] {two};
+\node(A4) [node, right=1em of A3] {major};
+\node(A5) [node, right=1em of A4] {types};
+\node(A6) [node, right=1em of A5] {of};
+\node(A7) [node, right=1em of A6] {diabetes};
+\node(A8) [node, right=1em of A7] {.};
+
+
+\node(B1) [node] at (0, 0) {\cntext{糖尿病}};
+\node(B2) [node, right=2.735em of B1] {\cntext{分}};
+\node(B3) [node, right=2.735em of B2] {\cntext{两}};
+\node(B4) [node, right=2.735em of B3] {\cntext{大}};
+\node(B5) [node, right=2.735em of B4] {\cntext{类型}};
+\node(B6) [node, right=2.735em of B5] {\cntext{。}};
+
+
+%\draw[dashed] (A1.south) -- (B1.north);
+\draw[dashed] (A7.south) -- (B1.north);
+\draw[dashed] (A2.south) -- (B2.north);
+%\draw[dashed] (A7.south) -- (B2.north);
+\draw[dashed] (A3.south) -- (B3.north);
+\draw[dashed] (A4.south) -- (B4.north);
+\draw[dashed] (A5.south) -- (B5.north);
+\draw[dashed] (A8.south) -- (A8|-B6.north);
+
+\end{tikzpicture}

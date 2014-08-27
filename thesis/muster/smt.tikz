@@ -8,7 +8,7 @@ nodeimp/.style = {node, fill=red!20},
 edge from parent path={(\tikzparentnode.east) -- (\tikzchildnode.west)}
 ]
 
-\node(A) [node] at (0, 0) {Source Sentences};
+\node(A) [node, text width=13.5em] at (0, 0) {Sentences in Source Language};
 \node(C) [node, text width=8em, text height=12em, 
 below=1.5\mylen of A] {}
 child {node(M) [node, draw=white, fill=white, font=\bfseries] {\LARGE{...}} edge from parent[white]}
@@ -16,9 +16,9 @@ child {node(L) [node] {Language Model} edge from parent[white]}
 child {node(K) [node] {Reordering Model} edge from parent[white]}
 child {node(J) [node] {Phrase Table} edge from parent[white]};
 
-\node(X) [node, draw=blue!20, text width=7em] at (C.center) {Decoder (Global Search)};
+\node(X) [node, draw=blue!20, text width=6.5em] at (C.center) {Decoder (Global Search)};
 
-\node(D) [node, below=1.5\mylen of C] {Target Sentences};
+\node(D) [node, text width=13.5em, below=1.5\mylen of C] {Sentences in Target Langauge};
 
 \draw[->, thick] (A) to (C);
 \draw[->, thick] (C) to (D);

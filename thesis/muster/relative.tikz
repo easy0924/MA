@@ -1,0 +1,43 @@
+\begin{tikzpicture}[
+node/.style = {
+text centered, 
+text height=1.5ex,
+text depth=.25ex,
+inner sep=2pt, font=\sffamily, rectangle, draw=none, fill=none, outer sep=0,
+minimum height=4ex
+},
+node2/.style = {
+text height=4.25ex, text depth=.25ex, draw=black, inner sep=0, outer sep=0, rounded corners
+},
+]
+
+\node(A1) [node] at (0, 2.5) {Those};
+\node(A2) [node, right=1em of A1] {are};
+\node(A3) [node, right=1em of A2] {conveyor};
+\node(A4) [node, right=1em of A3] {belts};
+\node(Ax) [node2, right=1em of A4] {
+\tikz\node(A5) [node] {that};
+\tikz\node(A6) [node, right=1em of A5] {go};
+\tikz\node(A7) [node, right=1em of A6] {around};
+};
+\node(A8) [node, right=1em of Ax] {.};
+
+\node(B1) [node] at (0, 0) {\cntext{那些}};
+\node(B2) [node, right=2.475em of B1] {\cntext{是}};
+\node(Bx) [node2, right=2.475em of B2] {
+\tikz\node(B3) [node] {\cntext{在}};
+\tikz\node(B4) [node, right=2.475em of B3] {\cntext{运转}};
+\tikz\node(B5) [node, right=2.475em of B4] {\cntext{的}};
+};
+\node(B6) [node, right=2.475em of Bx] {\cntext{传送带}};
+\node(B7) [node, right=2.475em of B6] {\cntext{。}};
+
+%1-1 2-2 3-6 4-6 5-6 6-6 7-6 8-7
+
+\draw[dashed] (A1.south) -- (B1.north);
+\draw[dashed] (A2.south) -- (B2.north);
+\draw[dashed] (Ax.south) -- (Bx.north);
+\draw[dashed] (A3.south) -- (B6.north);
+\draw[dashed] (A4.south) -- (B6.north);
+\draw[dashed] (A8.south) -- (A8|-B7.north);
+\end{tikzpicture}

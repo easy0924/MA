@@ -1,58 +1,45 @@
 \begin{tikzpicture}[
-node/.style = {align=center, inner sep=2pt, font=\sffamily, rectangle, draw=none, fill=white, outer sep=0, minimum height=8ex},
+node/.style = {
+text centered, 
+text height=1.5ex,
+text depth=.25ex,
+inner sep=2pt, font=\sffamily, rectangle, draw=none, fill=none, outer sep=0,
+minimum height=4ex
+},
+node2/.style = {
+text height=4.25ex, text depth=.25ex, draw=black, inner sep=0, outer sep=0, rounded corners
+},
 ]
-%Cloning will happen in five to 10 years .
-%克隆 将 在 未来 5 到 10 年 内 发生 。
-%1-1 2-2 4-3 3-4 5-5 6-6 7-7 8-8 8-9 3-10 9-11
 
-\begin{scope}[start chain=1 going below,start chain=2 going right]
-\node[on chain=1] (A) {A};
-\node[on chain=1] (C) {C};
-\node[on chain=1] (D) {D};
-\node[on chain=1] (G) {G};
-\node[on chain=1] (H) {H};
-\chainin (A);
-\node[on chain=2,] (B) {B};
-\node[continue chain=going below,on chain=2] (E) {E};
-\node[on chain=2] (F) {F};
-\end{scope}
+\node(A1) [node] at (0, 2.5) {Cloning};
+\node(A2) [node, right=1em of A1] {will};
+\node(A3) [node, right=1em of A2] {happen};
+\node(Ax) [node2, right=1em of A3] {
+\tikz\node(A4) [node] {in};
+\tikz\node(A5) [node, right=1em of A4] {five};
+\tikz\node(A6) [node, right=1em of A5] {to};
+\tikz\node(A7) [node, right=1em of A6] {ten};
+\tikz\node(A8) [node, right=1em of A7] {years};
+};
+\node(A9) [node, right=1em of Ax] {.};
 
+\node(B1) [node] at (0, 0) {\cntext{克隆}};
+\node(B2) [node, right=1.4em of B1] {\cntext{将}};
 
+\node(Bx) [node2, right=1.4em of B2] {
+\tikz\node(B3) [node] {\cntext{在}};
+\tikz\node(B5) [node, right=1.4em of B3] {\cntext{五}};
+\tikz\node(B6) [node, right=1.4em of B5] {\cntext{到}};
+\tikz\node(B7) [node, right=1.4em of B6] {\cntext{十}};
+\tikz\node(B8) [node, right=1.4em of B7] {\cntext{年}};
+\tikz\node(B9) [node, right=1.4em of B8] {\cntext{内}};
+};
+\node(B10) [node, right=1.4em of Bx] {\cntext{发生}};
+\node(B11) [node, right=1.4em of B10] {\cntext{。}};
 
-%\node(A1) [node] at (0, 5) {$1$ \\ There};
-%\node(A2) [node, right=1em of A1] {$2$ \\ are};
-%\node(A3) [node, right=1em of A2] {$3$ \\ four};
-%\node(A4) [node, right=1em of A3] {$4$ \\ months};
-%\node(A5) [node, right=1em of A4] {$5$ \\ left};
-%\node(A6) [node, right=1em of A5] {$6$ \\ of};
-%\node(A7) [node, right=1em of A6] {$7$ \\ Clinton};
-%\node(A8) [node, right=1em of A7] {$8$ \\ 's};
-%\node(A9) [node, right=1em of A8] {$9$ \\ presidency};
-%\node(A10) [node, right=1em of A9] {$10$ \\ .};
-%
-%\node(B1) [node] at (0, 0) {\cntext{克林顿} \\ $1$};
-%\node(B2) [node, right=1.53em of B1] {\cntext{的\vphantom{我}} \\ $2$};
-%\node(B3) [node, right=1.53em of B2] {\cntext{总统\vphantom{我}} \\ $3$};
-%\node(B4) [node, right=1.53em of B3] {\cntext{任期\vphantom{我}} \\ $4$};
-%\node(B5) [node, right=1.53em of B4] {\cntext{还\vphantom{我}} \\ $5$};
-%\node(B6) [node, right=1.53em of B5] {\cntext{剩下\vphantom{我}} \\ $6$};
-%\node(B7) [node, right=1.53em of B6] {\cntext{四\vphantom{我}} \\ $7$};
-%\node(B8) [node, right=1.53em of B7] {\cntext{个\vphantom{我}} \\ $8$};
-%\node(B9) [node, right=1.53em of B8] {\cntext{月\vphantom{我}} \\ $9$};
-%\node(B10) [node, right=1.53em of B9] {\cntext{。\vphantom{我}} \\ $10$};
-%
-%\draw[dashed, thick] (A7.south) -- (B1.north);
-%\draw[dashed, thick] (A8.south) -- (B1.north);
-%\draw[dashed, thick] (A8.south) -- (B2.north);
-%\draw[dashed, thick] (A9.south) -- (B3.north);
-%\draw[dashed, thick] (A9.south) -- (B4.north);
-%\draw[dashed, thick] (A1.south) -- (B5.north);
-%\draw[dashed, thick] (A1.south) -- (B6.north);
-%\draw[dashed, thick] (A2.south) -- (B6.north);
-%\draw[dashed, thick] (A5.south) -- (B6.north);
-%\draw[dashed, thick] (A3.south) -- (B7.north);
-%\draw[dashed, thick] (A4.south) -- (B8.north);
-%\draw[dashed, thick] (A4.south) -- (B9.north);
-%\draw[dashed, thick] (A10.south) -- (B10.north);
-
+\draw[dashed] (A1.south) -- (B1.north);
+\draw[dashed] (A2.south) -- (B2.north);
+\draw[dashed] (Ax.south) -- (Bx.north);
+\draw[dashed] (A3.south) -- (B10.north);
+\draw[dashed] (A9.south) -- (A9|-B11.north);
 \end{tikzpicture}
