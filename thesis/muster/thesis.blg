@@ -8,49 +8,49 @@ A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: content.aux
 A level-1 auxiliary file: evaluation.aux
 A level-1 auxiliary file: conclusion.aux
-The style file: plainnat.bst
+The style file: apalike.bst
 Database file #1: thesis.bib
 Warning--empty journal in birch2
 Warning--empty journal in penn3
-You've used 18 entries,
-            2773 wiz_defined-function locations,
-            706 strings with 8154 characters,
-and the built_in function-call counts, 8957 in all, are:
-= -- 813
-> -- 492
-< -- 16
-+ -- 169
-- -- 150
-* -- 676
-:= -- 1328
-add.period$ -- 63
-call.type$ -- 18
-change.case$ -- 102
-chr.to.int$ -- 17
-cite$ -- 38
-duplicate$ -- 442
-empty$ -- 749
-format.name$ -- 174
-if$ -- 1940
+You've used 23 entries,
+            1935 wiz_defined-function locations,
+            606 strings with 7880 characters,
+and the built_in function-call counts, 10167 in all, are:
+= -- 1039
+> -- 368
+< -- 24
++ -- 129
+- -- 122
+* -- 759
+:= -- 1653
+add.period$ -- 74
+call.type$ -- 23
+change.case$ -- 174
+chr.to.int$ -- 22
+cite$ -- 25
+duplicate$ -- 462
+empty$ -- 738
+format.name$ -- 155
+if$ -- 2119
 int.to.chr$ -- 2
-int.to.str$ -- 1
-missing$ -- 17
-newline$ -- 101
-num.names$ -- 72
-pop$ -- 237
+int.to.str$ -- 0
+missing$ -- 22
+newline$ -- 114
+num.names$ -- 69
+pop$ -- 202
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 174
 quote$ -- 0
-skip$ -- 344
+skip$ -- 357
 stack$ -- 0
-substring$ -- 294
-swap$ -- 87
-text.length$ -- 8
+substring$ -- 684
+swap$ -- 120
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 193
+type$ -- 136
 warning$ -- 2
-while$ -- 79
+while$ -- 86
 width$ -- 0
-write$ -- 248
+write$ -- 299
 (There were 2 warnings)

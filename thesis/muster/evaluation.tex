@@ -11,11 +11,11 @@ We've conducted two sets of experiments to test our reordering methods. The firs
 Both sections are composed of three parts: experimental setup, result and evaluation. The first part describes details of the system configurations and experimental data. The second part shows the \hyperref[ch:Foundations:sec:bleu]{BLEU} scores of different systems for comparison. And the last part evaluates the improvement with translation examples from the experiments.
 
 
-\section{English to Chinese Systems}
+\section{English to Chinese System}
 \label{ch:Evaluation:sec:enw}
 
 \subsection{Experimental Setup}
-We performed experiments with or without different reordering methods covering the English to Chines translation direction. The reordering methods included the reordering with short rules, long rules, tree rules and our MLT rules. The system was trained on news text from the LDC corpus and subtitles from TED talks. The development data and test data were both news text from the LDC corpus. The system was a phrase-based SMT system, which used a $6$-gram language model with Knersey-Ney smoothing. Besides the pre-reordering, no lexical reordering or other reordering method was used. The text was translated through a monotone decoder. The Chinese text were first segmented into words before use.
+We performed experiments with or without different reordering methods covering the English to Chines translation direction. The reordering methods included the reordering with short rules, long rules, tree rules and our MLT rules. The system was trained on news text from the LDC corpus and subtitles from TED talks. The development data and test data were both news text from the LDC corpus. The system was a phrase-based SMT system, which used a $6$-gram language model with Knersey-Ney smoothing. Besides the preordering, no lexical reordering or other reordering method was used. The text was translated through a monotone decoder. The Chinese text were first segmented into words before use.
 The reordering rules were extracted based on the alignment, POS tags and syntax trees from the training data. One reference of the test data was used for evaluating the BLEU score. The threshold for rule extraction is set as $5$ times and reordering paths with probability less than $0.1$ are not added to the lattice. Table $4.1$ shows the size of data used in the system. %? case-sensitive?
 
 \begin{table}[H]
@@ -103,7 +103,7 @@ MLT & \cntext{达赖 喇嘛 将 本 月 访问 华盛顿 。} \\ \hline
 From this experiments we can draw the conclusion that our reordering method indeed improves the English-to-Chinese translation quality obviously, no matter when we apply it alone or when we combine it with other reordering methods mentioned in this paper. %?And we could further justify our claim that the MLT reordering method changes the word order more significantly to improve the translation quality.
 
 %% ===============================
-\section{Chinese to English Systems}
+\section{Chinese to English System}
 \label{ch:Evaluation:sec:zhen2}
 %% ===============================
 

@@ -31,7 +31,7 @@
 %\dots
 
 
-\section{Documentation of Pre-Reordering System}
+\section{Documentation of Preordering System}
 		\label{Documentation}
 
 Here we explain the details of our pre-reordering system and how to integrate it into the SMT system of our faculty at KIT, as well as other issues. A \hyperref[summary]{summary} about how to integrate and use the code can be view in the last section of the documentation.
@@ -50,7 +50,7 @@ Other source code of the SMT system is untouched.
 
 In order to use the system, both \verb|Configuration.py| or \verb|ReorderingRules.py| files in one's SMT system should be changed or replaced accordingly.
 
-\subsection{Reordering Source Code}
+\subsection{Source Code of Reordering}
 
 Two lines in the \verb|ReorderingRules.py| file are the entry points of the reordering algorithm, the two lines start separately with:\\
 \verb|command = "/home/gwu/src/MLTRules.mode/extract " + ...|\\
@@ -63,7 +63,7 @@ It's possible to move the whole source code directory to other locations and cha
 
 There is an \verb|makefile| in the directory, which is used for compiling the source code.
 
-\paragraph{Extract and Apply Command}
+\paragraph{Command for Rule Extraction and Application}
 
 The executable file \verb|extract| has the following usage format:\\ \verb|extract <Alignment> <SourceText> <SourceTrees> <Mode> <minOcc>|
 
@@ -80,8 +80,9 @@ When mode is $0$, the rule includes with POS tags of the internal nodes. In the 
 \verb|Mode 3: VB NN DT NN ---- ...|
 \end{tabular}
 \caption{Illustration of different MLT rule variations}
+\label{exampletree}
 \end{figure}
-Figure A$.1$ shows how the rules are presented in different modes.
+Figure~\ref{exampletree} shows how the rules are presented in different modes.
 
 The standard output of the program will list all the extracted rules including the reordering, probability and occurrences. For example,
 $$\verb|VB NN ( DT NN ) ---- 2 3 0 1 ---- 0.5 ---- 5 / 10|$$
@@ -97,7 +98,7 @@ The output of of the command are the lattice files saved under \verb|TargetDir|,
 
 The reordering system uses $1$ for the parameter \verb|<mode>| and $5$ for the parameter \verb|<minOcc>| as default.
 
-\subsection{Configuration File}
+\subsection{Description File}
 
 Two locations of the description file of the SMT system needs to be changed to use the reordering method. Here we show how to write the description with examples.
 
@@ -227,7 +228,7 @@ The reordering code: \verb|/home/gwu/src/MLTRules.mode/|
 \newpage
 \section{Penn Treebank Tagset}
 \label{tagset}
-The Penn Treebank tagset is listed here for reference.\citep{penn, penn3}
+The Penn Treebank tagset is listed below for reference \citep{penn, penn3}.
 
 \subsection{Penn Treebank POS tagset}
 \begin{tabular}{p{4.5cm}l}

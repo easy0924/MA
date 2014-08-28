@@ -1,124 +1,139 @@
-\begin{thebibliography}{18}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{}
 
-\bibitem[Birch(2011)]{birch2}
-Alexandra Birch.
+\bibitem[Birch, 2011]{birch2}
+Birch, A. (2011).
 \newblock Reordering metrics for statistical machine translation.
-\newblock 2011.
 
-\bibitem[Birch et~al.(2010)Birch, Osborne, and Blunsom]{metrics}
-Alexandra Birch, Miles Osborne, and Phil Blunsom.
-\newblock Metrics for mt evaluation: Evaluating reordering.
-\newblock \emph{Machine Translation}, 24\penalty0 (1), March 2010.
-\newblock ISSN 0922-6567.
-\newblock \doi{10.1007/s10590-009-9066-5}.
-\newblock URL \url{http://dx.doi.org/10.1007/s10590-009-9066-5}.
+\bibitem[Birch et~al., 2010]{metrics}
+Birch, A., Osborne, M., and Blunsom, P. (2010).
+\newblock Metrics for {MT} evaluation: Evaluating reordering.
+\newblock {\em Machine Translation}, 24(1).
 
-\bibitem[Blunsom et~al.(2014)Blunsom, Grefenstette, Kalchbrenner,
-  et~al.]{oxford}
-Phil Blunsom, Edward Grefenstette, Nal Kalchbrenner, et~al.
+\bibitem[Blunsom et~al., 2014]{oxford}
+Blunsom, P., Grefenstette, E., Kalchbrenner, N., et~al. (2014).
 \newblock A convolutional neural network for modelling sentences.
-\newblock In \emph{Proceedings of the 52nd Annual Meeting of the Association
-  for Computational Linguistics}. Proceedings of the 52nd Annual Meeting of the
-  Association for Computational Linguistics, 2014.
+\newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
+  Computational Linguistics}. Proceedings of the 52nd Annual Meeting of the
+  Association for Computational Linguistics.
 
-\bibitem[Chiang(2007)]{hier}
-David Chiang.
+\bibitem[Chiang, 2007]{hier}
+Chiang, D. (2007).
 \newblock Hierarchical phrase-based translation.
-\newblock \emph{computational linguistics}, 33\penalty0 (2):\penalty0 201--228,
-  2007.
+\newblock {\em computational linguistics}, 33(2):201--228.
 
-\bibitem[De~Marneffe et~al.(2006)De~Marneffe, MacCartney, Manning,
-  et~al.]{depend}
-Marie-Catherine De~Marneffe, Bill MacCartney, Christopher~D Manning, et~al.
+\bibitem[Collins et~al., 2005]{collins2005clause}
+Collins, M., Koehn, P., and Ku{\v{c}}erov{\'a}, I. (2005).
+\newblock Clause restructuring for statistical machine translation.
+\newblock In {\em Proceedings of the 43rd annual meeting on association for
+  computational linguistics}, pages 531--540. Association for Computational
+  Linguistics.
+
+\bibitem[Crego and Habash, 2008]{crego2008using}
+Crego, J.~M. and Habash, N. (2008).
+\newblock Using shallow syntax information to improve word alignment and
+  reordering for smt.
+\newblock In {\em Proceedings of the Third Workshop on Statistical Machine
+  Translation}, pages 53--61. Association for Computational Linguistics.
+
+\bibitem[De~Marneffe et~al., 2006]{depend}
+De~Marneffe, M.-C., MacCartney, B., Manning, C.~D., et~al. (2006).
 \newblock Generating typed dependency parses from phrase structure parses.
-\newblock In \emph{Proceedings of LREC}, volume~6, pages 449--454, 2006.
+\newblock In {\em Proceedings of LREC}, volume~6, pages 449--454.
 
-\bibitem[Herrmann et~al.(2013{\natexlab{a}})Herrmann, Niehues, and
-  Waibel]{combine}
-Teresa Herrmann, Jan Niehues, and Alex Waibel.
+\bibitem[Habash, 2007]{habash2007syntactic}
+Habash, N. (2007).
+\newblock Syntactic preprocessing for statistical machine translation.
+\newblock {\em MT Summit XI}, pages 215--222.
+
+\bibitem[Herrmann et~al., 2013a]{combine}
+Herrmann, T., Niehues, J., and Waibel, A. (2013a).
 \newblock Combining word reordering methods on different linguistic abstraction
   levels for statistical machine translation.
-\newblock In \emph{Proceedings of the Seventh Workshop on Syntax, Semantics and
-  Structure in Statistical Translation}, pages 39--47, Atlanta, Georgia, June
-  2013{\natexlab{a}}. Association for Computational Linguistics.
-\newblock URL \url{http://www.aclweb.org/anthology/W13-0805}.
+\newblock In {\em Proceedings of the Seventh Workshop on Syntax, Semantics and
+  Structure in Statistical Translation}, pages 39--47, Atlanta, Georgia.
+  Association for Computational Linguistics.
 
-\bibitem[Herrmann et~al.(2013{\natexlab{b}})Herrmann, Weiner, Niehues, and
-  Waibel]{tree}
-Teresa Herrmann, Jochen Weiner, Jan Niehues, and Alex Waibel.
+\bibitem[Herrmann et~al., 2013b]{tree}
+Herrmann, T., Weiner, J., Niehues, J., and Waibel, A. (2013b).
 \newblock Analyzing the potential of source sentence reordering in statistical
-  machine translation, 2013{\natexlab{b}}.
+  machine translation.
 
-\bibitem[Koehn(2010)]{book}
-Philipp Koehn.
-\newblock \emph{Statistical Machine Translation}.
-\newblock Cambridge University Press, New York, NY, USA, 1st edition, 2010.
-\newblock ISBN 0521874157, 9780521874151.
+\bibitem[Koehn, 2010]{book}
+Koehn, P. (2010).
+\newblock {\em Statistical Machine Translation}.
+\newblock Cambridge University Press, New York, NY, USA, 1st edition.
 
-\bibitem[Koehn et~al.(2005)Koehn, Axelrod, Birch, Callison-Burch, Osborne,
-  Talbot, and White]{koehn2005}
-Philipp Koehn, Amittai Axelrod, Alexandra Birch, Chris Callison-Burch, Miles
-  Osborne, David Talbot, and Michael White.
-\newblock Edinburgh system description for the 2005 iwslt speech translation
+\bibitem[Koehn et~al., 2005]{koehn2005}
+Koehn, P., Axelrod, A., Birch, A., Callison-Burch, C., Osborne, M., Talbot, D.,
+  and White, M. (2005).
+\newblock Edinburgh system description for the 2005 {IWSLT} speech translation
   evaluation.
-\newblock In \emph{IWSLT}, pages 68--75, 2005.
+\newblock In {\em IWSLT}, pages 68--75.
 
-\bibitem[Lerner and Petrov(2013)]{google}
-Uri Lerner and Slav Petrov.
+\bibitem[Lerner and Petrov, 2013]{google}
+Lerner, U. and Petrov, S. (2013).
 \newblock Source-side classifier preordering for machine translation.
-\newblock In \emph{Proceedings of the 2014 Conference on Empirical Methods in
-  Natural Language Processing (EMNLP '13)}, 2013.
+\newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP '13)}.
 
-\bibitem[Marcus et~al.(1993)Marcus, Marcinkiewicz, and Santorini]{penn}
-Mitchell~P Marcus, Mary~Ann Marcinkiewicz, and Beatrice Santorini.
-\newblock Building a large annotated corpus of english: The penn treebank.
-\newblock \emph{Computational linguistics}, 19\penalty0 (2):\penalty0 313--330,
-  1993.
+\bibitem[Marcus et~al., 1993]{penn}
+Marcus, M.~P., Marcinkiewicz, M.~A., and Santorini, B. (1993).
+\newblock Building a large annotated corpus of {E}nglish: The {P}enn
+  {T}reebank.
+\newblock {\em Computational linguistics}, 19(2):313--330.
 
-\bibitem[Mikolov et~al.(2013)Mikolov, Chen, Corrado, and Dean]{Mikolov}
-Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\bibitem[Mikolov et~al., 2013]{Mikolov}
+Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013).
 \newblock Efficient estimation of word representations in vector space.
-\newblock \emph{arXiv preprint arXiv:1301.3781}, 2013.
+\newblock {\em arXiv preprint arXiv:1301.3781}.
 
-\bibitem[Niehues and Kolss(2009)]{long}
-Jan Niehues and Muntsin Kolss.
-\newblock A pos-based model for long-range reorderings in smt.
-\newblock In \emph{Proceedings of the Fourth Workshop on Statistical Machine
-  Translation}, pages 206--214, Athens, Greece, 2009. Association for
-  Computational Linguistics.
+\bibitem[Niehues and Kolss, 2009]{long}
+Niehues, J. and Kolss, M. (2009).
+\newblock A {POS}-based model for long-lange reorderings in {SMT}.
+\newblock In {\em Proceedings of the Fourth Workshop on Statistical Machine
+  Translation}, pages 206--214, Athens, Greece. Association for Computational
+  Linguistics.
 
-\bibitem[Papineni et~al.(2002)Papineni, Roukos, Ward, and Zhu]{bleuscore}
-Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu.
-\newblock Bleu: a method for automatic evaluation of machine translation.
-\newblock In \emph{Proceedings of the 40th annual meeting on association for
+\bibitem[Papineni et~al., 2002]{bleuscore}
+Papineni, K., Roukos, S., Ward, T., and Zhu, W.-J. (2002).
+\newblock {BLEU}: a method for automatic evaluation of machine translation.
+\newblock In {\em Proceedings of the 40th annual meeting on association for
   computational linguistics}, pages 311--318. Association for Computational
-  Linguistics, 2002.
+  Linguistics.
 
-\bibitem[Rottmann and Vogel(2007)]{short}
-Kay Rottmann and Stephan Vogel.
+\bibitem[Popovic and Ney, 2006]{popovic2006pos}
+Popovic, M. and Ney, H. (2006).
+\newblock {POS}-based word reorderings for statistical machine translation.
+\newblock In {\em International Conference on Language Resources and
+  Evaluation}, pages 1278--1283.
+
+\bibitem[Rottmann and Vogel, 2007]{short}
+Rottmann, K. and Vogel, S. (2007).
 \newblock Word reordering in statistical machine translation with a pos-based
-  distortion model, 2007.
+  distortion model.
 
-\bibitem[Santorini(1990)]{penn3}
-Beatrice Santorini.
-\newblock Part-of-speech tagging guidelines for the penn treebank project (3rd
-  revision).
-\newblock 1990.
+\bibitem[Santorini, 1990]{penn3}
+Santorini, B. (1990).
+\newblock Part-of-speech tagging guidelines for the {P}enn {T}reebank {P}roject
+  (3rd revision).
 
-\bibitem[Tillmann(2004)]{tillmann2004}
-Christoph Tillmann.
+\bibitem[Tillmann, 2004]{tillmann2004}
+Tillmann, C. (2004).
 \newblock A unigram orientation model for statistical machine translation.
-\newblock In \emph{Proceedings of HLT-NAACL 2004: Short Papers}, pages
-  101--104. Association for Computational Linguistics, 2004.
+\newblock In {\em Proceedings of HLT-NAACL 2004: Short Papers}, pages 101--104.
+  Association for Computational Linguistics.
 
-\bibitem[Wang et~al.(2007)Wang, Collins, and Koehn]{syntactic}
-Chao Wang, Michael Collins, and Philipp Koehn.
+\bibitem[Wang et~al., 2007]{syntactic}
+Wang, C., Collins, M., and Koehn, P. (2007).
 \newblock Chinese syntactic reordering for statistical machine translation.
-\newblock In \emph{EMNLP-CoNLL}, pages 737--745. Citeseer, 2007.
+\newblock In {\em EMNLP-CoNLL}, pages 737--745. Citeseer.
+
+\bibitem[Zhang et~al., 2007]{zhang2007chunk}
+Zhang, Y., Zens, R., and Ney, H. (2007).
+\newblock Chunk-level reordering of source language sentences with
+  automatically learned rules for statistical machine translation.
+\newblock In {\em Proceedings of the NAACL-HLT 2007/AMTA Workshop on Syntax and
+  Structure in Statistical Translation}, pages 1--8. Association for
+  Computational Linguistics.
 
 \end{thebibliography}
