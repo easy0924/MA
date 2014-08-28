@@ -64,6 +64,7 @@
 \usepackage[encapsulated]{CJK}
 \usepackage[normalem]{ulem}
 \usepackage{soul}
+\usepackage{scrhack}
 
 \usepackage{ucs}
 

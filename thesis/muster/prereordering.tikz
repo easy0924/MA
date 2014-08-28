@@ -7,7 +7,7 @@ nodeimp/.style = {node, fill=red!20}
 ]
 
 
-\node(A) [node, text width=8em] at (0, 0) {Source Sentences};
+\node(A) [node, text width=8em] at (0, 0) {Sentences in Source Language};
 %\node(B) [node, below=\mylen of A] {Reordering};
 \node(B) [draw=black, thick, circle, below=\mylen of A] {};
 \node(C) [node, text width=8em, below=2\mylen of B] {Decoder (Global Search)};
