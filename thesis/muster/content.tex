@@ -53,7 +53,7 @@ Word alignment indicates the possible alignment between words in the source sent
 \begin{figure}[H]
 \centering
 \input{alignment.tikz}
-\caption{Example of word alignment}
+\caption{Word alignment}
 \label{alignment}
 \end{figure}
 %? better example with crossing alignment?
@@ -78,7 +78,7 @@ Part-of-speech (POS) tags are markups of words in the text, which indicates the 
 
 \centering
 \input{tags.tikz}
-\caption{Example of POS tagging}
+\caption{POS tagging}
 \label{tags}
 \end{figure}
 
@@ -126,7 +126,7 @@ The syntax tree shows the syntactic structure of a sentence and can be very usef
 \begin{figure}
 \centering
 \input{ParseTree.tikz}
-\caption{Example of a parse tree}
+\caption{Parse tree}
 \label{ParseTree}
 \end{figure}
 
@@ -231,7 +231,7 @@ In order to further explore the probability of improvement, different types of r
 
 In order to evaluate the potential of word reordering, we introduce the oracle reordering. Oracle reordering is considered to be an optimally reordered sentence as input to the SMT system and do not allow additional reordering during decoding. \citep{combine} The oracle reordering is created by using the permutation of source sentences, which is extracted from the word alignment between the source text and reference.
 
-In order to abstract the permutation from the word alignment, some cases need to be considered, since word alignment is generally not a one-to-one word mapping. There're the following four cases: \citep{birch2}
+In order to abstract the permutation from the word alignment, some cases need to be considered, since word alignment is generally not a one-to-one word mapping. There are the following four cases: \citep{birch2}
 
 \begin{itemize}
 \setlength{\itemsep}{0cm}%
@@ -274,7 +274,7 @@ In this chapter, we've introduced some fundamental knowledge and concepts that a
 \begin{figure}
 \centering
 \input{Lattices.tikz}
-\caption{Example of a word lattice}
+\caption{Word lattice}
 \label{Lattices}
 \end{figure}
 \end{landscape}
@@ -289,43 +289,43 @@ In this chapter, we've introduced some fundamental knowledge and concepts that a
 \label{ch:ReorderingApproach:sec:Problem}
 %% ===========================
 
-English and Chinese belong to different language groups. As Chinese belong to the Sino-Tibet language group, while English belong to the Indo-Germanic language group. And they have also developed separately for a long time. Because of their different origins and development, they've becoming two very different languages.
+English and Chinese belong to different language families. As Chinese belong to the Sino-Tibetan language family, while English belong to the Indo-European language family. And they have also developed separately for long period of time. Because of their different origins and development, they are two very different languages.
 
-Unlike the most languages in the Indo-Germanic language group, which are more close to English than Chinese, Chinese has some properties those languages don't have, such as Characters as fundamental element instead of letters, the tones, no word separation, the usage of measure words,much more simple inflections and conjugations, which raises further problem for machine translation.
+Unlike the most languages in the Indo-European language family, which are more similar to English than Chinese, Chinese has some properties those languages don't have, such as Characters as basic linguistic element instead of letters, the tones, no word separation by writing, the usage of measure words, less inflection and conjugation, which raises further problem for machine translation.
 
-Even the word order between English and Chinese differs more significantly. For one, the words in Chinese have generally different origins as those in English, which leads to very different vocabulary and word construction. Sometimes it's very hard to find corresponding words in the other language. For example, some prepositions in Chinese have very different usage than those prepositions in English. Also the continuous writing of Chinese without space makes this problem more severe, since word boundaries are not always so clear in Chinese. So text needs to be segmented first before translation. A word segmentation process is conducted to separate the word, but the result may not always be ideal.
+Even the word order between English and Chinese differs more significantly. For one, the words in Chinese have generally different origins as those in English, which leads to very different vocabulary and word construction. Sometimes it's very hard to find corresponding words in the other language. For example, some prepositions in Chinese have very different usage than those prepositions in English. Also the continuous writing of Chinese without space makes this problem more severe, since word boundaries are not always so clear in Chinese. The text needs to be segmented first before translation. A word segmentation process is used to separate the words, but the results may not always be ideal.
 
-For the other, both languages have sometimes very different sentence structure. Thus, a word-for-word translation between the English and Chinese is often unnatural or difficult to understand. Each of them has some sentence patterns that don't exist or rarely used in the other. In Chinese, a part of sentence that modifies another part may tend to be put before that part that it modifies. While in English, it's very common that the part that modifies others may be put after them. Besides, an English sentence with a lot of long clauses may be more suitable to translate into several Chinese sentences, because Chinese doesn't tend to use long clauses. 
+For the other, both languages have sometimes very different sentence structures. Thus, a word-for-word translation between English and Chinese is often unnatural or difficult to understand. Each of them has some sentence patterns that don't exist or rarely used in the other. In Chinese, a modifier is often put before the part that it modifies. While in English, it's very common that the modifier is put after the part that it modifies. Besides, English sentences with a lot of long clauses may be more suitable to translate into several Chinese sentences, because in Chinese people don't tend to use long clauses in general. 
 
-Some literature \citep{syntactic} has discussed or analyzed the differences in word orders between English and Chinese. Through analyzing the data we have and study of the literature, we've found several major types of differences in word orders between English and Chinese, which are typical in the data and often lead to translation problems. They are listed as follows.
+Some literature \citep{syntactic} has discussed or analyzed the differences in word orders between English and Chinese. Through analyzing the data we have and the study of the literature, we've found several major types of differences in word orders between English and Chinese, which are typical in the data and often lead to translation problems. They are listed as follows.
 
 \paragraph{Relative clauses}
-Typically a relative clause modifies a noun or noun phrase. In English a relative clause is normally put after the noun or noun phrase that it modifies. While in Chinese, it's normally put before the noun or noun phrase. But sometimes, a relative clause may also be separated to from another sentence if it is too long. This makes the sentence look more balance. Following is an example to show the position change of a relative clause.
+Typically a relative clause modifies a noun or noun phrase. In English a relative clause is normally put after the noun or noun phrase that it modifies. While in Chinese, it's normally put before the noun or noun phrase. But sometimes, a relative clause may also be detached to form another sentence if it is too long. This makes the sentence look more balance in Chinese. Following is an example to show the position change of a relative clause.
 \begin{figure}[H]
 \centering
 \input{relative.tikz}
-\caption{Position change of an adverbial of time}
+\caption{Position change of a relative clause}
 \end{figure}
 
 \paragraph{Adverbials}
-An adverbial can be an adverb, an adverbial phrase or an adverbial clause that modifies the verb or the whole sentence. The position of adverbials is a complicated topic. In general, the location of adverbials in a sentence are very flexible. They can be located in different position of a sentence both in English and Chinese, such as beginning, middle or end of a sentence, before or after the verb. The location varies and it often depends on the situation. When comparing English and Chinese word order, the location of adverbials in one language doesn't automatically implies the same location in the other. Typical examples are adverbials of time, location and frequency. It's often put after the verb in English, but before the verb in Chinese. 
+An adverbial can be an adverb, an adverbial phrase or an adverbial clause that modifies the verb or the whole sentence. The position of adverbials is a complicated topic. In general, the location of adverbials in a sentence can be very flexible. They can be placed in different locations of a sentence both in English and Chinese, such as at the beginning, in the middle or at the end of a sentence, before or after the verb. The locations vary and it often depends on the situation. When comparing English and Chinese word orders, the location of adverbials in one language doesn't automatically implies the same location in the other. Typical examples are adverbials of time, location and frequency. It's often put after the verb in English, but before the verb in Chinese. 
 \begin{figure}[H]
 \centering
 \input{adverbial.tikz}
-\caption{Position change of an adverbial of time}
+\caption{Position change of an adverbial}
 \end{figure}
 
-\paragraph{Preposition phrases}
-A preposition phrase functions sometimes as an adverbial, and it should be reordered before the verb for translation. But a preposition phrase can also modify a noun or noun phrase sometimes. When a preposition phrase modifies a noun or noun phrase, it's typically located after the noun or noun phrase that it modifies. While in Chinese it's typically located before the noun or noun phrase that it modifies.
+\paragraph{Preposition Phrases}
+A preposition phrase functions sometimes as an adverbial, and it's commonly placed before the verb in Chinese. But a preposition phrase can also modify a noun or noun phrase sometimes. When a preposition phrase modifies a noun or noun phrase, it's typically located after the noun or noun phrase that it modifies in English. While in Chinese it's typically located before the noun or noun phrase that it modifies.
 
 \begin{figure}[H]
 \centering
 \input{pp.tikz}
-\caption{Position change of an adverbial of time}
+\caption{Position change of a preposition phrase}
 \end{figure}
 
 \paragraph{Questions}
-Questions are often formed by moving the auxiliary verb before the subject or adding \emph{do} (\emph{does}, \emph{did}) before the subject if there's no auxiliary verb in English. And interrogative word such as \emph{where}, \emph{what}, \emph{how}, etc. is added if it's an interrogative question. However, building a question in Chinese doesn't affect the sentence structure so much. Generally, the questioned part is replaced with a interrogative word and a question denominator is put at the end of sentence to indicate the question. In the Chinese question in figure~\ref{question}, the verb stays after the subject, the interrogative word is put at the location where an adverbial of manner is generally put, and an question denominator is put before the question mark.
+Questions are often formed by moving the auxiliary verb before the subject or adding \emph{do} (\emph{does}, \emph{did}) before the subject if there's no auxiliary verb in a English sentence. And interrogative word such as \emph{where}, \emph{what}, \emph{how}, etc. is added if it's an interrogative question. However, building a question in Chinese doesn't affect the sentence structure so much. Generally, the questioned part is replaced with a interrogative word and a question denominator is put at the end of a sentence to indicate the question. In the example in figure~\ref{question}, the verb stays after the subject, the interrogative word is put at the location where an adverbial of manner is generally put, and an question denominator is put at the end.
 
 \begin{figure}[H]
 \centering
@@ -335,12 +335,12 @@ Questions are often formed by moving the auxiliary verb before the subject or ad
 \end{figure}
 
 \paragraph{Special Sentence Constructions}
-Due to the lack of certain sentence patterns, the reordering could be untypical or it varies from case to case. Chinese doesn't have sentence construction corresponding to the inverted negative sentences or \emph{there be} sentences in English. Meanwhile, the Chinese \linebreak\emph{bǎ}-construction (\cntext{把字句}) doesn't exist in English either.
+Due to the lack of certain sentence patterns, the reordering could be untypical or it varies from case to case. In Chinese, there is generally no sentence construction corresponding to the inverted negative sentences or \emph{there}-\emph{be} sentences in English. Meanwhile, the Chinese \emph{bǎ}-construction (\cntext{把字句}) doesn't really exist in English either.
 
 \begin{figure}[H]
 \centering
 \input{therebe.tikz}
-\caption{Position change of an adverbial of time}
+\caption{Word reordering of a \emph{there}-\emph{be} sentence}
 \end{figure}
 
 %?correct compound subjects: or & there be...
@@ -349,25 +349,25 @@ Due to the lack of certain sentence patterns, the reordering could be untypical 
 \label{ch:ReorderingApproach:sec:Motivation}
 %% ===========================
 
-Because English and Chinese have different word orders and there're also some special cases of sentence patterns, the word reordering can be complicated and unsystematically. From the differences in word orders that we've discussed in last section, we can see two kinds of word position change are very typical.
+Because English and Chinese have different word orders and there are also some special cases of sentence patterns, the word reordering can be complicated and unsystematically. From the differences in word orders that we've discussed in last section, we can see there are two typical issues in word reordering between English and Chinese.
 
 \subsection{Long-Distance Word Reordering}
 
-Because sentence structure is often changed dramatically when translating between English and Chinese, the reordering often involves with long-distance word position change. Not just the position change of a part of sentence may be a long-distance change, the part that is moved may also be very long. For example, an adverbial clause of time may located at the end of a English sentence, but in order to be processed for translation into Chinese, it may need to be moved across the whole sentence to the front, and the adverbial clause itself may be also very long. 
+Because sentence structure is often changed dramatically when translating between English and Chinese, the reordering often involves long-distance word position change. Not just the position change of a part of sentence may be a long-distance shift, the part that is moved may also be very long. For example, an adverbial clause of time may located at the end of a English sentence, but in order to be preordered for translation into Chinese, it may need to be moved across the whole sentence to the front, and the adverbial clause itself may be very long too. 
 
-\paragraph{Example $1$}
+\textbf{Example $1$:}\\
 I find this very much disturbing \emph{\ul{when we are talking about what is going on right and wrong with democracy these days}}.\smallskip\\
 \cntext{\uline{现在，每当我跟别人讨论我们的民主什么是对的，什么是错的}我都为此觉得很无力。}
 
-\paragraph{Example $2$}
+\textbf{Example $2$:}\\
 You feel intense elation \emph{\ul{when things are going well}}; mood swings into horrible despair \emph{\ul{when things are going poorly}}.\smallskip\\
 \cntext{\uline{当事情进展顺利的时候，}你会觉得兴高采烈；\uline{当事情不顺利的时候，}你又会陷入极度的失望和恐慌。}
 
-In both exapmles the adverbial clauses are moved to the front. These are common cases in translation between English and Chinese. In order to be able to handle the reordering between English and Chinese, the reordering approach should allow some words to be shifted across a long distance.
+In both exapmles the adverbial clauses are moved forward. These are common cases in translation between English and Chinese. In order to be able to handle the reordering between English and Chinese correctly, the reordering approach should allow part of the sentence to be shifted across long distance.
 
 \subsection{Word Reordering on Multiple Syntactic Levels}
 
-Sometimes the reordering involves word position changes on multiple syntactic levels. We can see this problem from the examples in figure~\ref{unstructured}. In the figure, the syntactic structure and alignment of the parallel text are presented in a intuitive way.
+Sometimes the reordering involves word position changes on multiple syntactic levels. We can see this issue from the examples in figure~\ref{unstructured}. In the examples, the syntactic structures and alignment of the parallel text are presented in a intuitive way.
 
 \begin{figure}[H]
 \centering
@@ -381,19 +381,19 @@ Sometimes the reordering involves word position changes on multiple syntactic le
 \label{unstructured}
 \end{figure}
 
-From the examples we can also clearly see how to reordering on multiple syntactic levels works. From the root of the syntax tree on the left, if we inspect 3 syntactic levels downwards, we can find the following pattern of word position change, comparing the parallel Chinese text:
-$$\texttt{NP ( \ul{CD} NP ( NP ( \ul{JJ NNS} ) PP ( \ul{IN NP} ) ) ) -> NP IN CD JJ NNS}$$
-As we can see, we can't get this pattern if we only observing subtrees on the same level of syntax tree. The node labeled with \emph{CD ten} is inserted into the subtree of its sibling labeled with \emph{NP}, between its sibling's two children. This position change can not simply be done by swapping children of the same node.
+From the examples we can clearly see how reordering on multiple syntactic levels works. From the root of the syntax tree on the left, if we inspect $3$ syntactic levels downwards, we can find the following pattern of word position changes, in comparison with the parallel Chinese text:
+$$\texttt{NP ( \ul{CD} NP ( NP ( \ul{JJ} \ul{NNS} ) PP ( \ul{IN} \ul{NP} ) ) ) -> NP IN CD JJ NNS}$$
+The tags with underscore indicate the leaves, which are ordered. as we can see, we can't get this pattern if we only observing children on the same level of syntax tree. The node labeled with \emph{CD ten} is inserted into the subtree of its sibling which is labeled with \emph{NP}, between its sibling's two children. This position change can not be simply done by swapping children of the same node.
 
 We can also observe the same phenomenon from the second example. If we inspect two levels downwards from the root node, we can find the following pattern:
-$$\texttt{S ( NP ( \ul{NP PP} ) VP ( \ul{VBP ADVP}) \ul{.} ) -> ADVP NP PP VBP .}$$
+$$\texttt{S ( NP ( \ul{NP} \ul{PP} ) VP ( \ul{VBP} \ul{ADVP}) \ul{.} ) -> ADVP NP PP VBP .}$$
 In this example, the adverbial phrase \emph{annually} is moved forward to the front of the sentence, leaving the subtree \emph{NP ( NP PP )}, which is on a higher level, between it and its sibling.
 
-Besides, there are several reasons why we need word reordering on multiple syntactic levels. First, the syntactic parser may make mistakes. As we found in the training corpus, it's not rare that sentences are misparsed, either the words are not correctly tagged, or the syntactic structure is wrong. Second, the syntax tree of the English sentence may not be suitable for translation into Chinese. In these case, MLT reordering could be used as a remedy for incorrect parsing patterns in the syntax tree. Besides due to the very different word orders between English and Chinese, simply reordering the words by change nodes on the same syntax tree level may not do the job, and MLT reordering will be useful in this case.
+Besides, there are several reasons why we need word reordering on multiple syntactic levels. First, the syntactic parser may make mistakes. As we found in the training corpus, it's not rare that sentences are misparsed, either the words are not correctly tagged, or the syntactic structure is simply wrong. Second, the syntax tree of the English sentence may not be suitable for translation into Chinese. In both case, MLT reordering can be used as a remedy for incorrect or improper parsed sentences. Besides, due to the very different word orders between English and Chinese, simply reordering the words by change children orders on the same syntax tree level may not do the job, and MLT reordering will be useful in this case.
 
-In conclusion of the existing reordering rules we've introduced and the problems we've seen by translating between English and Chinese, a good approach for the reordering should both take long-distance reordering and reordering on multiple syntactic levels into account. A long rule based reordering may not utilize the syntactic information for reordering, so the structure of Chinese sentence may not be reconstructed. On the other side, a tree rule based reordering may not be enough helpful by too complicated structure changes, as we've found out there are cases that a reordering can not simply done by swapping children of subtrees. 
+In conclusion of the existing reordering rules we've introduced and the problems we've seen by translating between English and Chinese, a good approach for the reordering should both take long-distance reordering and reordering on multiple syntactic levels into account. A short or long rule based reordering may not utilize the syntactic information for reordering, so the structure of Chinese sentence may not be reconstructed. On the other side, a tree rule based reordering may not be enough helpful by too complicated structure changes, as we've found out there are cases that a reordering can not simply done by swapping children in a syntax tree. 
 
-Inspired by the method of tree rules based reordering method, we created this reordering algorithm. The algorithm solely uses information of the syntax tree and alignment of the source side. It further explores the syntactic structure of text to be translated, and detecting reordering patterns from multiple levels of the syntax tree altogether.
+Inspired by the method of tree rules based reordering method, we created this reordering algorithm. The algorithm solely uses information of the syntax tree and alignment of the source side. It further explores the syntactic structure of text and detects reordering patterns from multiple levels of the syntax tree altogether.
 
 %% ===========================
 \section{MLT Reordering Algorithm}
@@ -404,11 +404,11 @@ As we've ready seen how the basic idea of finding reordering patterns on multipl
 
 \subsection{Rule Extraction}
 
-In order to find as much as information for reordering as possible. The algorithm of rule extraction detects the reordering pattern from all nodes in the syntax tree, goes downwards for any number of hierarchies, until it reaches the last hierarchy in the subtrees.
+In order to find as much information for reordering as possible. The algorithm of rule extraction detects the reordering patterns from all nodes in the syntax tree and it goes downwards for any number of hierarchies, until it reaches the lowest hierarchy in the subtrees.
 
-In the implementation, the program conducts a depth-first search (DFS) to traverse every node in the syntax tree. Every time when a node is reached, the program conducts another iterative deepening depth-first search (IDDFS) in its subtree with depth-limit from $1$ to the subtree's depth. And the program detects if there're any patterns of word position changes at the same time, by using the alignment for comparison.
+In the implementation, the program conducts a depth-first search (DFS) to traverse every node in a syntax tree. Every time when a node is reached, the program conducts another iterative deepening depth-first search (IDDFS) in its subtree with depth-limit from $1$ to the subtree's depth. And the program detects if there are any patterns of word position changes at the same time, by using the alignment for comparison.
 
-The detected word position changes are checked for their validity for reordering rules. As describe in section~\ref{general}, a valid patterns for reordering should both be involved with actual reordered words and have clearly distinguished new order from the target side, i.e. no coincidence of aligned range on the target side.
+The detected word position changes are checked for their validity for reordering rules. As describe in section~\ref{general}, a valid patterns for reordering should both involves actual reordered words and have clearly distinguishable new order from the target side, i.e. no collision of aligned ranges on the target side.
 
 \begin{figure}[H]
 \centering
@@ -417,48 +417,48 @@ The detected word position changes are checked for their validity for reordering
 \label{extract}
 \end{figure}
 
-Figure~\ref{extract} shows a phrase to be translated together with is syntax tree and alignment to its parallel text in Chinese. The nodes are labels with numbers. In this example, we can find the following reordering patterns:
+Figure~\ref{extract} shows a phrase to be translated, together with its syntax tree and word alignment of parallel text. The nodes are labels and the reordering uses position indices to avoid ambiguity caused by nodes with the same tag. In this example, we can find the following reordering patterns:
 
 \textbf{From node $1$:}\\
-\texttt{NP ( \ul{NP} \ul{PP} ) -> PP NP} \hfill [1 level]\\
-\texttt{NP ( NP ( \ul{JJ} \ul{NNS} ) PP ( \ul{IN} \ul{NP} ) ) -> NP IN JJ NNS} \hfill $*$[2 levels]\\
-\texttt{NP ( NP ( \ul{JJ} \ul{NNS} ) PP ( \ul{IN} NP ( \ul{JJ} \ul{NNS} ) ) ) -> JJ NNS IN JJ NNS} \hfill [3 levels]
+\texttt{NP ( \ul{NP} \ul{PP} ) -> 1 0} \hfill [1 level]\\
+\texttt{NP ( NP ( \ul{JJ} \ul{NNS} ) PP ( \ul{IN} \ul{NP} ) ) -> 3 2 0 1} \hfill $*$[2 levels]\\
+\texttt{NP ( NP ( \ul{JJ} \ul{NNS} ) PP ( \ul{IN} NP ( \ul{JJ} \ul{NNS} ) ) ) -> 3 4 2 0 1} \hfill $*$[3 levels]
 
 \textbf{From node $3$:}\\
-\texttt{PP ( \ul{IN} \ul{NP} ) -> NP IN} \hfill [1 level]\\
-\texttt{PP ( \ul{IN} NP ( \ul{JJ} \ul{NNS} ) ) -> JJ NNS IN} \hfill $*$[2 levels]
+\texttt{PP ( \ul{IN} \ul{NP} ) -> 1 0} \hfill [1 level]\\
+\texttt{PP ( \ul{IN} NP ( \ul{JJ} \ul{NNS} ) ) -> 1 2 0} \hfill $*$[2 levels]
 
-It's noteworthy that our method can detect more reordering patterns than the tree rule based method. For example, the patterns marked with $*$ above can not be extracted with the tree rules based method directly.
+As the example shows, this approach can detect more reordering patterns than the tree rule based approach. For example, the reordering patterns marked with $*$ above can not be detected with the tree rules based approach directly.
 
-The probability of the reordering patterns can be calculated as described in section~\ref{general}. There are the left part and the right part of the reordering patterns separated by the arrow. The left part indicates the sequence that should be reordered and the right part indicates how the new order should be like. The probability of the pattern is calculated by how often the left part is reordered into the right part among all its appearance in the training corpus. In addition, reordering patterns that appear less than a threshold are ignored to be used as reordering rule, in order to prevent too concrete rules without generalization capability and overfitting.
+The probability of the reordering patterns can be calculated as described in section~\ref{general}. There are the left part and the right part of the reordering patterns separated by the arrow. The left part indicates the sequence that should be reordered and the right part indicates how the new order should be like. The probability of the pattern is calculated by how often the left part is reordered into the right part among all its appearances in the training corpus. In addition, reordering patterns that appear less than a threshold are ignored to be used as reordering rules, in order to prevent too concrete rules without generalization capability and overfitting.
 
 \subsection{Rule Application}
 
-The syntax tree is traverse by DFS as the same in rule extraction. But from the root of each subtree, it's scanned with depth limit from its maximal levels, i.e. its depth, to $1$. If it turns out, any rule can be applied for a subtree at some level, a new path for this reordering will be added to the word lattice for decoding, as introduced in section~\ref{latticecreation}. As long as rules can be applied on a subtree for a certain depth, the rules are applied and the search for rule application on this subtree stops, and the search on the next subtree continues. 
+The syntax tree is traversed by DFS as the same in rule extraction. But from the root of each subtree, it's scanned with depth limit from its maximal levels, i.e. its depth, to $1$. As it turns out, any rule can be applied for a subtree at some level, a new path for this reordering will be added to the word lattice for decoding, as introduced in section~\ref{latticecreation}. As long as rules can be applied on a subtree for a certain depth, the rules are applied and the search for rule application on this subtree stops, and the search on the next subtree continues. 
 
-The reason for this is to prevent duplicate reorderings due to application of rules, which has overlapped effect with each other. These rules are normally patterns that are generated on the same tree, but with different number of levels, which has different generalization effect on the same range of words in the text. For example, the following patterns can be detected from the syntax tree in figure~\ref{extract} in last section:
+The reason for this is to prevent duplicate reorderings due to application of rules, which has overlapped effect with each other. These rules are normally patterns that are generated on the same subtree, but with different number of levels, which has different generalization effect on the same range of words in the text. For example, the following patterns can be detected from the syntax tree in figure~\ref{extract}:
 \begin{center}
 \begin{tabular}{l}
-\texttt{PP ( \ul{IN} \ul{NP} ) -> NP IN}\\
-\texttt{PP ( \ul{IN} NP ( \ul{JJ} \ul{NNS} ) ) -> JJ NNS IN}
+\texttt{PP ( \ul{IN} \ul{NP} ) -> 1 0}\\
+\texttt{PP ( \ul{IN} NP ( \ul{JJ} \ul{NNS} ) ) -> 1 2 0}
 \end{tabular}
 \end{center}
 Both patterns are detected from the same node, but the second pattern is detected by retrieving the nodes one level deeper and it's more concrete. So the first pattern can be seen as a generalization of the second pattern. Whenever a rule of the second pattern can be applied, a rule of the first pattern can be applied too. Because subtrees are checked from the highest number of levels by rule application, the more concrete rule is applied first. Because the more concrete rule fits the detected pattern better and contains more details of reordering, so it may be more suitable for rule application. In this example, the second rule is applied rather than the first rule.
 
-To illustrate how the rule application work in a more intuitive way, we present an example. Assume we have several reordering rules and a pre-processed sentence for reordering as follows:
+To illustrate how the rule application works in a more intuitive way, we present an example. Assume we have $2$ reordering rules and a pre-processed sentence for reordering as follows:
 \begin{center}
 \begin{tabular}{l}
 Rules:\\
-\text{[1]} \texttt{VP ( \ul{VBZ} NP ( \ul{NP} \ul{PP} ) ) -> PP VBZ NP (0.18)}\\
-\text{[2]} \texttt{NP ( NP ( \ul{NN-1} \ul{NN-2} ) PP ( \ul{IN} \ul{NP} ) ) -> NP IN NN-1 NN-2 (0.17)}\\
+\text{[1]} \texttt{VP ( \ul{VBZ} NP ( \ul{NP} \ul{PP} ) ) -> 2 0 1 (0.18)}\\
+\text{[2]} \texttt{NP ( NP ( \ul{NN} \ul{NN} ) PP ( \ul{IN} \ul{NP} ) ) -> 3 2 0 1 (0.17)}\\
 \\
 Sentence:\\
 \texttt{world bank plans debt relief for poorest countries}
 \end{tabular}
 \end{center}
 
-The syntax tree and monotone path as initial word lattice looks as follows:
-\begin{figure}[H]
+The syntax tree and monotone path as initial word lattice are presented in figure~\ref{Ia}.
+\begin{figure}
 \centering
 \subfigure{
 \input{left1.tikz}
@@ -466,12 +466,13 @@ The syntax tree and monotone path as initial word lattice looks as follows:
 \subfigure{
 \input{right1.tikz}
 }
-\caption{Illustration of rule application (1)}
+\caption{Illustration of rule application (a)}
+\label{Ia}
 \end{figure}
 
-By using DFS to traverse the syntax tree, the program first finds out the pattern started from node \emph{VP} with $2$ levels corresponds the left part of the first rule listed above. This indicates the rule is applicable at this position. According to the reordering rule, the order of the three constituents labeled with \emph{VBZ}, \emph{NP} and \emph{PP} should be changed to \emph{PP VBZ NP} with probability $0.18$. Thus the words are reordered into \emph{for poorest countries plans debt relief}, and the new path with this probability is added to the word lattice.
+By using DFS to traverse the syntax tree, the program first finds out the pattern started from node \emph{VP} with $2$ levels corresponds the left part of the first rule listed above. This indicates the rule is applicable at this location. According to the reordering rule, the order of the three constituents labeled with \emph{VBZ}, \emph{NP} and \emph{PP} should be changed to \emph{PP VBZ NP} with probability $0.18$. Thus part of the sentence is reordered into \emph{for poorest countries plans debt relief}, and the new path with this probability is added to the word lattice.
 
-\begin{figure}[H]
+\begin{figure}
 \centering
 \subfigure{
 \input{left2.tikz}
@@ -479,10 +480,12 @@ By using DFS to traverse the syntax tree, the program first finds out the patter
 \subfigure{
 \input{right2.tikz}
 }
-\caption{Illustration of rule application (2)}
+\caption{Illustration of rule application (b)}
 \end{figure}
 
-As the program keeps going, it turns out the second rule is applicable at another node labeled with \emph{NP} with $2$ levels. Again the rule is applied with probability $0.17$ and the new path is added. It should be noted that there're numbers added to the two \emph{NN} tags in the rule, in order to distinguish them for the reordering. The program uses index for the internal presentation of words, which doesn't cause any confusion.
+As the program keeps running, the second rule is found applicable at another node labeled with \emph{NP} with $2$ levels. Again the rule is applied with probability $0.17$ and the new path is added. 
+
+This illustration uses indices for the reordering rules to avoid ambiguity. The nodes colored with red indicate the part of the syntax tree where a rule is applicable. And the nodes colored with dark red indicate the nodes which are reordered.
 
 \begin{figure}[H]
 \centering
@@ -492,8 +495,8 @@ As the program keeps going, it turns out the second rule is applicable at anothe
 \subfigure{
 \input{right3.tikz}
 }
-\caption{Illustration of rule application (3)}
+\caption{Illustration of rule application (c)}
 \end{figure}
 
 \section{Summary}
-In this chapter, we've present the differences in word orders between English and Chinese and introduced the SMT reordering algorithm. Because of the different origins and separate development of the two languages, they have very distinct sentence structures. To adjust the word order in one language to the other as preordering for translation between the two. It often involved with long-distance position change and reordering on multiple level of the syntactic structure. Inspired by the method of tree rules based reordering method, we created the SMT reordering algorithm to rearrange the words as a pre-process for translation. The algorithm uses the information of syntactic tree and word alignment, it extract and applying the reordering rules by detecting patterns from the subtrees with different search levels in the syntax tree.
+In this chapter, we've presented the differences in word orders between English and Chinese, followed by an introduction of the MLT reordering algorithm. Because of the different origins and separate development of English and Chinese, they have very distinct sentence structures. To adjust the word order in one language to the other as preordering for translation between the two. It often involves long-distance position change and reordering on multiple level of the syntactic structure. Inspired by the method of tree rules based reordering method, we created the MLT reordering algorithm which rearranges the words as a pre-process for translation. The algorithm uses the information of syntactic tree and word alignment, it extracts and applies the reordering rules by detecting patterns from the subtrees with different search levels in syntax trees.

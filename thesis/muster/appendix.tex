@@ -79,20 +79,20 @@ When mode is $0$, the rule includes with POS tags of the internal nodes. In the 
 \verb|Mode 2: VB NN ( DT NN ) ---- ...|\\
 \verb|Mode 3: VB NN DT NN ---- ...|
 \end{tabular}
-\caption{Illustration of different MLT rule variations}
+\caption{Variations of MLT rules}
 \label{exampletree}
 \end{figure}
 Figure~\ref{exampletree} shows how the rules are presented in different modes.
 
-The standard output of the program will list all the extracted rules including the reordering, probability and occurrences. For example,
+The standard output of the program will list all the extracted rules including the reordering pattern, probability and occurrences. For example,
 $$\verb|VB NN ( DT NN ) ---- 2 3 0 1 ---- 0.5 ---- 5 / 10|$$
-means the sequence \verb|VB NN (DT NN )| will be reordered as \verb|DT NN VB NN| with a probability $0.5$, because on $5$ out of all the sequence's $10$ occurrences in the training data, it is ordered in this manner.
+means the sequence \verb|VB NN (DT NN )| in mode $2$ will be reordered as \verb|DT NN VB NN| with a probability $0.5$, because on $5$ out of all the sequence's $10$ occurrences in the training data, it is ordered in this manner.
 
 The executable file \verb|apply| has the following usage format:\\
 \verb|apply <RuleFile> <TargetText> <TargetTag> <TargetTrees> <TargetDir> <Mode>|\\
 \verb|[<LatticesDir>]|
 
-The parameter \verb|<RuleFile>| is the path of the rules file created by the the \verb|extract| commnad. The parameter \verb|<TargetText>| is the path of text to be reordered and translated, with one sentence per line. \verb|<TargetTag>| and \verb|<TargetTree>| are separately the POS tags and syntax trees of the text. \verb|<TargetDir>| is the directory, where the resulted lattices should be put. \verb|<Mode>| is the same parameter as described in the \verb|extract| command, it should be consistent with mode used for extracting the rules. The last parameter \verb|<LatticesDir>| is optional, it's intended to enable the rule combination. If this parameter is given, the program will apply the rules on top of the existing lattices under the specified directory \verb|<LatticeDir>|. The existing lattices should be also extracted for the same target text.
+The parameter \verb|<RuleFile>| is the path of the rule file created by the the \verb|extract| commnad. The parameter \verb|<TargetText>| is the path of text to be reordered and translated, with one sentence per line. \verb|<TargetTag>| and \verb|<TargetTree>| are separately the POS tags and syntax trees of the text. \verb|<TargetDir>| is the directory, where the resulted lattices should be put. \verb|<Mode>| is the same parameter as described in the \verb|extract| command, it should be consistent with mode used for extracting the rules. The last parameter \verb|<LatticesDir>| is optional, it's intended to enable the rule combination. If this parameter is given, the program will apply the rules on top of the existing lattices under the specified directory \verb|<LatticeDir>|. The existing lattices should be also extracted for the same target text.
 
 The output of of the command are the lattice files saved under \verb|TargetDir|, one file per sentence. Each lattice file saves the specific information of nodes and edges of a lattice graph presenting a reordered sentence. The whole directory can be used as input for the decoder.
 
@@ -219,9 +219,9 @@ The reordering code: \verb|/home/gwu/src/MLTRules.mode/|
 
 \begin{enumerate}
 \item Modify or replacing source code \verb|Configuration.py| and \verb|ReorderingRules.py| in your SMT system accordingly.
-\item Copy the directory of executable file \verb|apply| and \verb|exact| to your own directory and change the paths point to the executable files, or don't copy the directory and leave the the paths as they are.
+\item Copy the directory of executable file \verb|apply| and \verb|exact| to your own directory and change the paths point to the executable files, or don't copy the directory and leave the paths as they are.
 \item Modify the description file in the system, add new settings to the \verb|reorderingrules| and \verb|configuration| section, with the desired mode, threshold for rule extraction and optional existing lattice directory.
-\item Check if the tree rule configuration is called \verb|TreeRules|. If it's not, some paths in \verb|ReorderingRules.py| must be changed. See \hyperref[note]{note}.
+\item Check if the configuration for tree rules is called \verb|TreeRules|. If it's not, some paths in \verb|ReorderingRules.py| must be changed. See the \hyperref[note]{note}.
 \item Build the system with the modified description file.
 \end{enumerate}
 

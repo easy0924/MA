@@ -12,7 +12,7 @@ text height=4.25ex, text depth=.25ex, draw=black, inner sep=0, outer sep=0, roun
 ]
 %this repetition of perception is sometimes called palinopsia .
 \node(A1) [node] at (0, 2.5) {This};
-\node(A2) [node, right=1em of A1] {rerepetition};
+\node(A2) [node, right=1em of A1] {repetition};
 \node(Ax) [node2, right=1em of A2] {
 \tikz\node(A3) [node] {of};
 \tikz\node(A4) [node, right=1em of A3] {perception};
