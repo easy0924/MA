@@ -16,7 +16,7 @@ Both sections are composed of three parts: experimental setup, results and evalu
 
 \subsection{Experimental Setup}
 We performed experiments with or without different reordering methods covering the English-to-Chinese translation direction. The reordering methods included the reordering with short rules, long rules, tree rules and the MLT rules. The system was trained on news text from the LDC corpus and subtitles from TED talks. The development data and test data were both news text from the LDC corpus. The system was a phrase-based SMT system, which used a $6$-gram language model with Knersey-Ney smoothing. Besides the preordering, no lexical reordering or other reordering method was used. The text was translated through a monotone decoder. The Chinese text were first segmented into words before use.
-The reordering rules were extracted by using the alignment, POS tags and syntax trees from the training data. One reference of the test data was used for evaluating the BLEU scores. The threshold for rule extraction is set as $5$ times and reordering paths with probability less than $0.1$ are not added to the lattice. Table~\ref{denw} shows the size of data used in the system. %? case-sensitive?
+The reordering rules were extracted by using the alignment, POS tags and syntax trees from the training data. One reference of the test data was used for evaluating the BLEU scores. The threshold for rule extraction is set as $5$ times and reordering paths with probability less than $0.1$ are not added to the lattice. The baseline used a monotone decoder and no reordering at all. Table~\ref{denw} shows the size of data used in the system. %? case-sensitive?
 
 \begin{table}[H]
 \centering
@@ -61,12 +61,11 @@ Table~\ref{tenw} shows the BLEU scores for configurations with different reorder
 \subsection{Evaluation}
 
 The results shows increasing scores as we used reordering methods from short rules, long rules, tree rules to MLT rules. And better BLEU scores were achieved as we combined the different reordering rules. The MLT rules improved the BLEU score, not only when it was used alone, but also it was added to the other reordering rules. 
-%However, by taking a close look at the gap between BLEU scores of oracle reordering and the best BLEU score we've achieved, we can also tell, there's still potential for improvement.
+By taking a close look at the gap between BLEU scores of oracle reordering and the best BLEU score we've achieved, we can also see, there's still potential for improvement through better reordering methods.
 
 We've also found improvements in the sentence structures. Some translation examples are listed in table~\ref{te}. Each section of this table shows translation of a sentence in its source language and target language. The translation in the rows with \emph{No MLT} comes from the configuration without using MLT reordering, and the translation in the rows with \emph{MLT} comes from the configuration by using MLT reordering. From the examples, we can see that the sentence structure was improved by MLT reordering obviously.
 
 \begin{table}
-
 \centering
 \begin{tabular}{|l|m{0.7\textwidth}|} \hline
 Source & Hu Jintao also extended deep condolences on the death of the Chinese victims and expressed sincere sympathy to the bereaved families.
@@ -96,7 +95,7 @@ MLT & \cntext{达赖 喇嘛 将 本 月 访问 华盛顿 。} \\ \hline
 %
 %%picture?
 
-From this experiments we can draw the conclusion that our reordering method indeed improves the English-to-Chinese translation quality obviously, no matter when we apply it alone or when we combine it with other reordering methods mentioned in this paper. %?And we could further justify our claim that the MLT reordering method changes the word order more significantly to improve the translation quality.
+From this experiments we can draw the conclusion that our reordering method indeed improves the English-to-Chinese translation quality obviously, no matter when we apply it alone or when we combine it with the reordering methods based on short rules, long rules and tree rules. %And we could further justify our claim that the MLT reordering method changes the word order more significantly to improve the translation quality.
 
 %% ===============================
 \section{Chinese to English System}
@@ -150,7 +149,7 @@ Table~\ref{tzhen2} shows the BLEU scores for configurations with different reord
 
 \subsection{Evaluation}
 
-We can tell from table~\ref{tzhen2} that the MLT reorering achieved the best BLEU score under all the rule types, when it was used separately. When the MLT rules was combined with other rule types, it also showed the effect to improve the translation further. Like the results in the previous section, there's also still a large gap between the score we've achieved and the score of oracle reordering, which leaves further possibilities for improvement.%? add manuel analyzing?
+We can tell from table~\ref{tzhen2} that the MLT reorering achieved the best BLEU score under all the rule types, when it was used separately. When the MLT rules was combined with other rule types, it also showed the effect to improve the translation further. Like the results in the previous section, there's also still some gap between the BLEU score we've achieved and the score achieved by oracle reordering, which shows potentail for further improvement through better reordering methods.%? add manuel analyzing?
 
 From this experiments we can draw the conclusion that our reordering method also improves the translation quality for Chinese-to-English direction.
 
@@ -231,6 +230,9 @@ From this experiments we can draw the conclusion that our reordering method also
 \section{Summary}
 \label{ch:Evaluation:sec:Conclusion}
 
-In this chapter, we've presented and evaluated the results of the English-to-Chinese and Chinese-to-English SMT system. In both system, our MLT reordering method shows obvious improvement on the translation quality. The MLT reordering helped to further improve the BLEU score by $3.57\%$, when it was combined with other reordering methods for translating from English to Chinese. And the improvement on the other translating direction was $1.37\%$.
+In this chapter, we've presented and evaluated the results of the English-to-Chinese and Chinese-to-English SMT system. In both system, our MLT reordering method shows obvious improvement on the translation quality.
 
-Through analyzing the syntactic structure of the sentences closely, we've also found that the MLT reordering method improved the translation by changing the order of words, not only on the same syntax tree level but also between different levels, which could not be easily achieved by other reordering methods we've introduced so far. So it further justifies our claim, that our MLT reordering method changes the word order more significantly to improve the translation between Chinese and English.
+When the MLT reordering approach was used to translate the test data from English to Chinese, it improved the BLEU score by $1.61$, which is a $13.34\%$ improvement in comparison with the baseline. When it was combined with other reordering methods, a further improvement of $0.43$ was achieved, which makes up a $3.57\%$ improvement. For translation from Chinese to English, the 
+MLT reordering improved the BLEU score by $2.16$ ($9.91\%$) when it was used alone. And an additional $0.30$ ($1.37\%$) was achieved when it was combined with the other reordering methods.
+
+Through analyzing the syntactic structure of the sentences closely, we've also found that the MLT reordering method improved the translation by changing the order of words, not only on the same syntax tree level but also between different levels, which could not be easily achieved by other reordering methods we've introduced so far. So it further justifies our claim, that the MLT reordering method improved the sentence structure obviously and led to better translation between English and Chinese.

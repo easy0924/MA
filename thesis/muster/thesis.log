@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  29 AUG 2014 13:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  29 AUG 2014 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2005,7 +2005,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: EB492FBD7C5A9C9CB7FC560A56109C2B;3935.
+(rerunfilecheck)             Checksum: 3E9B4CE824965B0FE6A95A7B740E35A2;3935.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
  ) 
 Here is how much of TeX's memory you used:
@@ -2069,7 +2069,7 @@ snu/gbsnu98.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9a.pfb></u
 sr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9e.pfb></usr/share/texmf-dist
 /fonts/type1/arphic/gbsnu/gbsnuff.pfb></usr/share/texmf-dist/fonts/type1/urw/he
 lvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (52 pages, 567325 bytes).
+Output written on thesis.pdf (52 pages, 568059 bytes).
 PDF statistics:
  1076 PDF objects out of 1200 (max. 8388607)
  941 compressed objects within 10 object streams
