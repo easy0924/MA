@@ -39,24 +39,24 @@ The reordering rules were extracted by using the alignment, POS tags and syntax 
 \begin{table}[H]
 \centering
 \STautoround*{2}
-\begin{spreadtab}{{tabular}{|l|r|r|}}\hline
-@				& @BLEU Score & @Improvement \\ \hline
-@Baseline		& 12.07 & \\ \hline
-@+Short Rules	& 12.50 & :={b3 * 100 /b2 - 100} \% \\ \hline
-@+Long Rules   & 12.99 & :={b4 * 100 /b2 - 100} \% \\ \hline
-@+Tree Rules   & 13.38 & :={b5 * 100 /b2 - 100} \% \\ \hline
-@+MLT Rules    & 13.81 & :={b6 * 100 /b2 - 100} \% \\ \hline
-@Oracle Reordering & 18.58 & :={b7 * 100 /b2 - 100} \% \\ \hline
+\begin{spreadtab}{{tabular}{|l|r|r|r|}}\hline
+@				& @BLEU Score & @Improvement & @TER \\ \hline
+@Baseline		& 12.07 & & 72.15 \\ \hline
+@+Short Rules	& 12.50 & :={b3 * 100 /b2 - 100} \% & 71.41 \\ \hline
+@+Long Rules   & 12.99 & :={b4 * 100 /b2 - 100} \% & 70.71 \\ \hline
+@+Tree Rules   & 13.38 & :={b5 * 100 /b2 - 100} \% & 68.27 \\ \hline
+@+MLT Rules    & 13.81 & :={b6 * 100 /b2 - 100} \% & 68.20 \\ \hline
+@Oracle Reordering & 18.58 & :={b7 * 100 /b2 - 100} \% & 62.13 \\ \hline
 \hline
-@Long Rules   & 12.31 & :={b8 * 100 /b2 - 100} \% \\ \hline
-@Tree Rules   & 13.30 & :={b9 * 100 /b2 - 100} \% \\ \hline
-@MLT Rules    & 13.68 & :={b10 * 100 /b2 - 100} \% \\ \hline
+@Long Rules   & 12.31 & :={b8 * 100 /b2 - 100} \% & 71.81\\ \hline
+@Tree Rules   & 13.30 & :={b9 * 100 /b2 - 100} \% & 70.42 \\ \hline
+@MLT Rules    & 13.68 & :={b10 * 100 /b2 - 100} \% & 70.25 \\ \hline
 \end{spreadtab}
 \caption{BLEU score overview of English-to-Chinese system}
 \label{tenw}
 \end{table}
 
-Table~\ref{tenw} shows the BLEU scores for configurations with different reordering methods. The table consist of $2$ sections. the first row of the top section shows results of the baseline, which used no reordering at all. In the following rows of the top section, different types of reordering rules are combined gradually, each type per row, and the improvements are showed. For example, the row with \emph{$+$MLT} Rules presents the configuration with all the rule types including MLT rules and all the other rules in the rows above. All the improvements are calculated comparing to the baseline in percentage. Each row with a certain reordering type presents all the different variations of the type and the best score under these configurations are shown. For example, long rules include the left rules and right rules type. In the lower section of the table, different rule types are not combined and the effect of each rule type is shown. %? Besides, the lower section also shows the total number of rules that are extracted and applied for each rule type. (Problem: many variations :(  )
+Table~\ref{tenw} shows the BLEU scores for configurations with different reordering methods. The table consist of $2$ sections. the first row of the top section shows results of the baseline, which used no reordering at all. In the following rows of the top section, different types of reordering rules are combined gradually, each type per row, and the improvements are showed. For example, the row with \emph{$+$MLT} Rules presents the configuration with all the rule types including MLT rules and all the other rules in the rows above. All the improvements are calculated comparing to the baseline in percentage. Each row with a certain reordering type presents all the different variations of the type and the best score under these configurations are shown. For example, long rules include the left rules and right rules type. In the lower section of the table, different rule types are not combined and the effect of each rule type is shown. The Translation Error Rate (TER) of each configuration is also listed in the third column. %? Besides, the lower section also shows the total number of rules that are extracted and applied for each rule type. (Problem: many variations :(  )
 
 \subsection{Evaluation}
 
@@ -128,18 +128,18 @@ Test Data & 1663 & 38K & 47K & 220K & 263K \\ \hline
 \begin{table}[H]
 \centering
 \STautoround*{2}
-\begin{spreadtab}{{tabular}{|l|r|r|}}\hline
-@				& @BLEU Score & @Improvement \\ \hline
-@Baseline		& 21.80 & \\ \hline
-@+Short Rules	& 22.90 & :={b3 * 100 /b2 - 100} \% \\ \hline
-@+Long Rules   & 23.13 & :={b4 * 100 /b2 - 100} \% \\ \hline
-@+Tree Rules   & 23.84 & :={b5 * 100 /b2 - 100} \% \\ \hline
-@+MLT Rules    & 24.14 & :={b6 * 100 /b2 - 100} \% \\ \hline
-@Oracle Reordering & 26.80 & :={b7 * 100 /b2 - 100} \% \\ \hline
+\begin{spreadtab}{{tabular}{|l|r|r|r|}}\hline
+@				& @BLEU Score & @Improvement & @TER \\ \hline
+@Baseline		& 21.80 & & 62.09 \\ \hline
+@+Short Rules	& 22.90 & :={b3 * 100 /b2 - 100} \% & 61.64 \\ \hline
+@+Long Rules   & 23.13 & :={b4 * 100 /b2 - 100} \% & 61.43\\ \hline
+@+Tree Rules   & 23.84 & :={b5 * 100 /b2 - 100} \% & 60.95\\ \hline
+@+MLT Rules    & 24.14 & :={b6 * 100 /b2 - 100} \% & 60.79\\ \hline
+@Oracle Reordering & 26.80 & :={b7 * 100 /b2 - 100} \% & 56.97 \\ \hline
 \hline
-@Long Rules   & 22.10 & :={b8 * 100 /b2 - 100} \% \\ \hline
-@Tree Rules   & 23.35 & :={b9 * 100 /b2 - 100} \% \\ \hline
-@MLT Rules    & 23.96 & :={b10 * 100 /b2 - 100} \% \\ \hline
+@Long Rules   & 22.10 & :={b8 * 100 /b2 - 100} \% & 62.21\\ \hline
+@Tree Rules   & 23.35 & :={b9 * 100 /b2 - 100} \% & 61.52\\ \hline
+@MLT Rules    & 23.96 & :={b10 * 100 /b2 - 100} \% & 60.83\\ \hline
 \end{spreadtab}
 \caption{BLEU score overview of Chinese to English systems}
 \label{tzhen2}
