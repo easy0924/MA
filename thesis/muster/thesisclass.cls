@@ -60,6 +60,7 @@
 \usetikzlibrary{chains}
 \usetikzlibrary{calc}
 \usetikzlibrary{positioning}
+\usepackage{acronym}
 \usepackage[authoryear]{natbib}
 \usepackage[encapsulated]{CJK}
 \usepackage[normalem]{ulem}

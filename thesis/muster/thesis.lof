@@ -1,6 +1,6 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Architecture of a SMT system}}{6}{figure.2.1}
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Architecture of a \ac {SMT} system}}{6}{figure.2.1}
 \contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Preordering system}}{6}{figure.2.2}
 \contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Word alignment}}{7}{figure.2.3}
 \contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces POS tagging}}{8}{figure.2.4}
@@ -22,3 +22,4 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {A.1}{\ignorespaces Variations of MLT rules}}{34}{figure.E.1}
+\addvspace {10\p@ }

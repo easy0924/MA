@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  2 SEP 2014 01:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  2 SEP 2014 18:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -892,7 +892,15 @@ File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 calc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.9)
-) (/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
+) (/usr/share/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2012/10/29 v1.38 Support for acronyms (Tobias Oetiker)
+
+(/usr/share/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5 Variant command support
+)
+\AC@clearlist=\toks51
+)
+(/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip76
 \bibsep=\skip77
@@ -915,7 +923,7 @@ LaTeX Info: Redefining \selectfont on input line 755.
 \UL@box=\box70
 \UL@hyphenbox=\box71
 \UL@skip=\skip78
-\UL@hook=\toks51
+\UL@hook=\toks52
 \UL@height=\dimen202
 \UL@pe=\count177
 \UL@pixel=\dimen203
@@ -925,11 +933,11 @@ Package: ulem 2012/05/18
 )
 (/usr/share/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks52
-\SOUL@lasttoken=\toks53
-\SOUL@cmds=\toks54
-\SOUL@buffer=\toks55
-\SOUL@token=\toks56
+\SOUL@word=\toks53
+\SOUL@lasttoken=\toks54
+\SOUL@cmds=\toks55
+\SOUL@buffer=\toks56
+\SOUL@token=\toks57
 \SOUL@spaceskip=\skip79
 \SOUL@ttwidth=\dimen205
 \SOUL@uldp=\dimen206
@@ -1055,7 +1063,7 @@ LaTeX Info: Redefining \pageref on input line 6369.
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 83.
+(scrhack)             need that hack, on input line 84.
 
 
 Package hyperref Message: Driver (autodetected): hpdftex.
@@ -1175,12 +1183,12 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 \scratchbox=\box74
 \nofMPsegments=\count191
 \nofMParguments=\count192
-\everyMPshowfont=\toks57
+\everyMPshowfont=\toks58
 \MPscratchCnt=\count193
 \MPscratchDim=\dimen213
 \MPnumerator=\count194
 \makeMPintoPDFobject=\count195
-\everyMPtoPDFconversion=\toks58
+\everyMPtoPDFconversion=\toks59
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1238,7 +1246,7 @@ babelbib: Set language for keywords in the bibliography fixed to ngerman
 babelbib: Set language for keywords in the bibliography fixed to ngerman
 \openout2 = `titlepage.aux'.
 
-(./titlepage.tex <logos/KITLogo_RGB.pdf, id=239, 196.46399pt x 90.77916pt>
+(./titlepage.tex <logos/KITLogo_RGB.pdf, id=243, 196.46399pt x 90.77916pt>
 File: logos/KITLogo_RGB.pdf Graphic file (type pdf)
 
 <use logos/KITLogo_RGB.pdf>
@@ -1284,7 +1292,7 @@ ted-to.pdf logos/signature.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<logos/signature-eps-converted-to.pdf, id=260, 1155.31625pt x 474.77374pt>
+<logos/signature-eps-converted-to.pdf, id=264, 1155.31625pt x 474.77374pt>
 File: logos/signature-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logos/signature-eps-converted-to.pdf>
@@ -1298,7 +1306,12 @@ e 9.
 LaTeX Font Info:    Try loading font information for T1+aess on input line 1.
  (/usr/share/texmf-dist/tex/latex/ae/t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
-) [5
+)
+Package acronym Info: Label `acro:SMT' newly defined as it shall be overridden
+although it is yet undefined on input line 7.
+Package acronym Info: Label `acro:MLT' newly defined as it shall be overridden
+although it is yet undefined on input line 29.
+ [5
 
 
 
@@ -1312,6 +1325,8 @@ File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 
  (./introduction.tex
 Chapter 1.
+Package acronym Info: Label `acro:SOV' newly defined as it shall be overridden
+although it is yet undefined on input line 14.
 [1
 
 
@@ -1321,7 +1336,10 @@ Chapter 1.
 
 
 
-] [2]) [3] [4]
+]
+Package acronym Info: Label `acro:POS' newly defined as it shall be overridden
+although it is yet undefined on input line 54.
+ [2]) [3] [4]
 \openout2 = `content.aux'.
 
  (./content.tex
@@ -1406,7 +1424,7 @@ File: UTF8.enc 2012/05/07 4.8.3
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 ))
-LaTeX Font Info:    Try loading font information for T1+aett on input line 62.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 63.
 
 (/usr/share/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
@@ -1428,17 +1446,26 @@ File: UTF8.enc 2012/05/07 4.8.3
 )
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
-) (./tags.tikz)
+)
+Package acronym Info: Label `acro:EM' newly defined as it shall be overridden
+although it is yet undefined on input line 71.
+ (./tags.tikz)
 [7] (./ParseTree.tikz) [8]
-LaTeX Font Info:    Try loading font information for OMS+aer on input line 162.
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 163.
 
  (/usr/share/texmf-dist/tex/latex/ae/omsaer.fd
 File: omsaer.fd 1999/12/27
 )
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 162.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 163.
 
-[9] (./swap.tikz) [10] [11] [12] (./Lattices.tikz
+[9] (./swap.tikz) [10] [11]
+Package acronym Info: Label `acro:BLEU' newly defined as it shall be overridden
+
+although it is yet undefined on input line 264.
+Package acronym Info: Label `acro:TER' newly defined as it shall be overridden
+although it is yet undefined on input line 268.
+ [12] (./Lattices.tikz
 \myx=\skip84
 \myy=\skip85
 ) [13] [14
@@ -1821,7 +1848,13 @@ File: UTF8.enc 2012/05/07 4.8.3
 )
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
-)) [18] [19]
+)) [18]
+Package acronym Info: Label `acro:DFS' newly defined as it shall be overridden
+although it is yet undefined on input line 412.
+Package acronym Info: Label `acro:IDDFS' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 412.
+ [19]
 (./extract.tikz (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
@@ -1990,53 +2023,56 @@ Chapter 5.
 
 
 ] (./exampletree.tikz) [34] [35]
-[36] [37]) [38] [39] [40
+[36] [37]) (./acronym.tex [38] [39] [40
+
+
+]) [41] [42
 
 
 ] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [41
+ [43
 
 
-] [42
+]
+[44
 
 
 ] (./thesis.lof)
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
- [43
+ [45
 
 
-] [44
+] [46
 
 
-]
-(./thesis.bbl [45
+] (./thesis.bbl [47
 
 
-]) [46]
+]) [48]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
- (./thesis.aux (./titlepage.aux) (./abstract.aux)
-(./declaration.aux) (./introduction.aux) (./content.aux) (./evaluation.aux)
-(./conclusion.aux))
+ (./thesis.aux
+(./titlepage.aux) (./abstract.aux) (./declaration.aux) (./introduction.aux)
+(./content.aux) (./evaluation.aux) (./conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3E9B4CE824965B0FE6A95A7B740E35A2;3935.
+(rerunfilecheck)             Checksum: B27437F8D166084A24B676F0346BC592;3986.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
  ) 
 Here is how much of TeX's memory you used:
- 30253 strings out of 493308
- 554536 string characters out of 6143617
- 797472 words of memory out of 5000000
- 32369 multiletter control sequences out of 15000+600000
+ 30583 strings out of 493308
+ 558850 string characters out of 6143617
+ 801420 words of memory out of 5000000
+ 32665 multiletter control sequences out of 15000+600000
  78588 words of font info for 154 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 71i,21n,92p,1241b,3440s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,21n,92p,1252b,3440s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
@@ -2090,10 +2126,10 @@ snu/gbsnu98.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9a.pfb></u
 sr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9e.pfb></usr/share/texmf-dist
 /fonts/type1/arphic/gbsnu/gbsnuff.pfb></usr/share/texmf-dist/fonts/type1/urw/he
 lvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (52 pages, 568018 bytes).
+Output written on thesis.pdf (54 pages, 574889 bytes).
 PDF statistics:
- 1076 PDF objects out of 1200 (max. 8388607)
- 941 compressed objects within 10 object streams
- 183 named destinations out of 1000 (max. 500000)
- 487 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1217 PDF objects out of 1440 (max. 8388607)
+ 1078 compressed objects within 11 object streams
+ 207 named destinations out of 1000 (max. 500000)
+ 495 words of extra memory for PDF output out of 10000 (max. 10000000)
 

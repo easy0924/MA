@@ -1,0 +1,26 @@
+\documentclass{article}
+ 
+% Load the package with the acronym option
+\usepackage[acronym]{glossaries}
+ 
+% Generate the glossary
+\makeglossaries
+ 
+\begin{document}
+ 
+\section*{Section with acronyms}
+ 
+% Acronym definitions
+
+\newacronym{adt}{ADT}{Atlantic Daylight Time}
+\newacronym{est}{EST}{Eastern Standard Time}
+ 
+% Use the acronyms
+is 3 hours behind \gls{adt} and 10 hours ahead of \gls{est}.
+ 
+%Print the glossary
+\printglossaries
+ 
+\small\hfill Created by http://texblog.org
+ 
+\end{document}

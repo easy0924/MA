@@ -116,6 +116,12 @@ Santorini, B. (1990).
 \newblock {Part-of-Speech Tagging Guidelines for the Penn Treebank Project (3rd
   revision)}.
 
+\bibitem[Snover et~al., 2006]{snover2006study}
+Snover, M., Dorr, B., Schwartz, R., Micciulla, L., and Makhoul, J. (2006).
+\newblock {A study of Translation Edit Rate with Targeted Human Annotation}.
+\newblock In {\em Proceedings of Association for Machine Translation in the
+  Americas}, pages 223--231.
+
 \bibitem[Tillmann, 2004]{tillmann2004}
 Tillmann, C. (2004).
 \newblock {A Unigram Orientation Model for Statistical Machine Translation}.

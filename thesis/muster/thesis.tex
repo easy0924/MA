@@ -113,9 +113,9 @@ introduction,
 content,
 evaluation,
 conclusion,
-appendix
+appendix,
+acronym
 }
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Here, main documents begins %%
@@ -148,7 +148,6 @@ appendix
 \mainmatter
 \pagenumbering{arabic}
 
-
 \include{introduction}
 \include{content}
 \include{evaluation}
@@ -161,6 +160,7 @@ appendix
 \cleardoublepage
 
 \input{appendix}
+\input{acronym}
 
 \cleardoublepage
 \addcontentsline{toc}{chapter}{\listtablename}
