@@ -1,4 +1,0 @@
-MA
-==
-
-Master Thesis
