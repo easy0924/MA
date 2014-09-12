@@ -66,6 +66,7 @@
 \usepackage[normalem]{ulem}
 \usepackage{soul}
 \usepackage{scrhack}
+\usepackage{graphics}
 
 \usepackage{ucs}
 

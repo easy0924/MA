@@ -23,6 +23,9 @@ node/.style = {align=center, inner sep=0pt, font=\sffamily, rectangle, draw=whit
 \node(B9) [node, right=1.53em of B8] {\cntext{月\vphantom{我}} \\ $9$};
 \node(B10) [node, right=1.53em of B9] {\cntext{。\vphantom{我}} \\ $10$};
 
+\node(As) [node, left=1.5em of A1] {Word Position: \\ \vphantom{T}};
+\node(Bs) [node] at (B1-|As) {\cntext{\vphantom{我}} \\ Word Position:};
+
 \draw[dashed, thick] (A7.south) -- (B1.north);
 \draw[dashed, thick] (A8.south) -- (B1.north);
 \draw[dashed, thick] (A8.south) -- (B2.north);

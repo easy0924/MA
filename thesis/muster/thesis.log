@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.11)  12 SEP 2014 15:13
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.11)  12 SEP 2014 16:14
 entering extended mode
 **thesis.tex
 (Z:\MA\MA\thesis\muster\thesis.tex
@@ -1060,7 +1060,7 @@ LaTeX Info: Redefining \pageref on input line 6369.
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 84.
+(scrhack)             need that hack, on input line 85.
 
 
 Package hyperref Message: Driver (autodetected): hpdftex.
@@ -1307,12 +1307,17 @@ Chapter 2.
 (Z:\MA\MA\thesis\muster\smt.tikz
 \mylen=\skip80
 ) (Z:\MA\MA\thesis\muster\prereordering.tikz)
-[5
+LaTeX Font Info:    Try loading font information for T1+aett on input line 52.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+) [5
 
 
 
 
-] [6] (Z:\MA\MA\thesis\muster\alignment.tikz
+] [6]
+(Z:\MA\MA\thesis\muster\alignment.tikz
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.bdg"
 File: UTF8.bdg 2012/05/07 4.8.3
 )
@@ -1384,12 +1389,13 @@ File: UTF8.enc 2012/05/07 4.8.3
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
 File: UTF8.chr 2012/05/07 4.8.3
-))
-LaTeX Font Info:    Try loading font information for T1+aett on input line 63.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+File: UTF8.enc 2012/05/07 4.8.3
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+File: UTF8.chr 2012/05/07 4.8.3
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
 File: UTF8.enc 2012/05/07 4.8.3
 )
@@ -1618,6 +1624,24 @@ File: UTF8.chr 2012/05/07 4.8.3
 Underfull \vbox (badness 2726) has occurred while \output is active []
 
  [16]
+("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+File: UTF8.enc 2012/05/07 4.8.3
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+File: UTF8.chr 2012/05/07 4.8.3
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+File: UTF8.enc 2012/05/07 4.8.3
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+File: UTF8.chr 2012/05/07 4.8.3
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+File: UTF8.enc 2012/05/07 4.8.3
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+File: UTF8.chr 2012/05/07 4.8.3
+)
 (Z:\MA\MA\thesis\muster\question.tikz
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
 File: UTF8.enc 2012/05/07 4.8.3
@@ -2033,75 +2057,78 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
  ) 
 Here is how much of TeX's memory you used:
- 28081 strings out of 493921
- 497870 string characters out of 3147285
- 716623 words of memory out of 3000000
- 30030 multiletter control sequences out of 15000+200000
- 78588 words of font info for 154 fonts, out of 3000000 for 9000
+ 28128 strings out of 493921
+ 499059 string characters out of 3147285
+ 717930 words of memory out of 3000000
+ 30050 multiletter control sequences out of 15000+200000
+ 82946 words of font info for 165 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  72i,21n,92p,1252b,3440s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/arphic/gbsnu/gbsnu30.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/arphic/gbsnu/gbsnu4e.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsn
-u/gbsnu4f.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu50.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu51.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu52.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/arphic/gbsnu/gbsnu53.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/arphic/gbsnu/gbsnu54.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbs
-nu/gbsnu55.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu56.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu57.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu58.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/arphic/gbsnu/gbsnu59.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/arphic/gbsnu/gbsnu5a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gb
-snu/gbsnu5b.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu5c.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu5d.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu5e.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/arphic/gbsnu/gbsnu5f.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/arphic/gbsnu/gbsnu60.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/g
-bsnu/gbsnu61.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu62.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu63.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu65.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/arphic/gbsnu/gbsnu66.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/arphic/gbsnu/gbsnu67.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/
-gbsnu/gbsnu6b.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu6c
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu6d.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu6e.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/arphic/gbsnu/gbsnu70.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/arphic/gbsnu/gbsnu73.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic
-/gbsnu/gbsnu74.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu7
-5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu76.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu77.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu79.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/arphic/gbsnu/gbsnu7c.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphi
-c/gbsnu/gbsnu7e.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu
-80.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu83.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu84.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu88.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/arphic/gbsnu/gbsnu89.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arph
-ic/gbsnu/gbsnu8b.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsn
-u8d.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu8f.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu90.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu91.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/arphic/gbsnu/gbsnu95.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arp
-hic/gbsnu/gbsnu96.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbs
-nu98.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu9a.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu9e.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnuff.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
-/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (54 pages, 721344 bytes).
+/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmtt9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu30.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu4e.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu4f.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/arphic/gbsnu/gbsnu50.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/arphic/gbsnu/gbsnu51.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/g
+bsnu/gbsnu52.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu53.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu54.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu55.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/arphic/gbsnu/gbsnu56.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/arphic/gbsnu/gbsnu57.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/
+gbsnu/gbsnu58.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu59
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu5a.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu5b.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/arphic/gbsnu/gbsnu5c.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/arphic/gbsnu/gbsnu5d.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic
+/gbsnu/gbsnu5e.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu5
+f.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu60.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu61.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu62.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/arphic/gbsnu/gbsnu63.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphi
+c/gbsnu/gbsnu65.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu
+66.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu67.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu6b.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu6c.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/arphic/gbsnu/gbsnu6d.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arph
+ic/gbsnu/gbsnu6e.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsn
+u70.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu73.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu74.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu75.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/arphic/gbsnu/gbsnu76.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arp
+hic/gbsnu/gbsnu77.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbs
+nu79.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu7c.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu7e.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu80.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/arphic/gbsnu/gbsnu83.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ar
+phic/gbsnu/gbsnu84.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gb
+snu88.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu89.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu8b.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu8d.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/arphic/gbsnu/gbsnu8f.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/a
+rphic/gbsnu/gbsnu90.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/g
+bsnu91.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu95.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu96.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu98.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/arphic/gbsnu/gbsnu9a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+arphic/gbsnu/gbsnu9e.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/
+gbsnuff.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on thesis.pdf (54 pages, 758784 bytes).
 PDF statistics:
- 1205 PDF objects out of 1440 (max. 8388607)
- 207 named destinations out of 1000 (max. 500000)
+ 1224 PDF objects out of 1440 (max. 8388607)
+ 208 named destinations out of 1000 (max. 500000)
  495 words of extra memory for PDF output out of 10000 (max. 10000000)
 
