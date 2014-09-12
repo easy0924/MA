@@ -1,0 +1,19 @@
+\frametitle{Vector Representation as Feature}
+\begin{verbatim}
+Enter word or sentence (EXIT to break): translation
+
+                  Word       Cosine distance
+------------------------------------------------------------------------
+          translations       0.652776
+                 bible       0.620422
+            translated       0.591767
+                  text       0.564570
+            septuagint       0.559373
+            dictionary       0.557046
+               tyndale       0.546539
+               vulgate       0.542804
+            translator       0.542666
+             apocrypha       0.537319
+           translators       0.526699
+                   ...       ...
+\end{verbatim}
