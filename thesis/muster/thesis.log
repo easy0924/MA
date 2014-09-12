@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.11)  12 SEP 2014 16:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.11)  12 SEP 2014 16:52
 entering extended mode
 **thesis.tex
 (Z:\MA\MA\thesis\muster\thesis.tex
@@ -1786,6 +1786,9 @@ File: UTF8.enc 2012/05/07 4.8.3
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
 File: UTF8.chr 2012/05/07 4.8.3
 ))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
 (Z:\MA\MA\thesis\muster\unstructured2.tikz
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
 File: UTF8.enc 2012/05/07 4.8.3
@@ -1840,13 +1843,13 @@ File: UTF8.enc 2012/05/07 4.8.3
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
 File: UTF8.chr 2012/05/07 4.8.3
-)) [18]
+)) [19]
 Package acronym Info: Label `acro:DFS' newly defined as it shall be overridden
-although it is yet undefined on input line 412.
+although it is yet undefined on input line 414.
 Package acronym Info: Label `acro:IDDFS' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 412.
- [19]
+although it is yet undefined on input line 414.
+ [20]
 (Z:\MA\MA\thesis\muster\extract.tikz
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
 File: UTF8.enc 2012/05/07 4.8.3
@@ -1877,21 +1880,13 @@ File: UTF8.enc 2012/05/07 4.8.3
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
 File: UTF8.chr 2012/05/07 4.8.3
-)) [20]
+)) [21]
 (Z:\MA\MA\thesis\muster\left1.tikz) (Z:\MA\MA\thesis\muster\right1.tikz
 Missing character: There is no ; in font nullfont!
 )
 (Z:\MA\MA\thesis\muster\left2.tikz) (Z:\MA\MA\thesis\muster\right2.tikz)
-[21] (Z:\MA\MA\thesis\muster\left3.tikz) (Z:\MA\MA\thesis\muster\right3.tikz))
-Underfull \vbox (badness 1533) has occurred while \output is active []
-
- [22]
-[23] (Z:\MA\MA\thesis\muster\evaluation.tex [24
-
-
-
-
-]
+(Z:\MA\MA\thesis\muster\left3.tikz) (Z:\MA\MA\thesis\muster\right3.tikz)
+[22]) [23] [24] (Z:\MA\MA\thesis\muster\evaluation.tex
 Chapter 4.
 New spreadtab: \begin{tabular}{|l|r|r|r|}
 * reading tab: ok
@@ -1925,7 +1920,12 @@ New spreadtab: \begin{tabular}{|l|r|r|r|}
 * building tab: ok
 End of spreadtab: \end{tabular}
 
-[25] ("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+[25
+
+
+
+
+] ("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
 File: UTF8.enc 2012/05/07 4.8.3
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
@@ -2057,10 +2057,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
  ) 
 Here is how much of TeX's memory you used:
- 28128 strings out of 493921
- 499059 string characters out of 3147285
- 717930 words of memory out of 3000000
- 30050 multiletter control sequences out of 15000+200000
+ 28129 strings out of 493921
+ 499050 string characters out of 3147285
+ 722927 words of memory out of 3000000
+ 30052 multiletter control sequences out of 15000+200000
  82946 words of font info for 165 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  72i,21n,92p,1252b,3440s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2126,9 +2126,9 @@ es/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu98.pfb><C:/Program Files/MiKTeX 2.9
 arphic/gbsnu/gbsnu9e.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/
 gbsnuff.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (54 pages, 758784 bytes).
+Output written on thesis.pdf (54 pages, 760188 bytes).
 PDF statistics:
- 1224 PDF objects out of 1440 (max. 8388607)
- 208 named destinations out of 1000 (max. 500000)
+ 1228 PDF objects out of 1440 (max. 8388607)
+ 207 named destinations out of 1000 (max. 500000)
  495 words of extra memory for PDF output out of 10000 (max. 10000000)
 

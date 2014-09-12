@@ -29,9 +29,9 @@
 \contentsline {section}{\numberline {3.2}Motivation of \acf {MLT} Reordering}{17}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Long-Distance Word Reordering}{18}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Word Reordering on Multiple Syntactic Levels}{18}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}\ac {MLT} Reordering Algorithm}{19}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Rule Extraction}{19}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Rule Application}{21}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.3}\ac {MLT} Reordering Algorithm}{20}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Rule Extraction}{20}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Rule Application}{22}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Summary}{23}{section.3.4}
 \contentsline {chapter}{\numberline {4}Evaluation}{25}{chapter.4}
 \contentsline {section}{\numberline {4.1}English to Chinese System}{25}{section.4.1}
