@@ -7,12 +7,13 @@ nodeimp/.style = {node, fill=red!20}
 ]
 
 
-\node(A) [node, text width=8em] at (0, 0) {Sentences in Source Language};
+\node(A) [node, text width=13.5em] at (0, 0) {Sentences in Source Language};
 %\node(B) [node, below=\mylen of A] {Reordering};
 \node(B) [draw=black, thick, circle, below=\mylen of A] {};
-\node(C) [node, text width=8em, below=2\mylen of B] {Decoder (Global Search)};
+\node(C) [node, text width=8em, below=2\mylen of B, text height=6em] {};
+\node(CL) [node, draw=none] at (C.center) {Decoder};
 
-\draw[-, line width=10pt, white] (C.south west) to (C.south east);
+%\draw[-, line width=10pt, white] (C.south west) to (C.south east);
 %\node(XX) [below=0.1\mylen of C] {};
 %\node(X) [node, draw=white, rounded corners=0, fill=white, maximum height = 0.1em] at (C.south) {};
 

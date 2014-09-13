@@ -1,42 +1,35 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.11)  12 SEP 2014 16:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  13 SEP 2014 15:18
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **thesis.tex
-(Z:\MA\MA\thesis\muster\thesis.tex
+(./thesis.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-(Z:\MA\MA\thesis\muster\thesisclass.cls
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(./thesisclass.cls
 Document Class: thesisclass 
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbook.cls"
-Document Class: scrbook 2012/07/29 v3.11b KOMA-Script document class (book)
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
-Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
+(/usr/share/texmf-dist/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2013/12/19 v3.12 KOMA-Script document class (book)
+(/usr/share/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/share/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
-Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
- basics and keyval usage)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
-Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
+(/usr/share/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
 
-Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
+Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
-Package: tocbasic 2012/04/04 v3.10b KOMA-Script package (handling toc-files)
+))) (/usr/share/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2013/12/19 v3.12 KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
@@ -47,22 +40,25 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 119.
-Package scrbook Info: You've used obsolete option `11pt'.
-(scrbook)             \KOMAExecuteOptions{fontsize=11pt} will be
-(scrbook)             used instead.
-(scrbook)             You may simply replace `11pt'
-(scrbook)             by `fontsize=11pt'.
+Package tocbasic Info: defining new hook before heading of `' on input line 111
+8.
+Package scrbook Info: You've used standard option `11pt'.
+(scrbook)             This is correct!
+(scrbook)             Internally I'm using `fontsize=11pt'.
+(scrbook)             If you'd like to set the option with \KOMAoptions,
+(scrbook)             you'd have to use `fontsize=11pt' there
+(scrbook)             instead of `11pt', too.
 Class scrbook Info: File `scrsize11pt.clo' used to setup font sizes on input li
-ne 1368.
+ne 1655.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo"
-File: scrsize11pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (11p
-t)
+(/usr/share/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (11pt
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
-Package: typearea 2012/07/29 v3.11b KOMA-Script package (type area)
+)
+(/usr/share/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
 
-Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
+Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -71,6 +67,7 @@ Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
 \ta@hblk=\skip42
 \ta@vblk=\skip43
 \ta@temp=\skip44
+\footheight=\skip45
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
 (typearea)             BCOR = 0.0pt
@@ -85,9 +82,9 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \headheight     = 17.0pt
 (typearea)              \headsep        = 20.40001pt
 (typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.60002pt
+(typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1213.
+(typearea)              on input line 1330.
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -96,82 +93,82 @@ Package typearea Info: These are the values describing the layout:
 \c@subsubsection=\count84
 \c@paragraph=\count85
 \c@subparagraph=\count86
-\abovecaptionskip=\skip45
-\belowcaptionskip=\skip46
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
 \c@pti@nb@sid@b@x=\box26
 \c@figure=\count87
 \c@table=\count88
 \bibindent=\dimen102
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\german\ngerman.sty"
-v2.5e 1998-07-08
+) (/usr/share/texmf-dist/tex/generic/german/ngerman.sty v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen103
-ngerman -- \language number for naustrian undefined, default 43 used.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+ngerman -- \language number for naustrian undefined, default 31 used.
+)
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+(/usr/share/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+(/usr/share/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+(/usr/share/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\ucs.sty"
-Package: ucs 2004/10/17 UCS: Unicode input support
+(/usr/share/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-global.def"
-File: uni-global.def 2012/08/28 UCS: Unicode global data
+(/usr/share/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
 \uc@secondtry=\count89
 \uc@combtoks=\toks17
 \uc@combtoksb=\toks18
 \uc@temptokena=\toks19
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\ae\ae.sty"
+(/usr/share/texmf-dist/tex/latex/ae/ae.sty
 Package: ae 2001/02/12 1.3 Almost European Computer Modern
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+(/usr/share/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 )
 LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
+(/usr/share/texmf-dist/tex/latex/ae/t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count90
@@ -179,31 +176,40 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\ieeepes\vmargin.sty"
-Package: vmargin 1999/06/01
+(/usr/share/texmf-dist/tex/latex/vmargin/vmargin.sty
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 
-Package `vmargin', V2.2, <1999/06/01>
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 \PaperWidth=\dimen106
 \PaperHeight=\dimen107
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-\fancy@headwidth=\skip47
-\f@ncyO@elh=\skip48
-\f@ncyO@erh=\skip49
-\f@ncyO@olh=\skip50
-\f@ncyO@orh=\skip51
-\f@ncyO@elf=\skip52
-\f@ncyO@erf=\skip53
-\f@ncyO@olf=\skip54
-\f@ncyO@orf=\skip55
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip56
-\subfigcapskip=\skip57
+
+Class scrbook Warning: Usage of package `fancyhdr' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use 
+(scrbook)              package `scrpage2' or `scrlayer-scrpage'.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `fancyhdr' on input line 31.
+
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
+)
+(/usr/share/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip57
+\subfigcapskip=\skip58
 \subfigcaptopadj=\dimen108
-\subfigbottomskip=\skip58
+\subfigbottomskip=\skip59
 \subfigcapmargin=\dimen109
-\subfiglabelskip=\skip59
+\subfiglabelskip=\skip60
 \c@subfigure=\count91
 \c@lofdepth=\count92
 \c@subtable=\count93
@@ -212,19 +218,19 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
-\subfig@top=\skip60
-\subfig@bottom=\skip61
+(/usr/share/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip61
+\subfig@bottom=\skip62
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+(/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\textpos\textpos.sty"
-Package: textpos 2012/11/13 v1.7i
+(/usr/share/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2014/01/03 v1.7j
 
-Package: textpos 2012/11/13 1.7i, absolute positioning of text on the page
-("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: textpos 2014/01/03 1.7j, absolute positioning of text on the page
+(/usr/share/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
 \TP@textbox=\box27
@@ -241,72 +247,76 @@ Grid set 16 x 16 = 37.38425pt x 52.86877pt
 \TP@tbargs=\toks20
 \TP@prevdepth=\dimen117
 TextBlockOrigin set to 0pt x 0pt
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
+) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks21
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
+\pgfutil@tempdima=\dimen118
+\pgfutil@tempdimb=\dimen119
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box29
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
-Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
 ))
-Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
-Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks22
 \pgfkeys@temptoks=\toks23
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
-x"
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks24
 ))
-\pgf@x=\dimen118
-\pgf@y=\dimen119
-\pgf@xa=\dimen120
-\pgf@ya=\dimen121
-\pgf@xb=\dimen122
-\pgf@yb=\dimen123
-\pgf@xc=\dimen124
-\pgf@yc=\dimen125
+\pgf@x=\dimen120
+\pgf@y=\dimen121
+\pgf@xa=\dimen122
+\pgf@ya=\dimen123
+\pgf@xb=\dimen124
+\pgf@yb=\dimen125
+\pgf@xc=\dimen126
+\pgf@yc=\dimen127
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count95
 \c@pgf@countb=\count96
 \c@pgf@countc=\count97
 \c@pgf@countd=\count98
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
-File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
-"
-File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
-ex"
-File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count99
 \pgfsyssoftpath@bigbuffer@items=\count100
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
-ex"
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+))
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/share/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -320,255 +330,233 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
-Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen126
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen128
 \pgfmath@count=\count101
 \pgfmath@box=\box30
-\pgfmath@toks=\toks25
-\pgfmath@stack@operand=\toks26
-\pgfmath@stack@operation=\toks27
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
-ic.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
-.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
-code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
-ex"))) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
-"
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
+.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count102
-))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
-"
-File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen127
-\pgf@picmaxx=\dimen128
-\pgf@picminy=\dimen129
-\pgf@picmaxy=\dimen130
-\pgf@pathminx=\dimen131
-\pgf@pathmaxx=\dimen132
-\pgf@pathminy=\dimen133
-\pgf@pathmaxy=\dimen134
-\pgf@xx=\dimen135
-\pgf@xy=\dimen136
-\pgf@yx=\dimen137
-\pgf@yy=\dimen138
-\pgf@zx=\dimen139
-\pgf@zy=\dimen140
+)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen129
+\pgf@picmaxx=\dimen130
+\pgf@picminy=\dimen131
+\pgf@picmaxy=\dimen132
+\pgf@pathminx=\dimen133
+\pgf@pathmaxx=\dimen134
+\pgf@pathminy=\dimen135
+\pgf@pathmaxy=\dimen136
+\pgf@xx=\dimen137
+\pgf@xy=\dimen138
+\pgf@yx=\dimen139
+\pgf@yy=\dimen140
+\pgf@zx=\dimen141
+\pgf@zy=\dimen142
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
-ode.tex"
-File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen141
-\pgf@path@lasty=\dimen142
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen143
+\pgf@path@lasty=\dimen144
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen145
+\pgf@shorten@start@additional=\dimen146
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
-tex"
-File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen143
-\pgf@shorten@start@additional=\dimen144
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
-"
-File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box31
 \pgf@hbox=\box32
 \pgf@layerbox@main=\box33
 \pgf@picture@serial@count=\count103
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
-de.tex"
-File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen145
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen147
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
-.code.tex"
-File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen146
-\pgf@pt@y=\dimen147
-\pgf@pt@temp=\dimen148
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen148
+\pgf@pt@y=\dimen149
+\pgf@pt@temp=\dimen150
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
-x"
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
-code.tex"
-File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen151
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
-"
-File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
-File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen149
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen152
 \pgf@sys@shading@range@num=\count104
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
-x"
-File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
-ex"
-File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
 \pgfexternal@startupbox=\box34
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
-"
-File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
-de.tex"
-File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
-ex"
-File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
-File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
 \pgfnodeparttextbox=\box35
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
-File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
-sty"
-Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen150
-\pgf@nodesepend=\dimen151
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
-sty"
-Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
-Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen152
-\pgffor@skip=\dimen153
-\pgffor@stack=\toks28
-\pgffor@toks=\toks29
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen153
+\pgf@nodesepend=\dimen154
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
-Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
-code.tex"
-File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen155
+\pgffor@skip=\dimen156
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \pgf@plot@mark@count=\count105
-\pgfplotmarksize=\dimen154
+\pgfplotmarksize=\dimen157
 )
-\tikz@lastx=\dimen155
-\tikz@lasty=\dimen156
-\tikz@lastxsaved=\dimen157
-\tikz@lastysaved=\dimen158
-\tikzleveldistance=\dimen159
-\tikzsiblingdistance=\dimen160
+\tikz@lastx=\dimen158
+\tikz@lasty=\dimen159
+\tikz@lastxsaved=\dimen160
+\tikz@lastysaved=\dimen161
+\tikzleveldistance=\dimen162
+\tikzsiblingdistance=\dimen163
 \tikz@figbox=\box36
-\tikz@tempbox=\box37
+\tikz@figbox@bg=\box37
+\tikz@tempbox=\box38
+\tikz@tempbox@bg=\box39
 \tikztreelevel=\count106
 \tikznumberofchildren=\count107
 \tikznumberofcurrentchild=\count108
 \tikz@fig@count=\count109
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
-File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count110
 \pgfmatrixcurrentcolumn=\count111
 \pgf@matrix@numberofcolumns=\count112
 )
 \tikz@expandcount=\count113
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarytopaths.code.tex"
-File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
-)))
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+))) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/12/03 3.9h The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
-Language: english 2005/03/30 v3.3o English support from the babel system
+(/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count114
-\U@D=\dimen161
+\U@D=\dimen164
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\ngermanb.ldf"
-Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
+(/usr/share/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+(/usr/share/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+(/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count115
-\float@exts=\toks30
-\float@box=\box38
-\@float@everytoks=\toks31
-\@floatcapt=\box39
+\float@exts=\toks33
+\float@box=\box40
+\@float@everytoks=\toks34
+\@floatcapt=\box41
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks32
+\@float@every@algorithm=\toks35
 \c@algorithm=\count116
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+(/usr/share/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count117
 \c@ALC@line=\count118
 \c@ALC@rem=\count119
 \c@ALC@depth=\count120
-\ALC@tlm=\skip62
-\algorithmicindent=\skip63
+\ALC@tlm=\skip63
+\algorithmicindent=\skip64
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen162
-\extrarowheight=\dimen163
-\NC@list=\toks33
-\extratabsurround=\skip64
-\backup@length=\skip65
+\col@sep=\dimen165
+\extrarowheight=\dimen166
+\NC@list=\toks36
+\extratabsurround=\skip65
+\backup@length=\skip66
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\spreadtab\spreadtab.sty"
+(/usr/share/texmf-dist/tex/latex/spreadtab/spreadtab.sty
 Package: spreadtab 2012/05/13 v0.4b Spreadsheet features for table environments
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp.sty"
+(/usr/share/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
 
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\defpattern.sty"
+(/usr/share/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
 \actioncount=\count121
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-basic.sty"
+(/usr/share/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
 \FP@xs=\count122
 \FP@xia=\count123
@@ -580,167 +568,161 @@ Package: fp-basic 1996/05/13
 \FP@regs=\count129
 \FP@times=\count130
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-addons.sty"
+(/usr/share/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-snap.sty"
+(/usr/share/texmf-dist/tex/latex/fp/fp-snap.sty
 Package: fp-snap 1995/04/05
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-exp.sty"
+(/usr/share/texmf-dist/tex/latex/fp/fp-exp.sty
 Package: fp-exp 1995/04/03
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty"
+(/usr/share/texmf-dist/tex/latex/fp/fp-trigo.sty
 Package: fp-trigo 1995/04/14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-pas.sty"
+(/usr/share/texmf-dist/tex/latex/fp/fp-pas.sty
 Package: fp-pas 1994/08/29
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-random.sty"
+(/usr/share/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
 \FPseed=\count131
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty"
+(/usr/share/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-upn.sty"
+(/usr/share/texmf-dist/tex/latex/fp/fp-upn.sty
 Package: fp-upn 1996/10/21
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eval.sty"
+(/usr/share/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write4
 \integerpart=\count132
 \decimalpart=\count133
 )
-Package: xstring 2013/1/13  v1.7  String manipulations (C Tellechea)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-
-LaTeX Warning: You have requested, on input line 48, version
-               `2010/03/28' of package xstring,
-               but only version
-               `2013/1/13  v1.7  String manipulations (C Tellechea)'
-               is available.
-
 \ST@count=\count134
 \ST@colcount=\count135
 \ST@colcount@i=\count136
 \ST@rowcount=\count137
 \ST@rowcount@i=\count138
 \ST@intpart=\count139
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
-Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks34
-\thm@bodyfont=\toks35
-\thm@headfont=\toks36
-\thm@notefont=\toks37
-\thm@headpunct=\toks38
-\thm@preskip=\skip66
-\thm@postskip=\skip67
-\thm@headsep=\skip68
-\dth@everypar=\toks39
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+(/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip67
+\thm@postskip=\skip68
+\thm@headsep=\skip69
+\dth@everypar=\toks42
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+(/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen164
-\lightrulewidth=\dimen165
-\cmidrulewidth=\dimen166
-\belowrulesep=\dimen167
-\belowbottomsep=\dimen168
-\aboverulesep=\dimen169
-\abovetopsep=\dimen170
-\cmidrulesep=\dimen171
-\cmidrulekern=\dimen172
-\defaultaddspace=\dimen173
+\heavyrulewidth=\dimen167
+\lightrulewidth=\dimen168
+\cmidrulewidth=\dimen169
+\belowrulesep=\dimen170
+\belowbottomsep=\dimen171
+\aboverulesep=\dimen172
+\abovetopsep=\dimen173
+\cmidrulesep=\dimen174
+\cmidrulekern=\dimen175
+\defaultaddspace=\dimen176
 \@cmidla=\count140
 \@cmidlb=\count141
-\@aboverulesep=\dimen174
-\@belowrulesep=\dimen175
+\@aboverulesep=\dimen177
+\@belowrulesep=\dimen178
 \@thisruleclass=\count142
 \@lastruleclass=\count143
-\@thisrulewidth=\dimen176
+\@thisrulewidth=\dimen179
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\framed\framed.sty"
+(/usr/share/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip69
-\fb@frw=\dimen177
-\fb@frh=\dimen178
-\FrameRule=\dimen179
-\FrameSep=\dimen180
+\OuterFrameSep=\skip70
+\fb@frw=\dimen180
+\fb@frh=\dimen181
+\FrameRule=\dimen182
+\FrameSep=\dimen183
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-\bigstrutjot=\dimen181
+(/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen184
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count144
-\lst@gtempboxa=\box40
-\lst@token=\toks40
+\lst@gtempboxa=\box42
+\lst@token=\toks43
 \lst@length=\count145
-\lst@currlwidth=\dimen182
+\lst@currlwidth=\dimen185
 \lst@column=\count146
 \lst@pos=\count147
-\lst@lostspace=\dimen183
-\lst@width=\dimen184
+\lst@lostspace=\dimen186
+\lst@width=\dimen187
 \lst@newlines=\count148
 \lst@lineno=\count149
-\lst@maxwidth=\dimen185
+\lst@maxwidth=\dimen188
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 \c@lstnumber=\count150
 \lst@skipnumbers=\count151
-\lst@framebox=\box41
+\lst@framebox=\box43
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2007/02/22 1.4 listings configuration
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
 ))
-Package: listings 2007/02/22 1.4 (Carsten Heinz)
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\fancyvrb\fancyvrb.sty"
+(/usr/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
 \FV@CodeLineNo=\count152
 \FV@InFile=\read2
-\FV@TabBox=\box42
+\FV@TabBox=\box44
 \c@FancyVerbLine=\count153
 \FV@StepNumber=\count154
 \FV@OutFile=\write5
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip70
+\@mathmargin=\skip71
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks41
-\ex@=\dimen186
+\@emptytoks=\toks44
+\ex@=\dimen189
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen187
+\pmbraise@=\dimen190
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count155
@@ -753,9 +735,9 @@ LaTeX Info: Redefining \overline on input line 306.
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box43
-\strutbox@=\box44
-\big@size=\dimen188
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen191
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count160
@@ -763,211 +745,232 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \dotsspace@=\muskip11
 \c@parentequation=\count162
 \dspbrk@lvl=\count163
-\tag@help=\toks42
+\tag@help=\toks45
 \row@=\count164
 \column@=\count165
 \maxfields@=\count166
-\andhelp@=\toks43
-\eqnshift@=\dimen189
-\alignsep@=\dimen190
-\tagshift@=\dimen191
-\tagwidth@=\dimen192
-\totwidth@=\dimen193
-\lineht@=\dimen194
-\@envbody=\toks44
-\multlinegap=\skip71
-\multlinetaggap=\skip72
-\mathdisplay@stack=\toks45
+\andhelp@=\toks46
+\eqnshift@=\dimen192
+\alignsep@=\dimen193
+\tagshift@=\dimen194
+\tagwidth@=\dimen195
+\totwidth@=\dimen196
+\lineht@=\dimen197
+\@envbody=\toks47
+\multlinegap=\skip72
+\multlinetaggap=\skip73
+\mathdisplay@stack=\toks48
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\verbatimbox\verbatimbox.sty"
-Package: verbatimbox 2007/03/16 v1.0
+(/usr/share/texmf-dist/tex/latex/verbatimbox/verbatimbox.sty
+Package: verbatimbox 2014/02/24 v3.12 Routines for placing verbatim text into b
+oxes, useful in places where the verbatim environment is inaccessible. Secondar
+ily, for adding vertical buffer around an object.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks46
-\verbatim@line=\toks47
+\every@verbatim=\toks49
+\verbatim@line=\toks50
 \verbatim@in@stream=\read3
 )
-\savedverbbox=\box45
-\boxtopsep=\dimen195
-\boxbottomsep=\dimen196
-\ps@tempdima=\dimen197
-\ps@tempboxa=\box46
+(/usr/share/texmf-dist/tex/latex/readarray/readarray.sty
+Package: readarray 2013/05/09 v1.2 Routines for inputting array data and recall
+ing it on an element-by-element basis. Currently supports 2-D and 3-D array
+
+(/usr/share/texmf-dist/tex/latex/ifnextok/ifnextok.sty
+Package: ifnextok 2011/06/27 v0.3 test next token (UL)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryarrows.code.tex"
-File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.code.t
-ex"
-File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
-\arrowsize=\dimen198
-))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarytrees.code.tex"
-File: tikzlibrarytrees.code.tex 2008/02/24 v2.10 (rcs-revision 1.2)
+\c@@index=\count167
+\c@@plane=\count168
+\c@@row=\count169
+\c@@col=\count170
+\c@use@args=\count171
+\c@@record=\count172
+\c@arg@index=\count173
+\c@break@count=\count174
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryshapes.code.tex"
-File: tikzlibraryshapes.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+\savedverbbox=\box47
+\c@VerbboxLineNo=\count175
+\boxtopsep=\dimen198
+\boxbottomsep=\dimen199
+\ps@tempdima=\dimen200
+\ps@tempboxa=\box48
+\boxtop@sep=\skip74
+\boxbottom@sep=\skip75
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+arrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryshapes.geometric.code.tex"
-File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes
-.geometric.code.tex"
-File: pgflibraryshapes.geometric.code.tex 2008/06/26 v2.10 (rcs-revision 1.1)
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
+\arrowsize=\dimen201
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryshapes.misc.code.tex"
-File: tikzlibraryshapes.misc.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+trees.code.tex
+File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.0 (rcs-revision 1.2)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes
-.misc.code.tex"
-File: pgflibraryshapes.misc.code.tex 2008/10/07 v2.10 (rcs-revision 1.3)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geomet
+ric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryshapes.symbols.code.tex"
-File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes
-.symbols.code.tex"
-File: pgflibraryshapes.symbols.code.tex 2009/10/27 v2.10 (rcs-revision 1.3)
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.c
+ode.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.0 (rcs-revision 1.5)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryshapes.arrows.code.tex"
-File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes
-.arrows.code.tex"
-File: pgflibraryshapes.arrows.code.tex 2008/06/26 v2.10 (rcs-revision 1.1)
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbol
+s.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.0 (rcs-revision 1.6)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryshapes.callouts.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes
-.callouts.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryshapes.multipart.code.tex"
-File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes
-.multipart.code.tex"
-File: pgflibraryshapes.multipart.code.tex 2010/01/07 v2.10 (rcs-revision 1.2)
-\pgfnodepartlowerbox=\box47
-\pgfnodeparttwobox=\box48
-\pgfnodepartthreebox=\box49
-\pgfnodepartfourbox=\box50
-\pgfnodeparttwentybox=\box51
-\pgfnodepartnineteenbox=\box52
-\pgfnodeparteighteenbox=\box53
-\pgfnodepartseventeenbox=\box54
-\pgfnodepartsixteenbox=\box55
-\pgfnodepartfifteenbox=\box56
-\pgfnodepartfourteenbox=\box57
-\pgfnodepartthirteenbox=\box58
-\pgfnodeparttwelvebox=\box59
-\pgfnodepartelevenbox=\box60
-\pgfnodeparttenbox=\box61
-\pgfnodepartninebox=\box62
-\pgfnodeparteightbox=\box63
-\pgfnodepartsevenbox=\box64
-\pgfnodepartsixbox=\box65
-\pgfnodepartfivebox=\box66
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows
+.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.callouts.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callou
+ts.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multip
+art.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.0 (rcs-revision 1.2)
+\pgfnodepartlowerbox=\box49
+\pgfnodeparttwobox=\box50
+\pgfnodepartthreebox=\box51
+\pgfnodepartfourbox=\box52
+\pgfnodeparttwentybox=\box53
+\pgfnodepartnineteenbox=\box54
+\pgfnodeparteighteenbox=\box55
+\pgfnodepartseventeenbox=\box56
+\pgfnodepartsixteenbox=\box57
+\pgfnodepartfifteenbox=\box58
+\pgfnodepartfourteenbox=\box59
+\pgfnodepartthirteenbox=\box60
+\pgfnodeparttwelvebox=\box61
+\pgfnodepartelevenbox=\box62
+\pgfnodeparttenbox=\box63
+\pgfnodepartninebox=\box64
+\pgfnodeparteightbox=\box65
+\pgfnodepartsevenbox=\box66
+\pgfnodepartsixbox=\box67
+\pgfnodepartfivebox=\box68
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarychains.code.tex"
-File: tikzlibrarychains.code.tex 2008/02/27 v2.10 (rcs-revision 1.5)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+chains.code.tex
+File: tikzlibrarychains.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.6)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarypositioning.code.tex"
-File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+positioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarycalc.code.tex"
-File: tikzlibrarycalc.code.tex 2009/09/04 v2.10 (rcs-revision 1.6)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\acronym\acronym.sty"
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+calc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.9)
+) (/usr/share/texmf-dist/tex/latex/acronym/acronym.sty
 Package: acronym 2012/10/29 v1.38 Support for acronyms (Tobias Oetiker)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty"
+(/usr/share/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5 Variant command support
 )
-\AC@clearlist=\toks48
+\AC@clearlist=\toks51
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+(/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip73
-\bibsep=\skip74
+\bibhang=\skip76
+\bibsep=\skip77
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count167
+\c@NAT@ctr=\count176
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\CJK.sty"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/CJK.sty
 Package: CJK 2012/05/07 4.8.3
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\mule\MULEenc.sty"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
 Package: MULEenc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\CJK.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/CJK.enc
 File: CJK.enc 2012/05/07 4.8.3
 )
 LaTeX Info: Redefining \selectfont on input line 755.
-\CJK@indent=\box67
+\CJK@indent=\box69
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
-\UL@box=\box68
-\UL@hyphenbox=\box69
-\UL@skip=\skip75
-\UL@hook=\toks49
-\UL@height=\dimen199
-\UL@pe=\count168
-\UL@pixel=\dimen200
-\ULC@box=\box70
+(/usr/share/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box70
+\UL@hyphenbox=\box71
+\UL@skip=\skip78
+\UL@hook=\toks52
+\UL@height=\dimen202
+\UL@pe=\count177
+\UL@pixel=\dimen203
+\ULC@box=\box72
 Package: ulem 2012/05/18
-\ULdepth=\dimen201
+\ULdepth=\dimen204
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\soul\soul.sty"
+(/usr/share/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks50
-\SOUL@lasttoken=\toks51
-\SOUL@cmds=\toks52
-\SOUL@buffer=\toks53
-\SOUL@token=\toks54
-\SOUL@spaceskip=\skip76
-\SOUL@ttwidth=\dimen202
-\SOUL@uldp=\dimen203
-\SOUL@ulht=\dimen204
+\SOUL@word=\toks53
+\SOUL@lasttoken=\toks54
+\SOUL@cmds=\toks55
+\SOUL@buffer=\toks56
+\SOUL@token=\toks57
+\SOUL@spaceskip=\skip79
+\SOUL@ttwidth=\dimen205
+\SOUL@uldp=\dimen206
+\SOUL@ulht=\dimen207
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrhack.sty"
-Package: scrhack 2012/07/29 v3.11b KOMA-Script package (hacking other packages)
+(/usr/share/texmf-dist/tex/latex/koma-script/scrhack.sty
+Package: scrhack 2013/12/19 v3.12 KOMA-Script package 
+Package scrhack Info: loading float hack on input line 139.
 
-Package scrhack Info: loading float hack on input line 137.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\float.hak"
-File: float.hak 2012/07/29 v3.11b KOMA-Script hacking package float
-Package scrhack Info: redefining \newfloat on input line 160.
-Package scrhack Info: redefining \listof on input line 160.
-Package scrhack Info: undefining \float@addtolists on input line 160.
+(/usr/share/texmf-dist/tex/latex/koma-script/float.hak
+File: float.hak 2013/12/19 v3.12 KOMA-Script package (hacking package float)
+Package scrhack Info: redefining \newfloat on input line 161.
+Package scrhack Info: redefining \listof on input line 161.
+Package scrhack Info: undefining \float@addtolists on input line 161.
 )
-Package scrhack Info: loading listings hack on input line 149.
+Package scrhack Info: loading listings hack on input line 153.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\listings.hak"
-File: listings.hak 2012/07/29 v3.11b KOMA-Script hacking package listings
-Package tocbasic Info: setting babel extension for `lol' on input line 136.
-Package scrhack Info: redefining \lstlistoflistings on input line 136.
+(/usr/share/texmf-dist/tex/latex/koma-script/listings.hak
+File: listings.hak 2013/12/19 v3.12 KOMA-Script package (hacking package listin
+gs)
+Package tocbasic Info: setting babel extension for `lol' on input line 137.
+Package scrhack Info: redefining \lstlistoflistings on input line 137.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -997,7 +1000,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -1005,22 +1008,22 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen205
-\Hy@linkcounter=\count169
-\Hy@pagecounter=\count170
+\@linkdim=\dimen208
+\Hy@linkcounter=\count178
+\Hy@pagecounter=\count179
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count171
+\Hy@SavedSpaceFactor=\count180
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `raiselinks' set `true' on input line 4319.
@@ -1039,12 +1042,12 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count172
+\c@Hy@tempcnt=\count181
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen206
-\Fld@menulength=\count173
-\Field@Width=\dimen207
-\Fld@charsize=\dimen208
+\XeTeXLinkMargin=\dimen209
+\Fld@menulength=\count182
+\Field@Width=\dimen210
+\Fld@charsize=\dimen211
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1054,9 +1057,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count174
-\c@Item=\count175
-\c@Hfootnote=\count176
+\Hy@abspage=\count183
+\c@Item=\count184
+\c@Hfootnote=\count185
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
@@ -1065,33 +1068,32 @@ Package scrhack Info: hyperref hack deactivated because of
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count177
-\c@bookmark@seq@number=\count178
+\Fld@listcount=\count186
+\c@bookmark@seq@number=\count187
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip77
+\Hy@SectionHShift=\skip80
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\babelbib\babelbib.sty"
+(/usr/share/texmf-dist/tex/latex/babelbib/babelbib.sty
 Package: babelbib 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
-\c@btxromaniannumeral=\count179
+\c@btxromaniannumeral=\count188
 )
-\chapnolen=\skip78
-\chapparlen=\skip79
-\chapno=\box71
+\chapnolen=\skip81
+\chapparlen=\skip82
+\chapno=\box73
 )
-\c@example=\count180
+\c@example=\count189
+ (./thesis.aux
+(./titlepage.aux) (./abstract.aux) (./declaration.aux) (./introduction.aux)
+(./content.aux) (./evaluation.aux) (./conclusion.aux))
+\openout1 = `thesis.aux'.
 
-(Z:\MA\MA\thesis\muster\thesis.aux (Z:\MA\MA\thesis\muster\titlepage.aux)
-(Z:\MA\MA\thesis\muster\abstract.aux) (Z:\MA\MA\thesis\muster\declaration.aux)
-(Z:\MA\MA\thesis\muster\introduction.aux) (Z:\MA\MA\thesis\muster\content.aux)
-(Z:\MA\MA\thesis\muster\evaluation.aux) (Z:\MA\MA\thesis\muster\conclusion.aux)
-)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
 LaTeX Font Info:    ... okay on input line 123.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
@@ -1170,54 +1172,70 @@ LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 123.
 LaTeX Font Info:    ... okay on input line 123.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
 LaTeX Font Info:    ... okay on input line 123.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
+
+(/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count181
-\scratchdimen=\dimen209
-\scratchbox=\box72
-\nofMPsegments=\count182
-\nofMParguments=\count183
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count184
-\MPscratchDim=\dimen210
-\MPnumerator=\count185
-\makeMPintoPDFobject=\count186
-\everyMPtoPDFconversion=\toks56
-) ABD: EveryShipout initializing macros
-\c@lstlisting=\count187
+\scratchcounter=\count190
+\scratchdimen=\dimen212
+\scratchbox=\box74
+\nofMPsegments=\count191
+\nofMParguments=\count192
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count193
+\MPscratchDim=\dimen213
+\MPnumerator=\count194
+\makeMPintoPDFobject=\count195
+\everyMPtoPDFconversion=\toks59
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.svg,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\c@lstlisting=\count196
 Package scrhack Info: undefining \float@addtolists on input line 123.
-\AtBeginShipoutBox=\box73
+\AtBeginShipoutBox=\box75
 Package hyperref Info: Link coloring OFF on input line 123.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count188
+\c@section@level=\count197
 )
 LaTeX Info: Redefining \ref on input line 123.
 LaTeX Info: Redefining \pageref on input line 123.
 LaTeX Info: Redefining \nameref on input line 123.
-
-(Z:\MA\MA\thesis\muster\thesis.out) (Z:\MA\MA\thesis\muster\thesis.out)
+ (./thesis.out) (./thesis.out)
 \@outlinefile=\write6
+\openout6 = `thesis.out'.
+
 
 babelbib: Set bibliography fall-back language to ngerman
-("C:\Program Files\MiKTeX 2.9\tex\latex\babelbib\english.bdf"
+(/usr/share/texmf-dist/tex/latex/babelbib/english.bdf
 File: english.bdf 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 
 babelbib extension \btxifchangecaseon added to \extrasenglish
 babelbib extension \btxifchangecaseon added to \extrasUSenglish
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\babelbib\french.bdf"
+) (/usr/share/texmf-dist/tex/latex/babelbib/french.bdf
 File: french.bdf 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 
 babelbib extension \btxifchangecaseoff added to \extrasfrench
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\babelbib\german.bdf"
+) (/usr/share/texmf-dist/tex/latex/babelbib/german.bdf
 File: german.bdf 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 
 babelbib extension \btxifchangecaseoff added to \extrasnaustrian
@@ -1226,29 +1244,32 @@ babelbib extension \btxifchangecaseoff added to \extrasngerman
 babelbib: Load BibTeX extensions \bibsngerman for ngerman
 babelbib: Set language for keywords in the bibliography fixed to ngerman
 babelbib: Set language for keywords in the bibliography fixed to ngerman
-(Z:\MA\MA\thesis\muster\titlepage.tex
-<logos/KITLogo_RGB.pdf, id=241, 196.46399pt x 90.77916pt>
+\openout2 = `titlepage.aux'.
+
+(./titlepage.tex <logos/KITLogo_RGB.pdf, id=239, 196.46399pt x 90.77916pt>
 File: logos/KITLogo_RGB.pdf Graphic file (type pdf)
 
 <use logos/KITLogo_RGB.pdf>
 Package pdftex.def Info: logos/KITLogo_RGB.pdf used on input line 24.
 (pdftex.def)             Requested size: 112.15387pt x 51.82222pt.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 26.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+ (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 76.
- [1
+
+[1
 
 
 
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <Z:/MA/MA/thesis/muster/lo
-gos/KITLogo_RGB.pdf>]) (Z:\MA\MA\thesis\muster\abstract.tex [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logos/KITLogo_RGB.pdf>])
+\openout2 = `abstract.aux'.
+
+ (./abstract.tex [2
 
 
 
@@ -1257,8 +1278,10 @@ gos/KITLogo_RGB.pdf>]) (Z:\MA\MA\thesis\muster\abstract.tex [2
 
 
 ]
-(Z:\MA\MA\thesis\muster\declaration.tex
-<logos/signature-eps-converted-to.pdf, id=262, 1155.31625pt x 474.77374pt>
+\openout2 = `declaration.aux'.
+
+ (./declaration.tex
+<logos/signature-eps-converted-to.pdf, id=260, 1155.31625pt x 474.77374pt>
 File: logos/signature-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logos/signature-eps-converted-to.pdf>
@@ -1268,11 +1291,9 @@ e 9.
 ) [4
 
 
- <Z:/MA/MA/thesis/muster/logos/signature-eps-converted-to.pdf>] (Z:\MA\MA\thesi
-s\muster\thesis.toc
+ <./logos/signature-eps-converted-to.pdf>] (./thesis.toc
 LaTeX Font Info:    Try loading font information for T1+aess on input line 1.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aess.fd"
+ (/usr/share/texmf-dist/tex/latex/ae/t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 Package acronym Info: Label `acro:SMT' newly defined as it shall be overridden
@@ -1285,8 +1306,13 @@ although it is yet undefined on input line 29.
 
 ])
 \tf@toc=\write7
- [6]
-(Z:\MA\MA\thesis\muster\introduction.tex
+\openout7 = `thesis.toc'.
+
+
+[6]
+\openout2 = `introduction.aux'.
+
+ (./introduction.tex
 Chapter 1.
 Package acronym Info: Label `acro:SOV' newly defined as it shall be overridden
 although it is yet undefined on input line 14.
@@ -1302,141 +1328,141 @@ although it is yet undefined on input line 14.
 ]
 Package acronym Info: Label `acro:POS' newly defined as it shall be overridden
 although it is yet undefined on input line 54.
- [2]) [3] [4] (Z:\MA\MA\thesis\muster\content.tex
+ [2]) [3] [4]
+\openout2 = `content.aux'.
+
+ (./content.tex
 Chapter 2.
-(Z:\MA\MA\thesis\muster\smt.tikz
-\mylen=\skip80
-) (Z:\MA\MA\thesis\muster\prereordering.tikz)
+(./smt.tikz
+\mylen=\skip83
+) (./prereordering.tikz)
 LaTeX Font Info:    Try loading font information for T1+aett on input line 52.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
+(/usr/share/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 ) [5
 
 
 
 
-] [6]
-(Z:\MA\MA\thesis\muster\alignment.tikz
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.bdg"
+] [6] (./alignment.tikz
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 File: UTF8.bdg 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
 LaTeX Font Info:    Try loading font information for C70+gbsn on input line 15.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\c70gbsn.fd"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fd
 File: c70gbsn.fd 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\c70gbsn.fdx"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fdx
 File: c70gbsn.fdx 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
 Package acronym Info: Label `acro:EM' newly defined as it shall be overridden
 although it is yet undefined on input line 71.
-
-(Z:\MA\MA\thesis\muster\tags.tikz) [7] (Z:\MA\MA\thesis\muster\ParseTree.tikz)
-[8]
+ (./tags.tikz)
+[7] (./ParseTree.tikz) [8]
 LaTeX Font Info:    Try loading font information for OMS+aer on input line 163.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\ae\omsaer.fd"
+ (/usr/share/texmf-dist/tex/latex/ae/omsaer.fd
 File: omsaer.fd 1999/12/27
 )
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 163.
- [9]
-(Z:\MA\MA\thesis\muster\swap.tikz) [10] [11]
+
+[9] (./swap.tikz) [10] [11]
 Package acronym Info: Label `acro:BLEU' newly defined as it shall be overridden
 
 although it is yet undefined on input line 264.
 Package acronym Info: Label `acro:TER' newly defined as it shall be overridden
 although it is yet undefined on input line 268.
- [12]
-(Z:\MA\MA\thesis\muster\Lattices.tikz
-\myx=\skip81
-\myy=\skip82
+ [12] (./Lattices.tikz
+\myx=\skip84
+\myy=\skip85
 ) [13] [14
 
 
@@ -1444,404 +1470,399 @@ although it is yet undefined on input line 268.
 
 ]
 Chapter 3.
-(Z:\MA\MA\thesis\muster\relative.tikz
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(./relative.tikz (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )) [15]
-(Z:\MA\MA\thesis\muster\adverbial.tikz
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(./adverbial.tikz (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
-))
-(Z:\MA\MA\thesis\muster\pp.tikz
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+)) (./pp.tikz
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
-File: UTF8.chr 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
-File: UTF8.enc 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 ))
 Underfull \vbox (badness 2726) has occurred while \output is active []
 
  [16]
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+) (./question.tikz
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-(Z:\MA\MA\thesis\muster\question.tikz
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
-File: UTF8.chr 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
-File: UTF8.enc 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-1.def"
-File: uni-1.def 2012/08/28 UCS: Unicode data U+0100..U+01FF
+(/usr/share/texmf-dist/tex/latex/ucs/data/uni-1.def
+File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+) (./therebe.tikz
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-(Z:\MA\MA\thesis\muster\therebe.tikz
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
-File: UTF8.chr 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
-File: UTF8.enc 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )) [17]
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-(Z:\MA\MA\thesis\muster\unstructured.tikz
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(./unstructured.tikz
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 ))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-(Z:\MA\MA\thesis\muster\unstructured2.tikz
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(./unstructured2.tikz
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )) [19]
 Package acronym Info: Label `acro:DFS' newly defined as it shall be overridden
@@ -1850,121 +1871,50 @@ Package acronym Info: Label `acro:IDDFS' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 414.
  [20]
-(Z:\MA\MA\thesis\muster\extract.tikz
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(./extract.tikz (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 )) [21]
-(Z:\MA\MA\thesis\muster\left1.tikz) (Z:\MA\MA\thesis\muster\right1.tikz
+(./left1.tikz) (./right1.tikz
 Missing character: There is no ; in font nullfont!
-)
-(Z:\MA\MA\thesis\muster\left2.tikz) (Z:\MA\MA\thesis\muster\right2.tikz)
-(Z:\MA\MA\thesis\muster\left3.tikz) (Z:\MA\MA\thesis\muster\right3.tikz)
-[22]) [23] [24] (Z:\MA\MA\thesis\muster\evaluation.tex
-Chapter 4.
-New spreadtab: \begin{tabular}{|l|r|r|r|}
-* reading tab: ok
-* computing formulas:
-     cell B2
-     cell D2
-     cell B3
-     cell C3
-     cell D3
-     cell B4
-     cell C4
-     cell D4
-     cell B5
-     cell C5
-     cell D5
-     cell B6
-     cell C6
-     cell D6
-     cell B7
-     cell C7
-     cell D7
-     cell B8
-     cell C8
-     cell D8
-     cell B9
-     cell C9
-     cell D9
-     cell B10
-     cell C10
-     cell D10
-* building tab: ok
-End of spreadtab: \end{tabular}
+) (./left2.tikz) (./right2.tikz) (./left3.tikz)
+(./right3.tikz) [22]) [23] [24]
+\openout2 = `evaluation.aux'.
 
+ (./evaluation.tex
+Chapter 4.
 [25
 
 
 
 
-] ("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
-File: UTF8.enc 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
-File: UTF8.chr 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
-File: UTF8.enc 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
-File: UTF8.chr 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
-File: UTF8.enc 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
-File: UTF8.chr 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
-File: UTF8.enc 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
-File: UTF8.chr 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
-File: UTF8.enc 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
-File: UTF8.chr 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.enc"
-File: UTF8.enc 2012/05/07 4.8.3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\cjk\UTF8\UTF8.chr"
-File: UTF8.chr 2012/05/07 4.8.3
-)
-Underfull \vbox (badness 1127) has occurred while \output is active []
-
- [26]
-New spreadtab: \begin{tabular}{|l|r|r|r|}
+] New spreadtab: \begin{tabular}{|l|r|r|r|}
 * reading tab: ok
 * computing formulas:
      cell B2
@@ -1996,7 +1946,78 @@ New spreadtab: \begin{tabular}{|l|r|r|r|}
 * building tab: ok
 End of spreadtab: \end{tabular}
 
-[27]) [28] (Z:\MA\MA\thesis\muster\conclusion.tex
+[26] New spreadtab: \begin{tabular}{|l|r|r|r|}
+* reading tab: ok
+* computing formulas:
+     cell B2
+     cell D2
+     cell B3
+     cell C3
+     cell D3
+     cell B4
+     cell C4
+     cell D4
+     cell B5
+     cell C5
+     cell D5
+     cell B6
+     cell C6
+     cell D6
+     cell B7
+     cell C7
+     cell D7
+     cell B8
+     cell C8
+     cell D8
+     cell B9
+     cell C9
+     cell D9
+     cell B10
+     cell C10
+     cell D10
+* building tab: ok
+End of spreadtab: \end{tabular}
+
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+) [27]) [28]
+\openout2 = `conclusion.aux'.
+
+
+(./conclusion.tex
 Chapter 5.
 [29
 
@@ -2007,128 +2028,121 @@ Chapter 5.
 
 
 
-] (Z:\MA\MA\thesis\muster\appendix.tex [33
+] (./appendix.tex [33
 
 
-]
-(Z:\MA\MA\thesis\muster\exampletree.tikz) [34] [35] [36] [37])
-(Z:\MA\MA\thesis\muster\acronym.tex [38] [39] [40
+] (./exampletree.tikz) [34] [35]
+[36] [37]) (./acronym.tex [38] [39] [40
 
 
 ]) [41] [42
 
 
-]
-(Z:\MA\MA\thesis\muster\thesis.lot)
+] (./thesis.lot)
 \tf@lot=\write8
+\openout8 = `thesis.lot'.
+
  [43
 
 
-] [44
-
-
 ]
-(Z:\MA\MA\thesis\muster\thesis.lof)
+[44
+
+
+] (./thesis.lof)
 \tf@lof=\write9
+\openout9 = `thesis.lof'.
+
  [45
 
 
 ] [46
 
 
-]
-(Z:\MA\MA\thesis\muster\thesis.bbl [47
+] (./thesis.bbl [47
 
 
-])
+]) [48]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
- [48]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
-
-(Z:\MA\MA\thesis\muster\thesis.aux (Z:\MA\MA\thesis\muster\titlepage.aux)
-(Z:\MA\MA\thesis\muster\abstract.aux) (Z:\MA\MA\thesis\muster\declaration.aux)
-(Z:\MA\MA\thesis\muster\introduction.aux) (Z:\MA\MA\thesis\muster\content.aux)
-(Z:\MA\MA\thesis\muster\evaluation.aux) (Z:\MA\MA\thesis\muster\conclusion.aux)
-)
+ (./thesis.aux
+(./titlepage.aux) (./abstract.aux) (./declaration.aux) (./introduction.aux)
+(./content.aux) (./evaluation.aux) (./conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: EA7F8045C5E704F5C0074B181AF9B6DA;4102.
+(rerunfilecheck)             Checksum: 331DF5C2B8046F6F54333CF9C117FD32;3964.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
  ) 
 Here is how much of TeX's memory you used:
- 28129 strings out of 493921
- 499050 string characters out of 3147285
- 722927 words of memory out of 3000000
- 30052 multiletter control sequences out of 15000+200000
- 82946 words of font info for 165 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 72i,21n,92p,1252b,3440s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmtt9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu30.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu4e.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu4f.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/arphic/gbsnu/gbsnu50.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/arphic/gbsnu/gbsnu51.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/g
-bsnu/gbsnu52.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu53.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu54.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu55.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/arphic/gbsnu/gbsnu56.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/arphic/gbsnu/gbsnu57.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/
-gbsnu/gbsnu58.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu59
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu5a.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu5b.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/arphic/gbsnu/gbsnu5c.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/arphic/gbsnu/gbsnu5d.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic
-/gbsnu/gbsnu5e.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu5
-f.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu60.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu61.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu62.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/arphic/gbsnu/gbsnu63.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphi
-c/gbsnu/gbsnu65.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu
-66.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu67.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu6b.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu6c.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/arphic/gbsnu/gbsnu6d.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arph
-ic/gbsnu/gbsnu6e.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsn
-u70.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu73.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu74.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu75.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/arphic/gbsnu/gbsnu76.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arp
-hic/gbsnu/gbsnu77.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbs
-nu79.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu7c.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu7e.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu80.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/arphic/gbsnu/gbsnu83.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ar
-phic/gbsnu/gbsnu84.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gb
-snu88.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu89.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu8b.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu8d.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/arphic/gbsnu/gbsnu8f.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/a
-rphic/gbsnu/gbsnu90.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/g
-bsnu91.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu95.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu96.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/arphic/gbsnu/gbsnu98.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/arphic/gbsnu/gbsnu9a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-arphic/gbsnu/gbsnu9e.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/arphic/gbsnu/
-gbsnuff.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (54 pages, 760188 bytes).
+ 30637 strings out of 493308
+ 560190 string characters out of 6143617
+ 808096 words of memory out of 5000000
+ 32694 multiletter control sequences out of 15000+600000
+ 82946 words of font info for 165 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 71i,21n,92p,1384b,2903s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr
+/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu30.pfb></usr/share/texmf-dist/f
+onts/type1/arphic/gbsnu/gbsnu4e.pfb></usr/share/texmf-dist/fonts/type1/arphic/g
+bsnu/gbsnu4f.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu50.pfb></
+usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu51.pfb></usr/share/texmf-dis
+t/fonts/type1/arphic/gbsnu/gbsnu52.pfb></usr/share/texmf-dist/fonts/type1/arphi
+c/gbsnu/gbsnu53.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu54.pfb
+></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu55.pfb></usr/share/texmf-
+dist/fonts/type1/arphic/gbsnu/gbsnu56.pfb></usr/share/texmf-dist/fonts/type1/ar
+phic/gbsnu/gbsnu57.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu58.
+pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu59.pfb></usr/share/tex
+mf-dist/fonts/type1/arphic/gbsnu/gbsnu5a.pfb></usr/share/texmf-dist/fonts/type1
+/arphic/gbsnu/gbsnu5b.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu
+5c.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5d.pfb></usr/share/
+texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5e.pfb></usr/share/texmf-dist/fonts/ty
+pe1/arphic/gbsnu/gbsnu5f.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gb
+snu60.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu61.pfb></usr/sha
+re/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu62.pfb></usr/share/texmf-dist/fonts
+/type1/arphic/gbsnu/gbsnu63.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu
+/gbsnu65.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu66.pfb></usr/
+share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/share/texmf-dist/fo
+nts/type1/arphic/gbsnu/gbsnu6b.pfb></usr/share/texmf-dist/fonts/type1/arphic/gb
+snu/gbsnu6c.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6d.pfb></u
+sr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6e.pfb></usr/share/texmf-dist
+/fonts/type1/arphic/gbsnu/gbsnu70.pfb></usr/share/texmf-dist/fonts/type1/arphic
+/gbsnu/gbsnu73.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu74.pfb>
+</usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/share/texmf-d
+ist/fonts/type1/arphic/gbsnu/gbsnu76.pfb></usr/share/texmf-dist/fonts/type1/arp
+hic/gbsnu/gbsnu77.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu79.p
+fb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7c.pfb></usr/share/texm
+f-dist/fonts/type1/arphic/gbsnu/gbsnu7e.pfb></usr/share/texmf-dist/fonts/type1/
+arphic/gbsnu/gbsnu80.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8
+3.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu84.pfb></usr/share/t
+exmf-dist/fonts/type1/arphic/gbsnu/gbsnu88.pfb></usr/share/texmf-dist/fonts/typ
+e1/arphic/gbsnu/gbsnu89.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbs
+nu8b.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8d.pfb></usr/shar
+e/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8f.pfb></usr/share/texmf-dist/fonts/
+type1/arphic/gbsnu/gbsnu90.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/
+gbsnu91.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu95.pfb></usr/s
+hare/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/share/texmf-dist/fon
+ts/type1/arphic/gbsnu/gbsnu98.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbs
+nu/gbsnu9a.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9e.pfb></us
+r/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb></usr/share/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helv
+etic/uhvr8a.pfb>
+Output written on thesis.pdf (54 pages, 616401 bytes).
 PDF statistics:
- 1228 PDF objects out of 1440 (max. 8388607)
+ 1239 PDF objects out of 1440 (max. 8388607)
+ 1096 compressed objects within 11 object streams
  207 named destinations out of 1000 (max. 500000)
- 495 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 487 words of extra memory for PDF output out of 10000 (max. 10000000)
 
