@@ -5,8 +5,8 @@ level/.style={sibling distance = 1.8cm, level distance = 1.8cm},
 %level 2/.style={sibling distance=4cm}, 
 %level 3/.style={sibling distance=4cm}, 
 treenode/.style = {align=center, minimum width=3.8em, minimum height = 2em, inner sep=0pt, text centered, font=\sffamily},
-arn_n/.style = {treenode, rectangle, rounded corners, draw=black, thick, fill=blue!20},
-arn_x/.style = {arn_n, fill=red!20},
+arn_n/.style = {treenode, rectangle, rounded corners, draw=black,  fill=blue!20},
+arn_x/.style = {arn_n, fill=red!20, font=\itshape, rounded corners=0},
 edge from parent fork down
 ]
 \node (A) [arn_n] {NP}
@@ -27,6 +27,6 @@ child{ node [arn_x] {ADJP}};
 
 %\draw[-,double distance=2pt] (XX) to (YY);
 %\draw[open triangle 60, thick] (XX) to (YY);
-\draw[draw=none] (XX) to node[draw, thick, midway, single arrow] {\Hstrut\Hstrut\Hstrut} (YY);
+\draw[draw=none] (XX) to node[draw, midway, single arrow] {\Hstrut\Hstrut\Hstrut} (YY);
 \end{tikzpicture}
 

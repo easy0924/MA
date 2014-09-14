@@ -5,26 +5,26 @@ level 1/.style={sibling distance=6cm},
 level 2/.style={sibling distance=4cm}, 
 %level 3/.style={sibling distance=4cm}, 
 treenode/.style = {scale=0.5, align=center, inner sep=0.5em, text centered, font=\sffamily},
-arn_n/.style = {treenode, rectangle, rounded corners=0.75mm, draw=black, thick, fill=blue!20, minimum width=4em, minimum height = 2em},
-arn_x/.style = {arn_n, fill=blue!20, minimum height=3em},
+arn_n/.style = {treenode, rectangle, rounded corners=0.75mm, draw=black,  fill=blue!20, minimum width=4em, minimum height = 2em},
+arn_x/.style = {arn_n, fill=blue!20, minimum height=3em, rounded corners=0},
 edge from parent fork down
 ]
-\node [arn_n, fill=red!20] {S}
-child{ node [arn_n, fill=red!20] {NP}
-child{ node [arn_n, fill=red!40] {NP}
+\node [arn_n, fill=red!20, font=\itshape] {S}
+child{ node [arn_n, fill=red!20, font=\itshape] {NP}
+child{ node [arn_n, fill=red!40, font=\itshape] {NP}
 child{ node [arn_n] {QP}
 child{ node [arn_x](A) {CD\\ four}}
 child{ node [arn_x](B) {CD\\ million}}}}
-child{ node [arn_n, fill=red!40] {PP}
+child{ node [arn_n, fill=red!40, font=\itshape] {PP}
 child{ node [arn_x](C) {IN\\ of}}
 child{ node [arn_n] {NP}
 child{ node [arn_x](D) {DT\\ these}}
 child{ node [arn_x](E) {NNS\\ babies}}}}}
-child{ node [arn_n, fill=red!20] {VP}
-child{ node [arn_x, fill=red!40](F) {VBP\\ die}}
-child{ node [arn_n, fill=red!40] {ADVP}
+child{ node [arn_n, fill=red!20, font=\itshape] {VP}
+child{ node [arn_x, fill=red!40, font=\itshape](F) {VBP\\ die}}
+child{ node [arn_n, fill=red!40, font=\itshape] {ADVP}
 child{ node [arn_x](G) {RB\\ annually}}}}
-child [sibling distance = 3.5cm]{ node [arn_x, fill=red!40](H) {.\\ .}};
+child [sibling distance = 3.5cm]{ node [arn_x, fill=red!40, font=\itshape](H) {.\\ .}};
 
 \node [below right=5.5cm and 0.2cm of H.south west, scale=0.75](Q) {\cntext{\vphantom{存}。}};
 \node [left=0.09cm of Q, scale=0.75](P) {\cntext{存活}};

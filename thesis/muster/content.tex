@@ -450,7 +450,7 @@ The reason for this is to prevent duplicate reorderings due to application of ne
 \end{center}
 Both patterns are detected from the same node, but the second pattern is detected by retrieving the nodes one level deeper and it's more concrete. So the first pattern can be seen as a generalization of the second pattern. Whenever a rule of the second pattern can be applied, a rule of the first pattern can be applied too. Because subtrees are checked from the highest number of levels in rule application, the more concrete rule is applied first. Because the more concrete rule fits the detected pattern better and contains more details of reordering, so it may be more suitable for rule application. In this example, the second rule is applied rather than the first rule.
 
-To illustrate how the rule application works in a more intuitive way, we present an example of reordering an English source sentence. Assume we only have the following $2$ reordering rules and a pre-processed sentence for reordering as follows:
+To illustrate how the rule application works in a more intuitive way, we present an example of reordering an English source sentence. Normally the algorithm generates a lot of reordering rules from the training data, from different nodes with different search depths. But in order to make the example simple, we only concentrate on application of the following $2$ reordering rules, as well as a sentence for reordering:
 \begin{center}
 \begin{tabular}{l}
 Rules:\\
@@ -462,7 +462,7 @@ Sentence:\\
 \end{tabular}
 \end{center}
 
-The syntax tree and monotone path as initial word lattice are presented in figure~\ref{Ia}.
+The syntax tree and monotone path as initial word lattice are presented in figure~\ref{Ia}. In the figures, leaf nodes have rectangle shape, and the red nodes with italic font indicate the part of the syntax tree where a rule is applicable. 
 \begin{figure}
 \centering
 \subfigure{
@@ -490,8 +490,6 @@ By using \ac{DFS} to traverse the syntax tree, the program first finds out the p
 
 As the program keeps running, the second rule is found applicable at another node labeled with \emph{NP} with $2$ levels. Again the rule is applied with probability $0.17$ and the new path is added. 
 
-This illustration uses indices for the reordering rules to avoid ambiguity. The nodes colored with red indicate the part of the syntax tree where a rule is applicable. And the nodes colored with dark red indicate the nodes which are reordered.
-
 \begin{figure}[H]
 \centering
 \subfigure{
@@ -502,6 +500,8 @@ This illustration uses indices for the reordering rules to avoid ambiguity. The 
 }
 \caption{Illustration of rule application (c)}
 \end{figure}
+
+In the end we get the word lattice for the reordered source sentence, where each path from the beginning node to the end node in the lattice presents a possible reordering.
 
 \section{Summary}
 In this chapter, we've deeply analyzed the differences in word orders between English and Chinese, followed by an introduction of the \ac{MLT} reordering algorithm. Because of the different origins and separate development of English and Chinese, they have very distinct sentence structures. To adjust the word order in one language to the other as preordering for translation between the two languages. It often involves long-distance position change and reordering on multiple level of syntactic structures. Inspired by the method of tree rule based reordering method, we created the \ac{MLT} reordering algorithm which rearranges the words as a pre-process for translation. The algorithm uses the information of syntactic trees and word alignments. It extracts and applies the reordering rules by detecting patterns from the subtrees with different search levels in syntax trees.

@@ -5,19 +5,19 @@ level 1/.style={sibling distance=3.75cm},
 level 2/.style={sibling distance=5cm}, 
 %level 3/.style={sibling distance=4cm}, 
 treenode/.style = {scale=0.5, align=center, inner sep=0.5em, text centered, font=\sffamily},
-arn_n/.style = {treenode, rectangle, rounded corners=0.75mm, draw=black, thick, fill=blue!20, minimum width=4em, minimum height = 2em},
-arn_x/.style = {arn_n, fill=blue!20, minimum height=3em},
+arn_n/.style = {treenode, rectangle, rounded corners=0.75mm, draw=black, fill=blue!20, minimum width=4em, minimum height = 2em},
+arn_x/.style = {arn_n, fill=blue!20, minimum height=3em, rounded corners=0},
 edge from parent fork down
 ]
-\node [arn_n, fill=red!20] {NP}
-child[sibling distance = 7.5cm] { node(A) [arn_x, fill=red!40] {CD\\ ten}}
-child{ node [arn_n, fill=red!20] {NP}
-child{ node [arn_n, fill=red!20] {NP}
-child{ node(B) [arn_x, fill=red!40] {JJ\\ big}}
-child{ node(C) [arn_x, fill=red!40] {NNS\\ advantages}}}
-child{ node [arn_n, fill=red!20] {PP}
-child{ node(D) [arn_x, fill=red!40] {IN\\ of}}
-child{ node(E) [arn_n, fill=red!40] {NP}
+\node [arn_n, fill=red!20, font=\itshape] {NP}
+child[sibling distance = 7.5cm] { node(A) [arn_x, fill=red!40, font=\itshape] {CD\\ ten}}
+child{ node [arn_n, fill=red!20, font=\itshape] {NP}
+child{ node [arn_n, fill=red!20, font=\itshape] {NP}
+child{ node(B) [arn_x, fill=red!40, font=\itshape] {JJ\\ big}}
+child{ node(C) [arn_x, fill=red!40, font=\itshape] {NNS\\ advantages}}}
+child{ node [arn_n, fill=red!20, font=\itshape] {PP}
+child{ node(D) [arn_x, fill=red!40, font=\itshape] {IN\\ of}}
+child{ node(E) [arn_n, fill=red!40, font=\itshape] {NP}
 child{ node [arn_x](F) {JJ\\ peaceful}}
 child{ node [arn_x](G) {NN\\ reunification}}}}};
 
