@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  14 SEP 2014 15:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  14 SEP 2014 18:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1274,14 +1274,18 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 
 
 
-]) [3
+]
+Package acronym Info: Label `acro:BLEU' newly defined as it shall be overridden
+
+although it is yet undefined on input line 10.
+) [3
 
 
 ]
 \openout2 = `declaration.aux'.
 
  (./declaration.tex
-<logos/signature-eps-converted-to.pdf, id=260, 1155.31625pt x 474.77374pt>
+<logos/signature-eps-converted-to.pdf, id=273, 1155.31625pt x 474.77374pt>
 File: logos/signature-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logos/signature-eps-converted-to.pdf>
@@ -1455,9 +1459,6 @@ LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 163.
 
 [9] (./swap.tikz) [10] [11]
-Package acronym Info: Label `acro:BLEU' newly defined as it shall be overridden
-
-although it is yet undefined on input line 264.
 Package acronym Info: Label `acro:TER' newly defined as it shall be overridden
 although it is yet undefined on input line 268.
  [12] (./Lattices.tikz
@@ -2107,7 +2108,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
 Here is how much of TeX's memory you used:
  30711 strings out of 493308
  562386 string characters out of 6143617
- 799790 words of memory out of 5000000
+ 799770 words of memory out of 5000000
  32742 multiletter control sequences out of 15000+600000
  84123 words of font info for 169 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -2172,10 +2173,10 @@ gbsnu/gbsnu9a.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9e.pfb><
 /usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb></usr/share/texmf-di
 st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/h
 elvetic/uhvr8a.pfb>
-Output written on thesis.pdf (56 pages, 645578 bytes).
+Output written on thesis.pdf (56 pages, 646284 bytes).
 PDF statistics:
- 1265 PDF objects out of 1440 (max. 8388607)
- 1115 compressed objects within 12 object streams
+ 1273 PDF objects out of 1440 (max. 8388607)
+ 1123 compressed objects within 12 object streams
  209 named destinations out of 1000 (max. 500000)
  487 words of extra memory for PDF output out of 10000 (max. 10000000)
 

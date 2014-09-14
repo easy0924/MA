@@ -3,12 +3,11 @@
 \cleardoublepage
 \label{Abstract}
 \begin{abstract}
+%\vspace{1ex}
 \begin{center}
 \parbox[c]{0.8\textwidth}{
-We propose a novel data-driven rule-based preordering approach, which uses the information of syntax tree and word alignment to reorder the words in source sentences before decoding in a phrase-based SMT system between English and Chinese. Our results show that the approach has led to improved translation quality both when it was applied separately on the baseline or when it was combined with some other reordering approaches.
-%from \cite{short}, \cite{long} and \cite{tree}, on which this thesis is based.
-We've conducted experiments in English-to-Chinese and Chinese-to-English translation directions. We report improvements of up to $2.16$ when the approach was used separately, improvements of up to $0.43$ when it was added to the other reordering approaches, and a total improvement of $2.34$ when all the reordering approaches were combined. Examples of the translations also showed our approach has helped to improve the sentence structure obviously.
-}
+We propose a novel data-driven rule-based preordering approach, which uses the information of syntax tree and word alignment to reorder the words in source sentences before decoding in a phrase-based SMT system between English and Chinese. The preorering algorithm extracts reordering patterns from multiple levels of the syntax trees and applies the rules on the to be translated text in a similar manner. \bigskip \\
+We've conducted experiments in English-to-Chinese and Chinese-to-English translation directions. Our results show that the approach has led to improved translation quality both when it was applied separately on the baseline or when it was combined with some other reordering approaches. We report an improvement of $0.43$ in \ac{BLEU} score when our preordering approach was used in addition to the short rule \citep{short}, long rule\citep{long} and tree rule \citep{tree} based preordering approaches in the English-to-Chinese translation direction. We also report an improvement of $0.3$ in \ac{BLEU} score when our preordering approach was used in addition to the aforementioned preordering approaches in the Chinese-to-English translation direction. Through analyzing the translations, we've also found improvement in syntactic structure by using our preordering approach.}
 \end{center}
 \end{abstract}
 
