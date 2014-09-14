@@ -41,17 +41,17 @@ The reordering rules were extracted by using the word alignments, POS tags and s
 \centering
 \STautoround*{2}
 \begin{spreadtab}{{tabular}{|l|r|r|r|}}\hline
-@				& @BLEU Score & @Improvement & @TER \\ \hline
-@Baseline		& 21.80 & & 62.09 \\ \hline
-@+Short Rules	& 22.90 & :={b3 - b2}& 61.64 \\ \hline
-@+Long Rules   & 23.13 & :={b4 - b2} & 61.43\\ \hline
-@+Tree Rules   & 23.84 & :={b5 - b2} & 60.95\\ \hline
-\textbf{@+MLT Rules}    & \textbf{:={24.14}} & \textbf{:={b6 - b2}} & \hphantom{xxx} \textbf{:={60.79}}\\ \hline
-@Oracle Reordering & :={26.80} & :={b7 -b2} & :={56.97} \\ \hline
+@				& @BLEU Score (\%) & @Improvement & @TER (\%) \\ \hline
+@Baseline		& 12.07 & & 72.15 \\ \hline
+@+Short Rules	& 12.50 & :={b3 - b2} & 71.41 \\ \hline
+@+Long Rules   & 12.99 & :={b4 - b2} & 70.71 \\ \hline
+@+Tree Rules   & 13.38 & :={b5 - b2} & 68.27 \\ \hline
+\textbf{@+MLT Rules} & \textbf{:={13.81}} & \textbf{:={b6 - b2}} & \hphantom{xxx}\textbf{:={68.20}} \\ \hline
+@Oracle Reordering & :={18.58} & :={b7 - b2} & :={62.13} \\ \hline
 \hline
-@Long Rules   & 22.10 & :={b8 - b2} & 62.21\\ \hline
-@Tree Rules   & 23.35 & :={b9 - b2} & 61.52\\ \hline
-\textbf{@MLT Rules}    & \textbf{:={23.96}} & \textbf{:={b10 - b2}} & \textbf{:={60.83}}\\ \hline
+@Long Rules   & 12.31 & :={b8 - b2} & 71.81\\ \hline
+@Tree Rules   & 13.30 & :={b9 - b2} & 70.42 \\ \hline
+\textbf{@MLT Rules}    & \textbf{:={13.68}} & \textbf{:={b10 - b2}} & \textbf{:={70.25}} \\ \hline
 \end{spreadtab}
 \caption{Result overview of English-to-Chinese system}
 \label{tenw}
@@ -93,17 +93,17 @@ Test Data & 1663 & 38K & 47K & 220K & 263K \\ \hline
 \centering
 \STautoround*{2}
 \begin{spreadtab}{{tabular}{|l|r|r|r|}}\hline
-@				& @BLEU Score & @Improvement & @TER \\ \hline
-@Baseline		& 12.07 & & 72.15 \\ \hline
-@+Short Rules	& 12.50 & :={b3 - b2} & 71.41 \\ \hline
-@+Long Rules   & 12.99 & :={b4 - b2} & 70.71 \\ \hline
-@+Tree Rules   & 13.38 & :={b5 - b2} & 68.27 \\ \hline
-\textbf{@+MLT Rules} & \textbf{:={13.81}} & \textbf{:={b6 - b2}} & \hphantom{xxx}\textbf{:={68.20}} \\ \hline
-@Oracle Reordering & :={18.58} & :={b7 - b2} & :={62.13} \\ \hline
+@				& @BLEU Score (\%) & @Improvement & @TER (\%) \\ \hline
+@Baseline		& 21.80 & & 62.09 \\ \hline
+@+Short Rules	& 22.90 & :={b3 - b2}& 61.64 \\ \hline
+@+Long Rules   & 23.13 & :={b4 - b2} & 61.43\\ \hline
+@+Tree Rules   & 23.84 & :={b5 - b2} & 60.95\\ \hline
+\textbf{@+MLT Rules}    & \textbf{:={24.14}} & \textbf{:={b6 - b2}} & \hphantom{xxx} \textbf{:={60.79}}\\ \hline
+@Oracle Reordering & :={26.80} & :={b7 -b2} & :={56.97} \\ \hline
 \hline
-@Long Rules   & 12.31 & :={b8 - b2} & 71.81\\ \hline
-@Tree Rules   & 13.30 & :={b9 - b2} & 70.42 \\ \hline
-\textbf{@MLT Rules}    & \textbf{:={13.68}} & \textbf{:={b10 - b2}} & \textbf{:={70.25}} \\ \hline
+@Long Rules   & 22.10 & :={b8 - b2} & 62.21\\ \hline
+@Tree Rules   & 23.35 & :={b9 - b2} & 61.52\\ \hline
+\textbf{@MLT Rules}    & \textbf{:={23.96}} & \textbf{:={b10 - b2}} & \textbf{:={60.83}}\\ \hline
 \end{spreadtab}
 \caption{Result overview of Chinese to English systems}
 \label{tzhen2}
@@ -111,108 +111,61 @@ Test Data & 1663 & 38K & 47K & 220K & 263K \\ \hline
 
 Table~\ref{tzhen2} shows the results for configurations with different reordering methods for the Chinese-to-English translation. The table can be interpreted in the same manner as table~\ref{tenw} in the previous section.
 
-%? English to German system?
-
-%
-%%% ===============================
-%\section{Effect dependency tree?}
-%\label{ch:Evaluation:sec:e0}
-%%% ===============================
-%
-%
-%
-%%% ===============================
-%\section{Alternative Scanning?}
-%\label{ch:Evaluation:sec:a}
-%%% ===============================
-%
-%%% ===============================
-%\section{Effect of Different Left Side}
-%\label{ch:Evaluation:sec:e1}
-%%% ===============================
-%
-%%% ===============================
-%\section{Effect of Different Threshold}
-%\label{ch:Evaluation:sec:e2}
-%%% ===============================
-%
-%%% ===============================
-%\section{Research on other language pair}
-%\label{ch:Evaluation:sec:e3}
-%%% ===============================
-
-%
-%%==============En to De systems================
-%\begin{table}[H]
-%\centering
-%\STautoround*{2}
-%\begin{spreadtab}{{tabular}{|l|r|r|}}\hline
-%@				& @BLEU Score & @Improvement \\ \hline
-%@Baseline		& 18.45 & \\ \hline
-%@+Short Rules	& 19.09 & :={b3 * 100 /b2 - 100} \% \\ \hline
-%@+Long Rules   & 19.16 & :={b4 * 100 /b2 - 100} \% \\ \hline
-%@+Tree Rules   & 19.34 & :={b5 * 100 /b2 - 100} \% \\ \hline
-%@+MLT Rules    & 20 & :={b6 * 100 /b2 - 100} \% \\ \hline
-%@Oracle Reordering & 21 & :={b7 * 100 /b2 - 100} \% \\ \hline
-%\end{spreadtab}
-%\caption{Results of English to German translation}
-%\end{table}
-%
-%\begin{table}[H]
-%\centering
-%\STautoround*{2}
-%\begin{spreadtab}{{tabular}{|l|r|r|}}\hline
-%@				& @BLEU Score & @Improvement \\ \hline
-%@Baseline		& 18.45 & \\ \hline
-%@+Short Rules	& 19.09 & :={b3 * 100 /b2 - 100} \% \\ \hline
-%@+Long Rules   & 19.16& :={b4 * 100 /b2 - 100} \% \\ \hline
-%@+Tree Rules   & 19.34 & :={b5 * 100 /b2 - 100} \% \\ \hline
-%@+MLT Rules    & 1 & :={b6 * 100 /b2 - 100} \% \\ \hline
-%@Oracle Reordering & 1 & :={b7 * 100 /b2 - 100} \% \\ \hline
-%\end{spreadtab}
-%\caption{Results of German to English translation}
-%\end{table}
-%%==============================
-
-
-%%% ===============================
-%\section{Experiement Result}
-%\label{ch:Evaluation:sec:ExperimentResult}
-%%% ===============================
-%
-%%% ===============================
-%\section{Evaluation}
-%\label{ch:Evaluation:sec:Evaluation}
-%%% ===============================
-
 \section{Evaluation}
 \label{ch:Evaluation:sec:Evaluation}
 
-The results shows increasing scores as we used reordering methods from short rules, long rules, tree rules to \ac{MLT} rules. And better \ac{BLEU} scores were achieved as we combined the different reordering rules. The \ac{MLT} rules improved the \ac{BLEU} score, not only when it was used alone, but also it was added to the other reordering rules. 
-By taking a close look at the gap between \ac{BLEU} scores of oracle reordering and the best \ac{BLEU} score we've achieved, we can also see, there's still potential for improvement through better reordering methods.
+The results shows increasing scores as we used reordering methods from short rules, long rules, tree rules to \ac{MLT} rules. And better \ac{BLEU} scores were achieved as we combined the different reordering rules. The \ac{MLT} rules achieved better \ac{BLEU} scores and \ac{TER}s on both translation directions, not only when it was used alone, but also it was added to the other reordering rules. When our \ac{MLT} reordering rules were combined with the other existing reordering rules, a further improvement of $0.43$ in \ac{BLEU} score (from $13.38$ to $13.81$) was shown in the English-to-Chinese translation direction, and a further improvement of $0.3$ in \ac{BLEU} score (from $23.84$ to $24.14$) was shown in the Chinese-to-English translation direction.
 
-We've also found improvements in the sentence structures. Some translation examples are listed in table~\ref{te}. Each section of this table shows translation of a sentence in its source language and target language. The translation in the rows with \emph{No MLT} comes from the configuration without using \ac{MLT} reordering, and the translation in the rows with \emph{MLT} comes from the configuration by using \ac{MLT} reordering. From the examples, we can see that the sentence structure was improved by \ac{MLT} reordering obviously.
+We've also found improvements in the sentence structure. Table~\ref{te} shows some translation examples on both translation directions. Sections are separated by double lines in the table. Each section of this table shows one translation example with the source sentence (\emph{source}), translation without using MLT reordering (\emph{no MLT}), translation with MLT reordering (\emph{MLT}) and the reference (\emph{reference}). The translation without using \ac{MLT} reordering comes from the configuration with highest \ac{BLEU} score that didn't use \ac{MLT} reordering. And the translation with \ac{MLT} reordering comes from the configuration with highest \ac{BLEU} score that used \ac{MLT} reordering. From the examples, we can clearly see the improvements in sentence structure.
 
 \begin{table}
 \centering
 \begin{tabular}{|l|m{0.7\textwidth}|} \hline
-Source & Hu Jintao also extended deep condolences on the death of the Chinese victims and expressed sincere sympathy to the bereaved families.
+Source & hu jintao also extended deep condolences on the death of the chinese victims and expressed sincere sympathy to the bereaved families .
 \\ \hline
 No MLT & \cntext{胡锦涛 还 表示 深切 哀悼 的 受害者 家属 的 死亡 , 向 迂难者 家属 表示 诚挚 的 慰问 。} \\ \hline
-MLT & \cntext{胡锦涛 还 对 中国 迂难者 表示 哀悼 , 向 迂难者 家属 表示 诚挚 的 慰问 。} \\ \hline \hline
+MLT & \cntext{胡锦涛 还 对 中国 迂难者 表示 哀悼 , 向 迂难者 家属 表示 诚挚 的 慰问 。} \\ \hline 
+Reference & \cntext{胡锦涛 还 对 中方 不幸 遇难 人员 表示 深切 的 哀悼 , 并 向 遇难 着 的 亲属 致以 诚挚 的 慰问 。
+} \\ \hline \hline
 
 %Source & The plaintiffs' attorney pointed out that this ruling ``violates the historical record'', and demanded that the Japanese government and Nippon Yakin pay compensations and offer apologies to resolve the issue . \\ \hline
 %No MLT & \cntext{这 个 原告 的 律师 指出 , 这 种 `` 违背 了 历史 记录 '' , 要求 日本 政府 , 正 yakin 支付 补偿 , 道歉 来 解决 问题 。} \\ \hline
 %MLT & \cntext{原告 的 律师 指出 , 这 一 判决 `` 违背 了 历史 纪录 '' , 要求 日本 政府 , 正 yakin 支付 补偿 , 道歉 来 解决 问题 。} \\ \hline \hline
 
-Source & Satisfying personal interests and expanding knowledge are also major reasons why hourly work appeals to people.\\ \hline
+Source & satisfying personal interests and expanding knowledge are also major reasons why hourly work appeals to people .\\ \hline
 No MLT & \cntext{满足 个人 利益 和 扩大 知识 也 是 主要 原因 小时 工作 吸引 人 。} \\ \hline
-MLT & \cntext{满足 个人 利益 和 扩大 知识 也 是 为什么 学生 工作 吸引 人 的 主要 原因 。} \\ \hline \hline
+MLT & \cntext{满足 个人 利益 和 扩大 知识 也 是 为什么 学生 工作 吸引 人 的 主要 原因 。} \\ \hline 
+Reference & \cntext{满足 个人 兴趣 , 扩大 自己 的 知识面 也 是 兼职 小时 工 受 青睐 的 一 个 重要 原因 。} \\ \hline \hline
 
-Source & The Dalai Lama will go to visit Washington this month.\\ \hline
+Source & the dalai lama will go to visit washington this month .\\ \hline
 No MLT & \cntext{达赖 喇嘛 将 访问 华盛顿 的 这 一 个 月 。} \\ \hline
 MLT & \cntext{达赖 喇嘛 将 本 月 访问 华盛顿 。} \\ \hline
 %? add more examples?
+Reference & \cntext{达赖 喇嘛 将 在 本 月 前往 华盛顿 访问 。} \\ \hline \hline
+
+%Source & \cntext{防务 报告 与 军演 之间 的 微妙 关系 成为 讨论 的 交点 之一 。}\\ \hline
+%No MLT & report on defense and military exercise of the delicate relations between become the \cntext{交点} discussion .
+%\\ \hline
+%MLT & the delicate relations between defense report and military exercise has become the \cntext{交点} discussion .\\ \hline
+%Reference & the subtle relationship between the defense report and the military exercise has become one of the focuses of discussion .\\ \hline \hline
+
+Source & \cntext{陈至立 说 , 古巴 是 拉美 和 加勒比 地区 有 重要 影响 的 国家 。}
+\\ \hline
+No MLT & chen zhili said : cuba is the latin america and the caribbean region has an important influence on the state .
+\\ \hline
+MLT & chen zhili said : cuba is a country of important influence latin america and the caribbean region .
+\\ \hline
+Reference & chen zhili said that cuba is a country of great influence in the latin american and caribbean region .
+\\ \hline \hline
+
+Source & \cntext{近年 来 , 两 国 教育 交流 日益 密切 , 人员 来往 频繁 。}
+\\ \hline
+no MLT & in recent years , the two countries education have been increasingly close exchanges and personnel contacts have been frequent .
+\\ \hline
+MLT & in recent years , the educational exchanges between the two countries have become increasingly frequent , and have had frequent contacts .
+\\ \hline
+Reference & in recent years , the educational exchange between the two countries has become increasingly close with frequent personnel visits .
+\\ \hline
 
 \end{tabular}
 \caption{Examples of translations}
@@ -223,21 +176,20 @@ MLT & \cntext{达赖 喇嘛 将 本 月 访问 华盛顿 。} \\ \hline
 %
 %%picture?
 
-From this experiments we can draw the conclusion that our reordering method indeed improves the English-to-Chinese translation quality obviously, no matter when we apply it alone or when we combine it with the reordering methods based on short rules, long rules and tree rules. %And we could further justify our claim that the MLT reordering method changes the word order more significantly to improve the translation quality.
 
-%==================
+However, by taking a close look at the gap between the scores of oracle reordering and the best scores achieved by \ac{MLT} reordering, we can also see, there's still potential for improvements of translation between English and Chinese through better reordering methods.
+
+From this experiments we can draw the conclusion that our reordering method obviously improves the sentence strucuture and  translation quality in both English-to-Chinese and Chinese-to-English translation directions, no matter when we apply it alone or when we combine it with the reordering methods based on short rules, long rules and tree rules. 
 
 
-We can tell from table~\ref{tzhen2} that the \ac{MLT} reorering achieved the best \ac{BLEU} score under all the rule types, when it was used separately. When the \ac{MLT} rules was combined with other rule types, it also showed the effect to improve the translation further. Like the results in the previous section, there's also still some gap between the \ac{BLEU} scores we've achieved and the score achieved by oracle reordering, which shows potentail for further improvement through better reordering methods.%? add manuel analyzing?
+%And we could further justify our claim that the MLT reordering method changes the word order more significantly to improve the translation quality.
 
-From this experiments we can draw the conclusion that our reordering method also improves the translation quality for Chinese-to-English direction.
 
 \section{Summary}
 \label{ch:Evaluation:sec:Conclusion}
 
-In this chapter, we've presented and evaluated the results of the English-to-Chinese and Chinese-to-English \ac{SMT} system. In both system, our \ac{MLT} reordering method shows obvious improvements on the translation quality.
+In this chapter, we've presented and evaluated the results of the English-to-Chinese and Chinese-to-English \ac{SMT} system. In both system, our \ac{MLT} reordering method shows obvious improvements on translation quality.
 
-When the \ac{MLT} reordering approach was used to translate the test data from English to Chinese, it improved the \ac{BLEU} score by $1.61$, which is a $13.34\%$ improvement in comparison with the baseline. When it was combined with other reordering methods, a further improvement of $0.43$ was achieved, which makes up a $3.57\%$ improvement. For translation from Chinese to English, the 
-\ac{MLT} reordering improved the \ac{BLEU} score by $2.16$ ($9.91\%$) when it was used alone. And an additional $0.30$ ($1.37\%$) was achieved when it was combined with the other reordering methods.
+When our \ac{MLT} reordering rules were combined with the other existing reordering rules, a further improvement of $0.43$ in \ac{BLEU} score was shown in the English-to-Chinese translation direction, and a further improvement of $0.3$ in \ac{BLEU} score was shown in the Chinese-to-English translation direction.
 
 Through analyzing the syntactic structure of the sentences closely, we've also found that the \ac{MLT} reordering method improved the translation by changing the order of words, not only on the same syntax tree level but also between different levels, which could not be easily achieved by other reordering methods we've introduced so far. So it further justifies our claim, that the \ac{MLT} reordering method improved the sentence structure obviously and led to better translation between English and Chinese.
