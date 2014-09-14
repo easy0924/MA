@@ -450,7 +450,7 @@ The reason for this is to prevent duplicate reorderings due to application of ne
 \end{center}
 Both patterns are detected from the same node, but the second pattern is detected by retrieving the nodes one level deeper and it's more concrete. So the first pattern can be seen as a generalization of the second pattern. Whenever a rule of the second pattern can be applied, a rule of the first pattern can be applied too. Because subtrees are checked from the highest number of levels in rule application, the more concrete rule is applied first. Because the more concrete rule fits the detected pattern better and contains more details of reordering, so it may be more suitable for rule application. In this example, the second rule is applied rather than the first rule.
 
-To illustrate how the rule application works in a more intuitive way, we present an example of reordering an English source sentence. Assume we have $2$ reordering rules and a pre-processed sentence for reordering as follows:
+To illustrate how the rule application works in a more intuitive way, we present an example of reordering an English source sentence. Assume we only have the following $2$ reordering rules and a pre-processed sentence for reordering as follows:
 \begin{center}
 \begin{tabular}{l}
 Rules:\\

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  14 SEP 2014 14:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  14 SEP 2014 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2111,7 +2111,7 @@ Here is how much of TeX's memory you used:
  32742 multiletter control sequences out of 15000+600000
  84123 words of font info for 169 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 71i,21n,92p,1384b,2900s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,21n,92p,1666b,2900s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
@@ -2172,7 +2172,7 @@ gbsnu/gbsnu9a.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9e.pfb><
 /usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb></usr/share/texmf-di
 st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/h
 elvetic/uhvr8a.pfb>
-Output written on thesis.pdf (56 pages, 647750 bytes).
+Output written on thesis.pdf (56 pages, 648059 bytes).
 PDF statistics:
  1265 PDF objects out of 1440 (max. 8388607)
  1115 compressed objects within 12 object streams

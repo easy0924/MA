@@ -29,16 +29,16 @@ At last, we've established two different \ac{SMT} systems with different data se
 \label{ch:Discussion:sec:Conclusion}
 %% ===============================
 
-We've conducted experiments on both translation directions with different \ac{SMT} configurations. From the results we can see the \ac{BLEU} scores was improved no matter when we applied our \ac{SMT} reordering method to the baseline directly or when we combined it with the other reordering methods we introduced before, i.e. short rules, long rules and tree rules based reordering methods.
+We've conducted experiments in both translation directions with different \ac{SMT} configurations. From the results we can see the \ac{BLEU} scores was improved no matter when we applied our \ac{SMT} reordering method to the baseline directly or when we combined it with the other reordering methods we introduced before, i.e. short rules, long rules and tree rules based reordering methods.
 
-When our approach was applied alone, it achieved the best \ac{BLEU} score under all these reordering methods on both translation directions. The \ac{BLEU} score of the baseline was improved by $1.61$ on the English-to-Chinese translation direction, which maked up $13.34\%$ in comparison with the baseline's \ac{BLEU} score $12.07$. And the improvement on the Chinese-to-English translation direction is $2.16$, which maked up $9.91\%$ in comparison of the baseline's \ac{BLEU} score $21.80$.
+When our approach was applied alone, it achieved the best \ac{BLEU} score under all these reordering methods in both translation directions. The \ac{BLEU} score of the baseline was improved by $1.61$ in the English-to-Chinese translation direction, which maked up $13.34\%$ in comparison with the baseline's \ac{BLEU} score $12.07$. And the improvement in the Chinese-to-English translation direction is $2.16$, which maked up $9.91\%$ in comparison of the baseline's \ac{BLEU} score $21.80$.
 %Source-side classifier preordering for machine translation
 
-When our approach was combined with the other reordering methods, further improvements were achieved for both translation direction. Our approach improved the \ac{BLEU} score further by $0.43$ on the English-to-Chinese translation direction, which maked up $3.57\%$ in comparison with the baseline's \ac{BLEU} score $12.07$. The \ac{BLEU} score on the Chinese-to-English direction was further improved with our approach by $0.30$, which showed a $1.37\%$ improvement in comparison with the baseline's \ac{BLEU} score $21.80$.
+When our approach was combined with the other reordering methods, further improvements were achieved for both translation direction. Our approach improved the \ac{BLEU} score further by $0.43$ on the English-to-Chinese translation direction, which maked up $3.57\%$ in comparison with the baseline's \ac{BLEU} score $12.07$. The \ac{BLEU} score in the Chinese-to-English direction was further improved with our approach by $0.30$, which showed a $1.37\%$ improvement in comparison with the baseline's \ac{BLEU} score $21.80$.
 
-Our reordering approach also has some other advantages. As the translation examples we've presented, there were obvious improvements on sentence structures with our reordering approach. Besides, the approach is very efficient because it reorders the words in a pre-process, rather than during decoding phase as the hierarchical phrase-based SMT model. 
+Our reordering approach also has some other advantages. As the translation examples we've presented, there were obvious improvements in sentence structures with our reordering approach. Besides, the approach is very efficient because it reorders the words in a pre-process, rather than during decoding phase as the hierarchical phrase-based SMT model. 
 
-As the \ac{BLEU} score was used as a measurement for the translation quality, we conclude that the Multiple-Levels-Tree reordering approach achieved obvious improvement on the word reordering and led to better translation quality between English and Chinese.
+As the \ac{BLEU} score was used as a measurement for the translation quality, we conclude that the Multiple-Levels-Tree reordering approach achieved obvious improvement in the word reordering and led to better translation quality between English and Chinese.
 
 %% ===============================
 \section{Outlook}
