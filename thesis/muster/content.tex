@@ -6,7 +6,7 @@
 \label{ch:Foundations}
 %% ===========================
 
-This chapter provides an introduction to fundamental knowledge and concepts that are relevant to this thesis. We start with the overall \ac{SMT} system and preordering system first, then followed by the information we used to create the reordering rules including alignment, POS tag, syntax tree. At the end we shows the different rule types, the oracle reordering and how to build word lattices for translation. 
+This chapter provides an introduction to fundamental knowledge and concepts that are relevant to this thesis. We start with the overall \ac{SMT} system and preordering system first, then followed by the information we used to create the reordering rules including alignment, POS tag, syntax tree. At the end we shows the different rule types, the oracle reordering, the way to build word lattices and the evaluation metrics. 
 
 Detailed Descriptions of \hyperref[ch:Foundations:sec:Alignment]{word alignment}, \hyperref[ch:Foundations:sec:PosTag]{POS tagging}, \hyperref[ch:Foundations:sec:SyntacticTree]{syntax tree},
 \hyperref[ch:Foundations:sec:types]{reordering rules},
@@ -19,7 +19,7 @@ Detailed Descriptions of \hyperref[ch:Foundations:sec:Alignment]{word alignment}
 \label{ch:Foundations:sec:SMTSystem}
 %% ===========================
 
-\acf{SMT} is the state-of-the-art paradigm for machine translation. It uses a typical log-linear model which is composed of a decoder and different statistical models including phrase table, reordering model and language model. All the models are weighted with parameters which are tuned from the development data. Besides development data, training data are used for training the alignment, phrase table and other models. And test data are used for evaluation purpose. In phrase-based \ac{SMT} system sequences of words are used as basic blocks for translation. The phrases are found by using statistical methods from corpus. The architecture of a \ac{SMT} system could be illustrated as figure~\ref{smt}.
+\acf{SMT} is the state-of-the-art paradigm for machine translation. It uses a typical log-linear model which is composed of a decoder and different statistical models including phrase table, reordering model and language model. All the models are weighted with parameters which are tuned from the development data. Besides development data, training data are used for training the alignment, phrase table and other models. And test data are used for evaluation purpose. In phrase-based \ac{SMT} system sequences of words are used as basic blocks for translation. The phrases are found by using statistical methods from training corpus. The architecture of a \ac{SMT} system could be illustrated as figure~\ref{smt}.
 
 
 \begin{figure}
@@ -122,7 +122,7 @@ $23$. VP &  Verb phrase \\ \hline
 \label{ch:Foundations:sec:SyntacticTree}
 %% ===========================
 
-The syntax tree shows the syntactic structure of a sentence and can be very useful for word reordering. A syntax tree contains two kinds of nodes: the leaves and the internal nodes. Each leaf presents a word in the sentence, and is annotated with a POS tag. And each internal node presents a constituents, which is also annotated to indicate its category or syntactic role. In the Penn treebank \citep{penn, penn3}, for example, the annotation \emph{NP} means noun phrase and the annotation \emph{S} means simple declarative clause. Figure~\ref{ParseTree} is an example of a syntax tree.
+The syntax tree shows the syntactic structure of a sentence and can be very useful for word reordering. A syntax tree contains two kinds of nodes: the leaves and the internal nodes. Each leaf presents a word in the sentence, and is annotated with a POS tag. And each internal node presents a constituents, which is also annotated to indicate its category or syntactic role. In the Penn treebank \citep{penn, penn3}, for example, the annotation \emph{NP} means noun phrase and the annotation \emph{S} means simple declarative clause. Figure~\ref{ParseTree} is an example of a syntax tree. In the example, leaf nodes are presented by red rectangles and internal nodes are presented by blue rectangles with rounded corners.
 
 \begin{figure}
 \centering
@@ -186,7 +186,7 @@ Rules are extracted by first finding the location of the reordering rule and the
 
 While short rules and long rules are based on the flat structure of sentences, tree rules reorder sentences by using information from sentences' syntactic structure. The syntax tree and word alignment of the training corpus are used to train the reordering rules. The tree rules reorder the words both on the word level and on the constituent level. Following is an example:
 $$\verb|NP ( ADJP JJ NN ) -> JJ NN ADJP (0.16)|$$
-The parenthesis in the example represents the hierarchies in the syntax tree. The left side of the rule corresponds a tree with the root labeled with \emph{NP} and three children, each labeled with \emph{ADJP}, \emph{JJ} and \emph{NN}. When this structure appears as a subtree in the syntax tree of the sentence to translate, the order of its subtrees should be changed into \emph{JJ}, \emph{NN} and \emph{ADJP} with probability $0.16$. The change is illustrated in figure~\ref{swap}.
+The parenthesis in the example represents the hierarchy in the syntax tree. The left side of the rule corresponds a tree with the root labeled with \emph{NP} and three children, each labeled with \emph{ADJP}, \emph{JJ} and \emph{NN}. When this structure appears as a subtree in the syntax tree of the sentence to translate, the order of its subtrees should be changed into \emph{JJ}, \emph{NN} and \emph{ADJP} with probability $0.16$. The change is illustrated in figure~\ref{swap}.
 
 \begin{figure}[H]
 \centering
@@ -219,7 +219,7 @@ Reordering rules are not always extracted upon discovering of reordering pattern
 
 The associated probability of a reordering rules is the frequency how often the sequence in the rules are reordered in the same manner. For example, if the sequence \emph{after the accident} appears certain times in the training data, by half of it's appearance, it's reordered as \emph{the accident after}, then the probability of this reordering rule is $50\%$.
 
-Rules are applied by scanning the text to be translated. When there's a sequence coincides the left side of the reordering rules, rules will be applied, and a path in the \hyperref[ch:Foundations:sec:Lattices]{word lattice} representing the reordered words will be added.
+Rules are applied by scanning the text to be translated. When there's a sequence coincides the left side of the reordering rules, rules will be applied, and a path in the \hyperref[ch:Foundations:sec:Lattices]{word lattice} representing the reordered sentence will be added.
 
 \subsection{Rule Combination}
 
@@ -250,7 +250,7 @@ Because it is considered as an optimally reordering, we can use it as input of t
 \label{ch:Foundations:sec:Lattices}
 \label{latticecreation}
 %% ===========================
-A word lattice could be presented with a directed acyclic graph. The graph contains nodes and transitions, with each transition labeled with a word and a probability. The outgoing transitions from a node indicate different options, which words can come after this point. The annotation on the transition indicates the word that can come, together with the probability of this option. Each reordering of a sentence corresponds a path from the beginning node to the end node in a word lattice. %The word lattice groups different word reorderings of the same English sentence together, with each reordering corresponding a path from the beginning node to the end node. 
+A word lattice could be presented with a directed acyclic graph. The graph contains nodes and transitions, with each transition labeled with a word and a probability. The outgoing transitions from a node indicate different options, which words can come after this point. The annotation on the transition indicates the word that can be in that position, together with the probability of this option. Each reordering of a sentence corresponds a path from the beginning node to the end node in a word lattice. %The word lattice groups different word reorderings of the same English sentence together, with each reordering corresponding a path from the beginning node to the end node. 
 
 Word lattice for reordered word sequences is build gradually while applying the reordering rules on the sentence. It starts with a monotone path presenting the sentence to be translated. Every time when a rule is applied and part of the sentence is reordered. We add a parallel path to the corresponding part of the initial monotone path. The parallel path is labeled with reordered words on its transitions. The probability of this new reordering is subtracted from the first transition after the splitting point on monotone path, and assigned to the first transition of the new path. All the other transitions on the new path that follow have a probability of $1$.
 
@@ -267,7 +267,7 @@ As described in \cite{metrics}: \ac{BLEU} is the de facto standard in machine tr
 
 \ac{TER} measures the amount of editing that has to be performed to change a system output so it matches the reference. \ac{TER} is adequate for research purposes as it correlates reasonably well with human judgments \citep{snover2006study}.
 
-Both the \ac{BLEU} and \ac{TER} were used in our experiments as evaluation metrics.
+Both the \ac{BLEU} and \ac{TER} of the \ac{SMT} systems are measured in our experiments.
 
 \section{Summary}
 
@@ -303,32 +303,44 @@ For the other, both languages have sometimes very different sentence structures.
 Some literature \citep{syntactic} has discussed or analyzed the differences in word orders between English and Chinese. Through analyzing the data we have and the study of literature, we have found several major types of differences in word orders between English and Chinese, which are typical in the data and often lead to translation problems. They are listed as follows.
 
 \paragraph{Relative clauses}
-Typically a relative clause modifies a noun or noun phrase. In English a relative clause is normally put after the noun or noun phrase that it modifies. While in Chinese, it's normally put before the noun or noun phrase. But sometimes, a relative clause may also be detached to form another sentence if it is too long. This makes the sentence look more balance in Chinese. Following is an example to show the position change of a relative clause.
+Typically a relative clause modifies a noun or noun phrase. In English a relative clause is normally put after the noun or noun phrase that it modifies. While in Chinese, it's normally put before the noun or noun phrase. But sometimes, a relative clause may also be detached to form another sentence if it is too long. This makes the sentence look more balance in Chinese. 
+
+Figure~\ref{g1} shows an example of how the position of a relative clause changes. In the example, the relative clause \emph{that go around} is put after the object \emph{conveyor belts} which is modified. While in the Chinese translation, the part \cntext{在 运转 的} which corresponds the relative clause is put before the part \cntext{传送 带} which corresponds the \emph{conveyor belts}. %Following is an example to show the position change of a relative clause.
 \begin{figure}[H]
 \centering
 \input{relative.tikz}
 \caption{Position change of a relative clause}
+\label{g1}
 \end{figure}
 
 \paragraph{Adverbials}
 An adverbial can be an adverb, an adverbial phrase or an adverbial clause that modifies the verb or the whole sentence. The position of adverbials is a complicated topic. In general, the location of adverbials in a sentence can be very flexible. They can be placed in different locations of a sentence both in English and Chinese, such as at the beginning, in the middle or at the end of a sentence, before or after the verb. The locations vary and it often depends on the situation. When comparing English and Chinese word orders, the location of adverbials in one language doesn't automatically implies the same location in the other. Typical examples are adverbials of time, location and frequency. It's often put after the verb in English, but before the verb in Chinese. 
+
+Figure~\ref{g2} shows an example of how the position of an adverbial phrase changes. In the English sentence, the adverbial phrase \emph{in five to ten years} is put after the verb \emph{happen}. While in Chinese, the corresponding adverbial phrase \cntext{在 五 到 十 年 内} is put before the verb \cntext{发生}, which means \emph{happen}.
+
 \begin{figure}[H]
 \centering
 \input{adverbial.tikz}
 \caption{Position change of an adverbial}
+\label{g2}
 \end{figure}
 
 \paragraph{Preposition Phrases}
 A preposition phrase functions sometimes as an adverbial, and it's commonly placed before the verb in Chinese. But a preposition phrase can also modify a noun or noun phrase sometimes. When a preposition phrase modifies a noun or noun phrase, it's typically located after the noun or noun phrase that it modifies in English. While in Chinese it's typically located before the noun or noun phrase that it modifies.
 
+Figure~\ref{g3} shows an example of how the position of a preposition phrase changes. In the English sentence, the preposition phrase \emph{of perception} is put after the noun \emph{repetition}. While in Chinese, the part \cntext{感知 的} which corresponds the preposition phrase is put before the noun \cntext{重复}, which means \emph{repetition}.
+
 \begin{figure}[H]
 \centering
 \input{pp.tikz}
 \caption{Position change of a preposition phrase}
+\label{g3}
 \end{figure}
 
 \paragraph{Questions}
-Questions are often formed by moving the auxiliary verb before the subject or adding \emph{do} (\emph{does}, \emph{did}) before the subject if there's no auxiliary verb in a English sentence. And interrogative word such as \emph{where}, \emph{what}, \emph{how}, etc. is added if it's an interrogative question. However, building a question in Chinese doesn't affect the sentence structure so much. Generally, the questioned part is replaced with an interrogative word and a question denominator is put at the end of a sentence to indicate the question. In the example in figure~\ref{question}, the verb \cntext{会} (\textit{will}) stays after the subject, the interrogative word \cntext{怎么} (\textit{how}) is put at the location where an adverbial of manner is generally put, and an question denominator \cntext{呢} is put at the end.
+Questions are often formed by moving the auxiliary verb before the subject or adding \emph{do} (\emph{does}, \emph{did}) before the subject if there's no auxiliary verb in a English sentence. And interrogative word such as \emph{where}, \emph{what}, \emph{how}, etc. is added if it's an interrogative question. However, building a question in Chinese doesn't affect the sentence structure so much. Generally, the questioned part is replaced with an interrogative word and a question denominator is put at the end of a sentence to indicate the question. 
+
+In the example in figure~\ref{question}, the verb \cntext{会} (\textit{will}) stays after the subject, the interrogative word \cntext{怎么} (\textit{how}) is put at the location where an adverbial of manner is generally put, and an question denominator \cntext{呢} is put at the end before the question mark.
 
 \begin{figure}[H]
 \centering
@@ -338,12 +350,15 @@ Questions are often formed by moving the auxiliary verb before the subject or ad
 \end{figure}
 
 \paragraph{Special Sentence Constructions}
-Due to the lack of certain sentence patterns, the reordering could be untypical or it varies from case to case. In Chinese, there is generally no sentence construction corresponding to the inverted negative sentences or \emph{there}-\emph{be} sentences in English. Meanwhile, the Chinese \emph{bǎ}-construction (\cntext{把字句}) doesn't really exist in English either.
+Due to the lack of certain sentence patterns, the reordering could be untypical or it varies from case to case. In Chinese, there is generally no sentence construction corresponding to the inverted negative sentences or \emph{there}-\emph{be} sentences in English. Meanwhile, the Chinese \emph{bǎ}-construction (\cntext{把字句}) doesn't really exist in English either. 
+
+Figure~\ref{g5} shows word order change when a \emph{there-be} sentence is translated into Chinese. In the example, the noun \emph{diabetes} is moved to the front of the sentence. However, not all the \emph{there-be} sentences are reordered in the same pattern when being translated.
 
 \begin{figure}[H]
 \centering
 \input{therebe.tikz}
 \caption{Word reordering of a \emph{there}-\emph{be} sentence}
+\label{g5}
 \end{figure}
 
 %?correct compound subjects: or & there be...
@@ -366,11 +381,11 @@ I find this very much disturbing \emph{\ul{when we are talking about what is goi
 You feel intense elation \emph{\ul{when things are going well}}; mood swings into horrible despair \emph{\ul{when things are going poorly}}.\smallskip\\
 \cntext{\uline{当事情进展顺利的时候，}你会觉得兴高采烈；\uline{当事情不顺利的时候，}你又会陷入极度的失望和恐慌。}
 
-In both examples the adverbial clauses are moved forward. These are common cases in translation between English and Chinese. In order to be able to handle the reordering between English and Chinese correctly, the reordering approach should allow part of the sentence to be shifted across long distance.
+The adverbial clauses are underlined in the examples. We can see from both examples that the adverbial clauses are moved forward. These are common cases in translation between English and Chinese. In order to be able to handle the reordering between English and Chinese correctly, the reordering approach should allow part of the sentence to be shifted across long distance.
 
 \subsection{Word Reordering on Multiple Syntactic Levels}
 
-Sometimes the reordering involves word position changes on multiple syntactic levels. We can see this issue from the examples in figure~\ref{unstructured} and figure~\ref{unstructured2}. In the examples, the syntactic structures and alignment of the parallel text are presented in a intuitive way.
+Sometimes the reordering involves word position changes on multiple syntactic levels. We can see this issue from the examples in figure~\ref{unstructured} and figure~\ref{unstructured2}. In the examples, the syntactic structures and alignment of the parallel text are presented in a intuitive way. In the figures, the nodes in the levels that are used to extract the reordering patterns are marked red and use italic font.
 
 \begin{figure}[H]
 \centering

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  14 SEP 2014 18:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  15 SEP 2014 12:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1274,18 +1274,14 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 
 
 
-]
-Package acronym Info: Label `acro:BLEU' newly defined as it shall be overridden
-
-although it is yet undefined on input line 10.
-) [3
+]) [3
 
 
 ]
 \openout2 = `declaration.aux'.
 
  (./declaration.tex
-<logos/signature-eps-converted-to.pdf, id=273, 1155.31625pt x 474.77374pt>
+<logos/signature-eps-converted-to.pdf, id=276, 1155.31625pt x 474.77374pt>
 File: logos/signature-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logos/signature-eps-converted-to.pdf>
@@ -1459,6 +1455,9 @@ LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 163.
 
 [9] (./swap.tikz) [10] [11]
+Package acronym Info: Label `acro:BLEU' newly defined as it shall be overridden
+
+although it is yet undefined on input line 264.
 Package acronym Info: Label `acro:TER' newly defined as it shall be overridden
 although it is yet undefined on input line 268.
  [12] (./Lattices.tikz
@@ -1471,7 +1470,7 @@ although it is yet undefined on input line 268.
 
 ]
 Chapter 3.
-(./relative.tikz (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+[15] (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
@@ -1482,43 +1481,7 @@ File: UTF8.enc 2012/05/07 4.8.3
 )
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
-)
-(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
-File: UTF8.enc 2012/05/07 4.8.3
-)
-(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
-File: UTF8.chr 2012/05/07 4.8.3
-)
-(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
-File: UTF8.enc 2012/05/07 4.8.3
-)
-(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
-File: UTF8.chr 2012/05/07 4.8.3
-)
-(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
-File: UTF8.enc 2012/05/07 4.8.3
-)
-(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
-File: UTF8.chr 2012/05/07 4.8.3
-)
-(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
-File: UTF8.enc 2012/05/07 4.8.3
-)
-(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
-File: UTF8.chr 2012/05/07 4.8.3
-)
-(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
-File: UTF8.enc 2012/05/07 4.8.3
-)
-(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
-File: UTF8.chr 2012/05/07 4.8.3
-)) [15]
-(./adverbial.tikz (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
-File: UTF8.enc 2012/05/07 4.8.3
-)
-(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
-File: UTF8.chr 2012/05/07 4.8.3
-)
+) (./relative.tikz
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
@@ -1560,6 +1523,30 @@ File: UTF8.enc 2012/05/07 4.8.3
 )
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
+))
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+) (./adverbial.tikz
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
 )
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
@@ -1572,7 +1559,55 @@ File: UTF8.enc 2012/05/07 4.8.3
 )
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
-)) (./pp.tikz
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)) [16]
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+) (./pp.tikz
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
@@ -1645,9 +1680,6 @@ File: UTF8.enc 2012/05/07 4.8.3
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
 ))
-Underfull \vbox (badness 2726) has occurred while \output is active []
-
- [16]
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
 )
@@ -1807,10 +1839,7 @@ File: UTF8.enc 2012/05/07 4.8.3
 )
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
-))
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
+)) [18]
 (./unstructured2.tikz
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
@@ -1867,10 +1896,10 @@ File: UTF8.enc 2012/05/07 4.8.3
 File: UTF8.chr 2012/05/07 4.8.3
 )) [19]
 Package acronym Info: Label `acro:DFS' newly defined as it shall be overridden
-although it is yet undefined on input line 414.
+although it is yet undefined on input line 429.
 Package acronym Info: Label `acro:IDDFS' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 414.
+although it is yet undefined on input line 429.
  [20]
 (./extract.tikz (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2012/05/07 4.8.3
@@ -2106,10 +2135,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
  ) 
 Here is how much of TeX's memory you used:
- 30711 strings out of 493308
- 562386 string characters out of 6143617
- 799770 words of memory out of 5000000
- 32742 multiletter control sequences out of 15000+600000
+ 30743 strings out of 493308
+ 563810 string characters out of 6143617
+ 800064 words of memory out of 5000000
+ 32750 multiletter control sequences out of 15000+600000
  84123 words of font info for 169 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  71i,21n,92p,1666b,2900s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2173,10 +2202,10 @@ gbsnu/gbsnu9a.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9e.pfb><
 /usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb></usr/share/texmf-di
 st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/h
 elvetic/uhvr8a.pfb>
-Output written on thesis.pdf (56 pages, 646284 bytes).
+Output written on thesis.pdf (56 pages, 648516 bytes).
 PDF statistics:
- 1273 PDF objects out of 1440 (max. 8388607)
- 1123 compressed objects within 12 object streams
+ 1280 PDF objects out of 1440 (max. 8388607)
+ 1130 compressed objects within 12 object streams
  209 named destinations out of 1000 (max. 500000)
  487 words of extra memory for PDF output out of 10000 (max. 10000000)
 
