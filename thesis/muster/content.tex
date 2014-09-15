@@ -63,7 +63,7 @@ Or it may be simply presented as index pairs:
 \texttt{1-5 1-6 2-6 3-7 4-8 4-9 5-6 7-1 8-1 8-2 9-3 9-4 10-10}
 \end{center}
 
-In figure~\ref{alignment}, the words that are aligned through lines in two languages have related meaning. The word reordering can be clearly seen from the figure. For exmaple, the noun clause \emph{Clinton's presidency} is moved forward to the front of the sentence as a whole.
+In figure~\ref{alignment}, the words that are aligned through lines in two languages have related meaning. The word reordering can be clearly seen from the figure. For example, the noun clause \emph{Clinton's presidency} is moved forward to the front of the sentence as a whole.
 
 \phantomsection\label{alignedrange}
 Word alignment doesn't always present one-to-one word matching. In the example, the word \emph{of} is not aligned at all and the word \emph{months} is aligned to two words \cntext{个} and \cntext{月} in Chinese. We can define the \textbf{aligned range} as the range from the first word a certain word is aligned to to the last word it is aligned to. For example, the aligned range of word \emph{there} is $5-6$. The aligned ranges can collide with each other, such as the $6$th word \cntext{剩下} in Chinese is also aligned to \emph{are} and \emph{left} at the same time besides \emph{there}, so the aligned ranges of the three words collide. The collision sometimes makes the detection of reordering patterns more difficult, because the word order can not be clearly decided in these cases.
