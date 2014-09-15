@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99d (TeX Live 2013/Arch Linux)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: titlepage.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: declaration.aux
@@ -10,4 +12,45 @@ The style file: apalike.bst
 Database file #1: thesis.bib
 Warning--empty journal in birch2
 Warning--empty journal in penn3
+You've used 24 entries,
+            1935 wiz_defined-function locations,
+            611 strings with 8148 characters,
+and the built_in function-call counts, 10764 in all, are:
+= -- 1100
+> -- 396
+< -- 25
++ -- 133
+- -- 132
+* -- 806
+:= -- 1746
+add.period$ -- 77
+call.type$ -- 24
+change.case$ -- 184
+chr.to.int$ -- 23
+cite$ -- 26
+duplicate$ -- 489
+empty$ -- 780
+format.name$ -- 166
+if$ -- 2249
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 23
+newline$ -- 119
+num.names$ -- 72
+pop$ -- 216
+preamble$ -- 1
+purify$ -- 184
+quote$ -- 0
+skip$ -- 378
+stack$ -- 0
+substring$ -- 722
+swap$ -- 130
+text.length$ -- 14
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 142
+warning$ -- 2
+while$ -- 91
+width$ -- 0
+write$ -- 312
 (There were 2 warnings)

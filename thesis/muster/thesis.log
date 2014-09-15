@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  15 SEP 2014 12:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.4.8)  15 SEP 2014 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2202,7 +2202,7 @@ gbsnu/gbsnu9a.pfb></usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9e.pfb><
 /usr/share/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb></usr/share/texmf-di
 st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/h
 elvetic/uhvr8a.pfb>
-Output written on thesis.pdf (56 pages, 648534 bytes).
+Output written on thesis.pdf (56 pages, 648121 bytes).
 PDF statistics:
  1280 PDF objects out of 1440 (max. 8388607)
  1130 compressed objects within 12 object streams
