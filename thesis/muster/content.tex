@@ -127,7 +127,7 @@ The syntax tree shows the syntactic structure of a sentence and can be very usef
 \begin{figure}
 \centering
 \scalebox{0.7}{\input{ParseTree.tikz}}
-\caption{A parse tree}
+\caption{An example of parse tree}
 \label{ParseTree}
 \end{figure}
 
@@ -465,7 +465,7 @@ The reason for this is to prevent duplicate reorderings due to application of ne
 \end{center}
 Both patterns are detected from the same node, but the second pattern is detected by retrieving the nodes one level deeper and it's more concrete. So the first pattern can be seen as a generalization of the second pattern. Whenever a rule of the second pattern can be applied, a rule of the first pattern can be applied too. Because subtrees are checked from the highest number of levels in rule application, the more concrete rule is applied first. Because the more concrete rule fits the detected pattern better and contains more details of reordering, so it may be more suitable for rule application. In this example, the second rule is applied rather than the first rule.
 
-To illustrate how the rule application works in a more intuitive way, we present an example of reordering an English source sentence. Normally the algorithm generates a lot of reordering rules from the training data, from different nodes with different search depths. But in order to make the example simple, we only concentrate on application of the following $2$ reordering rules, as well as a sentence for reordering:
+To illustrate how the rule application works in a more intuitive way, we present an example of reordering an English source sentence. Normally the algorithm generates a lot of reordering rules from the training data, from different nodes with different search depths. But in order to make the example simple, we only concentrate on application of the following $2$ reordering rules and ignore the others. The sentence for reordering is also presented as follows:
 \begin{center}
 \begin{tabular}{l}
 Rules:\\
