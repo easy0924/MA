@@ -6,9 +6,9 @@
 \label{ch:Evaluation}
 %% ==================
 
-We've conducted two sets of experiments to test our reordering methods. The first set of experiments is designed for testing the English-to-Chinese translation, which is described in section~\ref{ch:Evaluation:sec:enw}. The second set of experiments is designed for the Chinese-to-English translation direction, which is described in section~\ref{ch:Evaluation:sec:zhen2}. Through the experiments in both translation directions, we could get a better overview of the \ac{MLT} reordering's effect.
+We've conducted two sets of experiments to test our reordering methods. The first set of experiments is designed for testing the English-to-Chinese translation, which is described in Section~\ref{ch:Evaluation:sec:enw}. The second set of experiments is designed for the Chinese-to-English translation direction, which is described in Section~\ref{ch:Evaluation:sec:zhen2}. Through the experiments in both translation directions, we could get a better overview of the \ac{MLT} reordering's effect.
 
-Both sections are composed of two parts: experimental setup, results. The first part describes details of the system configurations and experimental data. The second part shows the results of different systems for comparison. And we evaluates the translation systems in section~\ref{ch:Evaluation:sec:Evaluation} in overall.
+Both sections are composed of two parts: experimental setup, results. The first part describes details of the system configurations and experimental data. The second part shows the results of different systems for comparison. And we evaluates the translation systems in Section~\ref{ch:Evaluation:sec:Evaluation} in overall.
 
 
 \section{English to Chinese System}
@@ -69,7 +69,7 @@ Table~\ref{tenw} shows the \ac{BLEU} scores, absolute improvements of \ac{BLEU} 
 
 \subsection{Experimental Setup}
 
-The experiments for Chinese-to-English systems had a similar setup as described in the last section. The parallel data used in the English-to-Chinese system was also used in this experiment by switching the source language and the target language. We only used the \acs{LDC} data set for training, and no \acs{TED} data were used in this system. The test data had three English references for evaluating the results instead of one as in the previous system. The data used are summarized in table~\ref{dzhen2}.
+The experiments for Chinese-to-English systems had a similar setup as described in the last section. The parallel data used in the English-to-Chinese system was also used in this experiment by switching the source language and the target language. We only used the \acs{LDC} data set for training, and no \acs{TED} data were used in this system. The test data had three English references for evaluating the results instead of one as in the previous system. The data used are summarized in Table~\ref{dzhen2}.
 
 
 \begin{table}[H]
@@ -109,47 +109,21 @@ Test Data & 1663 & 38K & 47K & 220K & 263K \\ \hline
 \label{tzhen2}
 \end{table}
 
-Table~\ref{tzhen2} shows the results for configurations with different reordering methods for the Chinese-to-English translation. The table can be interpreted in the same manner as table~\ref{tenw} in the previous section.
+Table~\ref{tzhen2} shows the results for configurations with different reordering methods for the Chinese-to-English translation. The table can be interpreted in the same manner as Table~\ref{tenw} in the previous section.
 
 \section{Evaluation}
 \label{ch:Evaluation:sec:Evaluation}
 
 The results shows increasing scores as we used reordering methods from short rules, long rules, tree rules to \ac{MLT} rules. And better \ac{BLEU} scores were achieved as we combined the different reordering rules. The \ac{MLT} rules achieved better \ac{BLEU} scores and \ac{TER}s in both translation directions, not only when it was used alone, but also it was added to the other reordering rules. When our \ac{MLT} reordering rules were combined with the other existing reordering rules, a further improvement of $0.43$ in \ac{BLEU} score (from $13.38$ to $13.81$) was shown in the English-to-Chinese translation direction, as well as a further improvement of $0.3$ in \ac{BLEU} score (from $23.84$ to $24.14$) in the Chinese-to-English translation direction.
 
-We've also found improvements in the sentence structure. Table~\ref{te} shows some translation examples in both translation directions. Sections are separated by double lines in the table. Each section of this table shows one translation example with the source sentence (\emph{source}), translation without using MLT reordering (\emph{no MLT}), translation with MLT reordering (\emph{MLT}) and the reference (\emph{reference}). The translation without using \ac{MLT} reordering comes from the configuration with highest \ac{BLEU} score that didn't use \ac{MLT} reordering. And the translation with \ac{MLT} reordering comes from the configuration with highest \ac{BLEU} score that used \ac{MLT} reordering. From the examples, we can clearly see the improvements in sentence structure.
+We've also found improvements in the sentence structure. Table~\ref{t1} and Table~\ref{t2} show some translation examples in both translation directions. Sections are separated by double lines in the table. Each section of this table shows one translation example with the source sentence (\emph{source}), translation without using MLT reordering (\emph{no MLT}), translation with MLT reordering (\emph{MLT}) and the reference (\emph{reference}). \emph{Glossary} for the source sentences or references in Chinese is also added as word for word translation. Each word or group of hyphenated words in the glossary corresponds a Chinese character or a group of Chinese characters that are not separated with space. A placeholder $\Box$ is used to replace words that are difficult to translate, which play grammatical roles generally. The translation without using \ac{MLT} reordering comes from the configuration with highest \ac{BLEU} score that didn't use \ac{MLT} reordering. And the translation with \ac{MLT} reordering comes from the configuration with highest \ac{BLEU} score that used \ac{MLT} reordering. From the examples, we can clearly see the improvements in sentence structure.
 
 \begin{table}
 \centering
 \begin{tabular}{|l|m{0.7\textwidth}|} \hline
-Source & hu jintao also extended deep condolences on the death of the chinese victims and expressed sincere sympathy to the bereaved families .
-\\ \hline
-No MLT & \cntext{胡锦涛 还 表示 深切 哀悼 的 受害者 家属 的 死亡 , 向 迂难者 家属 表示 诚挚 的 慰问 。} \\ \hline
-MLT & \cntext{胡锦涛 还 对 中国 迂难者 表示 哀悼 , 向 迂难者 家属 表示 诚挚 的 慰问 。} \\ \hline 
-Reference & \cntext{胡锦涛 还 对 中方 不幸 遇难 人员 表示 深切 的 哀悼 , 并 向 遇难 着 的 亲属 致以 诚挚 的 慰问 。
-} \\ \hline \hline
-
-%Source & The plaintiffs' attorney pointed out that this ruling ``violates the historical record'', and demanded that the Japanese government and Nippon Yakin pay compensations and offer apologies to resolve the issue . \\ \hline
-%No MLT & \cntext{这 个 原告 的 律师 指出 , 这 种 `` 违背 了 历史 记录 '' , 要求 日本 政府 , 正 yakin 支付 补偿 , 道歉 来 解决 问题 。} \\ \hline
-%MLT & \cntext{原告 的 律师 指出 , 这 一 判决 `` 违背 了 历史 纪录 '' , 要求 日本 政府 , 正 yakin 支付 补偿 , 道歉 来 解决 问题 。} \\ \hline \hline
-
-Source & satisfying personal interests and expanding knowledge are also major reasons why hourly work appeals to people .\\ \hline
-No MLT & \cntext{满足 个人 利益 和 扩大 知识 也 是 主要 原因 小时 工作 吸引 人 。} \\ \hline
-MLT & \cntext{满足 个人 利益 和 扩大 知识 也 是 为什么 学生 工作 吸引 人 的 主要 原因 。} \\ \hline 
-Reference & \cntext{满足 个人 兴趣 , 扩大 自己 的 知识面 也 是 兼职 小时 工 受 青睐 的 一 个 重要 原因 。} \\ \hline \hline
-
-Source & the dalai lama will go to visit washington this month .\\ \hline
-No MLT & \cntext{达赖 喇嘛 将 访问 华盛顿 的 这 一 个 月 。} \\ \hline
-MLT & \cntext{达赖 喇嘛 将 本 月 访问 华盛顿 。} \\ \hline
-%? add more examples?
-Reference & \cntext{达赖 喇嘛 将 在 本 月 前往 华盛顿 访问 。} \\ \hline \hline
-
-%Source & \cntext{防务 报告 与 军演 之间 的 微妙 关系 成为 讨论 的 交点 之一 。}\\ \hline
-%No MLT & report on defense and military exercise of the delicate relations between become the \cntext{交点} discussion .
-%\\ \hline
-%MLT & the delicate relations between defense report and military exercise has become the \cntext{交点} discussion .\\ \hline
-%Reference & the subtle relationship between the defense report and the military exercise has become one of the focuses of discussion .\\ \hline \hline
-
 Source & \cntext{陈至立 说 , 古巴 是 拉美 和 加勒比 地区 有 重要 影响 的 国家 。}
+\\ \hline
+Glossary & chen-zhili said , cuba is latin-american and caribbean region has great influence $\Box$ country .
 \\ \hline
 No MLT & chen zhili said : cuba is the latin america and the caribbean region has an important influence on the state .
 \\ \hline
@@ -160,21 +134,47 @@ Reference & chen zhili said that cuba is a country of great influence in the lat
 
 Source & \cntext{近年 来 , 两 国 教育 交流 日益 密切 , 人员 来往 频繁 。}
 \\ \hline
+Glossary & recent-years in, two countries educational exchange increasingly close , personnel visits frequent .
+\\ \hline
 no MLT & in recent years , the two countries education have been increasingly close exchanges and personnel contacts have been frequent .
 \\ \hline
 MLT & in recent years , the educational exchanges between the two countries have become increasingly frequent , and have had frequent contacts .
 \\ \hline
 Reference & in recent years , the educational exchange between the two countries has become increasingly close with frequent personnel visits .
 \\ \hline
-
 \end{tabular}
-\caption{Examples of translations}
-\label{te}
+\caption{Examples of translations from Chinese to English}
+\label{t1}
 \end{table}
-%? change the example, it's wrong
-%Each section of table $4.3$ shows translation of a sentence in its source language and target language. The translation in the row with ``No MLT'' comes from the configuration without using MLT reordering, and the translation in the row with ``MLT'' comes from the configuration with using MLT reordering. From the examples, we can see that the MLT reordering improved the sentence structure significantly. In the last example, the part of the sentence ``visit Washington this month'' was parsed as the structur ``(visit (Washington) ((this) (month)))'' in the syntax tree, but the correct Chinese translation has word order corresponds to ``this month visit Washington''. This reordering inserts the word ``visit'' between the words ``this month'' and ``Washington'', which are on a lower level of the syntax tree. This behavior could not be done by the tree-rule-based reordering, which only changes order of constituents on the same tree level.
-%
-%%picture?
+
+\begin{table}
+\centering
+\begin{tabular}{|l|m{0.7\textwidth}|} \hline
+Source & hu jintao also extended deep condolences on the death of the chinese victims and expressed sincere sympathy to the bereaved families .
+\\ \hline
+No MLT & \cntext{胡锦涛 还 表示 深切 哀悼 的 受害者 家属 的 死亡 , 向 迂难者 家属 表示 诚挚 的 慰问 。} \\ \hline
+MLT & \cntext{胡锦涛 还 对 中国 迂难者 表示 哀悼 , 向 迂难者 家属 表示 诚挚 的 慰问 。} \\ \hline 
+Reference & \cntext{胡锦涛 还 对 中方 不幸 遇难 人员 表示 深切 的 哀悼 , 并 向 遇难者 的 亲属 致以 诚挚 的 慰问 。} \\ \hline
+Glossary & hu-jintao also on chinese unfortunately killed people extended deep $\Box$ condolences , and to bereaved 's families expressed sincere $\Box$ sympathy .
+\\ \hline \hline
+Source & satisfying personal interests and expanding knowledge are also major reasons why hourly work appeals to people .\\ \hline
+No MLT & \cntext{满足 个人 利益 和 扩大 知识 也 是 主要 原因 小时 工作 吸引 人 。} \\ \hline
+MLT & \cntext{满足 个人 利益 和 扩大 知识 也 是 为什么 学生 工作 吸引 人 的 主要 原因 。} \\ \hline 
+Reference & \cntext{满足 个人 兴趣 , 扩大 自己 的 知识面 也 是 兼职 小时 工 受 青睐 的 一 个 重要 原因 。}  \\ \hline
+Glossary & satisfying personal interests , expanding own $\Box$ knowledge also are part-time hourly work is favored $\Box$ one $\Box$ major reason .
+\\ \hline \hline
+
+Source & the dalai lama will go to visit washington this month .\\ \hline
+No MLT & \cntext{达赖 喇嘛 将 访问 华盛顿 的 这 一 个 月 。} \\ \hline
+MLT & \cntext{达赖 喇嘛 将 本 月 访问 华盛顿 。} \\ \hline
+%? add more examples?
+Reference & \cntext{达赖 喇嘛 将 在 本 月 前往 华盛顿 访问 。} \\ \hline
+Glossary & dalai lama will in this month go-to washington visit .
+\\ \hline
+\end{tabular}
+\caption{Examples of translations from English to Chinese}
+\label{t2}
+\end{table}
 
 
 However, by taking a close look at the gap between the scores of oracle reordering and the best scores achieved by \ac{MLT} reordering, we can also see, there's still potential for improvements of translation between English and Chinese through better reordering methods.

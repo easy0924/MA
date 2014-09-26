@@ -2,7 +2,9 @@
 
 \bibitem[Birch, 2011]{birch2}
 Birch, A. (2011).
-\newblock {Reordering Metrics for Statistical Machine Translation}.
+\newblock {\em {Reordering Metrics for Statistical Machine Translation}}.
+\newblock PhD thesis.
+\newblock PhD thesis.
 
 \bibitem[Birch et~al., 2010]{metrics}
 Birch, A., Osborne, M., and Blunsom, P. (2010).
@@ -57,6 +59,7 @@ Herrmann, T., Niehues, J., and Waibel, A. (2013a).
 Herrmann, T., Weiner, J., Niehues, J., and Waibel, A. (2013b).
 \newblock {Analyzing the Potential of Source Sentence Reordering in Statistical
   Machine Translation}.
+\newblock In {\em IWSLT}, Heidelberg, Germany.
 
 \bibitem[Koehn, 2010]{book}
 Koehn, P. (2010).
@@ -110,6 +113,7 @@ Popovic, M. and Ney, H. (2006).
 Rottmann, K. and Vogel, S. (2007).
 \newblock {Word Reordering in Statistical Machine Translation with a POS-Based
   Distortion Model}.
+\newblock In {\em TMI}, Skövde, Sweden.
 
 \bibitem[Santorini, 1990]{penn3}
 Santorini, B. (1990).

@@ -10,41 +10,41 @@ A level-1 auxiliary file: evaluation.aux
 A level-1 auxiliary file: conclusion.aux
 The style file: apalike.bst
 Database file #1: thesis.bib
-Warning--empty journal in birch2
+Warning--empty school in birch2
 Warning--empty journal in penn3
 You've used 24 entries,
             1935 wiz_defined-function locations,
-            611 strings with 8148 characters,
-and the built_in function-call counts, 10764 in all, are:
-= -- 1100
+            614 strings with 8185 characters,
+and the built_in function-call counts, 10913 in all, are:
+= -- 1114
 > -- 396
 < -- 25
 + -- 133
 - -- 132
-* -- 806
-:= -- 1746
-add.period$ -- 77
+* -- 816
+:= -- 1764
+add.period$ -- 81
 call.type$ -- 24
-change.case$ -- 184
+change.case$ -- 183
 chr.to.int$ -- 23
 cite$ -- 26
-duplicate$ -- 489
-empty$ -- 780
+duplicate$ -- 504
+empty$ -- 805
 format.name$ -- 166
-if$ -- 2249
+if$ -- 2289
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 23
-newline$ -- 119
+missing$ -- 24
+newline$ -- 123
 num.names$ -- 72
-pop$ -- 216
+pop$ -- 223
 preamble$ -- 1
 purify$ -- 184
 quote$ -- 0
-skip$ -- 378
+skip$ -- 377
 stack$ -- 0
 substring$ -- 722
-swap$ -- 130
+swap$ -- 133
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
@@ -52,5 +52,5 @@ type$ -- 142
 warning$ -- 2
 while$ -- 91
 width$ -- 0
-write$ -- 312
+write$ -- 322
 (There were 2 warnings)
